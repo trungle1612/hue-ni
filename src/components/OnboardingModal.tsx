@@ -1,22 +1,22 @@
+import { useState } from 'react'
+import { markOnboardingComplete } from '../utils/onboarding'
 import './OnboardingModal.css'
-
-const ONBOARDING_KEY = 'hue-ni-onboarded'
-
-export function hasSeenOnboarding(): boolean {
-  return localStorage.getItem(ONBOARDING_KEY) === 'true'
-}
 
 interface OnboardingModalProps {
   onDismiss: () => void
 }
 
 export function OnboardingModal({ onDismiss }: OnboardingModalProps) {
+  const [requesting, setRequesting] = useState(false)
+
   function dismiss() {
-    localStorage.setItem(ONBOARDING_KEY, 'true')
+    markOnboardingComplete()
     onDismiss()
   }
 
   function handleLocationRequest() {
+    if (requesting) return
+    setRequesting(true)
     if ('geolocation' in navigator) {
       navigator.geolocation.getCurrentPosition(
         () => dismiss(),
@@ -38,8 +38,9 @@ export function OnboardingModal({ onDismiss }: OnboardingModalProps) {
         <button
           className="onboarding-modal__btn-primary"
           onClick={handleLocationRequest}
+          disabled={requesting}
         >
-          📍 Cho phép truy cập vị trí
+          {requesting ? 'Đang yêu cầu...' : '📍 Cho phép truy cập vị trí'}
         </button>
         <button
           className="onboarding-modal__btn-skip"

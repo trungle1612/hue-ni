@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import { OnboardingModal, hasSeenOnboarding } from '../components/OnboardingModal'
+import { OnboardingModal } from '../components/OnboardingModal'
+import { hasSeenOnboarding } from '../utils/onboarding'
 import { CategoryFilter, type FilterOption } from '../components/CategoryFilter'
 import { PlaceCard } from '../components/PlaceCard'
 import placesData from '../data/places.json'
