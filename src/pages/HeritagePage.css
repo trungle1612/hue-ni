@@ -1,0 +1,27 @@
+.heritage-page {
+  min-height: 100%;
+}
+
+.heritage-page__header {
+  padding: var(--space-lg) var(--space-md) var(--space-sm);
+}
+
+.heritage-page__title {
+  font-family: var(--font-serif);
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--color-on-surface);
+  margin-bottom: var(--space-xs);
+}
+
+.heritage-page__subtitle {
+  font-size: 0.85rem;
+  color: var(--color-on-surface-variant);
+}
+
+.heritage-page__list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  padding: var(--space-md);
+}
