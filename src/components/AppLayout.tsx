@@ -1,4 +1,5 @@
 import { Outlet } from 'react-router-dom'
+import { BottomNav } from './BottomNav'
 
 export function AppLayout() {
   return (
@@ -6,7 +7,7 @@ export function AppLayout() {
       <main style={{ flex: 1, paddingBottom: 'var(--bottom-nav-height)' }}>
         <Outlet />
       </main>
-      {/* BottomNav will be added in Task 6 */}
+      <BottomNav />
     </div>
   )
 }
