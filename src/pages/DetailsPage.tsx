@@ -36,32 +36,38 @@ export function DetailsPage() {
     )
   }
 
-  // place is defined here (early return guards the undefined case)
-  const found: Place = place
-  const saved = isSaved(found.id)
+  // TypeScript doesn't narrow across function closure boundaries; assert non-null
+  // since the early return above guarantees place is defined at this point.
+  const saved = isSaved(place!.id)
 
   function handleDirections() {
-    const url = `https://www.google.com/maps/dir/?api=1&destination=${found.coordinates.lat},${found.coordinates.lng}`
+    const url = `https://www.google.com/maps/dir/?api=1&destination=${place!.coordinates.lat},${place!.coordinates.lng}`
     window.open(url, '_blank', 'noopener,noreferrer')
   }
 
   function handleSave() {
     if (saved) {
-      removePlace(found.id)
+      removePlace(place!.id)
     } else {
-      addPlace(found.id)
+      addPlace(place!.id)
     }
   }
 
   async function handleShare() {
-    if (navigator.share) {
-      await navigator.share({
-        title: found.name,
-        text: found.vibe,
-        url: window.location.href,
-      })
-    } else {
-      await navigator.clipboard.writeText(window.location.href)
+    try {
+      if (navigator.share) {
+        await navigator.share({
+          title: place!.name,
+          text: place!.vibe,
+          url: window.location.href,
+        })
+      } else {
+        await navigator.clipboard.writeText(window.location.href)
+      }
+    } catch (err) {
+      // User cancelled share or clipboard access denied — not an error worth surfacing
+      if (err instanceof DOMException && err.name === 'AbortError') return
+      console.warn('Share failed:', err)
     }
   }
 
@@ -77,57 +83,57 @@ export function DetailsPage() {
 
       {/* Cover image */}
       <div className="details-page__cover">
-        <img src={found.coverImage} alt={found.name} />
+        <img src={place.coverImage} alt={place.name} />
       </div>
 
       {/* Main content */}
       <div className="details-page__content">
         <p className="details-page__category">
-          {CATEGORY_LABELS[found.category] ?? found.category}
+          {CATEGORY_LABELS[place.category] ?? place.category}
         </p>
-        <h1 className="details-page__name">{found.name}</h1>
-        <p className="details-page__vibe">{found.vibe}</p>
+        <h1 className="details-page__name">{place.name}</h1>
+        <p className="details-page__vibe">{place.vibe}</p>
 
         {/* Info grid */}
         <div className="details-page__info">
           <div className="details-page__info-item">
             <span className="details-page__info-label">Đánh giá</span>
-            <span className="details-page__info-value">★ {found.rating}</span>
+            <span className="details-page__info-value">★ {place.rating}</span>
           </div>
           <div className="details-page__info-item">
             <span className="details-page__info-label">Giá</span>
-            <span className="details-page__info-value">{found.priceRange}</span>
+            <span className="details-page__info-value">{place.priceRange}</span>
           </div>
           <div className="details-page__info-item">
             <span className="details-page__info-label">Giờ mở cửa</span>
             <span className="details-page__info-value">
-              {found.hours.open} – {found.hours.close}
+              {place.hours.open} – {place.hours.close}
             </span>
           </div>
           <div className="details-page__info-item">
             <span className="details-page__info-label">Địa chỉ</span>
             <span className="details-page__info-value" style={{ fontSize: '0.75rem' }}>
-              {found.address}
+              {place.address}
             </span>
           </div>
         </div>
 
-        <p className="details-page__description">{found.description}</p>
+        <p className="details-page__description">{place.description}</p>
       </div>
 
       {/* Gallery */}
-      {found.gallery.length > 0 && (
+      {place.gallery.length > 0 && (
         <>
           <h2 className="details-page__gallery-title">Hình ảnh</h2>
-          <ImageGallery images={found.gallery} placeName={found.name} />
+          <ImageGallery images={place.gallery} placeName={place.name} />
         </>
       )}
 
       {/* Insider tips */}
-      {found.insiderTips.length > 0 && (
+      {place.insiderTips.length > 0 && (
         <div className="details-page__tips">
           <h2 className="details-page__tips-title">💡 Mẹo nội bộ</h2>
-          {found.insiderTips.map((tip, i) => (
+          {place.insiderTips.map((tip, i) => (
             <div key={i} className="details-page__tip">
               {tip}
             </div>

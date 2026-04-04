@@ -6,6 +6,8 @@ interface ImageGalleryProps {
 }
 
 export function ImageGallery({ images, placeName }: ImageGalleryProps) {
+  // Guard allows callers to conditionally show accompanying section headings.
+  // The component also returns null for empty arrays as a safety net.
   if (images.length === 0) return null
 
   return (
