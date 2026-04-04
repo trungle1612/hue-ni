@@ -20,6 +20,14 @@ This is a React 19 + TypeScript + Vite project (bootstrapped from the official V
 - Image/SVG assets in `src/assets/` are imported as ES modules
 - `@vitejs/plugin-react` uses Oxc for transforms (not SWC)
 
+## App Architecture
+
+- Routing: React Router v6 (`react-router-dom`)
+- Static data: `src/data/places.json` (imported directly, no API)
+- Images: place in `public/images/<place-id>-cover.jpg`, etc.
+- My Trip state: `localStorage` key `hue-ni-trip` via `src/hooks/useMyTrip.ts`
+- Tests: Vitest + @testing-library/react (hook logic only). Run: `npm test`
+
 ## TypeScript
 
 Two tsconfig scopes: `tsconfig.app.json` (browser/React code) and `tsconfig.node.json` (Vite config). The root `tsconfig.json` references both.
