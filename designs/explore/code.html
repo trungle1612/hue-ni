@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&amp;family=Plus_Jakarta_Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface-container-highest": "#ffdad4",
+                    "on-tertiary-container": "#fdb1bc",
+                    "on-tertiary": "#ffffff",
+                    "on-error-container": "#93000a",
+                    "error": "#ba1a1a",
+                    "primary": "#7d0010",
+                    "on-tertiary-fixed": "#370c16",
+                    "on-primary": "#ffffff",
+                    "primary-container": "#a01d23",
+                    "on-secondary-container": "#745c00",
+                    "surface-tint": "#b12a2d",
+                    "on-surface": "#2b1613",
+                    "tertiary": "#5e2b34",
+                    "inverse-on-surface": "#ffedea",
+                    "surface-container-high": "#ffe2dd",
+                    "on-background": "#2b1613",
+                    "secondary-fixed": "#ffe088",
+                    "surface-dim": "#f8d1cb",
+                    "on-error": "#ffffff",
+                    "surface-variant": "#ffdad4",
+                    "surface-container-lowest": "#ffffff",
+                    "primary-fixed": "#ffdad7",
+                    "on-primary-fixed-variant": "#8f0e19",
+                    "tertiary-container": "#7a414a",
+                    "error-container": "#ffdad6",
+                    "secondary-fixed-dim": "#e9c349",
+                    "surface": "#fff8f6",
+                    "on-secondary-fixed-variant": "#574500",
+                    "background": "#fff8f6",
+                    "inverse-primary": "#ffb3ae",
+                    "surface-bright": "#fff8f6",
+                    "outline": "#8d706e",
+                    "on-tertiary-fixed-variant": "#6c363f",
+                    "tertiary-fixed-dim": "#feb2bc",
+                    "primary-fixed-dim": "#ffb3ae",
+                    "inverse-surface": "#422a26",
+                    "secondary-container": "#fed65b",
+                    "on-secondary": "#ffffff",
+                    "tertiary-fixed": "#ffd9dd",
+                    "secondary": "#735c00",
+                    "on-surface-variant": "#59413f",
+                    "surface-container": "#ffe9e5",
+                    "on-primary-fixed": "#410004",
+                    "surface-container-low": "#fff0ee",
+                    "outline-variant": "#e1bfbc",
+                    "on-secondary-fixed": "#241a00",
+                    "on-primary-container": "#ffb3ad"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "1.5rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Noto Serif"],
+                    "body": ["Plus Jakarta Sans"],
+                    "label": ["Plus Jakarta Sans"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .silk-texture {
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+            opacity: 0.03;
+            pointer-events: none;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary-container selection:text-white">
+<!-- Texture Overlay -->
+<div class="fixed inset-0 silk-texture z-[60]"></div>
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-white/70 dark:bg-stone-950/70 backdrop-blur-xl shadow-[0px_20px_40px_rgba(43,22,19,0.06)]">
+<div class="flex justify-between items-center px-6 py-4 w-full">
+<button class="flex items-center justify-center p-2 rounded-full hover:bg-stone-100 transition-colors active:scale-95 duration-200 ease-in-out">
+<span class="material-symbols-outlined text-[#7d0010]">menu</span>
+</button>
+<h1 class="font-['Noto_Serif'] text-xl font-bold text-[#7d0010] tracking-tight">The Imperial Chronicler</h1>
+<div class="w-10 h-10 rounded-full bg-surface-container-highest overflow-hidden border-2 border-primary-container shadow-sm">
+<img alt="User Profile" class="w-full h-full object-cover" data-alt="portrait of a sophisticated traveler against a blurred architectural background in soft warm lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB1KmN_2hXse9X3XZlghixPXUSuPBVqNzpuA140qR5SN8ovTdL9cR6k9xADG3-f_HNWIfNt4JsmNlVfGUtjyel3DL4WrNNbgEidBRky2HStRcwJ6d9vFIrDDUu_ga0RW41dY8_yLk7Z8noH-eoc6Xadffi3t7SvK3p_OxgMDkuLG7TAQU5Vluk2Fewd9SX2LTKX5SlukZKcOgCCFFvmqEJuLat8O-CoVz_2d_2xqoqNUEkdecc_UTmSHDFBvzYmP1AncazSGMHhiSnL"/>
+</div>
+</div>
+</header>
+<main class="pt-24 pb-32 px-6">
+<!-- Search Section -->
+<section class="mb-8">
+<div class="relative group">
+<div class="absolute inset-y-0 left-4 flex items-center pointer-events-none">
+<span class="material-symbols-outlined text-outline">search</span>
+</div>
+<input class="w-full bg-surface-container-highest/50 border-none rounded-xl py-4 pl-12 pr-4 text-on-surface placeholder:text-on-surface-variant focus:ring-2 focus:ring-primary/20 focus:bg-surface-bright transition-all" placeholder="Seek the wonders of Hue..." type="text"/>
+</div>
+</section>
+<!-- Category Filters -->
+<section class="mb-10 -mx-6">
+<div class="flex overflow-x-auto px-6 space-x-3 no-scrollbar">
+<button class="flex-none px-6 py-2.5 rounded-full bg-gradient-to-tr from-primary to-primary-container text-on-primary font-semibold text-sm shadow-md">
+                    Heritage
+                </button>
+<button class="flex-none px-6 py-2.5 rounded-full bg-surface-container-high text-on-surface-variant font-medium text-sm hover:bg-surface-container-highest transition-colors">
+                    Cafe
+                </button>
+<button class="flex-none px-6 py-2.5 rounded-full bg-surface-container-high text-on-surface-variant font-medium text-sm hover:bg-surface-container-highest transition-colors">
+                    Homestay
+                </button>
+<button class="flex-none px-6 py-2.5 rounded-full bg-surface-container-high text-on-surface-variant font-medium text-sm hover:bg-surface-container-highest transition-colors">
+                    Cuisine
+                </button>
+</div>
+</section>
+<!-- Vertical Heritage Cards -->
+<section class="space-y-12">
+<div class="flex flex-col">
+<p class="font-label text-[10px] uppercase tracking-[0.2em] font-bold text-secondary mb-2">Curated Discoveries</p>
+<h2 class="font-headline text-3xl font-bold text-on-surface mb-8 leading-tight">Echoes of the Dynasty</h2>
+</div>
+<!-- Card 1 -->
+<div class="group relative bg-surface-container-lowest rounded-xl overflow-hidden shadow-[0px_20px_40px_rgba(43,22,19,0.06)] transition-transform duration-300">
+<div class="relative aspect-[4/3] overflow-hidden">
+<img alt="Hue Imperial City" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="cinematic wide shot of the ornate red and gold gates of the Hue Imperial City at dusk with soft ambient glow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCNvGUk0H8tzxKweihUlDPcP9q9lPsdkdGNL2yN6VyLe-cEhddpofyuWvaxbbATqeEh_d9KIiLDaDVO-uPyrd60kKbSFXoa2CWXrXIhoUWlGFyiheLjA9Xs6fXAv7EJm9pcj0hVvcluLugoj_2FL2DsK_IXAtqeNRmJSh_eIwxx5u6dPgWp97zHLrQU9f9_c2S6jEJCN5lx8UHKFRQpfvnZUhUSAlli8qmzCiTue-gKadS0W-bTItDPMXvg4f1kqCnUwZXTiim3hC93"/>
+<div class="absolute top-4 right-4 bg-white/80 backdrop-blur-md px-3 py-1 rounded-full flex items-center gap-1">
+<span class="material-symbols-outlined text-[#735c00] text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="text-xs font-bold text-on-surface">4.9</span>
+</div>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-2">
+<h3 class="font-headline text-2xl font-bold text-on-surface">The Citadel Gates</h3>
+<span class="font-label text-[10px] bg-tertiary-fixed text-on-tertiary-fixed px-2 py-1 rounded-md font-bold uppercase tracking-wider">Imperial</span>
+</div>
+<p class="text-on-surface-variant text-sm mb-6 leading-relaxed">Walk through the threshold of time where emperors once trod. The Meridian Gate stands as a testament to the soul of Vietnam.</p>
+<button class="w-full bg-gradient-to-tr from-primary to-primary-container text-on-primary py-4 rounded-xl font-bold text-sm tracking-wide shadow-lg active:scale-95 transition-transform">
+                        Explore Now
+                    </button>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="group relative bg-surface-container-lowest rounded-xl overflow-hidden shadow-[0px_20px_40px_rgba(43,22,19,0.06)] transition-transform duration-300">
+<div class="relative aspect-[4/3] overflow-hidden">
+<img alt="Khai Dinh Tomb" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="intricate stone carvings and dark mosaics of the Khai Dinh Tomb with dramatic shadows and atmospheric lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBf2XNyKGb712sHsGye5q9974nj-YJ_ud5O3kZDN97RyxGPn06N78jujjwR9YXgv7hcG0ZqnBOn3bAHHriWSkMJ-0KyV0fAiuDF9Gxy1cuaasZNv2inDnCTZ42BuS2GEg-XmM10elmSrSomkJJeZAQ5L8HKDnXyeMwNqNZRopf1Mrm6wnlPHoIHqOJqaIIzG1HVeHeFT4KGtZGrsiWFHUKraxyWyykF-E12GWFjvj2L812oL3gOdVrpTk1jJoW7S44m9a1dhmUhjHaA"/>
+<div class="absolute top-4 right-4 bg-white/80 backdrop-blur-md px-3 py-1 rounded-full flex items-center gap-1">
+<span class="material-symbols-outlined text-[#735c00] text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="text-xs font-bold text-on-surface">4.8</span>
+</div>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-2">
+<h3 class="font-headline text-2xl font-bold text-on-surface">Khai Dinh Tomb</h3>
+<span class="font-label text-[10px] bg-tertiary-fixed text-on-tertiary-fixed px-2 py-1 rounded-md font-bold uppercase tracking-wider">Monarch</span>
+</div>
+<p class="text-on-surface-variant text-sm mb-6 leading-relaxed">A fusion of Eastern mysticism and Western baroque, this architectural marvel offers a hauntingly beautiful perspective on eternity.</p>
+<button class="w-full bg-gradient-to-tr from-primary to-primary-container text-on-primary py-4 rounded-xl font-bold text-sm tracking-wide shadow-lg active:scale-95 transition-transform">
+                        Explore Now
+                    </button>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="group relative bg-surface-container-lowest rounded-xl overflow-hidden shadow-[0px_20px_40px_rgba(43,22,19,0.06)] transition-transform duration-300">
+<div class="relative aspect-[4/3] overflow-hidden">
+<img alt="Thien Mu Pagoda" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="tall octagonal Thien Mu Pagoda standing against a clear sky with lush greenery and traditional eaves in the foreground" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB3EqTlIYBwCONqilQisvOZ-fYbelB4ylj_KCt38N8BNfVOvBbNjTKKWUfbczp3k9xMs63cUvFR4uesTAvhT8ArWLLxSTQO324BjVu7c5OvU2rtSZJQ2MBT5qpQ0khQufRa8zgyNA_RZLiJ1BUEjVIw4IRUtDtBmWpfUF5V8A6dFB-ZE-OHiyHGBKM70gvRERYSRIR8a3CgNEW8qMsbM2szcEH6OAwGGcOCVQwhzvlEctFe74COpxHYqapMBE_sXRf7w5Hyoquz_qGE"/>
+<div class="absolute top-4 right-4 bg-white/80 backdrop-blur-md px-3 py-1 rounded-full flex items-center gap-1">
+<span class="material-symbols-outlined text-[#735c00] text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="text-xs font-bold text-on-surface">4.7</span>
+</div>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-2">
+<h3 class="font-headline text-2xl font-bold text-on-surface">Thien Mu Pagoda</h3>
+<span class="font-label text-[10px] bg-tertiary-fixed text-on-tertiary-fixed px-2 py-1 rounded-md font-bold uppercase tracking-wider">Sacred</span>
+</div>
+<p class="text-on-surface-variant text-sm mb-6 leading-relaxed">Overlooking the Perfume River, this seven-story landmark is the celestial symbol of Hue's spiritual resilience.</p>
+<button class="w-full bg-gradient-to-tr from-primary to-primary-container text-on-primary py-4 rounded-xl font-bold text-sm tracking-wide shadow-lg active:scale-95 transition-transform">
+                        Explore Now
+                    </button>
+</div>
+</div>
+</section>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full z-50 bg-white/70 dark:bg-stone-900/70 backdrop-blur-xl rounded-t-3xl shadow-[0px_-10px_30px_rgba(43,22,19,0.04)]">
+<div class="fixed bottom-0 left-0 w-full flex justify-around items-center px-4 pb-6 pt-3">
+<!-- Home -->
+<a class="flex flex-col items-center justify-center text-stone-500 dark:text-stone-400 px-4 py-2 hover:text-[#735c00] transition-colors scale-95 duration-200 active:scale-90" href="#">
+<span class="material-symbols-outlined mb-1">home</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[10px] uppercase tracking-[0.1em] font-bold">Home</span>
+</a>
+<!-- Explore (Active) -->
+<a class="flex flex-col items-center justify-center bg-gradient-to-tr from-[#7d0010] to-[#a01d23] text-white rounded-2xl px-5 py-2 scale-95 duration-200 active:scale-90" href="#">
+<span class="material-symbols-outlined mb-1">explore</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[10px] uppercase tracking-[0.1em] font-bold">Explore</span>
+</a>
+<!-- My Trip -->
+<a class="flex flex-col items-center justify-center text-stone-500 dark:text-stone-400 px-4 py-2 hover:text-[#735c00] transition-colors scale-95 duration-200 active:scale-90" href="#">
+<span class="material-symbols-outlined mb-1">travel_explore</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[10px] uppercase tracking-[0.1em] font-bold">My Trip</span>
+</a>
+<!-- Heritage -->
+<a class="flex flex-col items-center justify-center text-stone-500 dark:text-stone-400 px-4 py-2 hover:text-[#735c00] transition-colors scale-95 duration-200 active:scale-90" href="#">
+<span class="material-symbols-outlined mb-1">castle</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[10px] uppercase tracking-[0.1em] font-bold">Heritage</span>
+</a>
+</div>
+</nav>
+<style>
+        /* Custom scrollbar hiding */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</body></html>

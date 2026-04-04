@@ -22,7 +22,7 @@ This is a React 19 + TypeScript + Vite project (bootstrapped from the official V
 
 ## App Architecture
 
-- Routing: React Router v6 (`react-router-dom`)
+- Routing: React Router v7 (`react-router-dom`)
 - Static data: `src/data/places.json` (imported directly, no API)
 - Images: place in `public/images/<place-id>-cover.jpg`, etc.
 - My Trip state: `localStorage` key `hue-ni-trip` via `src/hooks/useMyTrip.ts`

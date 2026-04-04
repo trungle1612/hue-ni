@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-container-highest": "#ffdad4",
+                        "on-tertiary-container": "#fdb1bc",
+                        "on-tertiary": "#ffffff",
+                        "on-error-container": "#93000a",
+                        "error": "#ba1a1a",
+                        "primary": "#7d0010",
+                        "on-tertiary-fixed": "#370c16",
+                        "on-primary": "#ffffff",
+                        "primary-container": "#a01d23",
+                        "on-secondary-container": "#745c00",
+                        "surface-tint": "#b12a2d",
+                        "on-surface": "#2b1613",
+                        "tertiary": "#5e2b34",
+                        "inverse-on-surface": "#ffedea",
+                        "surface-container-high": "#ffe2dd",
+                        "on-background": "#2b1613",
+                        "secondary-fixed": "#ffe088",
+                        "surface-dim": "#f8d1cb",
+                        "on-error": "#ffffff",
+                        "surface-variant": "#ffdad4",
+                        "surface-container-lowest": "#ffffff",
+                        "primary-fixed": "#ffdad7",
+                        "on-primary-fixed-variant": "#8f0e19",
+                        "tertiary-container": "#7a414a",
+                        "error-container": "#ffdad6",
+                        "secondary-fixed-dim": "#e9c349",
+                        "surface": "#fff8f6",
+                        "on-secondary-fixed-variant": "#574500",
+                        "background": "#fff8f6",
+                        "inverse-primary": "#ffb3ae",
+                        "surface-bright": "#fff8f6",
+                        "outline": "#8d706e",
+                        "on-tertiary-fixed-variant": "#6c363f",
+                        "tertiary-fixed-dim": "#feb2bc",
+                        "primary-fixed-dim": "#ffb3ae",
+                        "inverse-surface": "#422a26",
+                        "secondary-container": "#fed65b",
+                        "on-secondary": "#ffffff",
+                        "tertiary-fixed": "#ffd9dd",
+                        "secondary": "#735c00",
+                        "on-surface-variant": "#59413f",
+                        "surface-container": "#ffe9e5",
+                        "on-primary-fixed": "#410004",
+                        "surface-container-low": "#fff0ee",
+                        "outline-variant": "#e1bfbc",
+                        "on-secondary-fixed": "#241a00",
+                        "on-primary-container": "#ffb3ad"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "1.5rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Noto Serif"],
+                        "body": ["Plus Jakarta Sans"],
+                        "label": ["Plus Jakarta Sans"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>.material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24
+    }
+.silk-texture {
+    background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuBYuokehCf0j4AfZt-KcPMkl2c84q11KgY5ZDVym1QUeojRWyZ8Hp6H0_RVYj7YHHmxdcZQQfoeKMnUwNN86FGSp3WaOsnO37Iku1SfIiVPtvietpx9l8FaFRZY_sN4e1FUZ9u6mvphJDIytltik42kI-yXautmjh3grG7Y8pkmxXB6Zqttb4sDNwYzDnhe50XSexGrMetG6l0-_nO-ZT2qWDF3ajSDPvfhewyvb6zkY_QfjAcJlSVh4BsjUs1M26BYoe7nkNnm3haH)
+    }
+.no-scrollbar::-webkit-scrollbar {
+    display: none
+    }</style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface font-body text-on-surface selection:bg-secondary-container">
+<!-- Top Navigation Overlay -->
+<nav class="fixed top-0 w-full z-50 flex justify-between items-center px-6 py-8 pointer-events-none">
+<button class="pointer-events-auto w-12 h-12 flex items-center justify-center rounded-xl bg-white/20 backdrop-blur-xl text-white active:scale-90 transition-transform shadow-lg">
+<span class="material-symbols-outlined" data-icon="arrow_back">arrow_back</span>
+</button>
+<div class="flex gap-3 pointer-events-auto">
+<button class="w-12 h-12 flex items-center justify-center rounded-xl bg-white/20 backdrop-blur-xl text-white active:scale-90 transition-transform shadow-lg">
+<span class="material-symbols-outlined" data-icon="share">share</span>
+</button>
+<button class="w-12 h-12 flex items-center justify-center rounded-xl bg-white/20 backdrop-blur-xl text-white active:scale-90 transition-transform shadow-lg">
+<span class="material-symbols-outlined" data-icon="favorite">favorite</span>
+</button>
+</div>
+</nav>
+<main class="pb-32">
+<!-- Hero Section -->
+<section class="relative h-[530px] w-full overflow-hidden">
+<img alt="Imperial Citadel Entrance" class="w-full h-full object-cover" data-alt="majestic ancient vietnamese imperial gate with red lacquered wood and ornate gold carvings at sunset with dramatic warm lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB6DVJWGdk61U6P4vvZxg7gD7097qtpJPhqzIXAwHpeJLn7SKS8sxpDnzHq4AVEUX7qcOlw53IQVtl5QRI2LDQ_6Mx8Dj5q5Kep3z8Hq4X61SXYrtfc5dMER2sPrhu_YTQvw1WjkIpPxIPYF3SDy1bK1etT9vqU_JHYZrgsJOxNxeAKWah_ho6m2JcTxaagPHHjuH-neCgfwiDMPI24hTv55ktCBm8ZgSw6SHS9D3yMH-BmaByAsnM3K4gD6E_DfhxUHwU1fsltpO_c"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface via-surface/20 to-transparent"></div>
+<div class="absolute bottom-0 left-0 w-full p-6 pb-12">
+<div class="inline-flex items-center px-3 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed text-[10px] font-bold uppercase tracking-widest mb-4">
+                    Heritage Site
+                </div>
+<h1 class="text-4xl md:text-5xl font-headline font-bold text-on-surface tracking-tight leading-tight mb-2">
+                    Khai Dinh Tomb
+                </h1>
+<div class="flex items-center gap-2 text-secondary font-medium">
+<span class="material-symbols-outlined text-sm" data-icon="location_on">location_on</span>
+<span class="text-sm">Chau Chu Mountain, Hue</span>
+</div>
+</div>
+</section>
+<!-- Content Canvas -->
+<div class="px-6 -mt-6 relative z-10 space-y-12">
+<!-- Quick Stats -->
+<div class="grid grid-cols-3 gap-4">
+<div class="bg-surface-container-low p-4 rounded-xl flex flex-col items-center justify-center text-center">
+<span class="material-symbols-outlined text-secondary mb-2" data-icon="history">history</span>
+<span class="text-[10px] uppercase font-bold tracking-tighter text-on-surface-variant">Built In</span>
+<span class="text-sm font-bold text-on-surface">1920</span>
+</div>
+<div class="bg-surface-container-low p-4 rounded-xl flex flex-col items-center justify-center text-center">
+<span class="material-symbols-outlined text-secondary mb-2" data-icon="schedule">schedule</span>
+<span class="text-[10px] uppercase font-bold tracking-tighter text-on-surface-variant">Visit Time</span>
+<span class="text-sm font-bold text-on-surface">1.5 hrs</span>
+</div>
+<div class="bg-surface-container-low p-4 rounded-xl flex flex-col items-center justify-center text-center">
+<span class="material-symbols-outlined text-secondary mb-2" data-icon="architecture">architecture</span>
+<span class="text-[10px] uppercase font-bold tracking-tighter text-on-surface-variant">Style</span>
+<span class="text-sm font-bold text-on-surface">Eclectic</span>
+</div>
+</div>
+<!-- Description Section -->
+<section class="space-y-4">
+<div class="flex items-center gap-4">
+<div class="h-[1px] flex-1 bg-surface-variant/50"></div>
+<span class="text-[10px] uppercase font-bold tracking-[0.2em] text-secondary">The Essence</span>
+<div class="h-[1px] flex-1 bg-surface-variant/50"></div>
+</div>
+<p class="text-lg leading-relaxed text-on-surface-variant font-medium">
+                    A masterpiece of architectural fusion, the Khai Dinh Tomb stands as a testament to the transition between traditional Vietnamese heritage and Western influence.
+                </p>
+<p class="text-on-surface-variant/80 leading-loose">
+                    Constructed over 11 years, the tomb is perched on the slope of Chau Chu mountain. Its exterior is dark and weathered, contrasting sharply with the opulent, vibrant mosaics of porcelain and glass found within the Thien Dinh Palace.
+                </p>
+</section>
+<!-- Bento Heritage Gallery -->
+<section class="space-y-6">
+<h3 class="text-2xl font-headline font-bold">Heritage Details</h3>
+<div class="grid grid-cols-2 gap-4">
+<div class="col-span-2 relative h-48 rounded-xl overflow-hidden shadow-lg">
+<img alt="Intricate Mosaics" class="w-full h-full object-cover" data-alt="ultra close up of colorful porcelain mosaic art on ancient palace wall with intricate floral and dragon patterns" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBvFEPY1k0L1PArbfEhOHZ5qGAfkVs5AXXZwPXvpMybc7rEs_pqrBRnF7OvolLoJlHeZpal62SOznlRtBC-x2MS9nUBVrYWRO4x_3HD19vRL4oV3ennQjJXi81OMruuiF7w42jSKdx6h7C-XDh1xB7bsoVk8tEceQSKZneD2QgLyDddphiW-zQEJacbjEnw4jdgVI7gYHjpxqmyB0qsVbXM9tmMwYSNuvfiiTtMMyuCIfklvASixFqJCFVPlmt8ya0eSScAOdZesUTD"/>
+<div class="absolute inset-0 bg-black/30 flex items-end p-4">
+<span class="text-white font-bold text-sm">Porcelain Mosaics</span>
+</div>
+</div>
+<div class="relative h-40 rounded-xl overflow-hidden shadow-lg">
+<img alt="Stone Statues" class="w-full h-full object-cover" data-alt="row of ancient weathered stone mandarin statues standing in formation at a historic mausoleum courtyard" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA-fI_qyVlPcyhfT7eCmx8BymVQgzxkupfagK2xp75x_-GGGxmf-0c8lU5nh4TFxyxtIOm8-3Nt1tzJH1pBTZAQbxvSs4-CR5_cm6Qp4VOxLNepdhEkLCpxORqrBuDITo6GXTSk-RDMakmVLQylxCMvJqsIvXXUd-S_9rvE68UAHFY4AykAkKwLsBFnqwY3JHSYf1uiLfSl5s4rbv5XabIhaD3dw02T8Cc7xG5MeMDGgmBSznjpIu4WDWneSLRgHkSyuQjPnG5z80wA"/>
+<div class="absolute inset-0 bg-black/20 flex items-end p-4">
+<span class="text-white font-bold text-sm">Honor Guard</span>
+</div>
+</div>
+<div class="bg-tertiary-container text-on-tertiary-container p-6 rounded-xl flex flex-col justify-center">
+<span class="material-symbols-outlined text-3xl mb-4" data-icon="auto_stories">auto_stories</span>
+<p class="text-sm font-headline italic">"A fusion of East and West, where concrete meets silk."</p>
+</div>
+</div>
+</section>
+<!-- Location Details -->
+<section class="space-y-6 bg-surface-container-lowest p-6 rounded-xl shadow-sm silk-texture">
+<div class="space-y-4">
+<div class="flex items-start gap-4">
+<div class="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-on-secondary-container" data-icon="location_on">location_on</span>
+</div>
+<div>
+<h4 class="font-bold text-on-surface">Address</h4>
+<p class="text-sm text-on-surface-variant">Thuy Bang, Huong Thuy, Thua Thien Hue 530000, Vietnam</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="w-10 h-10 rounded-full bg-primary-container/10 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary" data-icon="access_time">access_time</span>
+</div>
+<div>
+<h4 class="font-bold text-on-surface">Visiting Hours</h4>
+<div class="flex justify-between w-full text-sm mt-1">
+<span class="text-on-surface-variant">Monday – Sunday</span>
+<span class="font-bold text-primary">07:00 – 17:30</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Map Placeholder -->
+<div class="w-full h-40 bg-surface-container-high rounded-xl overflow-hidden relative">
+<img alt="Map location" class="w-full h-full object-cover opacity-50 grayscale" data-alt="stylized architectural map of an ancient asian city with gold accents and heritage landmarks highlighted" data-location="Hue City" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAD5oyhi_Ft5RV3qdoxo_h8tPuvpR4wbKCA4gaCMK6epyFiFmIKfZlQ5SA6usOzah9tbEUwf_F3pujJQDdKpUwmkqVIVP8qy7ZRcnyQI4dEP5pQ_-6Bqjsp5FU-qrfIg_bhqwcDZVb8fY-mziOof7uwUE-WZI4dmPozSbBJmoFCqrX-Dv-Y4r_6mpXFbjDmji0pnt02kluB7YWuRP1t1Cs7eNjHyCyg5lzbDynzlMGEZ9gO0BDyrT-ALnqA8l0i-pWU1nLOGXRIfuWL"/>
+<div class="absolute inset-0 flex items-center justify-center">
+<div class="bg-primary p-3 rounded-full shadow-2xl">
+<span class="material-symbols-outlined text-white" data-icon="push_pin">push_pin</span>
+</div>
+</div>
+</div>
+</section>
+</div>
+</main>
+<!-- Floating Action Bar -->
+<footer class="fixed bottom-0 left-0 w-full p-6 bg-white/70 backdrop-blur-2xl z-50 rounded-t-3xl shadow-[0px_-20px_40px_rgba(43,22,19,0.06)]">
+<div class="flex items-center gap-4">
+<button class="flex-1 h-14 bg-surface-container-highest text-primary font-bold rounded-xl flex items-center justify-center gap-2 active:scale-95 transition-transform">
+<span class="material-symbols-outlined text-xl" data-icon="add_circle">add_circle</span>
+<span>Add to Trip</span>
+</button>
+<button class="flex-1 h-14 bg-gradient-to-tr from-primary to-primary-container text-white font-bold rounded-xl flex items-center justify-center gap-2 shadow-lg shadow-primary/20 active:scale-95 transition-transform">
+<span class="material-symbols-outlined text-xl" data-icon="directions">directions</span>
+<span>Directions</span>
+</button>
+</div>
+</footer>
+<!-- Decorative Corner Element -->
+<div class="fixed top-0 right-0 p-4 opacity-5 pointer-events-none">
+<span class="material-symbols-outlined text-[120px]" data-icon="castle">castle</span>
+</div>
+</body></html>

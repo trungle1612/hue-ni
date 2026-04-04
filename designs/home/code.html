@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>The Imperial Chronicler - Explore Hue</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface-container-highest": "#ffdad4",
+                    "on-tertiary-container": "#fdb1bc",
+                    "on-tertiary": "#ffffff",
+                    "on-error-container": "#93000a",
+                    "error": "#ba1a1a",
+                    "primary": "#7d0010",
+                    "on-tertiary-fixed": "#370c16",
+                    "on-primary": "#ffffff",
+                    "primary-container": "#a01d23",
+                    "on-secondary-container": "#745c00",
+                    "surface-tint": "#b12a2d",
+                    "on-surface": "#2b1613",
+                    "tertiary": "#5e2b34",
+                    "inverse-on-surface": "#ffedea",
+                    "surface-container-high": "#ffe2dd",
+                    "on-background": "#2b1613",
+                    "secondary-fixed": "#ffe088",
+                    "surface-dim": "#f8d1cb",
+                    "on-error": "#ffffff",
+                    "surface-variant": "#ffdad4",
+                    "surface-container-lowest": "#ffffff",
+                    "primary-fixed": "#ffdad7",
+                    "on-primary-fixed-variant": "#8f0e19",
+                    "tertiary-container": "#7a414a",
+                    "error-container": "#ffdad6",
+                    "secondary-fixed-dim": "#e9c349",
+                    "surface": "#fff8f6",
+                    "on-secondary-fixed-variant": "#574500",
+                    "background": "#fff8f6",
+                    "inverse-primary": "#ffb3ae",
+                    "surface-bright": "#fff8f6",
+                    "outline": "#8d706e",
+                    "on-tertiary-fixed-variant": "#6c363f",
+                    "tertiary-fixed-dim": "#feb2bc",
+                    "primary-fixed-dim": "#ffb3ae",
+                    "inverse-surface": "#422a26",
+                    "secondary-container": "#fed65b",
+                    "on-secondary": "#ffffff",
+                    "tertiary-fixed": "#ffd9dd",
+                    "secondary": "#735c00",
+                    "on-surface-variant": "#59413f",
+                    "surface-container": "#ffe9e5",
+                    "on-primary-fixed": "#410004",
+                    "surface-container-low": "#fff0ee",
+                    "outline-variant": "#e1bfbc",
+                    "on-secondary-fixed": "#241a00",
+                    "on-primary-container": "#ffb3ad"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "1.5rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Noto Serif"],
+                    "body": ["Plus Jakarta Sans"],
+                    "label": ["Plus Jakarta Sans"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .serif-font { font-family: 'Noto Serif', serif; }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .marker-pulse {
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.2); opacity: 0.8; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface text-on-surface overflow-hidden">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-white/70 backdrop-blur-xl shadow-[0px_20px_40px_rgba(43,22,19,0.06)] flex justify-between items-center px-6 py-4">
+<div class="flex items-center gap-4">
+<button class="hover:bg-stone-100 transition-colors p-2 rounded-full">
+<span class="material-symbols-outlined text-[#7d0010]" data-icon="menu">menu</span>
+</button>
+<h1 class="font-['Noto_Serif'] text-xl font-bold text-[#7d0010] tracking-tight">The Imperial Chronicler</h1>
+</div>
+<div class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center overflow-hidden border-2 border-primary/20">
+<img alt="User Profile" class="w-full h-full object-cover" data-alt="Close up portrait of a sophisticated man with a friendly expression in soft natural outdoor lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCoQNQbjPuSTtDs6P-JYerWeCvsHko7JaL7DGXOcTRMKKTKvYxA_QB9pmYGDvVfElXDsmXrV-L7C5hd0Zx6iiDVphC3URUpBNgh0_Xj_1lF-eEpWpZaZLycPjZwj4YvGw_c9voti-T4UWKdVQUn6fm4QtHpi3ItZ_VKPNYCIuXnFmlilu5g4ch-KlbJtP5DSJBts_J-m3gwlvHGnyRiY7gL-7WIjzO-1PbFzwbOyniFm7B95C5GafGOvaXp_ElM0NSk9Se7NaSbzP3_"/>
+</div>
+</header>
+<!-- Main Content Canvas (Map View) -->
+<main class="relative h-screen w-full pt-16 pb-24 overflow-hidden">
+<!-- Full Screen Map Container -->
+<div class="absolute inset-0 bg-stone-200">
+<img alt="Map view of Hue city" class="w-full h-full object-cover grayscale-[20%] sepia-[10%] brightness-[1.05]" data-alt="A stylized aerial satellite view of a historic city with a large river and garden complexes in soft muted tones" data-location="Hue, Vietnam" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC-CmaosYdaVFbHrNQE6DiIsusgyqY6kt536AyIk-3AiDA6php4yHz2aYl65wIuiPwcr8VnJHEXuUPPxkhi3Glnx99GNEr_QJhvQOolSzHkHqLUq9YnC8O4nysiFmPaWggscPrHRNIwjbNTfOY1CISb_AAvU5baLHWMAMhe95P5MVIZmIkDhtJDASctlKUw7p0YJeIXR3c8F0TYG-SiROa_3ZrdKCyBBvwvZflFXYlPKyce6EtcdN3I1r83h2ZLaOlxZo0Ki3Lh4-hC"/>
+<!-- Map Markers -->
+<!-- Active Selection: An Nhiên Garden -->
+<div class="absolute top-[45%] left-[40%] flex flex-col items-center">
+<div class="relative">
+<div class="absolute -inset-4 bg-primary/20 rounded-full animate-ping"></div>
+<div class="w-10 h-10 bg-primary rounded-full shadow-lg flex items-center justify-center border-4 border-white">
+<span class="material-symbols-outlined text-white text-xl" style="font-variation-settings: 'FILL' 1;">spa</span>
+</div>
+</div>
+<div class="mt-2 bg-white px-3 py-1 rounded-full shadow-md">
+<span class="text-xs font-bold text-primary">An Nhiên Garden</span>
+</div>
+</div>
+<!-- Other Markers -->
+<div class="absolute top-[30%] left-[65%]">
+<div class="w-8 h-8 bg-stone-800/80 rounded-full shadow-lg flex items-center justify-center border-2 border-white">
+<span class="material-symbols-outlined text-white text-sm" style="font-variation-settings: 'FILL' 1;">coffee</span>
+</div>
+</div>
+<div class="absolute top-[60%] left-[25%]">
+<div class="w-8 h-8 bg-stone-800/80 rounded-full shadow-lg flex items-center justify-center border-2 border-white">
+<span class="material-symbols-outlined text-white text-sm" style="font-variation-settings: 'FILL' 1;">home</span>
+</div>
+</div>
+</div>
+<!-- Floating Filters -->
+<div class="absolute top-24 left-0 w-full px-6 flex gap-3 overflow-x-auto no-scrollbar">
+<button class="flex items-center gap-2 bg-primary text-white px-5 py-3 rounded-full shadow-xl whitespace-nowrap">
+<span class="material-symbols-outlined text-lg" data-icon="filter_list">filter_list</span>
+<span class="text-sm font-bold tracking-wide">All Venues</span>
+</button>
+<button class="flex items-center gap-2 bg-white/90 backdrop-blur-md text-on-surface px-5 py-3 rounded-full shadow-lg whitespace-nowrap">
+<span class="material-symbols-outlined text-[#735c00] text-lg" data-icon="coffee">coffee</span>
+<span class="text-sm font-bold tracking-wide">Cafe</span>
+</button>
+<button class="flex items-center gap-2 bg-white/90 backdrop-blur-md text-on-surface px-5 py-3 rounded-full shadow-lg whitespace-nowrap">
+<span class="material-symbols-outlined text-[#735c00] text-lg" data-icon="home">home</span>
+<span class="text-sm font-bold tracking-wide">Homestay</span>
+</button>
+<button class="flex items-center gap-2 bg-white/90 backdrop-blur-md text-on-surface px-5 py-3 rounded-full shadow-lg whitespace-nowrap">
+<span class="material-symbols-outlined text-[#735c00] text-lg" data-icon="museum">museum</span>
+<span class="text-sm font-bold tracking-wide">Heritage</span>
+</button>
+</div>
+<!-- Bottom Preview Card (Selected Location) -->
+<div class="absolute bottom-28 left-4 right-4 z-40">
+<div class="bg-white/95 backdrop-blur-xl rounded-xl shadow-[0px_20px_40px_rgba(43,22,19,0.1)] overflow-hidden border border-surface-container">
+<div class="flex">
+<div class="w-32 h-32 flex-shrink-0">
+<img alt="An Nhiên Garden View" class="w-full h-full object-cover" data-alt="Serene traditional Vietnamese courtyard with lush green bonsai trees, lotus pond, and dark wooden architecture at dawn" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_JVSxb4tj5KLwbAlUwFu-h5aXDKA2mt2Bq2HeK1U55AjsAPQckTc2dWQIl8Sh4TqxiN8RpmaXDVUOXjVaYJjkyfE_5P6tL925wBHbWl0Uq7lg1CrUNNlwYB58_mGeiwOCg1bwR15v02JUzZqIDXSzTPgtUH80hB0BwIDdUAADK7SrxV2tVmVVxF6gmq92Zs_wAu18pTbkdeN06zcSyAYyCXk_CNLNu1T6EaKYO-8f66PmLFhNkVhGsZ7cQzMl5MM416MeYOcVDnYe"/>
+</div>
+<div class="p-4 flex flex-col justify-between flex-grow">
+<div>
+<div class="flex justify-between items-start">
+<span class="text-[10px] font-bold uppercase tracking-widest text-secondary mb-1">Cuisine &amp; Sanctuary</span>
+<span class="flex items-center gap-1 text-xs font-bold text-on-surface">
+<span class="material-symbols-outlined text-xs text-secondary" style="font-variation-settings: 'FILL' 1;">star</span>
+                                    4.9
+                                </span>
+</div>
+<h3 class="font-['Noto_Serif'] text-lg font-bold text-primary leading-tight">An Nhiên Garden</h3>
+<p class="text-xs text-on-surface-variant flex items-center gap-1 mt-1">
+<span class="material-symbols-outlined text-sm">location_on</span>
+                                Tùng Thiện Vương, Vỹ Dạ, Huế
+                            </p>
+</div>
+<div class="flex gap-2">
+<button class="flex-grow bg-gradient-to-tr from-[#7d0010] to-[#a01d23] text-white py-2 rounded-lg text-xs font-bold tracking-wide">
+                                Explore Details
+                            </button>
+<button class="w-10 h-10 border border-outline-variant rounded-lg flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">directions</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Expansion handle -->
+<div class="h-1.5 w-12 bg-stone-200 rounded-full mx-auto my-2"></div>
+</div>
+</div>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full flex justify-around items-center px-4 pb-6 pt-3 bg-white/70 backdrop-blur-xl z-50 rounded-t-3xl shadow-[0px_-10px_30px_rgba(43,22,19,0.04)]">
+<a class="flex flex-col items-center justify-center text-stone-500 px-4 py-2 hover:text-[#735c00] transition-colors scale-95 duration-200 active:scale-90" href="#">
+<span class="material-symbols-outlined" data-icon="home">home</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[10px] uppercase tracking-[0.1em] font-bold mt-1">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-gradient-to-tr from-[#7d0010] to-[#a01d23] text-white rounded-2xl px-5 py-2 scale-95 duration-200 active:scale-90 shadow-lg" href="#">
+<span class="material-symbols-outlined" data-icon="explore" style="font-variation-settings: 'FILL' 1;">explore</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[10px] uppercase tracking-[0.1em] font-bold mt-1">Explore</span>
+</a>
+<a class="flex flex-col items-center justify-center text-stone-500 px-4 py-2 hover:text-[#735c00] transition-colors scale-95 duration-200 active:scale-90" href="#">
+<span class="material-symbols-outlined" data-icon="travel_explore">travel_explore</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[10px] uppercase tracking-[0.1em] font-bold mt-1">My Trip</span>
+</a>
+<a class="flex flex-col items-center justify-center text-stone-500 px-4 py-2 hover:text-[#735c00] transition-colors scale-95 duration-200 active:scale-90" href="#">
+<span class="material-symbols-outlined" data-icon="castle">castle</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[10px] uppercase tracking-[0.1em] font-bold mt-1">Heritage</span>
+</a>
+</nav>
+<!-- Contextual FAB (Hidden on this map view per instructions to focus on map, but kept as reference for system capability) -->
+<div class="hidden">
+<button class="fixed right-6 bottom-32 w-14 h-14 bg-secondary rounded-full shadow-2xl flex items-center justify-center text-white">
+<span class="material-symbols-outlined text-2xl">add</span>
+</button>
+</div>
+</body></html>
