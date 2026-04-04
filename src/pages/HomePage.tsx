@@ -18,22 +18,31 @@ const FILTER_OPTIONS: FilterOption[] = [
 const ALL_PLACES = placesData.places as Place[]
 const ALL_COLLECTIONS = placesData.collections as Collection[]
 
+// Pre-computed at module level (static data — no need to recompute on render)
+const COLLECTION_PLACES = new Map(
+  ALL_COLLECTIONS.map(c => [
+    c.id,
+    ALL_PLACES.filter(p => p.collection === c.id),
+  ])
+)
+
+function normalize(s: string): string {
+  return s.normalize('NFD').replace(/\p{Diacritic}/gu, '').toLowerCase()
+}
+
 export function HomePage() {
   const [query, setQuery] = useState('')
   const [selectedCategory, setSelectedCategory] = useState('all')
 
   const searchResults = query.trim().length > 0
     ? ALL_PLACES.filter(p =>
-        p.name.toLowerCase().includes(query.toLowerCase()) ||
-        p.tags.some(t => t.toLowerCase().includes(query.toLowerCase()))
+        normalize(p.name).includes(normalize(query)) ||
+        p.tags.some(t => normalize(t).includes(normalize(query)))
       )
     : null
 
+  // MVP placeholder: no geolocation yet; show first 5 entries
   const nearMePlaces = ALL_PLACES.slice(0, 5)
-
-  function getCollectionPlaces(collectionId: string): Place[] {
-    return ALL_PLACES.filter(p => p.collection === collectionId)
-  }
 
   return (
     <div className="home-page">
@@ -100,7 +109,7 @@ export function HomePage() {
 
           {/* Curated Collections */}
           {ALL_COLLECTIONS.map(collection => {
-            const places = getCollectionPlaces(collection.id)
+            const places = COLLECTION_PLACES.get(collection.id) ?? []
             if (places.length === 0) return null
             return (
               <div key={collection.id} className="home-page__collection">
