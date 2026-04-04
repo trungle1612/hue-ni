@@ -84,4 +84,10 @@ describe('useMyTrip', () => {
     act(() => result.current.clearAll())
     expect(JSON.parse(localStorage.getItem('hue-ni-trip')!)).toEqual([])
   })
+
+  it('recovers gracefully when localStorage contains invalid JSON', () => {
+    localStorage.setItem('hue-ni-trip', 'not-valid-json')
+    const { result } = renderHook(() => useMyTrip())
+    expect(result.current.savedIds).toEqual([])
+  })
 })

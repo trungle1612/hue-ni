@@ -30,9 +30,13 @@ export function useMyTrip() {
     })
   }
 
+  function persist(ids: string[]) {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(ids))
+    setSavedIds(ids)
+  }
+
   function clearAll() {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify([]))
-    setSavedIds([])
+    persist([])
   }
 
   function isSaved(id: string): boolean {
