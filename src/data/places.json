@@ -1,0 +1,198 @@
+{
+  "places": [
+    {
+      "id": "khai-dinh-tomb",
+      "name": "Lăng Khải Định",
+      "category": "tomb",
+      "tags": ["lăng tẩm", "kiến trúc", "di sản"],
+      "coverImage": "https://picsum.photos/seed/khai-dinh/800/500",
+      "gallery": [
+        "https://picsum.photos/seed/khai-dinh-1/800/500",
+        "https://picsum.photos/seed/khai-dinh-2/800/500",
+        "https://picsum.photos/seed/khai-dinh-3/800/500"
+      ],
+      "address": "Khải Định, Hương Thủy, Thừa Thiên Huế",
+      "coordinates": { "lat": 16.3943, "lng": 107.6513 },
+      "rating": 4.8,
+      "priceRange": "₫",
+      "hours": { "open": "07:00", "close": "17:30" },
+      "vibe": "Kiến trúc Art Deco kết hợp truyền thống — độc nhất vô nhị.",
+      "description": "Lăng Khải Định là một kiệt tác kiến trúc kết hợp giữa phong cách phương Đông và phương Tây, được xây dựng từ năm 1920 đến 1931. Nơi đây thờ vua Khải Định, vị vua thứ 12 của triều Nguyễn.",
+      "insiderTips": [
+        "Đến trước 8h sáng để tránh đám đông và ánh nắng gắt.",
+        "Hỏi bảo vệ để xem phòng tranh khảm trai bên trong — thường không mở cho khách vãng lai.",
+        "Mang theo áo khoác nhẹ, bên trong khá mát dù trời nóng."
+      ],
+      "collection": "echoes-of-dynasty"
+    },
+    {
+      "id": "hue-citadel",
+      "name": "Đại Nội Huế",
+      "category": "landmark",
+      "tags": ["hoàng thành", "di sản UNESCO", "lịch sử"],
+      "coverImage": "https://picsum.photos/seed/hue-citadel/800/500",
+      "gallery": [
+        "https://picsum.photos/seed/citadel-1/800/500",
+        "https://picsum.photos/seed/citadel-2/800/500",
+        "https://picsum.photos/seed/citadel-3/800/500"
+      ],
+      "address": "Thuận Thành, Thành phố Huế, Thừa Thiên Huế",
+      "coordinates": { "lat": 16.4700, "lng": 107.5779 },
+      "rating": 4.9,
+      "priceRange": "₫",
+      "hours": { "open": "07:30", "close": "17:30" },
+      "vibe": "Trái tim của cố đô — nơi lịch sử 400 năm vẫn còn thở.",
+      "description": "Đại Nội Huế là quần thể kiến trúc cung đình rộng lớn của triều Nguyễn, được UNESCO công nhận là Di sản Văn hóa Thế giới năm 1993. Bên trong là Hoàng Thành, Tử Cấm Thành và hàng trăm công trình lịch sử.",
+      "insiderTips": [
+        "Thuê xe đạp để khám phá toàn bộ khuôn viên — đi bộ sẽ rất mệt.",
+        "Vào buổi chiều tà, ánh vàng chiếu qua Ngọ Môn tạo ra cảnh tượng huyền ảo.",
+        "Khu Duyệt Thị Đường thường vắng khách nhưng rất đẹp — đừng bỏ qua."
+      ],
+      "collection": "echoes-of-dynasty"
+    },
+    {
+      "id": "tu-duc-tomb",
+      "name": "Lăng Tự Đức",
+      "category": "tomb",
+      "tags": ["lăng tẩm", "thơ ca", "hồ sen"],
+      "coverImage": "https://picsum.photos/seed/tu-duc/800/500",
+      "gallery": [
+        "https://picsum.photos/seed/tu-duc-1/800/500",
+        "https://picsum.photos/seed/tu-duc-2/800/500",
+        "https://picsum.photos/seed/tu-duc-3/800/500"
+      ],
+      "address": "Thủy Xuân, Thành phố Huế, Thừa Thiên Huế",
+      "coordinates": { "lat": 16.4530, "lng": 107.5575 },
+      "rating": 4.7,
+      "priceRange": "₫",
+      "hours": { "open": "07:00", "close": "17:30" },
+      "vibe": "Nơi vị hoàng đế thi sĩ dành 16 năm để viết thơ và câu cá.",
+      "description": "Lăng Tự Đức là khu vườn ngự uyển tuyệt đẹp mà vua Tự Đức tự thiết kế cho mình khi còn sống. Với hồ Lưu Khiêm, đình Xung Khiêm và rừng thông xanh mát, đây là một trong những lăng tẩm lãng mạn nhất Huế.",
+      "insiderTips": [
+        "Đây là nơi vua Tự Đức viết hầu hết thơ của ông — mang theo sách để đọc bên hồ.",
+        "Ghé thăm vào sáng sớm, sương mù trên hồ tạo ra bầu không khí huyền bí.",
+        "Khu nhà bia Khiêm Cung có bài thơ dài nhất của vua — nhớ đọc trước khi vào."
+      ],
+      "collection": "echoes-of-dynasty"
+    },
+    {
+      "id": "thien-mu-pagoda",
+      "name": "Chùa Thiên Mụ",
+      "category": "landmark",
+      "tags": ["chùa", "tâm linh", "sông Hương"],
+      "coverImage": "https://picsum.photos/seed/thien-mu/800/500",
+      "gallery": [
+        "https://picsum.photos/seed/thienmu-1/800/500",
+        "https://picsum.photos/seed/thienmu-2/800/500",
+        "https://picsum.photos/seed/thienmu-3/800/500"
+      ],
+      "address": "Kim Long, Thành phố Huế, Thừa Thiên Huế",
+      "coordinates": { "lat": 16.4530, "lng": 107.5468 },
+      "rating": 4.6,
+      "priceRange": "₫",
+      "hours": { "open": "08:00", "close": "17:00" },
+      "vibe": "Ngọn tháp 7 tầng soi bóng sông Hương — biểu tượng 400 năm của Huế.",
+      "description": "Chùa Thiên Mụ là ngôi chùa cổ nhất và nổi tiếng nhất Huế, được xây dựng năm 1601. Tháp Phước Duyên 7 tầng cao 21m là biểu tượng không thể nhầm lẫn của cố đô, đặc biệt đẹp khi nhìn từ sông Hương.",
+      "insiderTips": [
+        "Đi thuyền trên sông Hương để chiêm ngưỡng tháp từ mặt nước — khung cảnh tuyệt nhất.",
+        "Vào lúc hoàng hôn, chuông chùa ngân vang — dừng lại 10 phút để lắng nghe.",
+        "Khu vườn sau chùa có nhiều cây bonsai cổ thụ trăm năm — thường bị khách bỏ qua."
+      ],
+      "collection": "spiritual-hue"
+    },
+    {
+      "id": "bun-bo-mu-roi",
+      "name": "Bún Bò Mụ Rơi",
+      "category": "food",
+      "tags": ["ẩm thực", "bún bò", "vỉa hè"],
+      "coverImage": "https://picsum.photos/seed/bunbo/800/500",
+      "gallery": [
+        "https://picsum.photos/seed/bunbo-1/800/500",
+        "https://picsum.photos/seed/bunbo-2/800/500"
+      ],
+      "address": "2 Nguyễn Chí Thanh, Phú Hội, Thành phố Huế",
+      "coordinates": { "lat": 16.4636, "lng": 107.5910 },
+      "rating": 4.5,
+      "priceRange": "₫",
+      "hours": { "open": "06:00", "close": "10:00" },
+      "vibe": "Tô bún bò chuẩn Huế nhất thành phố — chỉ bán buổi sáng.",
+      "description": "Quán bún bò gia truyền hơn 30 năm của bà Mụ Rơi. Nước dùng hầm từ xương bò 8 tiếng, sả và mắm ruốc đúng vị Huế gốc. Hết trước 10h sáng mỗi ngày.",
+      "insiderTips": [
+        "Đến trước 7h30 nếu không muốn hết — quán bán rất nhanh.",
+        "Gọi thêm chả cua và huyết — đó là cách người Huế ăn.",
+        "Nói với chủ quán 'cho thêm sả' để có hương vị đậm đà hơn."
+      ],
+      "collection": "local-eats"
+    },
+    {
+      "id": "cong-cafe-hue",
+      "name": "Cà phê Cộng Huế",
+      "category": "cafe",
+      "tags": ["cà phê", "vintage", "sông Hương"],
+      "coverImage": "https://picsum.photos/seed/congcafe/800/500",
+      "gallery": [
+        "https://picsum.photos/seed/congcafe-1/800/500",
+        "https://picsum.photos/seed/congcafe-2/800/500"
+      ],
+      "address": "17 Lê Lợi, Vĩnh Ninh, Thành phố Huế",
+      "coordinates": { "lat": 16.4637, "lng": 107.5962 },
+      "rating": 4.4,
+      "priceRange": "₫₫",
+      "hours": { "open": "07:00", "close": "23:00" },
+      "vibe": "Phong cách bao cấp Việt Nam, view thẳng ra sông Hương.",
+      "description": "Chi nhánh Cộng Cà Phê tại Huế nằm ngay bên bờ sông Hương, với không gian thiết kế theo phong cách hoài cổ Hà Nội thập niên 80. Cà phê dừa là thức uống không thể bỏ qua.",
+      "insiderTips": [
+        "Gọi cà phê dừa đá — đây là thức uống đặc trưng nhất của Cộng.",
+        "Chọn bàn tầng 2 nhìn ra sông để có view đẹp nhất.",
+        "Không gian rất ồn vào tối cuối tuần — đến buổi sáng để thư giãn."
+      ],
+      "collection": "local-eats"
+    },
+    {
+      "id": "thanh-toan-bridge",
+      "name": "Cầu Ngói Thanh Toàn",
+      "category": "landmark",
+      "tags": ["cầu cổ", "kiến trúc", "làng quê"],
+      "coverImage": "https://picsum.photos/seed/thanhToan/800/500",
+      "gallery": [
+        "https://picsum.photos/seed/thanhToan-1/800/500",
+        "https://picsum.photos/seed/thanhToan-2/800/500"
+      ],
+      "address": "Thanh Toàn, Hương Thủy, Thừa Thiên Huế",
+      "coordinates": { "lat": 16.4286, "lng": 107.6456 },
+      "rating": 4.3,
+      "priceRange": "₫",
+      "hours": { "open": "07:00", "close": "18:00" },
+      "vibe": "Cây cầu ngói 200 năm tuổi ẩn mình trong làng — bí mật của người Huế.",
+      "description": "Cầu Ngói Thanh Toàn là cây cầu gỗ có mái che dài 17m, được xây dựng từ thế kỷ 18. Đây là một trong những cây cầu ngói hiếm còn sót lại ở Việt Nam, nằm giữa làng quê yên bình cách trung tâm Huế 8km.",
+      "insiderTips": [
+        "Thuê xe đạp từ trung tâm thành phố để tận hưởng đường đồng quê — mất khoảng 30 phút.",
+        "Phiên chợ họp ngay dưới cầu vào sáng sớm thứ 7 — cảnh tượng rất đẹp.",
+        "Đứng giữa cầu nhìn xuống kênh vào lúc hoàng hôn để chụp ảnh đẹp nhất."
+      ],
+      "collection": "hidden-gems"
+    }
+  ],
+  "collections": [
+    {
+      "id": "echoes-of-dynasty",
+      "title": "Vọng âm triều đại",
+      "description": "Những công trình định nghĩa cố đô Huế"
+    },
+    {
+      "id": "spiritual-hue",
+      "title": "Tâm linh cố đô",
+      "description": "Chùa chiền và đền thờ linh thiêng"
+    },
+    {
+      "id": "local-eats",
+      "title": "Ẩm thực vỉa hè",
+      "description": "Ăn như người Huế thật sự"
+    },
+    {
+      "id": "hidden-gems",
+      "title": "Góc khuất Huế",
+      "description": "Những nơi chỉ dân địa phương mới biết"
+    }
+  ]
+}
