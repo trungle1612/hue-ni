@@ -1,0 +1,66 @@
+.onboarding-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(43, 22, 19, 0.6);
+  backdrop-filter: blur(4px);
+  z-index: 200;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.onboarding-modal {
+  width: 100%;
+  max-width: 480px;
+  background: var(--color-surface-container-lowest);
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  padding: var(--space-xl) var(--space-lg);
+  text-align: center;
+}
+
+.onboarding-modal__emoji {
+  font-size: 3rem;
+  margin-bottom: var(--space-md);
+}
+
+.onboarding-modal__title {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-on-surface);
+  margin-bottom: var(--space-sm);
+}
+
+.onboarding-modal__subtitle {
+  font-size: 0.9rem;
+  color: var(--color-on-surface-variant);
+  line-height: 1.6;
+  margin-bottom: var(--space-xl);
+}
+
+.onboarding-modal__btn-primary {
+  width: 100%;
+  padding: 0.9rem;
+  background: linear-gradient(45deg, var(--color-primary), var(--color-primary-container));
+  color: var(--color-on-primary);
+  border: none;
+  border-radius: var(--radius-lg);
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-bottom: var(--space-sm);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.onboarding-modal__btn-skip {
+  width: 100%;
+  padding: 0.7rem;
+  background: none;
+  border: none;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: var(--color-on-surface-variant);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}

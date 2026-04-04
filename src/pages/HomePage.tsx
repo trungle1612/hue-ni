@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { OnboardingModal, hasSeenOnboarding } from '../components/OnboardingModal'
 import { CategoryFilter, type FilterOption } from '../components/CategoryFilter'
 import { PlaceCard } from '../components/PlaceCard'
 import placesData from '../data/places.json'
@@ -31,6 +32,7 @@ function normalize(s: string): string {
 }
 
 export function HomePage() {
+  const [showOnboarding, setShowOnboarding] = useState(() => !hasSeenOnboarding())
   const [query, setQuery] = useState('')
   const [selectedCategory, setSelectedCategory] = useState('all')
 
@@ -45,7 +47,11 @@ export function HomePage() {
   const nearMePlaces = ALL_PLACES.slice(0, 5)
 
   return (
-    <div className="home-page">
+    <>
+      {showOnboarding && (
+        <OnboardingModal onDismiss={() => setShowOnboarding(false)} />
+      )}
+      <div className="home-page">
       <header className="home-page__header">
         <span className="home-page__app-name">The Imperial Chronicler</span>
       </header>
@@ -128,5 +134,6 @@ export function HomePage() {
         </>
       )}
     </div>
+    </>
   )
 }
