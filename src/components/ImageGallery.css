@@ -1,0 +1,23 @@
+.image-gallery {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: var(--space-sm);
+  padding: 0 var(--space-md) var(--space-md);
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.image-gallery::-webkit-scrollbar {
+  display: none;
+}
+
+.image-gallery__item {
+  flex-shrink: 0;
+  width: 75vw;
+  max-width: 320px;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+  scroll-snap-align: start;
+}
