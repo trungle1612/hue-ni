@@ -1,19 +1,10 @@
 import { useState } from 'react'
-import { CategoryFilter, type FilterOption } from '../components/CategoryFilter'
+import { CategoryFilter } from '../components/CategoryFilter'
 import { PlaceCard } from '../components/PlaceCard'
 import placesData from '../data/places.json'
 import type { Place } from '../types'
+import { FILTER_OPTIONS } from '../data/constants'
 import './HeritagePage.css'
-
-const FILTER_OPTIONS: FilterOption[] = [
-  { value: 'all', label: 'Tất cả' },
-  { value: 'tomb', label: 'Lăng tẩm' },
-  { value: 'landmark', label: 'Di tích' },
-  { value: 'cafe', label: 'Cà phê' },
-  { value: 'food', label: 'Ẩm thực' },
-  { value: 'homestay', label: 'Homestay' },
-  { value: 'service', label: 'Dịch vụ' },
-]
 
 const ALL_PLACES = placesData.places as Place[]
 

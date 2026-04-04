@@ -1,15 +1,7 @@
 import { useNavigate } from 'react-router-dom'
 import type { Place } from '../types'
+import { CATEGORY_LABELS } from '../data/constants'
 import './PlaceCard.css'
-
-const CATEGORY_LABELS: Record<string, string> = {
-  tomb: 'Lăng tẩm',
-  landmark: 'Di tích',
-  cafe: 'Cà phê',
-  food: 'Ẩm thực',
-  homestay: 'Homestay',
-  service: 'Dịch vụ',
-}
 
 interface PlaceCardProps {
   place: Place

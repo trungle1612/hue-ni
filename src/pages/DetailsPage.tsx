@@ -3,16 +3,8 @@ import { ImageGallery } from '../components/ImageGallery'
 import { useMyTrip } from '../hooks/useMyTrip'
 import placesData from '../data/places.json'
 import type { Place } from '../types'
+import { CATEGORY_LABELS } from '../data/constants'
 import './DetailsPage.css'
-
-const CATEGORY_LABELS: Record<string, string> = {
-  tomb: 'Lăng tẩm',
-  landmark: 'Di tích',
-  cafe: 'Cà phê',
-  food: 'Ẩm thực',
-  homestay: 'Homestay',
-  service: 'Dịch vụ',
-}
 
 const ALL_PLACES = placesData.places as Place[]
 

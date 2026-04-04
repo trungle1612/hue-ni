@@ -15,7 +15,6 @@ function App() {
           <Route path="my-trip" element={<MyTripPage />} />
         </Route>
         <Route path="details/:id" element={<DetailsPage />} />
-        <Route path="heritage/:id" element={<DetailsPage />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </BrowserRouter>
