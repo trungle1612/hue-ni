@@ -1,0 +1,104 @@
+.home-page__header {
+  background: var(--color-primary);
+  padding: var(--space-lg) var(--space-md) var(--space-md);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home-page__app-name {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--color-on-primary);
+  letter-spacing: -0.01em;
+}
+
+.home-page__search-wrap {
+  padding: var(--space-md) var(--space-md) 0;
+}
+
+.home-page__search {
+  width: 100%;
+  padding: 0.75rem var(--space-md);
+  background: var(--color-surface-container-highest);
+  border: none;
+  border-radius: var(--radius-full);
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  color: var(--color-on-surface);
+  outline: none;
+}
+
+.home-page__search::placeholder {
+  color: var(--color-on-surface-variant);
+}
+
+.home-page__section {
+  margin-top: var(--space-lg);
+}
+
+.home-page__section-header {
+  padding: 0 var(--space-md) var(--space-sm);
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-sm);
+}
+
+.home-page__section-title {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-on-surface);
+}
+
+.home-page__section-subtitle {
+  font-size: 0.75rem;
+  color: var(--color-on-surface-variant);
+}
+
+/* Horizontal scroll row */
+.home-page__scroll-row {
+  display: flex;
+  gap: var(--space-md);
+  overflow-x: auto;
+  padding: 0 var(--space-md) var(--space-md);
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.home-page__scroll-row::-webkit-scrollbar {
+  display: none;
+}
+
+/* Collections */
+.home-page__collection {
+  margin-top: var(--space-xl);
+}
+
+.home-page__collection-banner {
+  margin: 0 var(--space-md) var(--space-md);
+  background: var(--color-surface-container);
+  border-radius: var(--radius-lg);
+  padding: var(--space-md) var(--space-lg);
+}
+
+.home-page__collection-title {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--color-on-surface);
+  margin-bottom: var(--space-xs);
+}
+
+.home-page__collection-desc {
+  font-size: 0.8rem;
+  color: var(--color-on-surface-variant);
+}
+
+.home-page__empty {
+  padding: var(--space-xl) var(--space-md);
+  text-align: center;
+  color: var(--color-on-surface-variant);
+  font-size: 0.9rem;
+}
