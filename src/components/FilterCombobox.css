@@ -1,0 +1,154 @@
+/* ── FilterCombobox ── */
+
+.fcb {
+  position: relative;
+  display: inline-flex;
+  flex-shrink: 0;
+}
+
+/* ── Trigger chip ── */
+
+.fcb__trigger {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 0.45rem 0.7rem 0.45rem 0.85rem;
+  background: rgba(253, 246, 236, 0.92);
+  border-radius: var(--radius-full);
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--color-on-surface);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 2px 8px rgba(43, 22, 19, 0.1);
+  outline: 1.5px solid rgba(107, 78, 61, 0.15);
+  outline-offset: -1.5px;
+  transition: background 0.15s, color 0.15s, outline-color 0.15s, transform 0.1s,
+              box-shadow 0.15s;
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.fcb__trigger:active {
+  transform: scale(0.96);
+}
+
+/* Active: a non-"all" category is selected */
+.fcb--active .fcb__trigger {
+  background: var(--color-primary);
+  outline-color: var(--color-primary);
+  color: #ffffff;
+  box-shadow: 0 3px 12px rgba(125, 0, 16, 0.35);
+}
+
+.fcb__trigger-icon {
+  font-size: 0.9rem;
+  line-height: 1;
+}
+
+.fcb__trigger-label {
+  /* explicit to prevent layout shift */
+  display: inline-block;
+}
+
+.fcb__chevron {
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+  opacity: 0.65;
+  transition: transform 0.18s ease;
+}
+
+.fcb--active .fcb__chevron {
+  opacity: 0.85;
+}
+
+.fcb--open .fcb__chevron {
+  transform: rotate(180deg);
+}
+
+/* ── Dropdown panel ── */
+
+.fcb__panel {
+  position: absolute;
+  top: calc(100% + var(--space-sm));
+  left: 0;
+  z-index: 450;
+  min-width: 200px;
+  list-style: none;
+  margin: 0;
+  padding: var(--space-sm) 0;
+
+  background: rgba(253, 246, 236, 0.95);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: var(--radius-lg);
+  box-shadow:
+    0px 20px 40px rgba(43, 22, 19, 0.1),
+    0 0 0 1px rgba(107, 78, 61, 0.1);
+
+  /* Animation base */
+  opacity: 0;
+  transform: scale(0.95) translateY(-4px);
+  transform-origin: top left;
+  pointer-events: none;
+  transition:
+    opacity 0.18s ease,
+    transform 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.fcb__panel--open {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+  pointer-events: auto;
+}
+
+/* ── Options ── */
+
+.fcb__option {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: 0.6rem var(--space-md);
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--color-on-surface);
+  cursor: pointer;
+  transition: background 0.1s;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+.fcb__option:hover,
+.fcb__option:focus {
+  background: rgba(125, 0, 16, 0.07);
+}
+
+.fcb__option--selected {
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+.fcb__option-icon {
+  font-size: 1rem;
+  line-height: 1;
+  width: 1.25rem;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.fcb__option-label {
+  flex: 1;
+}
+
+.fcb__option-check {
+  font-size: 0.7rem;
+  color: var(--color-primary);
+  font-weight: 800;
+  margin-left: auto;
+  flex-shrink: 0;
+}

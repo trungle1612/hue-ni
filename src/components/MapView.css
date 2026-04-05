@@ -2,6 +2,7 @@
 .map-view {
   width: 100%;
   height: 100%;
+  isolation: isolate; /* Contain Leaflet's internal z-index panes */
 }
 
 /* Green tint overlay on tiles — matches the imperial map aesthetic */

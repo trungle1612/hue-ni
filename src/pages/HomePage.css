@@ -81,7 +81,7 @@
   top: var(--space-md);
   left: 0;
   right: 0;
-  z-index: 400;
+  z-index: 1000;
   display: flex;
   gap: var(--space-sm);
   overflow-x: auto;
@@ -101,7 +101,6 @@
   gap: 5px;
   padding: 0.45rem 0.85rem;
   background: rgba(253, 246, 236, 0.92);
-  border: 1.5px solid rgba(107, 78, 61, 0.15);
   border-radius: var(--radius-full);
   font-family: var(--font-sans);
   font-size: 0.78rem;
@@ -110,9 +109,12 @@
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   box-shadow: 0 2px 8px rgba(43, 22, 19, 0.1);
-  transition: background 0.15s, color 0.15s, border-color 0.15s, transform 0.1s;
+  outline: 1.5px solid rgba(107, 78, 61, 0.15);
+  outline-offset: -1.5px;
+  transition: background 0.15s, color 0.15s, transform 0.1s, box-shadow 0.15s;
   white-space: nowrap;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .home-map-chip:active {
@@ -121,7 +123,7 @@
 
 .home-map-chip--active {
   background: var(--color-primary);
-  border-color: var(--color-primary);
+  outline-color: var(--color-primary);
   color: #ffffff;
   box-shadow: 0 3px 12px rgba(125, 0, 16, 0.35);
 }

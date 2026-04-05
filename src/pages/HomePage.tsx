@@ -11,13 +11,11 @@ import './HomePage.css'
 const ALL_PLACES = placesData.places as Place[]
 
 const MAP_FILTER_OPTIONS = [
-  { value: 'all',       icon: '🗺️',  label: 'Tất cả' },
-  { value: 'tomb',      icon: '⛩️',  label: 'Lăng tẩm' },
-  { value: 'landmark',  icon: '🏛️',  label: 'Di tích' },
-  { value: 'cafe',      icon: '☕',  label: 'Cà phê' },
+  { value: 'all',      icon: '🗺️', label: 'Tất cả' },
+  { value: 'cafe',     icon: '☕',  label: 'Cà phê' },
+  { value: 'homestay', icon: '🏡', label: 'Homestay' },
   { value: 'food',      icon: '🍜',  label: 'Ẩm thực' },
-  { value: 'homestay',  icon: '🏡',  label: 'Homestay' },
-  { value: 'service',   icon: '🛎️',  label: 'Dịch vụ' },
+  { value: 'tomb',      icon: '⛩️',  label: 'Lăng tẩm' },
 ]
 
 export function HomePage() {
