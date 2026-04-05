@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import type { Place } from '../types'
@@ -46,7 +46,11 @@ export function MapView({ places, selectedPlace, onSelectPlace }: MapViewProps) 
   const containerRef = useRef<HTMLDivElement>(null)
   const mapRef = useRef<L.Map | null>(null)
   const markersRef = useRef<Map<string, L.Marker>>(new Map())
+  const locationMarkerRef = useRef<L.Marker | null>(null)
   const onSelectRef = useRef(onSelectPlace)
+
+  const [isLocating, setIsLocating] = useState(false)
+  const [locateError, setLocateError] = useState(false)
 
   // Keep callback ref current without re-running effects
   useEffect(() => {
@@ -126,5 +130,79 @@ export function MapView({ places, selectedPlace, onSelectPlace }: MapViewProps) 
     }
   }, [selectedPlace, places])
 
-  return <div ref={containerRef} className="map-view" />
+  function handleLocate() {
+    if (!navigator.geolocation || isLocating) return
+    setIsLocating(true)
+    setLocateError(false)
+
+    navigator.geolocation.getCurrentPosition(
+      pos => {
+        const { latitude, longitude } = pos.coords
+        const map = mapRef.current
+        if (!map) return
+
+        locationMarkerRef.current?.remove()
+        locationMarkerRef.current = L.marker([latitude, longitude], {
+          icon: L.divIcon({
+            html: '<div class="map-user-dot"><div class="map-user-dot__ring"></div><div class="map-user-dot__core"></div></div>',
+            className: '',
+            iconSize: [40, 40],
+            iconAnchor: [20, 20],
+          }),
+          zIndexOffset: 1000,
+        }).addTo(map)
+
+        map.flyTo([latitude, longitude], 15, { duration: 1.2 })
+        setIsLocating(false)
+      },
+      () => {
+        setIsLocating(false)
+        setLocateError(true)
+        setTimeout(() => setLocateError(false), 2000)
+      },
+      { timeout: 10000, maximumAge: 30000 }
+    )
+  }
+
+  const btnClass = [
+    'map-locate-btn',
+    isLocating ? 'map-locate-btn--loading' : '',
+    locateError ? 'map-locate-btn--error' : '',
+  ].filter(Boolean).join(' ')
+
+  return (
+    <div className="map-view-wrapper">
+      <div ref={containerRef} className="map-view" />
+
+      <button
+        className={btnClass}
+        onClick={handleLocate}
+        aria-label="Vị trí của tôi"
+        type="button"
+      >
+        {isLocating ? (
+          <svg className="map-locate-spinner" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
+              strokeDasharray="28 56" />
+          </svg>
+        ) : locateError ? (
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
+            strokeLinecap="round" aria-hidden="true" width="20" height="20">
+            <line x1="12" y1="8" x2="12" y2="12" />
+            <line x1="12" y1="16" x2="12.01" y2="16" />
+            <circle cx="12" cy="12" r="9" />
+          </svg>
+        ) : (
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
+            strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" width="20" height="20">
+            <circle cx="12" cy="12" r="3" />
+            <line x1="12" y1="2" x2="12" y2="6" />
+            <line x1="12" y1="18" x2="12" y2="22" />
+            <line x1="2" y1="12" x2="6" y2="12" />
+            <line x1="18" y1="12" x2="22" y2="12" />
+          </svg>
+        )}
+      </button>
+    </div>
+  )
 }
