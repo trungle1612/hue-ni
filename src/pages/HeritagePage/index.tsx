@@ -1,10 +1,10 @@
 import { useState } from 'react'
-import { CategoryFilter } from '../components/CategoryFilter'
-import { PlaceCard } from '../components/PlaceCard'
-import placesData from '../data/places.json'
-import type { Place } from '../types'
-import { FILTER_OPTIONS } from '../data/constants'
-import './HeritagePage.css'
+import { CategoryFilter } from '../../components/CategoryFilter'
+import { PlaceCard } from '../../components/PlaceCard'
+import placesData from '../../data/places.json'
+import type { Place } from '../../types'
+import { FILTER_OPTIONS } from '../../data/constants'
+import './style.css'
 
 const ALL_PLACES = placesData.places as Place[]
 

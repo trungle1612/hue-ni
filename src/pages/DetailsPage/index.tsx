@@ -1,10 +1,10 @@
 import { useParams, useNavigate } from 'react-router-dom'
-import { ImageGallery } from '../components/ImageGallery'
-import { useMyTrip } from '../hooks/useMyTrip'
-import placesData from '../data/places.json'
-import type { Place } from '../types'
-import { CATEGORY_LABELS } from '../data/constants'
-import './DetailsPage.css'
+import { ImageGallery } from '../../components/ImageGallery'
+import { useMyTrip } from '../../hooks/useMyTrip'
+import placesData from '../../data/places.json'
+import type { Place } from '../../types'
+import { CATEGORY_LABELS } from '../../data/constants'
+import './style.css'
 
 const ALL_PLACES = placesData.places as Place[]
 

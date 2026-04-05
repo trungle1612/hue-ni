@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { OnboardingModal } from '../components/OnboardingModal'
-import { MapView } from '../components/MapView'
-import { hasSeenOnboarding } from '../utils/onboarding'
-import placesData from '../data/places.json'
-import type { Place } from '../types'
-import { CATEGORY_LABELS } from '../data/constants'
-import './HomePage.css'
+import { OnboardingModal } from '../../components/OnboardingModal'
+import { MapView } from '../../components/MapView'
+import { hasSeenOnboarding } from '../../utils/onboarding'
+import placesData from '../../data/places.json'
+import type { Place } from '../../types'
+import { CATEGORY_LABELS } from '../../data/constants'
+import './style.css'
 
 const ALL_PLACES = placesData.places as Place[]
 

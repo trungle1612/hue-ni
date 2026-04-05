@@ -1,8 +1,8 @@
 import { useNavigate } from 'react-router-dom'
-import { useMyTrip } from '../hooks/useMyTrip'
-import placesData from '../data/places.json'
-import type { Place } from '../types'
-import './MyTripPage.css'
+import { useMyTrip } from '../../hooks/useMyTrip'
+import placesData from '../../data/places.json'
+import type { Place } from '../../types'
+import './style.css'
 
 const ALL_PLACES = placesData.places as Place[]
 
