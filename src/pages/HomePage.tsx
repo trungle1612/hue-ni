@@ -52,7 +52,7 @@ export function HomePage() {
             <span />
             <span />
           </button>
-          <span className="home-map-header__title">The Imperial Chronicler</span>
+          <span className="home-map-header__title">Huế nì</span>
           <div className="home-map-header__avatar" aria-hidden="true">
             <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="16" cy="32" r="12" fill="rgba(255,255,255,0.4)" />
