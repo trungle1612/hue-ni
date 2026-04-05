@@ -47,17 +47,14 @@ export function HomePage() {
       <div className="home-map-page">
         {/* ── Header ── */}
         <header className="home-map-header">
-          <button className="home-map-header__menu" aria-label="Menu">
-            <span />
-            <span />
-            <span />
-          </button>
-          <span className="home-map-header__title">Huế nì</span>
-          <div className="home-map-header__avatar" aria-hidden="true">
-            <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="16" cy="32" r="12" fill="rgba(255,255,255,0.4)" />
-              <circle cx="16" cy="13" r="7" fill="rgba(255,255,255,0.9)" />
-            </svg>
+          <img
+            src="/images/hue-ni-logo.png"
+            alt="Huế nì"
+            className="home-map-header__logo"
+          />
+          <div className="home-map-header__brand">
+            <p className="home-map-header__overline">Khám phá cố đô</p>
+            <span className="home-map-header__title">Huế nì</span>
           </div>
         </header>
 

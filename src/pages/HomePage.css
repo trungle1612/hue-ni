@@ -11,58 +11,55 @@
 
 .home-map-header {
   flex-shrink: 0;
-  background: var(--color-primary);
+  /* Warm cream — editorial masthead contrasting the dark map below */
+  background: var(--color-surface-container-lowest);
   padding: var(--space-lg) var(--space-md) var(--space-md);
   display: flex;
   align-items: center;
-  gap: var(--space-md);
+  gap: var(--space-sm);
   z-index: 10;
+  /* Tonal lift — no hard border */
+  box-shadow:
+    0 1px 0 rgba(107, 78, 61, 0.08),
+    0 4px 20px rgba(43, 22, 19, 0.07);
 }
 
-/* Hamburger menu */
-.home-map-header__menu {
+.home-map-header__logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  flex-shrink: 0;
+  /* Natural imperial red — no white inversion needed on cream bg */
+  filter: drop-shadow(0 1px 2px rgba(43, 22, 19, 0.12));
+}
+
+/* Brand lockup: overline + title stacked */
+.home-map-header__brand {
   display: flex;
   flex-direction: column;
-  gap: 4px;
-  padding: 4px;
-  flex-shrink: 0;
+  gap: 2px;
 }
 
-.home-map-header__menu span {
-  display: block;
-  width: 20px;
-  height: 2px;
-  background: rgba(255, 255, 255, 0.85);
-  border-radius: 2px;
-}
-
-.home-map-header__title {
-  flex: 1;
-  font-family: var(--font-serif);
-  font-size: 1.15rem;
+/* Gold overline — dark gold readable on cream */
+.home-map-header__overline {
+  font-family: var(--font-sans);
+  font-size: 0.57rem;
   font-weight: 700;
-  color: var(--color-on-primary);
-  letter-spacing: -0.01em;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--color-secondary);
+  line-height: 1;
 }
 
-.home-map-header__avatar {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.2);
-  flex-shrink: 0;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.home-map-header__avatar svg {
-  width: 100%;
-  height: 100%;
+/* Imperial red italic serif — the logo and title share the same hue */
+.home-map-header__title {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  font-weight: 700;
+  font-style: italic;
+  color: var(--color-primary);
+  letter-spacing: -0.02em;
+  line-height: 1;
 }
 
 /* ── Map area (fills remaining height) ── */
