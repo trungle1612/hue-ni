@@ -23,3 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 .superpowers/
+
+docs
+.claude/settings.local.json

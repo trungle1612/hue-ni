@@ -1,131 +1,155 @@
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { OnboardingModal } from '../components/OnboardingModal'
+import { MapView } from '../components/MapView'
 import { hasSeenOnboarding } from '../utils/onboarding'
-import { CategoryFilter } from '../components/CategoryFilter'
-import { PlaceCard } from '../components/PlaceCard'
 import placesData from '../data/places.json'
-import type { Place, Collection } from '../types'
-import { FILTER_OPTIONS } from '../data/constants'
+import type { Place } from '../types'
+import { CATEGORY_LABELS } from '../data/constants'
 import './HomePage.css'
 
 const ALL_PLACES = placesData.places as Place[]
-const ALL_COLLECTIONS = placesData.collections as Collection[]
 
-// Pre-computed at module level (static data — no need to recompute on render)
-const COLLECTION_PLACES = new Map(
-  ALL_COLLECTIONS.map(c => [
-    c.id,
-    ALL_PLACES.filter(p => p.collection === c.id),
-  ])
-)
-
-function normalize(s: string): string {
-  return s.normalize('NFD').replace(/\p{Diacritic}/gu, '').toLowerCase()
-}
+const MAP_FILTER_OPTIONS = [
+  { value: 'all',       icon: '🗺️',  label: 'Tất cả' },
+  { value: 'tomb',      icon: '⛩️',  label: 'Lăng tẩm' },
+  { value: 'landmark',  icon: '🏛️',  label: 'Di tích' },
+  { value: 'cafe',      icon: '☕',  label: 'Cà phê' },
+  { value: 'food',      icon: '🍜',  label: 'Ẩm thực' },
+  { value: 'homestay',  icon: '🏡',  label: 'Homestay' },
+  { value: 'service',   icon: '🛎️',  label: 'Dịch vụ' },
+]
 
 export function HomePage() {
+  const navigate = useNavigate()
   const [showOnboarding, setShowOnboarding] = useState(() => !hasSeenOnboarding())
-  const [query, setQuery] = useState('')
   const [selectedCategory, setSelectedCategory] = useState('all')
+  const [selectedPlace, setSelectedPlace] = useState<Place | null>(null)
 
-  const searchResults = query.trim().length > 0
-    ? ALL_PLACES.filter(p =>
-        normalize(p.name).includes(normalize(query)) ||
-        p.tags.some(t => normalize(t).includes(normalize(query)))
-      )
-    : null
+  const visiblePlaces =
+    selectedCategory === 'all'
+      ? ALL_PLACES
+      : ALL_PLACES.filter(p => p.category === selectedCategory)
 
-  // MVP placeholder: no geolocation yet; show first 5 entries
-  const nearMePlaces = ALL_PLACES.slice(0, 5)
+  function handleSelectPlace(place: Place | null) {
+    setSelectedPlace(place)
+  }
+
+  function handleExplore() {
+    if (!selectedPlace) return
+    navigate(`/details/${selectedPlace.id}`)
+  }
 
   return (
     <>
       {showOnboarding && (
         <OnboardingModal onDismiss={() => setShowOnboarding(false)} />
       )}
-      <div className="home-page">
-      <header className="home-page__header">
-        <span className="home-page__app-name">The Imperial Chronicler</span>
-      </header>
 
-      {/* Search */}
-      <div className="home-page__search-wrap">
-        <input
-          className="home-page__search"
-          type="search"
-          placeholder="Tìm địa điểm, ẩm thực..."
-          value={query}
-          onChange={e => setQuery(e.target.value)}
-          aria-label="Tìm kiếm địa điểm"
-        />
-      </div>
-
-      {/* Search results */}
-      {searchResults !== null && (
-        <div className="home-page__section">
-          <div className="home-page__section-header">
-            <h2 className="home-page__section-title">Kết quả tìm kiếm</h2>
-            <span className="home-page__section-subtitle">{searchResults.length} nơi</span>
+      <div className="home-map-page">
+        {/* ── Header ── */}
+        <header className="home-map-header">
+          <button className="home-map-header__menu" aria-label="Menu">
+            <span />
+            <span />
+            <span />
+          </button>
+          <span className="home-map-header__title">The Imperial Chronicler</span>
+          <div className="home-map-header__avatar" aria-hidden="true">
+            <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="16" cy="32" r="12" fill="rgba(255,255,255,0.4)" />
+              <circle cx="16" cy="13" r="7" fill="rgba(255,255,255,0.9)" />
+            </svg>
           </div>
-          {searchResults.length === 0 ? (
-            <p className="home-page__empty">Không tìm thấy địa điểm phù hợp.</p>
-          ) : (
-            <div className="home-page__scroll-row">
-              {searchResults.map(place => (
-                <PlaceCard key={place.id} place={place} variant="horizontal" />
-              ))}
+        </header>
+
+        {/* ── Map area ── */}
+        <div className="home-map-area">
+          {/* Category filter — floats over map */}
+          <div className="home-map-filters" role="group" aria-label="Lọc địa điểm">
+            {MAP_FILTER_OPTIONS.map(opt => (
+              <button
+                key={opt.value}
+                className={`home-map-chip${selectedCategory === opt.value ? ' home-map-chip--active' : ''}`}
+                onClick={() => {
+                  setSelectedCategory(opt.value)
+                  setSelectedPlace(null)
+                }}
+                aria-pressed={selectedCategory === opt.value}
+              >
+                <span className="home-map-chip__icon">{opt.icon}</span>
+                {opt.label}
+              </button>
+            ))}
+          </div>
+
+          {/* Leaflet map */}
+          <MapView
+            places={visiblePlaces}
+            selectedPlace={selectedPlace}
+            onSelectPlace={handleSelectPlace}
+          />
+
+          {/* ── Bottom place sheet ── */}
+          {selectedPlace && (
+            <div className="home-map-sheet" role="dialog" aria-label={selectedPlace.name}>
+              <div className="home-map-sheet__drag-handle" />
+
+              <div className="home-map-sheet__body">
+                {/* Thumbnail */}
+                <div className="home-map-sheet__thumb-wrap">
+                  <img
+                    className="home-map-sheet__thumb"
+                    src={selectedPlace.coverImage}
+                    alt={selectedPlace.name}
+                    loading="lazy"
+                  />
+                </div>
+
+                {/* Info */}
+                <div className="home-map-sheet__info">
+                  <span className="home-map-sheet__category">
+                    {CATEGORY_LABELS[selectedPlace.category] ?? selectedPlace.category}
+                  </span>
+
+                  <h2 className="home-map-sheet__name">{selectedPlace.name}</h2>
+
+                  <div className="home-map-sheet__meta">
+                    <span className="home-map-sheet__rating">★ {selectedPlace.rating}</span>
+                  </div>
+
+                  <p className="home-map-sheet__address">
+                    <span className="home-map-sheet__address-icon">📍</span>
+                    {selectedPlace.address}
+                  </p>
+
+                  <div className="home-map-sheet__actions">
+                    <button
+                      className="home-map-sheet__cta"
+                      onClick={handleExplore}
+                      aria-label={`Khám phá ${selectedPlace.name}`}
+                    >
+                      Khám phá chi tiết
+                    </button>
+                    <button
+                      className="home-map-sheet__share"
+                      onClick={() => {
+                        if (navigator.share) {
+                          navigator.share({ title: selectedPlace.name, text: selectedPlace.vibe })
+                            .catch(() => {/* user cancelled */})
+                        }
+                      }}
+                      aria-label="Chia sẻ"
+                    >
+                      ↗
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
           )}
         </div>
-      )}
-
-      {/* Category filter + Near Me (shown when not searching) */}
-      {searchResults === null && (
-        <>
-          <div className="home-page__section">
-            <CategoryFilter
-              options={FILTER_OPTIONS}
-              selected={selectedCategory}
-              onChange={setSelectedCategory}
-            />
-          </div>
-
-          <div className="home-page__section">
-            <div className="home-page__section-header">
-              <h2 className="home-page__section-title">Gần đây</h2>
-              <span className="home-page__section-subtitle">Những nơi đáng ghé</span>
-            </div>
-            <div className="home-page__scroll-row">
-              {(selectedCategory === 'all'
-                ? nearMePlaces
-                : ALL_PLACES.filter(p => p.category === selectedCategory).slice(0, 5)
-              ).map(place => (
-                <PlaceCard key={place.id} place={place} variant="horizontal" />
-              ))}
-            </div>
-          </div>
-
-          {/* Curated Collections */}
-          {ALL_COLLECTIONS.map(collection => {
-            const places = COLLECTION_PLACES.get(collection.id) ?? []
-            if (places.length === 0) return null
-            return (
-              <div key={collection.id} className="home-page__collection">
-                <div className="home-page__collection-banner">
-                  <h2 className="home-page__collection-title">{collection.title}</h2>
-                  <p className="home-page__collection-desc">{collection.description}</p>
-                </div>
-                <div className="home-page__scroll-row">
-                  {places.map(place => (
-                    <PlaceCard key={place.id} place={place} variant="horizontal" />
-                  ))}
-                </div>
-              </div>
-            )
-          })}
-        </>
-      )}
-    </div>
+      </div>
     </>
   )
 }
