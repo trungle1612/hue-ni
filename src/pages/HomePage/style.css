@@ -286,3 +286,39 @@
 .home-map-sheet__share:active {
   background: var(--color-surface-container);
 }
+
+.home-map-sheet__save {
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 1.5px solid var(--color-outline-variant);
+  background: var(--color-surface-container-low);
+  color: var(--color-on-surface);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.home-map-sheet__save svg {
+  width: 18px;
+  height: 18px;
+}
+
+.home-map-sheet__save:active {
+  background: var(--color-surface-container);
+}
+
+.home-map-sheet__save--saved {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #ffffff;
+  animation: sheet-save-pop 0.3s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+@keyframes sheet-save-pop {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}

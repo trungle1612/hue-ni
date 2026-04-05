@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom'
+import { useMyTripContext } from '../contexts/MyTripContext'
 import './BottomNav.css'
 
 function IconHome({ active }: { active: boolean }) {
@@ -48,6 +49,9 @@ const TABS = [
 ] as const
 
 export function BottomNav() {
+  const { savedIds } = useMyTripContext()
+  const tripCount = savedIds.length
+
   return (
     <nav className="bottom-nav" aria-label="Điều hướng chính">
       {TABS.map(tab => (
@@ -63,6 +67,9 @@ export function BottomNav() {
             <>
               <span className="bottom-nav__icon-wrap">
                 <tab.Icon active={isActive} />
+                {tab.to === '/my-trip' && tripCount > 0 && (
+                  <span className="bottom-nav__badge">{tripCount}</span>
+                )}
               </span>
               <span className="bottom-nav__label">{tab.label}</span>
             </>

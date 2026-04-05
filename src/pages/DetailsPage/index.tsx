@@ -1,6 +1,6 @@
 import { useParams, useNavigate } from 'react-router-dom'
 import { ImageGallery } from '../../components/ImageGallery'
-import { useMyTrip } from '../../hooks/useMyTrip'
+import { useMyTripContext } from '../../contexts/MyTripContext'
 import placesData from '../../data/places.json'
 import type { Place } from '../../types'
 import { CATEGORY_LABELS } from '../../data/constants'
@@ -11,7 +11,7 @@ const ALL_PLACES = placesData.places as Place[]
 export function DetailsPage() {
   const { id } = useParams<{ id: string }>()
   const navigate = useNavigate()
-  const { isSaved, addPlace, removePlace } = useMyTrip()
+  const { isSaved, addPlace, removePlace } = useMyTripContext()
 
   const place = ALL_PLACES.find(p => p.id === id)
 

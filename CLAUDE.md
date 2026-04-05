@@ -43,7 +43,7 @@ Types in `src/types/index.ts`. Categories: `tomb | landmark | cafe | food | home
 
 ### State
 
-One piece of cross-route state: saved-places list via `src/hooks/useMyTrip.ts` — reads/writes `localStorage` key `hue-ni-trip` (JSON array of place IDs). Called directly by any component that needs it (`PlaceCard`, `DetailsPage`, `MyTripPage`) — no context or global store.
+Saved-places list lives in `src/hooks/useMyTrip.ts` — reads/writes `localStorage` key `hue-ni-trip` (JSON array of place IDs). The hook is instantiated **once** inside `MyTripProvider` (`src/contexts/MyTripContext.tsx`), which wraps the entire app in `App.tsx`. All consumers (`BottomNav`, `PlaceCard`, `HomePage`, `MyTripPage`, `DetailsPage`) call `useMyTripContext()` — never `useMyTrip()` directly — so bookmark state is shared and updates propagate everywhere (e.g. the BottomNav badge on `/my-trip`).
 
 Onboarding GPS modal gated by `localStorage` key `hue-ni-onboarded` via `src/utils/onboarding.ts`.
 
@@ -65,7 +65,7 @@ Tile pane gets `filter: hue-rotate(112deg) saturate(0.6) brightness(0.8)` in `Ma
 
 Two variants: `vertical` (Heritage list, full-width, 2-line name clamp) and `horizontal` (Home carousel, 200px, single-line truncated name, vibe hidden).
 
-Both variants include a floating bookmark button (top-right of image) that calls `useMyTrip()` internally with `e.stopPropagation()` to prevent card navigation. Saved state: filled red bookmark + spring-pop animation. Unsaved: outline bookmark on dark glassmorphic circle.
+Both variants include a floating bookmark button (top-right of image) that calls `useMyTripContext()` with `e.stopPropagation()` to prevent card navigation. Saved state: filled red bookmark + spring-pop animation. Unsaved: outline bookmark on dark glassmorphic circle.
 
 ### Design System (enforced — see `designs/DESIGN.md`)
 
@@ -79,7 +79,17 @@ Key tokens: `--color-primary: #7d0010`, `--color-secondary: #735c00`, `--color-t
 
 ### Styling
 
-Global tokens in `src/index.css`. Each component/page has a co-located `.css` file using BEM naming. No CSS-in-JS, no Tailwind.
+Global tokens in `src/index.css`. Each component has a co-located `.css` file using BEM naming. Pages use a folder-per-page structure with `index.tsx` + `style.css`:
+
+```
+src/pages/
+  HomePage/       index.tsx + style.css
+  HeritagePage/   index.tsx + style.css
+  MyTripPage/     index.tsx + style.css
+  DetailsPage/    index.tsx + style.css
+```
+
+`App.tsx` imports pages as `'./pages/HomePage'` — TypeScript resolves `index.tsx` automatically. No CSS-in-JS, no Tailwind.
 
 ### Tests
 

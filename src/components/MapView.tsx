@@ -40,9 +40,10 @@ interface MapViewProps {
   places: Place[]
   selectedPlace: Place | null
   onSelectPlace: (place: Place | null) => void
+  sheetOpen?: boolean
 }
 
-export function MapView({ places, selectedPlace, onSelectPlace }: MapViewProps) {
+export function MapView({ places, selectedPlace, onSelectPlace, sheetOpen = false }: MapViewProps) {
   const containerRef = useRef<HTMLDivElement>(null)
   const mapRef = useRef<L.Map | null>(null)
   const markersRef = useRef<Map<string, L.Marker>>(new Map())
@@ -171,7 +172,7 @@ export function MapView({ places, selectedPlace, onSelectPlace }: MapViewProps) 
   ].filter(Boolean).join(' ')
 
   return (
-    <div className="map-view-wrapper">
+    <div className={`map-view-wrapper${sheetOpen ? ' map-view-wrapper--sheet-open' : ''}`}>
       <div ref={containerRef} className="map-view" />
 
       <button

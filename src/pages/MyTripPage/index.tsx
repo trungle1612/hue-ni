@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom'
-import { useMyTrip } from '../../hooks/useMyTrip'
+import { useMyTripContext } from '../../contexts/MyTripContext'
 import placesData from '../../data/places.json'
 import type { Place } from '../../types'
 import './style.css'
@@ -8,7 +8,7 @@ const ALL_PLACES = placesData.places as Place[]
 
 export function MyTripPage() {
   const navigate = useNavigate()
-  const { savedIds, removePlace, clearAll } = useMyTrip()
+  const { savedIds, removePlace, clearAll } = useMyTripContext()
 
   const savedPlaces = savedIds
     .map(id => ALL_PLACES.find(p => p.id === id))

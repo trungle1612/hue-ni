@@ -4,9 +4,11 @@ import { HomePage } from './pages/HomePage'
 import { HeritagePage } from './pages/HeritagePage'
 import { MyTripPage } from './pages/MyTripPage'
 import { DetailsPage } from './pages/DetailsPage'
+import { MyTripProvider } from './contexts/MyTripContext'
 
 function App() {
   return (
+    <MyTripProvider>
     <BrowserRouter>
       <Routes>
         <Route element={<AppLayout />}>
@@ -18,6 +20,7 @@ function App() {
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </BrowserRouter>
+    </MyTripProvider>
   )
 }
 

@@ -38,6 +38,7 @@
 
 /* Icon pill — lights up on active */
 .bottom-nav__icon-wrap {
+  position: relative;
   width: 48px;
   height: 28px;
   display: flex;
@@ -74,4 +75,22 @@
 
 .bottom-nav__tab--active .bottom-nav__label {
   font-weight: 700;
+}
+
+.bottom-nav__badge {
+  position: absolute;
+  top: -2px;
+  right: 4px;
+  min-width: 16px;
+  height: 16px;
+  padding: 0 4px;
+  border-radius: var(--radius-full);
+  background: var(--color-primary);
+  color: #ffffff;
+  font-family: var(--font-sans);
+  font-size: 0.6rem;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+  pointer-events: none;
 }

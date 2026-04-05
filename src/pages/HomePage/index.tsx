@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { OnboardingModal } from '../../components/OnboardingModal'
 import { MapView } from '../../components/MapView'
 import { hasSeenOnboarding } from '../../utils/onboarding'
+import { useMyTripContext } from '../../contexts/MyTripContext'
 import placesData from '../../data/places.json'
 import type { Place } from '../../types'
 import { CATEGORY_LABELS } from '../../data/constants'
@@ -18,8 +19,11 @@ const MAP_FILTER_OPTIONS = [
   { value: 'tomb',      icon: '⛩️',  label: 'Lăng tẩm' },
 ]
 
+const BOOKMARK_PATH = 'M5 3h14a1 1 0 011 1v17.28a.5.5 0 01-.8.4L12 17.22l-7.2 4.46A.5.5 0 014 21.28V4a1 1 0 011-1z'
+
 export function HomePage() {
   const navigate = useNavigate()
+  const { isSaved, addPlace, removePlace } = useMyTripContext()
   const [showOnboarding, setShowOnboarding] = useState(() => !hasSeenOnboarding())
   const [selectedCategory, setSelectedCategory] = useState('all')
   const [selectedPlace, setSelectedPlace] = useState<Place | null>(null)
@@ -83,6 +87,7 @@ export function HomePage() {
             places={visiblePlaces}
             selectedPlace={selectedPlace}
             onSelectPlace={handleSelectPlace}
+            sheetOpen={selectedPlace !== null}
           />
 
           {/* ── Bottom place sheet ── */}
@@ -125,6 +130,23 @@ export function HomePage() {
                       aria-label={`Khám phá ${selectedPlace.name}`}
                     >
                       Khám phá chi tiết
+                    </button>
+                    <button
+                      className={`home-map-sheet__save${isSaved(selectedPlace.id) ? ' home-map-sheet__save--saved' : ''}`}
+                      onClick={() => isSaved(selectedPlace.id) ? removePlace(selectedPlace.id) : addPlace(selectedPlace.id)}
+                      aria-label={isSaved(selectedPlace.id) ? 'Bỏ lưu' : 'Lưu địa điểm'}
+                      type="button"
+                    >
+                      {isSaved(selectedPlace.id) ? (
+                        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                          <path d={BOOKMARK_PATH} />
+                        </svg>
+                      ) : (
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                          strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                          <path d={BOOKMARK_PATH} />
+                        </svg>
+                      )}
                     </button>
                     <button
                       className="home-map-sheet__share"

@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom'
 import type { Place } from '../types'
 import { CATEGORY_LABELS } from '../data/constants'
-import { useMyTrip } from '../hooks/useMyTrip'
+import { useMyTripContext } from '../contexts/MyTripContext'
 import './PlaceCard.css'
 
 interface PlaceCardProps {
@@ -25,7 +25,7 @@ function BookmarkIcon({ filled }: { filled: boolean }) {
 
 export function PlaceCard({ place, variant = 'vertical' }: PlaceCardProps) {
   const navigate = useNavigate()
-  const { isSaved, addPlace, removePlace } = useMyTrip()
+  const { isSaved, addPlace, removePlace } = useMyTripContext()
   const saved = isSaved(place.id)
 
   function handleClick() {

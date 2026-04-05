@@ -92,8 +92,13 @@
   align-items: center;
   justify-content: center;
   color: var(--color-primary);
-  transition: transform 0.15s, background 0.15s, color 0.15s;
+  transition: transform 0.15s, background 0.15s, color 0.15s, bottom 0.28s cubic-bezier(0.32, 0, 0.2, 1);
   -webkit-tap-highlight-color: transparent;
+}
+
+/* Lift locate button above the place sheet when it's visible */
+.map-view-wrapper--sheet-open .map-locate-btn {
+  bottom: calc(185px + var(--space-lg));
 }
 
 .map-locate-btn:active {
