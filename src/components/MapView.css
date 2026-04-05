@@ -27,6 +27,7 @@
 }
 
 .map-pin__bubble {
+  position: relative;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -44,6 +45,24 @@
 
 .map-pin__bubble:hover {
   transform: scale(1.1);
+}
+
+/* Saved pin — gold dot badge */
+.map-pin--saved .map-pin__bubble {
+  border-color: rgba(115, 92, 0, 0.55);
+  border-width: 2px;
+}
+
+.map-pin--saved .map-pin__bubble::after {
+  content: '';
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--color-secondary);
+  border: 1.5px solid #ffffff;
 }
 
 /* Selected pin */

@@ -51,4 +51,22 @@
   font-size: 0.9rem;
   color: var(--color-on-surface-variant);
   line-height: 1.6;
+  margin-bottom: var(--space-md);
+}
+
+.heritage-page__empty-reset {
+  padding: 0.55rem var(--space-lg);
+  border-radius: var(--radius-full);
+  box-shadow: inset 0 0 0 1.5px var(--color-outline-variant);
+  background: transparent;
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--color-on-surface-variant);
+  transition: background 0.15s, color 0.15s;
+}
+
+.heritage-page__empty-reset:active {
+  background: var(--color-surface-container);
+  color: var(--color-on-surface);
 }

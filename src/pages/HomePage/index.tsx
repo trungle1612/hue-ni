@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { OnboardingModal } from '../../components/OnboardingModal'
 import { MapView } from '../../components/MapView'
@@ -23,19 +23,56 @@ const BOOKMARK_PATH = 'M5 3h14a1 1 0 011 1v17.28a.5.5 0 01-.8.4L12 17.22l-7.2 4.
 
 export function HomePage() {
   const navigate = useNavigate()
-  const { isSaved, addPlace, removePlace } = useMyTripContext()
+  const { isSaved, addPlace, removePlace, savedIds } = useMyTripContext()
   const [showOnboarding, setShowOnboarding] = useState(() => !hasSeenOnboarding())
   const [selectedCategory, setSelectedCategory] = useState('all')
   const [selectedPlace, setSelectedPlace] = useState<Place | null>(null)
+  const [sheetClosing, setSheetClosing] = useState(false)
+  const [showSavedToast, setShowSavedToast] = useState(false)
+  const closeTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
+  const toastTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
 
   const visiblePlaces =
     selectedCategory === 'all'
       ? ALL_PLACES
       : ALL_PLACES.filter(p => p.category === selectedCategory)
 
-  function handleSelectPlace(place: Place | null) {
-    setSelectedPlace(place)
+  function dismissSheet() {
+    if (!selectedPlace) return
+    setSheetClosing(true)
+    closeTimerRef.current = setTimeout(() => {
+      setSelectedPlace(null)
+      setSheetClosing(false)
+    }, 240)
   }
+
+  function handleSelectPlace(place: Place | null) {
+    if (place === null) {
+      dismissSheet()
+    } else {
+      if (closeTimerRef.current) {
+        clearTimeout(closeTimerRef.current)
+        closeTimerRef.current = null
+      }
+      setSheetClosing(false)
+      setSelectedPlace(place)
+    }
+  }
+
+  function handleSaveToggle(place: Place) {
+    if (isSaved(place.id)) {
+      removePlace(place.id)
+    } else {
+      addPlace(place.id)
+      if (toastTimerRef.current) clearTimeout(toastTimerRef.current)
+      setShowSavedToast(true)
+      toastTimerRef.current = setTimeout(() => setShowSavedToast(false), 2200)
+    }
+  }
+
+  useEffect(() => () => {
+    if (toastTimerRef.current) clearTimeout(toastTimerRef.current)
+  }, [])
 
   function handleExplore() {
     if (!selectedPlace) return
@@ -72,7 +109,7 @@ export function HomePage() {
                 className={`home-map-chip${selectedCategory === opt.value ? ' home-map-chip--active' : ''}`}
                 onClick={() => {
                   setSelectedCategory(opt.value)
-                  setSelectedPlace(null)
+                  dismissSheet()
                 }}
                 aria-pressed={selectedCategory === opt.value}
               >
@@ -82,17 +119,29 @@ export function HomePage() {
             ))}
           </div>
 
+          {/* Saved toast */}
+          {showSavedToast && (
+            <div className="home-map-toast" role="status" aria-live="polite">
+              <svg viewBox="0 0 16 16" fill="none" aria-hidden="true" className="home-map-toast__icon">
+                <circle cx="8" cy="8" r="7" fill="currentColor" opacity="0.15"/>
+                <path d="M4.5 8l2.5 2.5 4.5-4.5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+              Đã lưu vào hành trình
+            </div>
+          )}
+
           {/* Leaflet map */}
           <MapView
             places={visiblePlaces}
             selectedPlace={selectedPlace}
             onSelectPlace={handleSelectPlace}
-            sheetOpen={selectedPlace !== null}
+            sheetOpen={selectedPlace !== null && !sheetClosing}
+            savedIds={savedIds}
           />
 
           {/* ── Bottom place sheet ── */}
           {selectedPlace && (
-            <div className="home-map-sheet" role="dialog" aria-label={selectedPlace.name}>
+            <div className={`home-map-sheet${sheetClosing ? ' home-map-sheet--closing' : ''}`} role="dialog" aria-label={selectedPlace.name}>
               <div className="home-map-sheet__drag-handle" />
 
               <div className="home-map-sheet__body">
@@ -133,7 +182,7 @@ export function HomePage() {
                     </button>
                     <button
                       className={`home-map-sheet__save${isSaved(selectedPlace.id) ? ' home-map-sheet__save--saved' : ''}`}
-                      onClick={() => isSaved(selectedPlace.id) ? removePlace(selectedPlace.id) : addPlace(selectedPlace.id)}
+                      onClick={() => handleSaveToggle(selectedPlace)}
                       aria-label={isSaved(selectedPlace.id) ? 'Bỏ lưu' : 'Lưu địa điểm'}
                       type="button"
                     >

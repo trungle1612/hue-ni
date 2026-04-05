@@ -39,6 +39,12 @@ export function HeritagePage() {
             <p className="heritage-page__empty-text">
               Không tìm thấy địa điểm nào trong danh mục này.
             </p>
+            <button
+              className="heritage-page__empty-reset"
+              onClick={() => setSelectedCategory('all')}
+            >
+              Xem tất cả
+            </button>
           </div>
         ) : (
           filtered.map(place => (

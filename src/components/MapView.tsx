@@ -13,11 +13,11 @@ const CATEGORY_ICONS: Record<string, string> = {
   service: '🛎️',
 }
 
-function createPinIcon(place: Place, selected: boolean): L.DivIcon {
+function createPinIcon(place: Place, selected: boolean, saved: boolean): L.DivIcon {
   const emoji = CATEGORY_ICONS[place.category] ?? '📍'
   if (selected) {
     return L.divIcon({
-      html: `<div class="map-pin map-pin--selected">
+      html: `<div class="map-pin map-pin--selected${saved ? ' map-pin--saved' : ''}">
         <div class="map-pin__bubble">${emoji}</div>
         <div class="map-pin__label">${place.name}</div>
       </div>`,
@@ -27,7 +27,7 @@ function createPinIcon(place: Place, selected: boolean): L.DivIcon {
     })
   }
   return L.divIcon({
-    html: `<div class="map-pin">
+    html: `<div class="map-pin${saved ? ' map-pin--saved' : ''}">
       <div class="map-pin__bubble">${emoji}</div>
     </div>`,
     className: '',
@@ -41,9 +41,10 @@ interface MapViewProps {
   selectedPlace: Place | null
   onSelectPlace: (place: Place | null) => void
   sheetOpen?: boolean
+  savedIds?: string[]
 }
 
-export function MapView({ places, selectedPlace, onSelectPlace, sheetOpen = false }: MapViewProps) {
+export function MapView({ places, selectedPlace, onSelectPlace, sheetOpen = false, savedIds = [] }: MapViewProps) {
   const containerRef = useRef<HTMLDivElement>(null)
   const mapRef = useRef<L.Map | null>(null)
   const markersRef = useRef<Map<string, L.Marker>>(new Map())
@@ -101,7 +102,7 @@ export function MapView({ places, selectedPlace, onSelectPlace, sheetOpen = fals
       const isSelected = selectedPlace?.id === place.id
       const marker = L.marker(
         [place.coordinates.lat, place.coordinates.lng],
-        { icon: createPinIcon(place, isSelected) }
+        { icon: createPinIcon(place, isSelected, savedIds.includes(place.id)) }
       )
         .addTo(map)
         .on('click', e => {
@@ -112,7 +113,7 @@ export function MapView({ places, selectedPlace, onSelectPlace, sheetOpen = fals
     })
   }, [places]) // eslint-disable-line react-hooks/exhaustive-deps
 
-  // Update marker icons when selection changes (no full rebuild)
+  // Update marker icons when selection or saved state changes (no full rebuild)
   useEffect(() => {
     const map = mapRef.current
     if (!map) return
@@ -120,7 +121,7 @@ export function MapView({ places, selectedPlace, onSelectPlace, sheetOpen = fals
     markersRef.current.forEach((marker, id) => {
       const place = places.find(p => p.id === id)
       if (!place) return
-      marker.setIcon(createPinIcon(place, selectedPlace?.id === id))
+      marker.setIcon(createPinIcon(place, selectedPlace?.id === id, savedIds.includes(id)))
     })
 
     if (selectedPlace) {
@@ -129,7 +130,7 @@ export function MapView({ places, selectedPlace, onSelectPlace, sheetOpen = fals
         { animate: true, duration: 0.4 }
       )
     }
-  }, [selectedPlace, places])
+  }, [selectedPlace, places, savedIds])
 
   function handleLocate() {
     if (!navigator.geolocation || isLocating) return

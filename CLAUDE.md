@@ -43,7 +43,9 @@ Types in `src/types/index.ts`. Categories: `tomb | landmark | cafe | food | home
 
 ### State
 
-Saved-places list lives in `src/hooks/useMyTrip.ts` — reads/writes `localStorage` key `hue-ni-trip` (JSON array of place IDs). The hook is instantiated **once** inside `MyTripProvider` (`src/contexts/MyTripContext.tsx`), which wraps the entire app in `App.tsx`. All consumers (`BottomNav`, `PlaceCard`, `HomePage`, `MyTripPage`, `DetailsPage`) call `useMyTripContext()` — never `useMyTrip()` directly — so bookmark state is shared and updates propagate everywhere (e.g. the BottomNav badge on `/my-trip`).
+Saved-places list lives in `src/hooks/useMyTrip.ts` — reads/writes `localStorage` key `hue-ni-trip` (JSON array of place IDs). The hook is instantiated **once** inside `MyTripProvider` (`src/contexts/MyTripContext.tsx`), which wraps the entire app in `App.tsx`. All consumers (`BottomNav`, `PlaceCard`, `HomePage`, `MyTripPage`, `DetailsPage`) call `useMyTripContext()` — never `useMyTrip()` directly — so bookmark state is shared and updates propagate everywhere (e.g. the BottomNav badge count on `/my-trip`, the gold dot on saved map pins, the bookmark button state in the bottom sheet).
+
+`HomePage` also passes `savedIds` down to `MapView` as a prop (not via context) since MapView is a generic component that doesn't own global state.
 
 Onboarding GPS modal gated by `localStorage` key `hue-ni-onboarded` via `src/utils/onboarding.ts`.
 
@@ -51,10 +53,12 @@ Onboarding GPS modal gated by `localStorage` key `hue-ni-onboarded` via `src/uti
 
 Vanilla Leaflet (not react-leaflet) managed with `useRef`. Returns a `div.map-view-wrapper` containing the map container and a floating locate button.
 
+Props: `places`, `selectedPlace`, `onSelectPlace`, `sheetOpen?: boolean` (lifts locate button above the bottom sheet when true), `savedIds?: string[]` (drives saved-pin visual state).
+
 Four `useEffect` hooks:
-1. **Init once** — creates `L.map`, CartoDB Voyager tiles, Huế bounds `[[16.35, 107.50], [16.55, 107.70]]`, `minZoom: 12`, `maxBoundsViscosity: 0.85`
+1. **Init once** — creates `L.map`, CartoDB Voyager tiles, Huế bounds `[[16.35, 107.50], [16.55, 107.70]]`, `minZoom: 12`, `maxBoundsViscosity: 0.85`. Also registers `map.on('click', () => onSelectRef.current(null))` so tapping the map background deselects.
 2. **Rebuild markers** — fires when `places` prop changes; clears/re-adds `L.marker` instances using `L.divIcon` with emoji HTML
-3. **Update selection** — fires when `selectedPlace` changes; calls `marker.setIcon()` and pans map
+3. **Update icons** — fires when `selectedPlace`, `places`, or `savedIds` changes; calls `marker.setIcon()` and pans map. Saved places show a gold dot badge (`map-pin--saved`) via CSS `::after` on `.map-pin__bubble`.
 4. **Callback ref sync** — keeps `onSelectRef.current` fresh each render without triggering effects
 
 The locate button (bottom-right) calls `navigator.geolocation.getCurrentPosition()`, places a pulsing blue `div.map-user-dot` marker via `locationMarkerRef`, and flies to the user's position. Three states: idle / loading (spinner) / error (shake animation).
