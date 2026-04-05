@@ -1,27 +1,54 @@
 .heritage-page {
   min-height: 100%;
+  background: var(--color-surface);
 }
 
 .heritage-page__header {
   padding: var(--space-lg) var(--space-md) var(--space-sm);
 }
 
+/* Overline / eyebrow — museum-grade hierarchy per DESIGN.md */
+.heritage-page__overline {
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--color-secondary);
+  margin-bottom: var(--space-xs);
+}
+
 .heritage-page__title {
   font-family: var(--font-serif);
-  font-size: 1.6rem;
+  font-size: 2.2rem;
   font-weight: 700;
   color: var(--color-on-surface);
+  letter-spacing: -0.02em;
+  line-height: 1.15;
   margin-bottom: var(--space-xs);
 }
 
 .heritage-page__subtitle {
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   color: var(--color-on-surface-variant);
 }
 
+/* Card list — minimum 2rem gap per DESIGN.md card spec */
 .heritage-page__list {
   display: flex;
   flex-direction: column;
-  gap: var(--space-md);
+  gap: var(--space-xl);
   padding: var(--space-md);
+}
+
+/* Empty state */
+.heritage-page__empty {
+  padding: var(--space-2xl) var(--space-md);
+  text-align: center;
+}
+
+.heritage-page__empty-text {
+  font-size: 0.9rem;
+  color: var(--color-on-surface-variant);
+  line-height: 1.6;
 }

@@ -1,17 +1,23 @@
 /* ── Vertical card (Heritage list) ── */
+
 .place-card {
   background: var(--color-surface-container-lowest);
   border-radius: var(--radius-lg);
   overflow: hidden;
-  box-shadow: var(--shadow-card);
+  box-shadow:
+    0px 4px 16px rgba(43, 22, 19, 0.08),
+    0px 1px 4px rgba(43, 22, 19, 0.04);
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
 }
 
 .place-card:active {
-  transform: scale(0.98);
+  transform: scale(0.97);
+  box-shadow: 0px 2px 8px rgba(43, 22, 19, 0.06);
 }
+
+/* ── Image wrap ── */
 
 .place-card__image-wrap {
   position: relative;
@@ -24,22 +30,91 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transition: transform 0.4s ease;
 }
+
+.place-card:active .place-card__image-wrap img {
+  transform: scale(1.02);
+}
+
+/* Gradient scrim — depth at bottom of image */
+.place-card__image-wrap::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(43, 22, 19, 0.4) 0%,
+    rgba(43, 22, 19, 0.1) 35%,
+    transparent 60%
+  );
+  pointer-events: none;
+}
+
+/* ── Category badge ── */
 
 .place-card__category-badge {
   position: absolute;
   top: var(--space-sm);
   left: var(--space-sm);
-  background: var(--color-tertiary);
+  z-index: 2;
+  background: rgba(43, 22, 19, 0.55);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   color: #fff;
   font-family: var(--font-sans);
-  font-size: 0.6rem;
+  font-size: 0.58rem;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-  padding: 0.2rem 0.5rem;
+  letter-spacing: 0.1em;
+  padding: 0.2rem 0.55rem;
   border-radius: var(--radius-full);
 }
+
+/* ── Save bookmark button ── */
+
+.place-card__save-btn {
+  position: absolute;
+  top: var(--space-sm);
+  right: var(--space-sm);
+  z-index: 2;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(43, 22, 19, 0.45);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.15s;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.place-card__save-btn svg {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+}
+
+.place-card__save-btn:active {
+  transform: scale(0.85);
+}
+
+.place-card__save-btn--saved {
+  background: var(--color-primary);
+  animation: bookmark-pop 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@keyframes bookmark-pop {
+  0%   { transform: scale(0.7); }
+  100% { transform: scale(1); }
+}
+
+/* ── Card body ── */
 
 .place-card__body {
   padding: var(--space-md);
@@ -51,42 +126,57 @@
   font-weight: 700;
   color: var(--color-on-surface);
   margin-bottom: var(--space-xs);
+  /* Allow wrapping on full-width vertical cards */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .place-card__vibe {
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   color: var(--color-on-surface-variant);
+  font-style: italic;
   margin-bottom: var(--space-sm);
-  line-height: 1.4;
+  line-height: 1.45;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .place-card__meta {
   display: flex;
   align-items: center;
-  gap: var(--space-sm);
+  justify-content: space-between;
   margin-bottom: var(--space-xs);
 }
 
 .place-card__rating {
   font-size: 0.8rem;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--color-secondary);
 }
 
 .place-card__price {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
+  font-weight: 600;
   color: var(--color-on-surface-variant);
+  background: var(--color-surface-container);
+  padding: 0.1rem 0.4rem;
+  border-radius: var(--radius-sm);
 }
 
 .place-card__address {
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   color: var(--color-on-surface-variant);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-/* ── Horizontal card (Home "Near Me") ── */
+/* ── Horizontal card (Home carousel) ── */
+
 .place-card--horizontal {
   display: flex;
   flex-direction: column;
@@ -96,4 +186,32 @@
 
 .place-card--horizontal .place-card__image-wrap {
   aspect-ratio: 4 / 3;
+}
+
+.place-card--horizontal .place-card__save-btn {
+  width: 28px;
+  height: 28px;
+}
+
+.place-card--horizontal .place-card__save-btn svg {
+  width: 13px;
+  height: 13px;
+}
+
+/* Hide vibe on horizontal — too cramped */
+.place-card--horizontal .place-card__vibe {
+  display: none;
+}
+
+.place-card--horizontal .place-card__body {
+  padding: var(--space-sm) var(--space-sm) var(--space-sm);
+}
+
+.place-card--horizontal .place-card__name {
+  font-size: 0.9rem;
+  /* Single line with ellipsis for compact 200px width */
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }

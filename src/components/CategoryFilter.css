@@ -26,6 +26,13 @@
 }
 
 .category-filter__chip--active {
-  background: var(--color-primary);
-  color: var(--color-on-primary);
+  /* Silk-sheen gradient per DESIGN.md CTA spec */
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-container));
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(125, 0, 16, 0.25);
+}
+
+.category-filter__chip:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
 }

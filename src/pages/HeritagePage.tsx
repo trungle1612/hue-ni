@@ -18,9 +18,12 @@ export function HeritagePage() {
   return (
     <div className="heritage-page">
       <header className="heritage-page__header">
+        <p className="heritage-page__overline">Di sản Huế</p>
         <h1 className="heritage-page__title">Vọng âm triều đại</h1>
         <p className="heritage-page__subtitle">
-          {filtered.length} địa điểm
+          {selectedCategory === 'all'
+            ? `${filtered.length} địa điểm`
+            : `${filtered.length} trong ${ALL_PLACES.length} địa điểm`}
         </p>
       </header>
 
@@ -31,9 +34,17 @@ export function HeritagePage() {
       />
 
       <div className="heritage-page__list">
-        {filtered.map(place => (
-          <PlaceCard key={place.id} place={place} variant="vertical" />
-        ))}
+        {filtered.length === 0 ? (
+          <div className="heritage-page__empty">
+            <p className="heritage-page__empty-text">
+              Không tìm thấy địa điểm nào trong danh mục này.
+            </p>
+          </div>
+        ) : (
+          filtered.map(place => (
+            <PlaceCard key={place.id} place={place} variant="vertical" />
+          ))
+        )}
       </div>
     </div>
   )

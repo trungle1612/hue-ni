@@ -135,26 +135,51 @@ export function DetailsPage() {
 
       {/* Sticky action bar */}
       <div className="details-page__actions">
+        {/* Save — icon circle, clearly filled vs outlined */}
         <button
-          className="details-page__action-btn details-page__action-btn--primary"
-          onClick={handleDirections}
-          aria-label="Chỉ đường"
-        >
-          🧭 Đường đi
-        </button>
-        <button
-          className="details-page__action-btn details-page__action-btn--secondary"
+          className={`details-page__icon-btn${saved ? ' details-page__icon-btn--saved' : ''}`}
           onClick={handleSave}
           aria-label={saved ? 'Bỏ lưu' : 'Lưu địa điểm'}
         >
-          {saved ? '📌 Đã lưu' : '📌 Lưu'}
+          {saved ? (
+            /* Filled bookmark */
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M5 3h14a1 1 0 011 1v17.28a.5.5 0 01-.8.4L12 17.22l-7.2 4.46A.5.5 0 014 21.28V4a1 1 0 011-1z"/>
+            </svg>
+          ) : (
+            /* Outline bookmark */
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"
+              strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <path d="M5 3h14a1 1 0 011 1v17.28a.5.5 0 01-.8.4L12 17.22l-7.2 4.46A.5.5 0 014 21.28V4a1 1 0 011-1z"/>
+            </svg>
+          )}
         </button>
+
+        {/* Directions — primary wide CTA */}
         <button
-          className="details-page__action-btn details-page__action-btn--secondary"
+          className="details-page__cta-btn"
+          onClick={handleDirections}
+          aria-label="Chỉ đường"
+        >
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
+            strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <polygon points="3,11 22,2 13,21 11,13"/>
+          </svg>
+          Chỉ đường
+        </button>
+
+        {/* Share — icon circle */}
+        <button
+          className="details-page__icon-btn"
           onClick={handleShare}
           aria-label="Chia sẻ"
         >
-          🔗 Chia sẻ
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"
+            strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
+            <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/>
+            <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+          </svg>
         </button>
       </div>
     </div>
