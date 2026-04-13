@@ -84,7 +84,15 @@ export function MapView({ places, selectedPlace, onSelectPlace, sheetOpen = fals
 
     mapRef.current = map
 
+    // Leaflet captures container size at init time. If the flex layout hasn't
+    // fully resolved yet (first paint timing), tiles only fill part of the
+    // container. ResizeObserver fires once the real dimensions are known and
+    // on any subsequent resize (orientation change, etc.).
+    const ro = new ResizeObserver(() => map.invalidateSize())
+    ro.observe(containerRef.current)
+
     return () => {
+      ro.disconnect()
       map.remove()
       mapRef.current = null
     }
