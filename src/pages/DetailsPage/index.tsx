@@ -108,6 +108,32 @@ export function DetailsPage() {
               {place.address}
             </span>
           </div>
+          {place.phone && (
+            <div className="details-page__info-item">
+              <span className="details-page__info-label">Điện thoại</span>
+              <a
+                className="details-page__info-value"
+                href={`tel:${place.phone}`}
+                style={{ color: 'var(--color-primary)', textDecoration: 'none' }}
+              >
+                {place.phone}
+              </a>
+            </div>
+          )}
+          {place.website && (
+            <div className="details-page__info-item">
+              <span className="details-page__info-label">Website</span>
+              <a
+                className="details-page__info-value"
+                href={place.website}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: 'var(--color-primary)', textDecoration: 'none', fontSize: '0.75rem' }}
+              >
+                {place.website.replace(/^https?:\/\/(www\.)?/, '')}
+              </a>
+            </div>
+          )}
         </div>
 
         <p className="details-page__description">{place.description}</p>

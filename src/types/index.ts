@@ -22,6 +22,9 @@ export interface Place {
   description: string
   insiderTips: string[]
   collection?: string
+  phone?: string
+  website?: string
+  logo?: string
 }
 
 export interface Collection {

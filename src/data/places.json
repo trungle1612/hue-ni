@@ -125,28 +125,190 @@
       "collection": "local-eats"
     },
     {
-      "id": "cong-cafe-hue",
-      "name": "Cà phê Cộng Huế",
+      "id": "tiem-cafe-tui-minh",
+      "name": "Tiệm Café Tụi Mình",
       "category": "cafe",
-      "tags": ["cà phê", "vintage", "sông Hương"],
-      "coverImage": "https://picsum.photos/seed/congcafe/800/500",
-      "gallery": [
-        "https://picsum.photos/seed/congcafe-1/800/500",
-        "https://picsum.photos/seed/congcafe-2/800/500"
-      ],
-      "address": "17 Lê Lợi, Vĩnh Ninh, Thành phố Huế",
-      "coordinates": { "lat": 16.4637, "lng": 107.5962 },
-      "rating": 4.4,
-      "priceRange": "₫₫",
-      "hours": { "open": "07:00", "close": "23:00" },
-      "vibe": "Phong cách bao cấp Việt Nam, view thẳng ra sông Hương.",
-      "description": "Chi nhánh Cộng Cà Phê tại Huế nằm ngay bên bờ sông Hương, với không gian thiết kế theo phong cách hoài cổ Hà Nội thập niên 80. Cà phê dừa là thức uống không thể bỏ qua.",
+      "tags": ["cà phê", "trà", "ngoài trời", "kim long"],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHf7LYC7e20TXHOsau3qorW2KIGAIHCt2sziK7lTXzklcklOyocE2Kh0TDMpDcd2LGOpLyXnnLRsUzzzqwGMedqDVtyfujr_GmEjz7tPC0XrLqo1CX7axjYbLeB_raPV6_9Qnwu=w800-h500-k-no",
+      "gallery": [],
+      "address": "25 Sư Vạn Hạnh, Hương Long, Kim Long, Huế",
+      "coordinates": { "lat": 16.4555774, "lng": 107.5479149 },
+      "rating": 4.5,
+      "priceRange": "₫",
+      "hours": { "open": "06:00", "close": "18:00" },
+      "vibe": "Quán cà phê nhỏ ấm cúng ở Kim Long — điểm hẹn buổi sáng của nhóm bạn.",
+      "description": "Tiệm Café Tụi Mình là quán nhỏ nằm yên tĩnh trên đường Sư Vạn Hạnh, khu Kim Long. Không gian ngoài trời thoáng đãng, thực đơn đa dạng từ cà phê đến trà, phù hợp cho buổi sáng nhẹ nhàng cùng bạn bè.",
       "insiderTips": [
-        "Gọi cà phê dừa đá — đây là thức uống đặc trưng nhất của Cộng.",
-        "Chọn bàn tầng 2 nhìn ra sông để có view đẹp nhất.",
-        "Không gian rất ồn vào tối cuối tuần — đến buổi sáng để thư giãn."
+        "Đến trước 8h để chọn được bàn ngoài trời đẹp nhất.",
+        "Có dịch vụ giao hàng — tiện lợi nếu bạn ở gần khu Kim Long.",
+        "Thử trà sữa đá hoặc cà phê sữa đá — hai món bán chạy nhất quán."
       ],
-      "collection": "local-eats"
+      "collection": "kim-long-cafes",
+      "phone": "+84 903 020 425",
+      "website": "https://www.facebook.com/share/19vk6XeqwJ/",
+      "logo": "https://lh6.googleusercontent.com/-RedKIBHQFQU/AAAAAAAAAAI/AAAAAAAAAAA/dmVGLWxmTrI/s44-p-k-no-ns-nd/"
+    },
+    {
+      "id": "t-roaster",
+      "name": "T Roaster",
+      "category": "cafe",
+      "tags": ["specialty coffee", "rang xay", "kim long", "ngoài trời"],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFt1R8aRThLmSmLYYNmi8ib4rmDP3XP72x_2hz2NWOXWNtAkaJIYc06v7LNA4Y_h5KJC7m-YhGQkocrePlWfBm61i7YbFXlKvUt4a66j1bEBwgyBZHNoShufiFfdIrZxcaBCiMuHw=w800-h500-k-no",
+      "gallery": [],
+      "address": "7 Sư Vạn Hạnh, Hương Long, Kim Long, Huế",
+      "coordinates": { "lat": 16.4536474, "lng": 107.5483536 },
+      "rating": 4.8,
+      "priceRange": "₫",
+      "hours": { "open": "07:00", "close": "17:30" },
+      "vibe": "Specialty coffee rang xay tại chỗ — điểm hẹn của người sành cà phê Huế.",
+      "description": "T Roaster là quán cà phê specialty tại Kim Long, nơi cà phê được chọn lọc kỹ và rang tươi ngay tại chỗ. Với 4.8 sao từ hơn 230 khách, đây là một trong những quán được đánh giá cao nhất khu vực.",
+      "insiderTips": [
+        "Hỏi về menu single origin — thường có 2–3 loại cà phê đặc biệt theo mùa.",
+        "Đến trước 9h để có không gian yên tĩnh nhất.",
+        "Thử cà phê đen không đường để cảm nhận hết hương vị rang xay."
+      ],
+      "collection": "kim-long-cafes",
+      "phone": "+84 938 742 262",
+      "website": "https://www.facebook.com/roastercoffeeshop",
+      "logo": "https://lh6.googleusercontent.com/-NOmPG9J-5ZU/AAAAAAAAAAI/AAAAAAAAAAA/s2Vl4XPJfqE/s44-p-k-no-ns-nd/"
+    },
+    {
+      "id": "seis-bakery-coffee",
+      "name": "SEIS Bakery & Coffee",
+      "category": "cafe",
+      "tags": ["cà phê", "bánh ngọt", "bakery", "kim long"],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEN7UpqNytjBrsZEeRPfIZgyPwKextx98usrcZtYM4TtAvf9DmLHinDdVOnGmgsbvhs0rby69ItNbCybRqo5Zp7hb8hudA-sMIg2mINqiCMYSrUq29-BKA6nPCgMacGt0xrB5ppbpi1tb7D=w800-h500-k-no",
+      "gallery": [],
+      "address": "18 Kim Long, Huế",
+      "coordinates": { "lat": 16.4603032, "lng": 107.5681199 },
+      "rating": 4.4,
+      "priceRange": "₫",
+      "hours": { "open": "06:30", "close": "22:00" },
+      "vibe": "Bakery và cà phê trên đường Kim Long — bánh tươi buổi sáng, cà phê thư giãn cả ngày.",
+      "description": "SEIS Bakery & Coffee là điểm dừng chân lý tưởng trên đường Kim Long, kết hợp tiệm bánh và quán cà phê. Mở cửa từ 6:30 sáng đến 10 tối, phù hợp cho cả bữa điểm tâm và buổi tối nhẹ nhàng.",
+      "insiderTips": [
+        "Ghé vào buổi sáng sớm để thưởng thức bánh ra lò còn nóng.",
+        "Mở đến 10 giờ tối — lý tưởng cho buổi hẹn hò cuối ngày.",
+        "Có dịch vụ giao hàng nếu bạn ở quanh khu Kim Long."
+      ],
+      "collection": "kim-long-cafes",
+      "phone": "+84 909 797 424",
+      "website": "https://www.facebook.com/seiscnb",
+      "logo": "https://lh3.googleusercontent.com/-rXFwOLdXYrU/AAAAAAAAAAI/AAAAAAAAAAA/CgOfCZlMB4Q/s44-p-k-no-ns-nd/"
+    },
+    {
+      "id": "cafe-moc-ca",
+      "name": "Cafe Mộc Cà",
+      "category": "cafe",
+      "tags": ["cà phê", "mở sớm", "làm việc", "kim long"],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFzInTuc67npN91JvJFNXmJzeH6t95rMNC_8caeeFGw5Nl5q5vk-8anulzv5UCkDbJ7EKPdRDVzcWd4PHhQS_jAJKSl0l3WAhP-EYaw_2l-PBG_AjekEm0vRZ116SCriqfzD39M=w800-h500-k-no",
+      "gallery": [],
+      "address": "138 Kim Long, Huế",
+      "coordinates": { "lat": 16.4577152, "lng": 107.5595491 },
+      "rating": 4.2,
+      "priceRange": "₫",
+      "hours": { "open": "04:30", "close": "22:00" },
+      "vibe": "Mở cửa từ 4:30 sáng — dành cho những tâm hồn thức sớm của Huế.",
+      "description": "Cafe Mộc Cà nổi bật với giờ mở cửa từ 4:30 sáng, phục vụ những người dậy sớm và khách qua đường Kim Long. Không gian thoáng rộng với bàn làm việc phù hợp, lý tưởng để mang laptop đến ngồi cả buổi.",
+      "insiderTips": [
+        "Mở từ 4:30 sáng — hiếm quán nào ở Huế làm được vậy.",
+        "Bàn rộng, ổ cắm đầy đủ — tốt để làm việc hoặc học bài cả ngày.",
+        "Thử cà phê sữa đá truyền thống — đơn giản mà đúng vị Huế."
+      ],
+      "collection": "kim-long-cafes",
+      "phone": "+84 946 948 884",
+      "logo": "https://lh6.googleusercontent.com/-VUVMba3xOLs/AAAAAAAAAAI/AAAAAAAAAAA/hUzCmwEaPNA/s44-p-k-no-ns-nd/"
+    },
+    {
+      "id": "cafe-vinh-am-vien",
+      "name": "Cafe Vinh Am Vien",
+      "category": "cafe",
+      "tags": ["cà phê", "24 giờ", "ngoài trời", "kim long"],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAERWRGUuSXgtbz4TfibwStxumuzYnUrxVpbkyc_zr0-bWj1vYGgB3DfqfxHDXNb1guER69-v2fDZGs0TGxRTQHIv--3DBZvEoET-_XWppwMhzDx9Ywy9pxi9iswFmf3XfMZhY4=w800-h500-k-no",
+      "gallery": [],
+      "address": "24 Kim Long, Huế",
+      "coordinates": { "lat": 16.4601205, "lng": 107.5677381 },
+      "rating": 4.0,
+      "priceRange": "₫",
+      "hours": { "open": "00:00", "close": "23:59" },
+      "vibe": "Mở cửa 24/7 giữa lòng Kim Long — người bạn đồng hành của đêm khuya Huế.",
+      "description": "Cafe Vinh Am Vien là quán cà phê mở cửa 24 giờ tại Kim Long, lý tưởng cho những ai cần không gian bất kể giờ giấc. Không gian ngoài trời thoáng mát và phù hợp để làm việc về đêm.",
+      "insiderTips": [
+        "Mở 24/7 — điểm hẹn lý tưởng sau những buổi tối muộn.",
+        "Không gian ngoài trời mát mẻ hơn về đêm.",
+        "Phù hợp cho sinh viên ôn thi hoặc người cần làm việc qua đêm."
+      ],
+      "collection": "kim-long-cafes",
+      "phone": "+84 914 202 764"
+    },
+    {
+      "id": "kim-long-coffee",
+      "name": "KIM LONG COFFEE",
+      "category": "cafe",
+      "tags": ["cà phê", "drive-through", "sáng sớm", "kim long"],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFTmAubIfHLw2WVlBKdjU-3OwjUyJLclxocJAdZY7T97xlAIv_JXSxWIjw9Imki4OEBrj8km_GKTlv0RSZdSpTTiEY11uxmg8mddveiNi5vj_-n-vaMWE_8qUznl-ili4pYM0KDtg=w800-h500-k-no",
+      "gallery": [],
+      "address": "28 Nguyễn Hoàng, Kim Long, Huế",
+      "coordinates": { "lat": 16.459407, "lng": 107.5577221 },
+      "rating": 5.0,
+      "priceRange": "₫",
+      "hours": { "open": "05:30", "close": "11:00" },
+      "vibe": "Drive-through cà phê sáng sớm — phụ nữ Kim Long khởi nghiệp, phục vụ trái tim.",
+      "description": "KIM LONG COFFEE là quán cà phê do phụ nữ khởi nghiệp tại Kim Long, một trong số ít quán có drive-through ở Huế. Phục vụ buổi sáng từ 5:30 đến 11 giờ, phù hợp cho ai cần cà phê nhanh trên đường đi làm.",
+      "insiderTips": [
+        "Có drive-through — tiện lợi khi bạn đang vội buổi sáng.",
+        "Mở từ 5:30 sáng — dành cho những tâm hồn thức dậy thật sớm.",
+        "Quán do phụ nữ điều hành — hãy ghé ủng hộ doanh nghiệp địa phương."
+      ],
+      "collection": "kim-long-cafes",
+      "phone": "+84 905 148 652",
+      "website": "https://www.facebook.com/kimlong.coffee",
+      "logo": "https://lh3.googleusercontent.com/--H_H6nEm-IE/AAAAAAAAAAI/AAAAAAAAAAA/8X2D57rDHMU/s44-p-k-no-ns-nd/"
+    },
+    {
+      "id": "soc-nau",
+      "name": "Sóc Nâu",
+      "category": "cafe",
+      "tags": ["cà phê", "ngoài trời", "làm việc", "kim long"],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHTgOCBq7eCfLTLxWXY04JZ9aF5K5I457hi_01iVSaoehdDqkYqs8otFYx6zxlIbyuRyCGBZtBPLWkoSpE2APly7BmnCy_zid75j3SPWNP8riU1_QJmOoFBuz3Q7F59obspEXYZ=w800-h500-k-no",
+      "gallery": [],
+      "address": "14 Kim Long, Huế",
+      "coordinates": { "lat": 16.460352, "lng": 107.5683191 },
+      "rating": 4.1,
+      "priceRange": "₫₫",
+      "hours": { "open": "06:00", "close": "22:00" },
+      "vibe": "Không gian xanh mát ngoài trời bên Kim Long — góc làm việc yêu thích của dân văn phòng Huế.",
+      "description": "Sóc Nâu là quán cà phê ngoài trời đông khách nhất khu Kim Long với hơn 250 lượt đánh giá. Không gian cây xanh mát mẻ, wifi ổn định và bàn làm việc rộng rãi khiến nơi đây trở thành lựa chọn hàng đầu của giới trẻ Huế.",
+      "insiderTips": [
+        "Đến trước 8h để chọn chỗ ngồi ngoài trời tốt nhất.",
+        "Nhiều ổ cắm điện — mang laptop đến làm việc cả ngày thoải mái.",
+        "Gọi cà phê sữa đá hoặc trà sen đá — hai món bán chạy nhất quán."
+      ],
+      "collection": "kim-long-cafes",
+      "phone": "+84 903 599 138",
+      "logo": "https://lh3.googleusercontent.com/-X5NnGgYV6zU/AAAAAAAAAAI/AAAAAAAAAAA/BPIWshQnq3s/s44-p-k-no-ns-nd/"
+    },
+    {
+      "id": "kim-coffee-shop",
+      "name": "Kim Coffee Shop",
+      "category": "cafe",
+      "tags": ["cà phê", "yên tĩnh", "kim long"],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGa_d8C4HdUk3WI_z0tuZ5eQ_rr358KcwtlhQvfvUxTB1oE-9yIHoBGKXle4zYGZ9np1RQfR3CZzrde44CCH12AZpKSFFUEl7u5XE1odTNnjRPLtIGsVbt2VHKX33xsP94Mf4S8=w800-h500-k-no",
+      "gallery": [],
+      "address": "60 Kim Long, Kim Long, Huế",
+      "coordinates": { "lat": 16.4588917, "lng": 107.5629115 },
+      "rating": 4.1,
+      "priceRange": "₫",
+      "hours": { "open": "07:00", "close": "21:00" },
+      "vibe": "Quán cà phê nhỏ yên tĩnh trên Kim Long — đơn giản, mộc mạc, đúng chất Huế.",
+      "description": "Kim Coffee Shop là quán nhỏ và yên tĩnh trên đường Kim Long, mang phong cách mộc mạc đặc trưng của quán cà phê Huế. Phù hợp cho những ai muốn thoát khỏi sự ồn ào của trung tâm thành phố.",
+      "insiderTips": [
+        "Quán nhỏ và ít người biết — khả năng cao có chỗ ngồi yên tĩnh bất kỳ lúc nào.",
+        "Cà phê truyền thống Huế — đơn giản mà chất.",
+        "Không khí bình lặng rất phù hợp để đọc sách hoặc ngồi một mình."
+      ],
+      "collection": "kim-long-cafes",
+      "phone": "+84 941 102 009"
     },
     {
       "id": "thanh-toan-bridge",
@@ -193,6 +355,11 @@
       "id": "hidden-gems",
       "title": "Góc khuất Huế",
       "description": "Những nơi chỉ dân địa phương mới biết"
+    },
+    {
+      "id": "kim-long-cafes",
+      "title": "Cà phê đường Kim Long",
+      "description": "Những quán cà phê đặc sắc dọc tuyến đường Kim Long"
     }
   ]
 }

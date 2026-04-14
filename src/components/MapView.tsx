@@ -13,12 +13,22 @@ const CATEGORY_ICONS: Record<string, string> = {
   service: '🛎️',
 }
 
-function createPinIcon(place: Place, selected: boolean, saved: boolean): L.DivIcon {
+function bubbleContent(place: Place): string {
   const emoji = CATEGORY_ICONS[place.category] ?? '📍'
+  if (place.logo) {
+    return `<span class="map-pin__bubble-emoji">${emoji}</span>` +
+      `<img class="map-pin__bubble-logo" src="${place.logo}" alt="" ` +
+      `onerror="this.style.display='none'" />`
+  }
+  return emoji
+}
+
+function createPinIcon(place: Place, selected: boolean, saved: boolean): L.DivIcon {
+  const logoClass = place.logo ? ' map-pin__bubble--logo' : ''
   if (selected) {
     return L.divIcon({
       html: `<div class="map-pin map-pin--selected${saved ? ' map-pin--saved' : ''}">
-        <div class="map-pin__bubble">${emoji}</div>
+        <div class="map-pin__bubble${logoClass}">${bubbleContent(place)}</div>
         <div class="map-pin__label">${place.name}</div>
       </div>`,
       className: '',
@@ -28,7 +38,7 @@ function createPinIcon(place: Place, selected: boolean, saved: boolean): L.DivIc
   }
   return L.divIcon({
     html: `<div class="map-pin${saved ? ' map-pin--saved' : ''}">
-      <div class="map-pin__bubble">${emoji}</div>
+      <div class="map-pin__bubble${logoClass}">${bubbleContent(place)}</div>
     </div>`,
     className: '',
     iconSize: [40, 40],

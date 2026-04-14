@@ -47,6 +47,26 @@
   transform: scale(1.1);
 }
 
+/* Logo variant — image fills the bubble, emoji hidden behind as fallback */
+.map-pin__bubble--logo {
+  padding: 0;
+  overflow: hidden;
+}
+
+.map-pin__bubble-emoji {
+  position: absolute;
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+.map-pin__bubble-logo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 /* Saved pin — gold dot badge */
 .map-pin--saved .map-pin__bubble {
   border-color: rgba(115, 92, 0, 0.55);
