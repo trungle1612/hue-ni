@@ -27,3 +27,4 @@ dist-ssr
 docs/
 .claude/settings.local.json
 feedbacks/
+scripts/out_scraper_key
