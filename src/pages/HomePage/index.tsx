@@ -94,8 +94,8 @@ export function HomePage() {
             className="home-map-header__logo"
           />
           <div className="home-map-header__brand">
-            <p className="home-map-header__overline">Khám phá cố đô</p>
             <span className="home-map-header__title">Huế nì</span>
+            <p className="home-map-header__overline">Khám phá cố đô</p>
           </div>
         </header>
 

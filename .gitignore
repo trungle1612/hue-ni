@@ -28,3 +28,4 @@ docs/
 .claude/settings.local.json
 feedbacks/
 scripts/out_scraper_key
+src/data/raw_data
