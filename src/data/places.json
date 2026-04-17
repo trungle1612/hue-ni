@@ -4,7 +4,11 @@
       "id": "khai-dinh-tomb",
       "name": "Lăng Khải Định",
       "category": "tomb",
-      "tags": ["lăng tẩm", "kiến trúc", "di sản"],
+      "tags": [
+        "lăng tẩm",
+        "kiến trúc",
+        "di sản"
+      ],
       "coverImage": "https://picsum.photos/seed/khai-dinh/800/500",
       "gallery": [
         "https://picsum.photos/seed/khai-dinh-1/800/500",
@@ -12,10 +16,16 @@
         "https://picsum.photos/seed/khai-dinh-3/800/500"
       ],
       "address": "Khải Định, Hương Thủy, Thừa Thiên Huế",
-      "coordinates": { "lat": 16.3943, "lng": 107.6513 },
+      "coordinates": {
+        "lat": 16.3943,
+        "lng": 107.6513
+      },
       "rating": 4.8,
       "priceRange": "₫",
-      "hours": { "open": "07:00", "close": "17:30" },
+      "hours": {
+        "open": "07:00",
+        "close": "17:30"
+      },
       "vibe": "Kiến trúc Art Deco kết hợp truyền thống — độc nhất vô nhị.",
       "description": "Lăng Khải Định là một kiệt tác kiến trúc kết hợp giữa phong cách phương Đông và phương Tây, được xây dựng từ năm 1920 đến 1931. Nơi đây thờ vua Khải Định, vị vua thứ 12 của triều Nguyễn.",
       "insiderTips": [
@@ -29,7 +39,11 @@
       "id": "hue-citadel",
       "name": "Đại Nội Huế",
       "category": "landmark",
-      "tags": ["hoàng thành", "di sản UNESCO", "lịch sử"],
+      "tags": [
+        "hoàng thành",
+        "di sản UNESCO",
+        "lịch sử"
+      ],
       "coverImage": "https://picsum.photos/seed/hue-citadel/800/500",
       "gallery": [
         "https://picsum.photos/seed/citadel-1/800/500",
@@ -37,10 +51,16 @@
         "https://picsum.photos/seed/citadel-3/800/500"
       ],
       "address": "Thuận Thành, Thành phố Huế, Thừa Thiên Huế",
-      "coordinates": { "lat": 16.4700, "lng": 107.5779 },
+      "coordinates": {
+        "lat": 16.47,
+        "lng": 107.5779
+      },
       "rating": 4.9,
       "priceRange": "₫",
-      "hours": { "open": "07:30", "close": "17:30" },
+      "hours": {
+        "open": "07:30",
+        "close": "17:30"
+      },
       "vibe": "Trái tim của cố đô — nơi lịch sử 400 năm vẫn còn thở.",
       "description": "Đại Nội Huế là quần thể kiến trúc cung đình rộng lớn của triều Nguyễn, được UNESCO công nhận là Di sản Văn hóa Thế giới năm 1993. Bên trong là Hoàng Thành, Tử Cấm Thành và hàng trăm công trình lịch sử.",
       "insiderTips": [
@@ -54,7 +74,11 @@
       "id": "tu-duc-tomb",
       "name": "Lăng Tự Đức",
       "category": "tomb",
-      "tags": ["lăng tẩm", "thơ ca", "hồ sen"],
+      "tags": [
+        "lăng tẩm",
+        "thơ ca",
+        "hồ sen"
+      ],
       "coverImage": "https://picsum.photos/seed/tu-duc/800/500",
       "gallery": [
         "https://picsum.photos/seed/tu-duc-1/800/500",
@@ -62,10 +86,16 @@
         "https://picsum.photos/seed/tu-duc-3/800/500"
       ],
       "address": "Thủy Xuân, Thành phố Huế, Thừa Thiên Huế",
-      "coordinates": { "lat": 16.4530, "lng": 107.5575 },
+      "coordinates": {
+        "lat": 16.453,
+        "lng": 107.5575
+      },
       "rating": 4.7,
       "priceRange": "₫",
-      "hours": { "open": "07:00", "close": "17:30" },
+      "hours": {
+        "open": "07:00",
+        "close": "17:30"
+      },
       "vibe": "Nơi vị hoàng đế thi sĩ dành 16 năm để viết thơ và câu cá.",
       "description": "Lăng Tự Đức là khu vườn ngự uyển tuyệt đẹp mà vua Tự Đức tự thiết kế cho mình khi còn sống. Với hồ Lưu Khiêm, đình Xung Khiêm và rừng thông xanh mát, đây là một trong những lăng tẩm lãng mạn nhất Huế.",
       "insiderTips": [
@@ -79,7 +109,11 @@
       "id": "thien-mu-pagoda",
       "name": "Chùa Thiên Mụ",
       "category": "landmark",
-      "tags": ["chùa", "tâm linh", "sông Hương"],
+      "tags": [
+        "chùa",
+        "tâm linh",
+        "sông Hương"
+      ],
       "coverImage": "https://picsum.photos/seed/thien-mu/800/500",
       "gallery": [
         "https://picsum.photos/seed/thienmu-1/800/500",
@@ -87,10 +121,16 @@
         "https://picsum.photos/seed/thienmu-3/800/500"
       ],
       "address": "Kim Long, Thành phố Huế, Thừa Thiên Huế",
-      "coordinates": { "lat": 16.4530, "lng": 107.5468 },
+      "coordinates": {
+        "lat": 16.453,
+        "lng": 107.5468
+      },
       "rating": 4.6,
       "priceRange": "₫",
-      "hours": { "open": "08:00", "close": "17:00" },
+      "hours": {
+        "open": "08:00",
+        "close": "17:00"
+      },
       "vibe": "Ngọn tháp 7 tầng soi bóng sông Hương — biểu tượng 400 năm của Huế.",
       "description": "Chùa Thiên Mụ là ngôi chùa cổ nhất và nổi tiếng nhất Huế, được xây dựng năm 1601. Tháp Phước Duyên 7 tầng cao 21m là biểu tượng không thể nhầm lẫn của cố đô, đặc biệt đẹp khi nhìn từ sông Hương.",
       "insiderTips": [
@@ -104,17 +144,27 @@
       "id": "bun-bo-mu-roi",
       "name": "Bún Bò Mụ Rơi",
       "category": "food",
-      "tags": ["ẩm thực", "bún bò", "vỉa hè"],
+      "tags": [
+        "ẩm thực",
+        "bún bò",
+        "vỉa hè"
+      ],
       "coverImage": "https://picsum.photos/seed/bunbo/800/500",
       "gallery": [
         "https://picsum.photos/seed/bunbo-1/800/500",
         "https://picsum.photos/seed/bunbo-2/800/500"
       ],
       "address": "2 Nguyễn Chí Thanh, Phú Hội, Thành phố Huế",
-      "coordinates": { "lat": 16.4636, "lng": 107.5910 },
+      "coordinates": {
+        "lat": 16.4636,
+        "lng": 107.591
+      },
       "rating": 4.5,
       "priceRange": "₫",
-      "hours": { "open": "06:00", "close": "10:00" },
+      "hours": {
+        "open": "06:00",
+        "close": "10:00"
+      },
       "vibe": "Tô bún bò chuẩn Huế nhất thành phố — chỉ bán buổi sáng.",
       "description": "Quán bún bò gia truyền hơn 30 năm của bà Mụ Rơi. Nước dùng hầm từ xương bò 8 tiếng, sả và mắm ruốc đúng vị Huế gốc. Hết trước 10h sáng mỗi ngày.",
       "insiderTips": [
@@ -128,14 +178,25 @@
       "id": "tiem-cafe-tui-minh",
       "name": "Tiệm Café Tụi Mình",
       "category": "cafe",
-      "tags": ["cà phê", "trà", "ngoài trời", "kim long"],
+      "tags": [
+        "cà phê",
+        "trà",
+        "ngoài trời",
+        "kim long"
+      ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHf7LYC7e20TXHOsau3qorW2KIGAIHCt2sziK7lTXzklcklOyocE2Kh0TDMpDcd2LGOpLyXnnLRsUzzzqwGMedqDVtyfujr_GmEjz7tPC0XrLqo1CX7axjYbLeB_raPV6_9Qnwu=w800-h500-k-no",
       "gallery": [],
       "address": "25 Sư Vạn Hạnh, Hương Long, Kim Long, Huế",
-      "coordinates": { "lat": 16.4555774, "lng": 107.5479149 },
+      "coordinates": {
+        "lat": 16.4555774,
+        "lng": 107.5479149
+      },
       "rating": 4.5,
       "priceRange": "₫",
-      "hours": { "open": "06:00", "close": "18:00" },
+      "hours": {
+        "open": "06:00",
+        "close": "18:00"
+      },
       "vibe": "Quán cà phê nhỏ ấm cúng ở Kim Long — điểm hẹn buổi sáng của nhóm bạn.",
       "description": "Tiệm Café Tụi Mình là quán nhỏ nằm yên tĩnh trên đường Sư Vạn Hạnh, khu Kim Long. Không gian ngoài trời thoáng đãng, thực đơn đa dạng từ cà phê đến trà, phù hợp cho buổi sáng nhẹ nhàng cùng bạn bè.",
       "insiderTips": [
@@ -152,14 +213,25 @@
       "id": "t-roaster",
       "name": "T Roaster",
       "category": "cafe",
-      "tags": ["specialty coffee", "rang xay", "kim long", "ngoài trời"],
+      "tags": [
+        "specialty coffee",
+        "rang xay",
+        "kim long",
+        "ngoài trời"
+      ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFt1R8aRThLmSmLYYNmi8ib4rmDP3XP72x_2hz2NWOXWNtAkaJIYc06v7LNA4Y_h5KJC7m-YhGQkocrePlWfBm61i7YbFXlKvUt4a66j1bEBwgyBZHNoShufiFfdIrZxcaBCiMuHw=w800-h500-k-no",
       "gallery": [],
       "address": "7 Sư Vạn Hạnh, Hương Long, Kim Long, Huế",
-      "coordinates": { "lat": 16.4536474, "lng": 107.5483536 },
+      "coordinates": {
+        "lat": 16.4536474,
+        "lng": 107.5483536
+      },
       "rating": 4.8,
       "priceRange": "₫",
-      "hours": { "open": "07:00", "close": "17:30" },
+      "hours": {
+        "open": "07:00",
+        "close": "17:30"
+      },
       "vibe": "Specialty coffee rang xay tại chỗ — điểm hẹn của người sành cà phê Huế.",
       "description": "T Roaster là quán cà phê specialty tại Kim Long, nơi cà phê được chọn lọc kỹ và rang tươi ngay tại chỗ. Với 4.8 sao từ hơn 230 khách, đây là một trong những quán được đánh giá cao nhất khu vực.",
       "insiderTips": [
@@ -176,14 +248,25 @@
       "id": "seis-bakery-coffee",
       "name": "SEIS Bakery & Coffee",
       "category": "cafe",
-      "tags": ["cà phê", "bánh ngọt", "bakery", "kim long"],
+      "tags": [
+        "cà phê",
+        "bánh ngọt",
+        "bakery",
+        "kim long"
+      ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEN7UpqNytjBrsZEeRPfIZgyPwKextx98usrcZtYM4TtAvf9DmLHinDdVOnGmgsbvhs0rby69ItNbCybRqo5Zp7hb8hudA-sMIg2mINqiCMYSrUq29-BKA6nPCgMacGt0xrB5ppbpi1tb7D=w800-h500-k-no",
       "gallery": [],
       "address": "18 Kim Long, Huế",
-      "coordinates": { "lat": 16.4603032, "lng": 107.5681199 },
+      "coordinates": {
+        "lat": 16.4603032,
+        "lng": 107.5681199
+      },
       "rating": 4.4,
       "priceRange": "₫",
-      "hours": { "open": "06:30", "close": "22:00" },
+      "hours": {
+        "open": "06:30",
+        "close": "22:00"
+      },
       "vibe": "Bakery và cà phê trên đường Kim Long — bánh tươi buổi sáng, cà phê thư giãn cả ngày.",
       "description": "SEIS Bakery & Coffee là điểm dừng chân lý tưởng trên đường Kim Long, kết hợp tiệm bánh và quán cà phê. Mở cửa từ 6:30 sáng đến 10 tối, phù hợp cho cả bữa điểm tâm và buổi tối nhẹ nhàng.",
       "insiderTips": [
@@ -200,14 +283,25 @@
       "id": "cafe-moc-ca",
       "name": "Cafe Mộc Cà",
       "category": "cafe",
-      "tags": ["cà phê", "mở sớm", "làm việc", "kim long"],
+      "tags": [
+        "cà phê",
+        "mở sớm",
+        "làm việc",
+        "kim long"
+      ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFzInTuc67npN91JvJFNXmJzeH6t95rMNC_8caeeFGw5Nl5q5vk-8anulzv5UCkDbJ7EKPdRDVzcWd4PHhQS_jAJKSl0l3WAhP-EYaw_2l-PBG_AjekEm0vRZ116SCriqfzD39M=w800-h500-k-no",
       "gallery": [],
       "address": "138 Kim Long, Huế",
-      "coordinates": { "lat": 16.4577152, "lng": 107.5595491 },
+      "coordinates": {
+        "lat": 16.4577152,
+        "lng": 107.5595491
+      },
       "rating": 4.2,
       "priceRange": "₫",
-      "hours": { "open": "04:30", "close": "22:00" },
+      "hours": {
+        "open": "04:30",
+        "close": "22:00"
+      },
       "vibe": "Mở cửa từ 4:30 sáng — dành cho những tâm hồn thức sớm của Huế.",
       "description": "Cafe Mộc Cà nổi bật với giờ mở cửa từ 4:30 sáng, phục vụ những người dậy sớm và khách qua đường Kim Long. Không gian thoáng rộng với bàn làm việc phù hợp, lý tưởng để mang laptop đến ngồi cả buổi.",
       "insiderTips": [
@@ -223,14 +317,25 @@
       "id": "cafe-vinh-am-vien",
       "name": "Cafe Vinh Am Vien",
       "category": "cafe",
-      "tags": ["cà phê", "24 giờ", "ngoài trời", "kim long"],
+      "tags": [
+        "cà phê",
+        "24 giờ",
+        "ngoài trời",
+        "kim long"
+      ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAERWRGUuSXgtbz4TfibwStxumuzYnUrxVpbkyc_zr0-bWj1vYGgB3DfqfxHDXNb1guER69-v2fDZGs0TGxRTQHIv--3DBZvEoET-_XWppwMhzDx9Ywy9pxi9iswFmf3XfMZhY4=w800-h500-k-no",
       "gallery": [],
       "address": "24 Kim Long, Huế",
-      "coordinates": { "lat": 16.4601205, "lng": 107.5677381 },
+      "coordinates": {
+        "lat": 16.4601205,
+        "lng": 107.5677381
+      },
       "rating": 4.0,
       "priceRange": "₫",
-      "hours": { "open": "00:00", "close": "23:59" },
+      "hours": {
+        "open": "00:00",
+        "close": "23:59"
+      },
       "vibe": "Mở cửa 24/7 giữa lòng Kim Long — người bạn đồng hành của đêm khuya Huế.",
       "description": "Cafe Vinh Am Vien là quán cà phê mở cửa 24 giờ tại Kim Long, lý tưởng cho những ai cần không gian bất kể giờ giấc. Không gian ngoài trời thoáng mát và phù hợp để làm việc về đêm.",
       "insiderTips": [
@@ -245,14 +350,25 @@
       "id": "kim-long-coffee",
       "name": "KIM LONG COFFEE",
       "category": "cafe",
-      "tags": ["cà phê", "drive-through", "sáng sớm", "kim long"],
+      "tags": [
+        "cà phê",
+        "drive-through",
+        "sáng sớm",
+        "kim long"
+      ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFTmAubIfHLw2WVlBKdjU-3OwjUyJLclxocJAdZY7T97xlAIv_JXSxWIjw9Imki4OEBrj8km_GKTlv0RSZdSpTTiEY11uxmg8mddveiNi5vj_-n-vaMWE_8qUznl-ili4pYM0KDtg=w800-h500-k-no",
       "gallery": [],
       "address": "28 Nguyễn Hoàng, Kim Long, Huế",
-      "coordinates": { "lat": 16.459407, "lng": 107.5577221 },
+      "coordinates": {
+        "lat": 16.459407,
+        "lng": 107.5577221
+      },
       "rating": 5.0,
       "priceRange": "₫",
-      "hours": { "open": "05:30", "close": "11:00" },
+      "hours": {
+        "open": "05:30",
+        "close": "11:00"
+      },
       "vibe": "Drive-through cà phê sáng sớm — phụ nữ Kim Long khởi nghiệp, phục vụ trái tim.",
       "description": "KIM LONG COFFEE là quán cà phê do phụ nữ khởi nghiệp tại Kim Long, một trong số ít quán có drive-through ở Huế. Phục vụ buổi sáng từ 5:30 đến 11 giờ, phù hợp cho ai cần cà phê nhanh trên đường đi làm.",
       "insiderTips": [
@@ -269,14 +385,25 @@
       "id": "soc-nau",
       "name": "Sóc Nâu",
       "category": "cafe",
-      "tags": ["cà phê", "ngoài trời", "làm việc", "kim long"],
+      "tags": [
+        "cà phê",
+        "ngoài trời",
+        "làm việc",
+        "kim long"
+      ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHTgOCBq7eCfLTLxWXY04JZ9aF5K5I457hi_01iVSaoehdDqkYqs8otFYx6zxlIbyuRyCGBZtBPLWkoSpE2APly7BmnCy_zid75j3SPWNP8riU1_QJmOoFBuz3Q7F59obspEXYZ=w800-h500-k-no",
       "gallery": [],
       "address": "14 Kim Long, Huế",
-      "coordinates": { "lat": 16.460352, "lng": 107.5683191 },
+      "coordinates": {
+        "lat": 16.460352,
+        "lng": 107.5683191
+      },
       "rating": 4.1,
       "priceRange": "₫₫",
-      "hours": { "open": "06:00", "close": "22:00" },
+      "hours": {
+        "open": "06:00",
+        "close": "22:00"
+      },
       "vibe": "Không gian xanh mát ngoài trời bên Kim Long — góc làm việc yêu thích của dân văn phòng Huế.",
       "description": "Sóc Nâu là quán cà phê ngoài trời đông khách nhất khu Kim Long với hơn 250 lượt đánh giá. Không gian cây xanh mát mẻ, wifi ổn định và bàn làm việc rộng rãi khiến nơi đây trở thành lựa chọn hàng đầu của giới trẻ Huế.",
       "insiderTips": [
@@ -292,14 +419,24 @@
       "id": "kim-coffee-shop",
       "name": "Kim Coffee Shop",
       "category": "cafe",
-      "tags": ["cà phê", "yên tĩnh", "kim long"],
+      "tags": [
+        "cà phê",
+        "yên tĩnh",
+        "kim long"
+      ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGa_d8C4HdUk3WI_z0tuZ5eQ_rr358KcwtlhQvfvUxTB1oE-9yIHoBGKXle4zYGZ9np1RQfR3CZzrde44CCH12AZpKSFFUEl7u5XE1odTNnjRPLtIGsVbt2VHKX33xsP94Mf4S8=w800-h500-k-no",
       "gallery": [],
       "address": "60 Kim Long, Kim Long, Huế",
-      "coordinates": { "lat": 16.4588917, "lng": 107.5629115 },
+      "coordinates": {
+        "lat": 16.4588917,
+        "lng": 107.5629115
+      },
       "rating": 4.1,
       "priceRange": "₫",
-      "hours": { "open": "07:00", "close": "21:00" },
+      "hours": {
+        "open": "07:00",
+        "close": "21:00"
+      },
       "vibe": "Quán cà phê nhỏ yên tĩnh trên Kim Long — đơn giản, mộc mạc, đúng chất Huế.",
       "description": "Kim Coffee Shop là quán nhỏ và yên tĩnh trên đường Kim Long, mang phong cách mộc mạc đặc trưng của quán cà phê Huế. Phù hợp cho những ai muốn thoát khỏi sự ồn ào của trung tâm thành phố.",
       "insiderTips": [
@@ -314,17 +451,27 @@
       "id": "thanh-toan-bridge",
       "name": "Cầu Ngói Thanh Toàn",
       "category": "landmark",
-      "tags": ["cầu cổ", "kiến trúc", "làng quê"],
+      "tags": [
+        "cầu cổ",
+        "kiến trúc",
+        "làng quê"
+      ],
       "coverImage": "https://picsum.photos/seed/thanhToan/800/500",
       "gallery": [
         "https://picsum.photos/seed/thanhToan-1/800/500",
         "https://picsum.photos/seed/thanhToan-2/800/500"
       ],
       "address": "Thanh Toàn, Hương Thủy, Thừa Thiên Huế",
-      "coordinates": { "lat": 16.4286, "lng": 107.6456 },
+      "coordinates": {
+        "lat": 16.4286,
+        "lng": 107.6456
+      },
       "rating": 4.3,
       "priceRange": "₫",
-      "hours": { "open": "07:00", "close": "18:00" },
+      "hours": {
+        "open": "07:00",
+        "close": "18:00"
+      },
       "vibe": "Cây cầu ngói 200 năm tuổi ẩn mình trong làng — bí mật của người Huế.",
       "description": "Cầu Ngói Thanh Toàn là cây cầu gỗ có mái che dài 17m, được xây dựng từ thế kỷ 18. Đây là một trong những cây cầu ngói hiếm còn sót lại ở Việt Nam, nằm giữa làng quê yên bình cách trung tâm Huế 8km.",
       "insiderTips": [
@@ -333,6 +480,1295 @@
         "Đứng giữa cầu nhìn xuống kênh vào lúc hoàng hôn để chụp ảnh đẹp nhất."
       ],
       "collection": "hidden-gems"
+    },
+    {
+      "id": "han-cafe",
+      "name": "Han Cafe",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHzGp8Gl9aneHfrHT5oPl_NEairap6Q9mEFXFqHQoPqdM1RuCyGoW7y_CAErJk2z8bWbAhXQ9Fmmsxot-JmcnEzi_u-ulPJq9iVqzx4-9hsChR_uu9QLc61IISmPMu3bC6mw6Y=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHzGp8Gl9aneHfrHT5oPl_NEairap6Q9mEFXFqHQoPqdM1RuCyGoW7y_CAErJk2z8bWbAhXQ9Fmmsxot-JmcnEzi_u-ulPJq9iVqzx4-9hsChR_uu9QLc61IISmPMu3bC6mw6Y=w800-h500-k-no"
+      ],
+      "address": "280 Đinh Tiên Hoàng, Thuận Thành, Phú Xuân, Huế 49112, Việt Nam",
+      "coordinates": {
+        "lat": 16.4786631,
+        "lng": 107.5776876
+      },
+      "rating": 4.9,
+      "priceRange": "₫",
+      "hours": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "thanh-cafe-24-van-cao",
+      "name": "Thành cafe - 24 Văn Cao",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFqQ_FFxrDdGoUZR9uWuaIH2D5kzTSuVqubvFuSfhrpP3XSUvR7g-R56UEm95PQbPchc0PY3GRKBsN9-RCP52XPMQ0IXchQx2IpmnKZKZA3M4Vmj0TVe1cCBnasGbB-jbH7Wtiv1Q=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFqQ_FFxrDdGoUZR9uWuaIH2D5kzTSuVqubvFuSfhrpP3XSUvR7g-R56UEm95PQbPchc0PY3GRKBsN9-RCP52XPMQ0IXchQx2IpmnKZKZA3M4Vmj0TVe1cCBnasGbB-jbH7Wtiv1Q=w800-h500-k-no"
+      ],
+      "address": "24 Văn Cao, Xuân Phú, Vỹ Dạ, Huế 52000, Việt Nam",
+      "coordinates": {
+        "lat": 16.4691051,
+        "lng": 107.6004204
+      },
+      "rating": 4.7,
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:30",
+        "close": "22:00"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "hue-by-xeooo",
+      "name": "HÚE by Xéooo",
+      "category": "cafe",
+      "tags": [
+        "nhà hàng",
+        "nhà hàng pizza",
+        "quán cà phê nghệ thuật"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFXUmEB2nDYoU96dEUA9WyUIJuE4AiMZoO7F-z0OTMyNXTfXU5MLBqtOGI0ddifeWXeVB1H3uYTaMSdE-Dw6YjRuyxcMLtHuXwr-8AKP0nc4SXQg4_t6xSoUJHYKZhXN5IYOnQ=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFXUmEB2nDYoU96dEUA9WyUIJuE4AiMZoO7F-z0OTMyNXTfXU5MLBqtOGI0ddifeWXeVB1H3uYTaMSdE-Dw6YjRuyxcMLtHuXwr-8AKP0nc4SXQg4_t6xSoUJHYKZhXN5IYOnQ=w800-h500-k-no"
+      ],
+      "address": "Hẻm 10 Bến Nghé, Phú Hội, Thuận Hóa, Huế 52000, Việt Nam",
+      "coordinates": {
+        "lat": 16.4669784,
+        "lng": 107.5944189
+      },
+      "rating": 4.8,
+      "priceRange": "₫₫",
+      "hours": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "vibe": "Nhà hàng, Quán cà phê nghệ thuật, Nhà hàng pizza",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "nha-hang-vy-da-xua",
+      "name": "Nhà Hàng Vỹ Dạ Xưa",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê",
+        "nhà hàng cơm",
+        "nhà hàng việt nam",
+        "địa điểm tổ chức lễ cưới"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEzadd9TAbOt-UgZfkyGudcX2fnU7K2Fn8D3nONe6C6SBXrhl1xomn3m2dfVW0X8BhPQ88eG3ySx_M3S-BZtrZdQ5mRsvEErJnQfZk9FSAdFSqUACsVF840fF-gwgr9xF78kh78=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEzadd9TAbOt-UgZfkyGudcX2fnU7K2Fn8D3nONe6C6SBXrhl1xomn3m2dfVW0X8BhPQ88eG3ySx_M3S-BZtrZdQ5mRsvEErJnQfZk9FSAdFSqUACsVF840fF-gwgr9xF78kh78=w800-h500-k-no"
+      ],
+      "address": "131 Nguyễn Sinh Cung, Vỹ Dạ, Huế 530000, Việt Nam",
+      "coordinates": {
+        "lat": 16.4805811,
+        "lng": 107.5957374
+      },
+      "rating": 4.8,
+      "priceRange": "₫₫",
+      "hours": {
+        "open": "06:15",
+        "close": "22:30"
+      },
+      "vibe": "Quán cà phê, Nhà hàng Việt Nam, Nhà hàng cơm, Địa điểm tổ chức lễ cưới",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "me-cafe-ben-xua-vi-da",
+      "name": "Mê Cafe - Bến Xưa Vĩ Dạ",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHzQ9hWL_ztxTuWYU7Kk0_lmKcSR3n-3bXo27VH__dWpFr_l28yO1NsuDKyzyuoyBAGFZFm9m1CLuIM0El10PTvkBQdC-kY-lPa_jQSBakfQBa06gvjFoZveW9GSrH0829NeLcnql7c0PM=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHzQ9hWL_ztxTuWYU7Kk0_lmKcSR3n-3bXo27VH__dWpFr_l28yO1NsuDKyzyuoyBAGFZFm9m1CLuIM0El10PTvkBQdC-kY-lPa_jQSBakfQBa06gvjFoZveW9GSrH0829NeLcnql7c0PM=w800-h500-k-no"
+      ],
+      "address": "4 Kiệt 73 Nguyễn Sinh Cung, Vỹ Dạ, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4770614,
+        "lng": 107.5948523
+      },
+      "rating": 4.9,
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:00",
+        "close": "22:00"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "tan",
+      "name": "tan.",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEcDtXRgITJDkH8QXFmaLUQ4LtCtuuZ8VYolYGewidYH_s7cVC0EwXUX-hv0PEpkPRpee4oCkWlLpe2TtR7twN3ZYX-UfzWqrT4V_wpi5nY7Ink3iHiu76lG6WNtE8M6EGz-NEo=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEcDtXRgITJDkH8QXFmaLUQ4LtCtuuZ8VYolYGewidYH_s7cVC0EwXUX-hv0PEpkPRpee4oCkWlLpe2TtR7twN3ZYX-UfzWqrT4V_wpi5nY7Ink3iHiu76lG6WNtE8M6EGz-NEo=w800-h500-k-no"
+      ],
+      "address": "86 Đinh Tiên Hoàng, Phú Hậu, Phú Xuân, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4732844,
+        "lng": 107.5816637
+      },
+      "rating": 4.6,
+      "priceRange": "₫",
+      "hours": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "bycafe",
+      "name": "BY..cafe",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFNhiohHCkIUk-qlpBieXDJayeAwhqFOluHfrXinDF4xrRYXRIxIQGOry9xdyGROt07nVcPvfHvwNmM7SfxmT9onAjMxekDZYZr4fIlRHtBHuYgtNoK8B9CFGF_18y7Em364gG5Rjl6TukB=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFNhiohHCkIUk-qlpBieXDJayeAwhqFOluHfrXinDF4xrRYXRIxIQGOry9xdyGROt07nVcPvfHvwNmM7SfxmT9onAjMxekDZYZr4fIlRHtBHuYgtNoK8B9CFGF_18y7Em364gG5Rjl6TukB=w800-h500-k-no"
+      ],
+      "address": "52 Tôn Thất Thiệp, Phú Xuân, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4654065,
+        "lng": 107.568863
+      },
+      "rating": 4.9,
+      "priceRange": "₫",
+      "hours": {
+        "open": "07:30",
+        "close": "21:30"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "khong-gian-hoai-co-coffee",
+      "name": "Không Gian Hoài Cổ Coffee",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEti71j3ST4xqzajKw0JjTcaRmFMwwywQ8D3YHGIMn7-uwNBWMwPWSzOmcJoz1xw2rMdjr1w1AC_cHAKE3Dc9EMXlD7Di4ljCqqkDBGQwRUESBZCEEO6wNlIRd5bbt3Qf_OQTKa7hkA4s0=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEti71j3ST4xqzajKw0JjTcaRmFMwwywQ8D3YHGIMn7-uwNBWMwPWSzOmcJoz1xw2rMdjr1w1AC_cHAKE3Dc9EMXlD7Di4ljCqqkDBGQwRUESBZCEEO6wNlIRd5bbt3Qf_OQTKa7hkA4s0=w800-h500-k-no"
+      ],
+      "address": "15 Đinh Tiên Hoàng, Phú Hoà, Phú Xuân, Huế 530000, Việt Nam",
+      "coordinates": {
+        "lat": 16.473292,
+        "lng": 107.5813045
+      },
+      "rating": 4.9,
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:00",
+        "close": "22:00"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "thanh-cafe-phan-boi-chau",
+      "name": "Thành cafe (phan bội châu)",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE_YCxUf0Q4apjjipihJ8qcaKTKddPdcFAjm1HLk_mqN7g-pNJUS0PxcjuyW3OfT-3GV8ZvVFrP5gAyqMx-N-JZggHnCcyXdXJSJLp7Up0RH9u7kY2qTqX9_zE65dHrBylSzBbpxvbypOY=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE_YCxUf0Q4apjjipihJ8qcaKTKddPdcFAjm1HLk_mqN7g-pNJUS0PxcjuyW3OfT-3GV8ZvVFrP5gAyqMx-N-JZggHnCcyXdXJSJLp7Up0RH9u7kY2qTqX9_zE65dHrBylSzBbpxvbypOY=w800-h500-k-no"
+      ],
+      "address": "328 Phan Bội Châu, tổ 13, Thuận Hóa, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4410107,
+        "lng": 107.583455
+      },
+      "rating": 4.5,
+      "priceRange": "₫",
+      "hours": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "cui-coffee",
+      "name": "CỦI Coffee",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFI6IiK0Gqe7W4YAw3qB3Hl579rnZHd1WCZvU_wSozr1fQWezeJrRmmg9buyFw9aAejh-s-3eaFdkh3c_Urv81qPzoVYQPzFA5GdiypbHZsleDgPp0mYcXJJeEzx-ONHnVfi3dbg-zVYCH0=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFI6IiK0Gqe7W4YAw3qB3Hl579rnZHd1WCZvU_wSozr1fQWezeJrRmmg9buyFw9aAejh-s-3eaFdkh3c_Urv81qPzoVYQPzFA5GdiypbHZsleDgPp0mYcXJJeEzx-ONHnVfi3dbg-zVYCH0=w800-h500-k-no"
+      ],
+      "address": "164 Bùi Thị Xuân, Phường Đúc, Thuận Hóa, Huế 49000, Việt Nam",
+      "coordinates": {
+        "lat": 16.4546476,
+        "lng": 107.5681521
+      },
+      "rating": 4.8,
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:30",
+        "close": "22:00"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "mohe-ca-phe",
+      "name": "MÔHÈ cà phê",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFV1jDHDR9meaWc5WH28B4efF5mMXbBKXcBRcsQA-20GV48WTKQsLyHXlfpfGpCGCVSV0SAbrK-lBbBL1dBsgBqUwepcuWqApqDqlEtaLsRdXrxNIu6Fx4MMPqeS0RSSoAc3cuy=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFV1jDHDR9meaWc5WH28B4efF5mMXbBKXcBRcsQA-20GV48WTKQsLyHXlfpfGpCGCVSV0SAbrK-lBbBL1dBsgBqUwepcuWqApqDqlEtaLsRdXrxNIu6Fx4MMPqeS0RSSoAc3cuy=w800-h500-k-no"
+      ],
+      "address": "170 Đinh Tiên Hoàng, Thuận Thành, Phú Xuân, Huế 52000, Việt Nam",
+      "coordinates": {
+        "lat": 16.4756427,
+        "lng": 107.5797704
+      },
+      "rating": 4.5,
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:30",
+        "close": "01:00"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "thanh-cafe",
+      "name": "Thanh Cafe",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFVl_rjS2IzMiXLxAdUbxzzuTWtAsyv5Zbl2hHX30XXJcGEXXqSN4YbJTdxDWC9DWrJalmH99KNZMCTDueXmfhVaMGHFQ9-Emm3WlnUQhMAFGHyLsFT2l-_7c5f5Eu9FodoLP6C=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFVl_rjS2IzMiXLxAdUbxzzuTWtAsyv5Zbl2hHX30XXJcGEXXqSN4YbJTdxDWC9DWrJalmH99KNZMCTDueXmfhVaMGHFQ9-Emm3WlnUQhMAFGHyLsFT2l-_7c5f5Eu9FodoLP6C=w800-h500-k-no"
+      ],
+      "address": "97 Ngự Bình, An Cựu, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4484336,
+        "lng": 107.59671
+      },
+      "rating": 4.8,
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:00",
+        "close": "22:00"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "ben-trang-cafe-bistro",
+      "name": "Bến Trăng Café & Bistro",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê",
+        "nhà hàng"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFSP0PUC13kTmuhVMm3G_lrwFDEKrwTph7vbMyxDqzaektAt8O1AOCFzsVVzoHxYZFGWS307Fom4efPBSENZoENMRGPEJB7coHBuaO9rtJdpFrSo1g_-LGwnBJi84jYg7KHxjEncg=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFSP0PUC13kTmuhVMm3G_lrwFDEKrwTph7vbMyxDqzaektAt8O1AOCFzsVVzoHxYZFGWS307Fom4efPBSENZoENMRGPEJB7coHBuaO9rtJdpFrSo1g_-LGwnBJi84jYg7KHxjEncg=w800-h500-k-no"
+      ],
+      "address": "05 Lê Lợi, Vĩnh Ninh, Thuận Hóa, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4602649,
+        "lng": 107.5807245
+      },
+      "rating": 4.8,
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:30",
+        "close": "23:00"
+      },
+      "vibe": "Quán cà phê, Nhà hàng",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "e-po-cafe",
+      "name": "Đề-Pô Cafe",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG3tgLuXJmxpj_jYSBdXTFRvsMAtBvDrlTa2DJgLmxPYM3Er2mdDDrvUUjv4YXMypPQxzQlnI1kv3Ve3xj4xrGt3fsA78iy-Hkmq5erTgXhZewDBEfzguc1jQnvtRnA2xBbaJ2D=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG3tgLuXJmxpj_jYSBdXTFRvsMAtBvDrlTa2DJgLmxPYM3Er2mdDDrvUUjv4YXMypPQxzQlnI1kv3Ve3xj4xrGt3fsA78iy-Hkmq5erTgXhZewDBEfzguc1jQnvtRnA2xBbaJ2D=w800-h500-k-no"
+      ],
+      "address": "Chợ Đông Ba, 02 Trần Hưng Đạo, Phú Hoà, Phú Xuân, Huế 530000, Việt Nam",
+      "coordinates": {
+        "lat": 16.4731576,
+        "lng": 107.5886234
+      },
+      "rating": 4.6,
+      "priceRange": "₫",
+      "hours": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "ame-cafe-coffee-breakfast",
+      "name": "Đa:mê Café - Coffee & Breakfast",
+      "category": "cafe",
+      "tags": [
+        "nhà hàng chuyên phục vụ bữa sáng",
+        "quán cà phê",
+        "cửa hàng cà phê",
+        "nhà hàng phục vụ bữa trưa",
+        "nhà hàng chuyên phục vụ bữa nửa buổi",
+        "nhà hàng",
+        "quán ăn nhẹ"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG5LS4Xtt6OMOOZX8Shqk4rGHSzT1z72fOrhF657UQdBORRA10FdtwebTQK07nUlu5K9kzfmGZq7lsanI33ouGuMMXcxnXGfUEIuHdXM7uBtKZ4aE6PZx0VwPEYOiPK-vu66rHxFw=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG5LS4Xtt6OMOOZX8Shqk4rGHSzT1z72fOrhF657UQdBORRA10FdtwebTQK07nUlu5K9kzfmGZq7lsanI33ouGuMMXcxnXGfUEIuHdXM7uBtKZ4aE6PZx0VwPEYOiPK-vu66rHxFw=w800-h500-k-no"
+      ],
+      "address": "34 Chu Văn An, Phú Hội, Thuận Hóa, Huế 49118, Việt Nam",
+      "coordinates": {
+        "lat": 16.4695627,
+        "lng": 107.5954523
+      },
+      "rating": 4.7,
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:30",
+        "close": "22:00"
+      },
+      "vibe": "Quán cà phê, Nhà hàng chuyên phục vụ bữa sáng, Nhà hàng chuyên phục vụ bữa nửa buổi, Nhà hàng, Cửa hàng cà phê, Nhà hàng phục vụ bữa trưa, Quán ăn nhẹ",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "ta-gallery-ta-cafe-bakery",
+      "name": "Ta Gallery (Ta Cafe & Bakery)",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFTmyJK0WVgcq-bwAbsfH_8HNV8fSWQ_j2yVmrbUbyOtsmA8IZivZJw_kpQcCKzw-gggaJ1-jzHppU3pEjfHKYxK1PTtHVsiLCingKCAyP6gkKNKzTP6_S7Z9BKJcTiEOGXFScEkkEW1xFl=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFTmyJK0WVgcq-bwAbsfH_8HNV8fSWQ_j2yVmrbUbyOtsmA8IZivZJw_kpQcCKzw-gggaJ1-jzHppU3pEjfHKYxK1PTtHVsiLCingKCAyP6gkKNKzTP6_S7Z9BKJcTiEOGXFScEkkEW1xFl=w800-h500-k-no"
+      ],
+      "address": "44 Phạm Ngũ Lão, Phú Hội, Thuận Hóa, Huế 49000, Việt Nam",
+      "coordinates": {
+        "lat": 16.4687709,
+        "lng": 107.5948394
+      },
+      "rating": 4.7,
+      "priceRange": "₫",
+      "hours": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "daudo",
+      "name": "DAUDO",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG910jxi-IkJ_puMO79rl35j0uCPH78pQgZel2JKjIcGbvTfKXmHWdz1GKBVRRrnnmdm40irPyga2cuPc4K8b1g2Yz-Y2U-Y3b3agg9Bdw6-pg7CPWHbMyNyjskGpMCVotvBdVeFlQG_-Ii=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG910jxi-IkJ_puMO79rl35j0uCPH78pQgZel2JKjIcGbvTfKXmHWdz1GKBVRRrnnmdm40irPyga2cuPc4K8b1g2Yz-Y2U-Y3b3agg9Bdw6-pg7CPWHbMyNyjskGpMCVotvBdVeFlQG_-Ii=w800-h500-k-no"
+      ],
+      "address": "5 kiệt 7 Nguyễn Công Trứ, Phú Hội, Thuận Hóa, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.472669,
+        "lng": 107.595883
+      },
+      "rating": 4.7,
+      "priceRange": "₫",
+      "hours": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "a-oi-cafe",
+      "name": "À Ơi Cafe",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEMgMbVzj9M5915jFnC1DHNJjX1Zyhef4UvwZoKSGSBRUkrrUHj9sgbyWL-oRhLRvvAJx789pJD1iJhIG9lpDs4bvTmiXJzCUZB2CUvx3yV230qgYcrUu4OgmW9N7YA5nwWj3BwIsFRDCMI=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEMgMbVzj9M5915jFnC1DHNJjX1Zyhef4UvwZoKSGSBRUkrrUHj9sgbyWL-oRhLRvvAJx789pJD1iJhIG9lpDs4bvTmiXJzCUZB2CUvx3yV230qgYcrUu4OgmW9N7YA5nwWj3BwIsFRDCMI=w800-h500-k-no"
+      ],
+      "address": "17 Nguyễn Đỗ Cung, tổ 10, Vỹ Dạ, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.46889,
+        "lng": 107.6045502
+      },
+      "rating": 4.7,
+      "priceRange": "₫",
+      "hours": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "cafe-tung",
+      "name": "Cafe Tùng",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGfd-9E0PycP_iSXA-Ak46XcD0u5UhYsXb5BVKMir366vK2gpLS9DTAiU9pUE8fpJ30Rncy-6r0nuyvgFbS4oBcWD2WCYC4C4scRqVy4q-bnBxS60qkKXRggKbQlgPYE68w9uEdWg=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGfd-9E0PycP_iSXA-Ak46XcD0u5UhYsXb5BVKMir366vK2gpLS9DTAiU9pUE8fpJ30Rncy-6r0nuyvgFbS4oBcWD2WCYC4C4scRqVy4q-bnBxS60qkKXRggKbQlgPYE68w9uEdWg=w800-h500-k-no"
+      ],
+      "address": "22 Hoàng Lanh, Xuân Phú, Vỹ Dạ, Huế 490000, Việt Nam",
+      "coordinates": {
+        "lat": 16.4679294,
+        "lng": 107.6079501
+      },
+      "rating": 4.7,
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:00",
+        "close": "22:00"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "goc-cu-cafe",
+      "name": "Goc cu café",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEZTO9OTj97Glj1GGkgVD33kCkijc0pDYPGgSiGcNCj3df9H7DdqfEF_TvDTpG8XRJ6LHfT9BtEdXaZ07i0pc4Mf8Gi-3NyPtsgXXG8jeqk3DsY5P0_ksUFMeDg3wDIo-tmBNPk=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEZTO9OTj97Glj1GGkgVD33kCkijc0pDYPGgSiGcNCj3df9H7DdqfEF_TvDTpG8XRJ6LHfT9BtEdXaZ07i0pc4Mf8Gi-3NyPtsgXXG8jeqk3DsY5P0_ksUFMeDg3wDIo-tmBNPk=w800-h500-k-no"
+      ],
+      "address": "47 Đinh Tiên Hoàng, Phú Hậu, Phú Xuân, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4748273,
+        "lng": 107.5801501
+      },
+      "rating": 4.1,
+      "priceRange": "₫",
+      "hours": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "tron-cafe",
+      "name": "Trốn cafe",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGsmWxHd60Xz9NIGrVgXQhS7I-MYhDduaW7-XzyGTGo6LJO76Tz2PyOkWr9iHvzqKUSvKSBHAlwRVHNVwqwKLU189pJerlxols567HNNu3TwGF8Wy6JgQL9VGUrw4JEThzoBL1l=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGsmWxHd60Xz9NIGrVgXQhS7I-MYhDduaW7-XzyGTGo6LJO76Tz2PyOkWr9iHvzqKUSvKSBHAlwRVHNVwqwKLU189pJerlxols567HNNu3TwGF8Wy6JgQL9VGUrw4JEThzoBL1l=w800-h500-k-no"
+      ],
+      "address": "Kiệt 21 Lê Quý Đôn, Phú Nhuận, Thuận Hóa, Huế 52000, Việt Nam",
+      "coordinates": {
+        "lat": 16.4651651,
+        "lng": 107.5979653
+      },
+      "rating": 4.5,
+      "priceRange": "₫",
+      "hours": {
+        "open": "07:00",
+        "close": "00:00"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "phinholic",
+      "name": "PhinHolic",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFw1AYfV0nxaIR4SqhJW1liVqfFFhUesSrfBqQUu7y21kyaUlnsVXpm1952FVYcei2RoVYo7twX0G6Z34mBq9RaH8dJWEjtcbhv6Q3kF8PjQwtVV4OTj23IunCNyHxHe893csotgQ=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFw1AYfV0nxaIR4SqhJW1liVqfFFhUesSrfBqQUu7y21kyaUlnsVXpm1952FVYcei2RoVYo7twX0G6Z34mBq9RaH8dJWEjtcbhv6Q3kF8PjQwtVV4OTj23IunCNyHxHe893csotgQ=w800-h500-k-no"
+      ],
+      "address": "65 Bến Nghé, Phú Hội, Thuận Hóa, Huế 530000, Việt Nam",
+      "coordinates": {
+        "lat": 16.464765,
+        "lng": 107.5947821
+      },
+      "rating": 4.5,
+      "priceRange": "₫₫",
+      "hours": {
+        "open": "06:30",
+        "close": "22:00"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "voi-cafe",
+      "name": "Vối Cafe",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEW03NTUVN28fPPGnPgcrTWDYFMT2cEfOfUC39oqGnq2Pv7jLnQL8MZTha5f99s36Guf0oqvpQPKXKigcWH7Xw4c6UZd69SejTV76uhF364vGX4ZMeIFqDumzt5k296tr3MriI=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEW03NTUVN28fPPGnPgcrTWDYFMT2cEfOfUC39oqGnq2Pv7jLnQL8MZTha5f99s36Guf0oqvpQPKXKigcWH7Xw4c6UZd69SejTV76uhF364vGX4ZMeIFqDumzt5k296tr3MriI=w800-h500-k-no"
+      ],
+      "address": "106 Lê Ng. Cát, Thủy Xuân, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4363538,
+        "lng": 107.5659735
+      },
+      "rating": 4.7,
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:30",
+        "close": "22:00"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "1984-coffee-pub-restaurant",
+      "name": "1984 Coffee • Pub • Restaurant",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê",
+        "nhà hàng",
+        "quán rượu"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFazqN56x-TEKfrEwaUbDthAjuWViFS2tb1RVW11U6PkzUNV6HIJeGH63A60bSLc-BOEiQ1FzbVi6KfB8BQ7RmoYEqetzrByT_oWbttG0VMRCIZk53vTHfGjTSFiQch6Qqef9tIid24QJ4=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFazqN56x-TEKfrEwaUbDthAjuWViFS2tb1RVW11U6PkzUNV6HIJeGH63A60bSLc-BOEiQ1FzbVi6KfB8BQ7RmoYEqetzrByT_oWbttG0VMRCIZk53vTHfGjTSFiQch6Qqef9tIid24QJ4=w800-h500-k-no"
+      ],
+      "address": "29 Võ Thị Sáu, Phú Hội, Thuận Hóa, Huế 530000, Việt Nam",
+      "coordinates": {
+        "lat": 16.469028,
+        "lng": 107.5953881
+      },
+      "rating": 4.9,
+      "priceRange": "₫",
+      "hours": {
+        "open": "09:00",
+        "close": "00:00"
+      },
+      "vibe": "Quán cà phê, Quán rượu, Nhà hàng",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "view-cafe",
+      "name": "View Cafe",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGUVbUDrv9gjKbkzjvc573XDmlD-82hFOoV-oK1jbdX_S-X1TmXn6IABMZCh_eztfU-XB-fOp90-fgHRChocziv3KwoBIYiIq8JsunxotAmyplg1oF20XaS8ujja7VJAz0sKxdm=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGUVbUDrv9gjKbkzjvc573XDmlD-82hFOoV-oK1jbdX_S-X1TmXn6IABMZCh_eztfU-XB-fOp90-fgHRChocziv3KwoBIYiIq8JsunxotAmyplg1oF20XaS8ujja7VJAz0sKxdm=w800-h500-k-no"
+      ],
+      "address": "7/34 Nguyễn Tri Phương, phường, Huế, 49000, Việt Nam",
+      "coordinates": {
+        "lat": 16.4646439,
+        "lng": 107.5929284
+      },
+      "rating": 4.5,
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:30",
+        "close": "00:00"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "giao-cafe",
+      "name": "Giao Cafe",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFD60o3EN37ETSxouF11xulI5i3PSrn8-06gd1GLkMEjSehEPz0A17rnFlWKfagFZN97d9mJbq3SszMhQry-LJ_fSec5rycIvuLtKlo3MB8a-ArIeTby2EQU6KdoGBE5mldv845wg=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFD60o3EN37ETSxouF11xulI5i3PSrn8-06gd1GLkMEjSehEPz0A17rnFlWKfagFZN97d9mJbq3SszMhQry-LJ_fSec5rycIvuLtKlo3MB8a-ArIeTby2EQU6KdoGBE5mldv845wg=w800-h500-k-no"
+      ],
+      "address": "118 Đ. Chi Lăng, Phú Cát, Phú Xuân, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.477928,
+        "lng": 107.5898367
+      },
+      "rating": 4.5,
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:30",
+        "close": "22:00"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "ong-ba-coffee",
+      "name": "Đông Ba Coffee",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFqgmNRt5G7CTSJm2O2MMjGSbPYQdG8Guq1VxJiXzlBHMvGKOQsDE-YlD_UUPh-cHtOlHiocJjOYZtNHIh92NY_HA1l_KR-k1VeQd4TJrUWTC1XWUg4rpycIv63EpTbCKvmSX4B=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFqgmNRt5G7CTSJm2O2MMjGSbPYQdG8Guq1VxJiXzlBHMvGKOQsDE-YlD_UUPh-cHtOlHiocJjOYZtNHIh92NY_HA1l_KR-k1VeQd4TJrUWTC1XWUg4rpycIv63EpTbCKvmSX4B=w800-h500-k-no"
+      ],
+      "address": "15 Mai Thúc Loan, Phú Hoà, Phú Xuân, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4781446,
+        "lng": 107.5847259
+      },
+      "rating": 4.5,
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:00",
+        "close": "22:30"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "nghia-coffee",
+      "name": "NGHIA Coffee",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFwhcs80No40Y9Lq3AyUW_fOCmSgpQaaZ-TYvLmQOe-WfyZaljELiYKov4nzvDPl90Y8ZsIygJZur0gXU38LLC0hV82mZjpoKYIWXTEWtAT2UeyGZ51eQ5BEDSwmsfU1TqKyrGNIg=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFwhcs80No40Y9Lq3AyUW_fOCmSgpQaaZ-TYvLmQOe-WfyZaljELiYKov4nzvDPl90Y8ZsIygJZur0gXU38LLC0hV82mZjpoKYIWXTEWtAT2UeyGZ51eQ5BEDSwmsfU1TqKyrGNIg=w800-h500-k-no"
+      ],
+      "address": "Khu tập thể, Số nhà 19, phòng 206 Nguyễn Trường Tộ, Thuận Hóa, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4557891,
+        "lng": 107.5867759
+      },
+      "rating": 4.7,
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:30",
+        "close": "22:00"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "kodo",
+      "name": "KODO",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGBU7PJbs98HmkbqvTTdZZrue1KNw1QLpGrmYP6vb0peY2rRCkMxdL3aza8UWhKLxKHJOHn8rgucmpInraYGvhy0ayGaDJFR1A6dTcQbdHHpxay2FYELG1A3DYHRkNgFSvOq6N8=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGBU7PJbs98HmkbqvTTdZZrue1KNw1QLpGrmYP6vb0peY2rRCkMxdL3aza8UWhKLxKHJOHn8rgucmpInraYGvhy0ayGaDJFR1A6dTcQbdHHpxay2FYELG1A3DYHRkNgFSvOq6N8=w800-h500-k-no"
+      ],
+      "address": "36 - 38 Nguyễn Phúc Nguyên, Hương Long, Kim Long, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4560862,
+        "lng": 107.5559356
+      },
+      "rating": 4.7,
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:30",
+        "close": "22:00"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "hue-imperial-sky-bar-cafe",
+      "name": "Húe Imperial Sky Bar & Cafe",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEcg3tjFgVqYsNFte6nak5_di9iteZC0BO9LXXo3lpQrnkUgjVC5tS_YTlwKoD0diFl5xnDtf0ENGQpBTAhX4A3AovW9HFybCHDXViutzf6mM2RoK0jGfmG5vLckjziBjCx41Mvwzc2Xfj3=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEcg3tjFgVqYsNFte6nak5_di9iteZC0BO9LXXo3lpQrnkUgjVC5tS_YTlwKoD0diFl5xnDtf0ENGQpBTAhX4A3AovW9HFybCHDXViutzf6mM2RoK0jGfmG5vLckjziBjCx41Mvwzc2Xfj3=w800-h500-k-no"
+      ],
+      "address": "08 Hùng Vương, Phú Hội, Thuận Hóa, Huế 49000, Việt Nam",
+      "coordinates": {
+        "lat": 16.4661172,
+        "lng": 107.5917547
+      },
+      "rating": 4.1,
+      "priceRange": "₫",
+      "hours": {
+        "open": "07:00",
+        "close": "00:00"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "noa-espresso",
+      "name": "Noa Espresso",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHT8hWr2JBiLYzwvcwDI0UgbSeLCloqP7KQYAAVXSPSLVOOdpM0hkDBSDqZCInrYYYZyCBLNykXBKMDcXU8EWB_LiKDTgYWoFYFcG_EDOlAkdraj6drkRKirgMXnocOCy8oJsHy3j0f9pWy=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHT8hWr2JBiLYzwvcwDI0UgbSeLCloqP7KQYAAVXSPSLVOOdpM0hkDBSDqZCInrYYYZyCBLNykXBKMDcXU8EWB_LiKDTgYWoFYFcG_EDOlAkdraj6drkRKirgMXnocOCy8oJsHy3j0f9pWy=w800-h500-k-no"
+      ],
+      "address": "19 Lê Huân, Phú Xuân, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4657165,
+        "lng": 107.5761777
+      },
+      "rating": 4.8,
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:00",
+        "close": "00:00"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "ton-nu-vien-cafe",
+      "name": "Tôn Nữ Viên Cafe",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGMeam6L0lTCWQH_ttpszZwuqSXlTGXXunwSfegMMleqUlFvwK_OxiSMhQX44M4Uv-FM_zZ2i9vlxxWSFgwEumRaWwziuGLZFwsP8cx_FDGr5IQANhITpBMhn8SnT-MDfpJ-4e4=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGMeam6L0lTCWQH_ttpszZwuqSXlTGXXunwSfegMMleqUlFvwK_OxiSMhQX44M4Uv-FM_zZ2i9vlxxWSFgwEumRaWwziuGLZFwsP8cx_FDGr5IQANhITpBMhn8SnT-MDfpJ-4e4=w800-h500-k-no"
+      ],
+      "address": "298 Phan Chu Trinh, An Cựu, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.454993,
+        "lng": 107.595726
+      },
+      "rating": 4.6,
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:00",
+        "close": "22:00"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "tan-original",
+      "name": "tan. original",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFI2fFTDLLrf0fmd2gtmEVwSmXKqbwATeKIY9rnVhhi77Jjf9nGiBLuMRaXb6Zqgpmjlqk09YZT2pv7MvV28QMo2B8UIey6_rrP4aIUpprVj2A6Y_QQjNnGiegoIVapQTjLMg5H=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFI2fFTDLLrf0fmd2gtmEVwSmXKqbwATeKIY9rnVhhi77Jjf9nGiBLuMRaXb6Zqgpmjlqk09YZT2pv7MvV28QMo2B8UIey6_rrP4aIUpprVj2A6Y_QQjNnGiegoIVapQTjLMg5H=w800-h500-k-no"
+      ],
+      "address": "14 Phạm Hồng Thái, Vĩnh Ninh, Thuận Hóa, Huế 52000, Việt Nam",
+      "coordinates": {
+        "lat": 16.4649814,
+        "lng": 107.5891018
+      },
+      "rating": 4.6,
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:30",
+        "close": "22:00"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "hao-ky-coffee",
+      "name": "Hảo Kỳ Coffee",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGkrZKqEp2TO6Vc9ddb_x_tluHMpaE9a3DlzJlo2J3_kM8IiwOtH9v7DGNwTrydGKZn--U3FWvSr-rQQFEN8hK9F3UfpLNl1xCy0C6oTQMtB3icHeiThGUABXkBF41X_RylQ1Iq=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGkrZKqEp2TO6Vc9ddb_x_tluHMpaE9a3DlzJlo2J3_kM8IiwOtH9v7DGNwTrydGKZn--U3FWvSr-rQQFEN8hK9F3UfpLNl1xCy0C6oTQMtB3icHeiThGUABXkBF41X_RylQ1Iq=w800-h500-k-no"
+      ],
+      "address": "59A Nguyễn Hoàng, Hương Long, Kim Long, Huế 49000, Việt Nam",
+      "coordinates": {
+        "lat": 16.4615651,
+        "lng": 107.5557764
+      },
+      "rating": 4.3,
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:00",
+        "close": "22:00"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "ca-phe-muoi-cs1",
+      "name": "Cà Phê Muối cs1",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHlbmjT7OJV8Ei5dITALLiLDHOOYvvaS01d9mfU-YHDQUkRP6fGCvZr_-oWd2fbxHmYw2veb4mBXddOQiUZ_YsQwkJECgcoVZm-hn1w5MW4KAJqhlxaWnR-_gDkZD4oY8g0sLY=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHlbmjT7OJV8Ei5dITALLiLDHOOYvvaS01d9mfU-YHDQUkRP6fGCvZr_-oWd2fbxHmYw2veb4mBXddOQiUZ_YsQwkJECgcoVZm-hn1w5MW4KAJqhlxaWnR-_gDkZD4oY8g0sLY=w800-h500-k-no"
+      ],
+      "address": "142 Đặng Thái Thân, Phú Xuân, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4712189,
+        "lng": 107.5729239
+      },
+      "rating": 3.8,
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:30",
+        "close": "12:00"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "cafe-buu-ien",
+      "name": "Cafe Bưu Điện",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEYiseZC63z8Z4sjtUvwcMZQqtn4lFHe2eV4JA7N1znCDB-1C0ap7Z32gitXC4dWT46k2VCaGegzgT7By-OAX2XyUnlw5JiaemcS6GTZXIRtEFILqmvwmDxeOPWa1BSOYftHwjgj6rDf20=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEYiseZC63z8Z4sjtUvwcMZQqtn4lFHe2eV4JA7N1znCDB-1C0ap7Z32gitXC4dWT46k2VCaGegzgT7By-OAX2XyUnlw5JiaemcS6GTZXIRtEFILqmvwmDxeOPWa1BSOYftHwjgj6rDf20=w800-h500-k-no"
+      ],
+      "address": "8 Hoàng Hoa Thám, Vĩnh Ninh, Thuận Hóa, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4651379,
+        "lng": 107.5903106
+      },
+      "rating": 4.2,
+      "priceRange": "₫",
+      "hours": {
+        "open": "05:00",
+        "close": "22:00"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "tiem-ca-phe-vivu",
+      "name": "Tiệm Cà Phê ViVu",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGYETZHb4YOT_SbtkxHvo4Q3JLPTRjj38mGchZYBWRmWqDgLMkPMPA2j9aOcp7t9Lwn_NYQiV4AO9mmq2W5tZMzaLQtla9BW_-iowUb7HWkpUkySgZ7Q_zVdx_VL8LAtFuF2FgiEg=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGYETZHb4YOT_SbtkxHvo4Q3JLPTRjj38mGchZYBWRmWqDgLMkPMPA2j9aOcp7t9Lwn_NYQiV4AO9mmq2W5tZMzaLQtla9BW_-iowUb7HWkpUkySgZ7Q_zVdx_VL8LAtFuF2FgiEg=w800-h500-k-no"
+      ],
+      "address": "77 Phan Đình Phùng, Vĩnh Ninh, Thuận Hóa, Huế 52000, Việt Nam",
+      "coordinates": {
+        "lat": 16.4565119,
+        "lng": 107.5897004
+      },
+      "rating": 4.5,
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:30",
+        "close": "22:30"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "quan-cafe-51",
+      "name": "Quán Café 51",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGc_tBAYoJSjaOkvT3GBN-0glQWDw6Y3TPCvrlPnxj2v16Z7JlCu19AMTnuhml3E-u8kD8Yw7lgdUZkmx-1CXBgglGteUPPx4Vs0EBW-CLdhEK0RxoixXsrq4dDpjCmgI2nVyeh=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGc_tBAYoJSjaOkvT3GBN-0glQWDw6Y3TPCvrlPnxj2v16Z7JlCu19AMTnuhml3E-u8kD8Yw7lgdUZkmx-1CXBgglGteUPPx4Vs0EBW-CLdhEK0RxoixXsrq4dDpjCmgI2nVyeh=w800-h500-k-no"
+      ],
+      "address": "51 Lê Huân, Phú Xuân, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.466844,
+        "lng": 107.5752644
+      },
+      "rating": 4.8,
+      "priceRange": "₫",
+      "hours": {
+        "open": "05:00",
+        "close": "18:00"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "dechill-ca-phe-muoi-hue-quan-ca-phe-ep-ngam-hoang-hon-hue",
+      "name": "DeChill - Cà Phê Muối Huế - Quán Cà Phê Đẹp Ngắm Hoàng Hôn Huế",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE3eMdrGvQ_sAIyu-MYcR_msLkGlRMNGN4UTYc-bAvfOi3yc1ybjqR-v5Cg9umylZJr6eFdkbXZMaw7vBjgPIWsiaEZOUP8HuH3tMakeor_WCYOSyyo_yXcWyuancgQlr46xVetj7YaQHVk=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE3eMdrGvQ_sAIyu-MYcR_msLkGlRMNGN4UTYc-bAvfOi3yc1ybjqR-v5Cg9umylZJr6eFdkbXZMaw7vBjgPIWsiaEZOUP8HuH3tMakeor_WCYOSyyo_yXcWyuancgQlr46xVetj7YaQHVk=w800-h500-k-no"
+      ],
+      "address": "Đồi Vọng Cảnh, 102 Huyền Trân Công Chúa, Cầu Gò Bối, Thủy Xuân, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.425406,
+        "lng": 107.5652017
+      },
+      "rating": 4.4,
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:00",
+        "close": "22:00"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "cua-thuong-tu",
+      "name": "Cửa Thượng Tứ",
+      "category": "cafe",
+      "tags": [
+        "cà phê",
+        "điểm mốc lịch sử"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFVAFJ84Uj8KctbN71tEzlLgHn7qaUh3gTaI0vpQyqYa9Oq90Ur44tJstKkUOrJ3MM3YvK63R-u1upil3CeUy366Vg6HUuhRVCUMzcntiOw3a8zUCHy04D-fa0MU9sNjskyHbk4=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFVAFJ84Uj8KctbN71tEzlLgHn7qaUh3gTaI0vpQyqYa9Oq90Ur44tJstKkUOrJ3MM3YvK63R-u1upil3CeUy366Vg6HUuhRVCUMzcntiOw3a8zUCHy04D-fa0MU9sNjskyHbk4=w800-h500-k-no"
+      ],
+      "address": "15 Đinh Tiên Hoàng, Phú Hậu, Phú Xuân, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4698104,
+        "lng": 107.5842042
+      },
+      "rating": 4.6,
+      "priceRange": "₫",
+      "hours": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "vibe": "Điểm mốc lịch sử",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "ken-coffee",
+      "name": "Ken Coffee",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGai_P8--EcwYILtnhOCLNwkXXTAHjgvBLb-vZf9djdMX_dKlcegHVacmLIv7kfR4cr3ML0gh1bQAccwzprnSv_S3bAsoxK_uABpT2cbRc3QfvJi1Ol8Z-yvEq_cQpkW5YqCn2f=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGai_P8--EcwYILtnhOCLNwkXXTAHjgvBLb-vZf9djdMX_dKlcegHVacmLIv7kfR4cr3ML0gh1bQAccwzprnSv_S3bAsoxK_uABpT2cbRc3QfvJi1Ol8Z-yvEq_cQpkW5YqCn2f=w800-h500-k-no"
+      ],
+      "address": "264 Đinh Tiên Hoàng, Thuận Thành, Phú Xuân, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4778803,
+        "lng": 107.578015
+      },
+      "rating": 4.1,
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:00",
+        "close": "22:00"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "anh-kafe",
+      "name": "ANH KAFE",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGmlSwlXXw8jGPf7fA9IJ4VDVejYMBMM-R4m7Lmj3uhpkdWdUXxUx8E7tR02G_mfcoHieMyKBFpHvidzCVzAeCzzDjAIA48Zr4yVXXTrmtWxtVzBe-5xarUeWp6K1XWI3DBclmJzQ=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGmlSwlXXw8jGPf7fA9IJ4VDVejYMBMM-R4m7Lmj3uhpkdWdUXxUx8E7tR02G_mfcoHieMyKBFpHvidzCVzAeCzzDjAIA48Zr4yVXXTrmtWxtVzBe-5xarUeWp6K1XWI3DBclmJzQ=w800-h500-k-no"
+      ],
+      "address": "94 Đinh Tiên Hoàng, Phú Hậu, Phú Xuân, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4738005,
+        "lng": 107.5813476
+      },
+      "rating": 4.2,
+      "priceRange": "₫",
+      "hours": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "moc-vien-cafe",
+      "name": "Mộc Viên Cafe",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH4SOcVRKXcZrUHZiSDFMMFYrXlYQWSRk9HWdZe8Qac3lqWJ-ZCI1WQ9FV3Ca5BKF4O378dQc9dP6x5HW37R2_2oz5JJdZ8HayDc0k6U8slUXKyLSQljBFLg0urSB2sNviwY00=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH4SOcVRKXcZrUHZiSDFMMFYrXlYQWSRk9HWdZe8Qac3lqWJ-ZCI1WQ9FV3Ca5BKF4O378dQc9dP6x5HW37R2_2oz5JJdZ8HayDc0k6U8slUXKyLSQljBFLg0urSB2sNviwY00=w800-h500-k-no"
+      ],
+      "address": "13/3/80 Nguyễn Hoàng, Kim Long, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4653823,
+        "lng": 107.554375
+      },
+      "rating": 4.5,
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:00",
+        "close": "22:00"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "tiem-ca-phe-81-ca-phe-muoi-hue-quan-ca-phe-ep-hue",
+      "name": "Tiệm Cà Phê 81- Cà Phê Muối Huế- Quán Cà Phê Đẹp Huế",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHnDLcoYFejoV1Ijp7E3BxYTka1I4tgwTQjo02R1m5CNmn9zjP-TBlIjhCjMGekCNQIdweLWULR5m352QSvbKKWRdM-8B4W2vJ_SHB8StA3QnCa9Af7l_7n6dagJnKmZQ0xYoGD=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHnDLcoYFejoV1Ijp7E3BxYTka1I4tgwTQjo02R1m5CNmn9zjP-TBlIjhCjMGekCNQIdweLWULR5m352QSvbKKWRdM-8B4W2vJ_SHB8StA3QnCa9Af7l_7n6dagJnKmZQ0xYoGD=w800-h500-k-no"
+      ],
+      "address": "81 Huyền Trân Công Chúa, Thủy Xuân, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4307573,
+        "lng": 107.5630434
+      },
+      "rating": 4.3,
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:00",
+        "close": "22:00"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "coffee-and-tea",
+      "name": "Coffee and Tea",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGiV5c2mo2t51LmsW_-MqXxYpoFhBezUVpOGR6UnC2PgNB3GsAcdtQnLc_PJYw8KHI8FG5kjIGUFzxGbiPILJqQCQ89azYIG2MRP5jeTS_1qyUqtwfTJaegySexPupMqQ8bH-Up=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGiV5c2mo2t51LmsW_-MqXxYpoFhBezUVpOGR6UnC2PgNB3GsAcdtQnLc_PJYw8KHI8FG5kjIGUFzxGbiPILJqQCQ89azYIG2MRP5jeTS_1qyUqtwfTJaegySexPupMqQ8bH-Up=w800-h500-k-no"
+      ],
+      "address": "46 Đinh Công Tráng, Phú Hậu, Phú Xuân, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4710512,
+        "lng": 107.5811263
+      },
+      "rating": 2.9,
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:00",
+        "close": "18:00"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "xuong-1976-cafe",
+      "name": "Xưởng 1976 Cafe",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGA-_ILqLUK5lo19qLw9fU-7N5pR0mIUiPCjsDssRnIK8PoNSpSQA_CTHTW1hNchJ0J-fnuGJ9vlM9SR3-JaOoJNfFNQ1QbN2BKvZP1hHsPX-CzqXlNDbfj4TeKPGnx49I2iIg=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGA-_ILqLUK5lo19qLw9fU-7N5pR0mIUiPCjsDssRnIK8PoNSpSQA_CTHTW1hNchJ0J-fnuGJ9vlM9SR3-JaOoJNfFNQ1QbN2BKvZP1hHsPX-CzqXlNDbfj4TeKPGnx49I2iIg=w800-h500-k-no"
+      ],
+      "address": "12 Hải Triều, An Đông, An Cựu, Huế 49000, Việt Nam",
+      "coordinates": {
+        "lat": 16.4563909,
+        "lng": 107.6017607
+      },
+      "rating": 4.4,
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:30",
+        "close": "22:30"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "quan-ca-phe-chieu",
+      "name": "Quán Cà phê Chiều",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF_It-Vq0zPeFDf1pJawyaSeQ67yWMdBkTpXXWrHvLc6mrnwZfwWlyQNdT_bfz7dqB4rQqjK4fqfG8D99gU-eKf8FZbhGfOKxTYLnSosMn1FLzZqGtoiqWagFZshLByySfDPWXX=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF_It-Vq0zPeFDf1pJawyaSeQ67yWMdBkTpXXWrHvLc6mrnwZfwWlyQNdT_bfz7dqB4rQqjK4fqfG8D99gU-eKf8FZbhGfOKxTYLnSosMn1FLzZqGtoiqWagFZshLByySfDPWXX=w800-h500-k-no"
+      ],
+      "address": "FHCG+X67, 44 Đặng Thái Thân, Thuận Thành, Phú Xuân, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4724529,
+        "lng": 107.5755759
+      },
+      "rating": 4.2,
+      "priceRange": "₫",
+      "hours": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "cafe-o-con",
+      "name": "Cafe ĐÒ CỒN",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF4yelAdQ3XguQoLljFqJa4EAxBJezW8tUKrAvFVBIENp4-AFGCAQpMQpaVYNPn37j4r8RXgjvSNx_agK34ZDKzDzxCiNCq9cD0DW5zrxD6yyCdJYi3tNHcgg7oDHtV64UKBlhR=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF4yelAdQ3XguQoLljFqJa4EAxBJezW8tUKrAvFVBIENp4-AFGCAQpMQpaVYNPn37j4r8RXgjvSNx_agK34ZDKzDzxCiNCq9cD0DW5zrxD6yyCdJYi3tNHcgg7oDHtV64UKBlhR=w800-h500-k-no"
+      ],
+      "address": "222 Đ. Chi Lăng, tổ 8, Phú Xuân, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4821676,
+        "lng": 107.5904451
+      },
+      "rating": 4.3,
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:00",
+        "close": "22:00"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
+    },
+    {
+      "id": "song-xanh-cafe",
+      "name": "Sông Xanh Café",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEC6OJgneumFK7a5xT7acjccTAglU8lXQA3ZkrF834ksl1VaY8OJtTkRSUivRlKf064g_CdF3y7iCU4HhC3NBoBqook0R8NLxfzkVKGU78bu3IVOsSoun2usElfScHBmd9Plu7B=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEC6OJgneumFK7a5xT7acjccTAglU8lXQA3ZkrF834ksl1VaY8OJtTkRSUivRlKf064g_CdF3y7iCU4HhC3NBoBqook0R8NLxfzkVKGU78bu3IVOsSoun2usElfScHBmd9Plu7B=w800-h500-k-no"
+      ],
+      "address": "kiệt 7 Nguyễn Công Trứ, Phú Hội, Thuận Hóa, Huế 55000, Việt Nam",
+      "coordinates": {
+        "lat": 16.4723939,
+        "lng": 107.5957808
+      },
+      "rating": 4.2,
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:30",
+        "close": "22:00"
+      },
+      "vibe": "Quán cà phê",
+      "description": "",
+      "insiderTips": []
     }
   ],
   "collections": [
