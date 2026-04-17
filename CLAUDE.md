@@ -18,7 +18,7 @@ To run a single test file: `npx vitest run src/hooks/useMyTrip.test.ts`
 
 ## Architecture
 
-React 19 + TypeScript + Vite travel guide PWA for Huế, Vietnam. Client-only — no backend, no API calls. Deployed at `https://hue-ni.vercel.app`.
+React 19 + TypeScript + Vite travel guide PWA for Huế, Vietnam. Client-only — no backend, no API calls. Deployed at `https://hue-ni.vercel.app`. All UI strings are in Vietnamese — maintain this when adding user-facing text.
 
 **Entry:** `index.html` → `src/main.tsx` → `src/App.tsx`
 
@@ -77,7 +77,7 @@ Both variants include a floating bookmark button (top-right of image) that calls
 - **Active CTAs**: silk-sheen gradient `linear-gradient(135deg, var(--color-primary), var(--color-primary-container))` — never flat color.
 - **Glassmorphism**: floating elements use `background: rgba(253,246,236,0.92)` + `backdrop-filter: blur(...)`.
 - **Shadows**: tinted with `rgba(43,22,19,...)` (on-surface color), never black.
-- **Fonts**: `--font-serif: 'Noto Serif'` for headings/titles, `--font-sans: 'Plus Jakarta Sans'` for all UI labels. The React Compiler is active — do not use `useCallback` with dependency arrays (causes lint error `react-hooks/preserve-manual-memoization`); use plain functions instead.
+- **Fonts**: `--font-serif: 'Noto Serif'` for headings/titles, `--font-sans: 'Plus Jakarta Sans'` for all UI labels.
 
 Key tokens: `--color-primary: #7d0010`, `--color-secondary: #735c00`, `--color-tertiary: #5e2b34`, `--color-secondary-fixed: #ffe088`, `--bottom-nav-height: 4rem`.
 
@@ -102,3 +102,7 @@ Vitest + `@testing-library/react` + jsdom. Only `src/hooks/useMyTrip.test.ts` ha
 ### TypeScript
 
 Two tsconfig scopes: `tsconfig.app.json` (browser/React, strict, ES2023) and `tsconfig.node.json` (Vite config). No path aliases.
+
+### Deployment
+
+Vercel with SPA catch-all rewrite (`vercel.json`: `/(.*) → /index.html`). No server-side rendering.
