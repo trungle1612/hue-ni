@@ -503,9 +503,12 @@
         "open": "07:00",
         "close": "22:00"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Góc cà phê quen thuộc của người dân Thuận Thành.",
+      "description": "Han Cafe là điểm dừng chân bình dị của dân khu Đinh Tiên Hoàng — không gian nhỏ, ánh sáng ấm, tiếng nhạc vừa đủ nghe. Quán phục vụ cà phê phin truyền thống và các loại nước uống đơn giản theo khẩu vị người Huế.",
+      "insiderTips": [
+        "Đến sáng sớm để có chỗ ngồi yêu thích trước giờ cao điểm.",
+        "Thử cà phê đen đá pha phin — đặc và đậm theo kiểu Huế."
+      ]
     },
     {
       "id": "thanh-cafe-24-van-cao",
@@ -529,9 +532,12 @@
         "open": "06:30",
         "close": "22:00"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Cà phê sáng bình dân giữa lòng Xuân Phú.",
+      "description": "Quán nhỏ nằm trên đường Văn Cao yên tĩnh, là chỗ quen của nhiều người dân quanh Vỹ Dạ ghé mỗi sáng trước khi bắt đầu ngày mới. Menu đơn giản, giá bình dân, không khí thân thiện.",
+      "insiderTips": [
+        "Ghé trước 8h sáng để được phục vụ nhanh nhất.",
+        "Gọi cà phê sữa nóng — pha đậm vừa đủ để uống từ từ."
+      ]
     },
     {
       "id": "hue-by-xeooo",
@@ -558,8 +564,11 @@
         "close": "22:30"
       },
       "vibe": "Nhà hàng, Quán cà phê nghệ thuật, Nhà hàng pizza",
-      "description": "",
-      "insiderTips": []
+      "description": "Nằm trong hẻm 10 Bến Nghé, HÚE by Xéooo là không gian kết hợp giữa cà phê và nghệ thuật thị giác mang đậm bản sắc cố đô. Mỗi góc tường là một câu chuyện về Huế được kể bằng màu sắc và thiết kế độc đáo.",
+      "insiderTips": [
+        "Hỏi thăm để tìm đúng hẻm — bảng hiệu không to, dễ bỏ qua.",
+        "Chụp ảnh ở mảng tường chính trong quán — ánh sáng tự nhiên rất đẹp vào buổi chiều."
+      ]
     },
     {
       "id": "nha-hang-vy-da-xua",
@@ -587,8 +596,11 @@
         "close": "22:30"
       },
       "vibe": "Quán cà phê, Nhà hàng Việt Nam, Nhà hàng cơm, Địa điểm tổ chức lễ cưới",
-      "description": "",
-      "insiderTips": []
+      "description": "Nằm trên đường Nguyễn Sinh Cung, Vỹ Dạ Xưa gợi lại không khí của một Vỹ Dạ trước đây — nơi người Huế trung lưu từng sống chậm bên bờ sông. Nhà hàng phục vụ cả ẩm thực Huế lẫn cà phê trong không gian mộc mạc, cây xanh bao quanh.",
+      "insiderTips": [
+        "Thử các món ăn Huế truyền thống — bánh bèo, bánh nậm đều ngon.",
+        "Buổi chiều mát là thời điểm lý tưởng để ngồi ngoài sân thưởng thức cà phê."
+      ]
     },
     {
       "id": "me-cafe-ben-xua-vi-da",
@@ -612,9 +624,12 @@
         "open": "06:00",
         "close": "22:00"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Bến sông xưa, ly cà phê yên tĩnh nhìn ra Vỹ Dạ.",
+      "description": "Mê Cafe ẩn mình trong kiệt nhỏ gần bờ sông Vỹ Dạ — tên \"bến xưa\" nói lên tất cả. Không gian mộc mạc, cây cối xanh tốt, và cảm giác như thời gian chậm lại khi ngồi nhìn ra dòng sông phía sau.",
+      "insiderTips": [
+        "Đi thêm vào trong kiệt để tìm quán — không thấy biển hiệu từ đường lớn.",
+        "Buổi sáng sớm là lúc không khí mát nhất và không gian yên tĩnh nhất."
+      ]
     },
     {
       "id": "tan",
@@ -638,9 +653,12 @@
         "open": "07:00",
         "close": "22:00"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Tối giản, điềm tĩnh — nghỉ ngơi giữa ồn ào Đinh Tiên Hoàng.",
+      "description": "tan. theo đúng nghĩa của cái tên — không cần phô trương, chỉ cần một góc yên để ngồi tan chảy vào khoảnh khắc hiện tại. Thiết kế tối giản, menu vừa phải, cà phê đủ ngon để gọi thêm.",
+      "insiderTips": [
+        "Chọn chỗ ngồi gần cửa sổ để đón ánh sáng tự nhiên tốt nhất.",
+        "Thử signature drink của quán — thường được đổi theo mùa."
+      ]
     },
     {
       "id": "bycafe",
@@ -664,9 +682,12 @@
         "open": "07:30",
         "close": "21:30"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Cà phê góc phố yên tĩnh trên đường Tôn Thất Thiệp.",
+      "description": "BY..cafe chiếm một góc nhỏ trên đường Tôn Thất Thiệp — kiểu quán mà người Huế hay gọi là \"chỗ ngồi một mình\". Không gian đơn giản, nhạc vừa tai, phù hợp cho những buổi chiều không muốn đi đâu xa.",
+      "insiderTips": [
+        "Quán yên tĩnh, lý tưởng cho việc đọc sách hoặc làm việc nhẹ.",
+        "Gọi thêm đồ ăn nhẹ cùng cà phê — phục vụ cả snack và bánh ngọt."
+      ]
     },
     {
       "id": "khong-gian-hoai-co-coffee",
@@ -690,9 +711,12 @@
         "open": "06:00",
         "close": "22:00"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Bước vào là bước vào Huế của những năm 60-70.",
+      "description": "Đúng như tên gọi, Không Gian Hoài Cổ Coffee tái hiện lại hình ảnh một quán cà phê Huế cũ kỹ — đồ gỗ cũ, ảnh đen trắng, nhạc tiền chiến. Nằm trên Đinh Tiên Hoàng, quán là nơi lý tưởng cho những ai muốn thưởng thức Huế theo cách chậm nhất.",
+      "insiderTips": [
+        "Dành thời gian ngắm các hiện vật cũ trên tường — mỗi thứ đều có câu chuyện.",
+        "Gọi cà phê vợt hoặc cà phê phin — hợp với không gian retro nhất."
+      ]
     },
     {
       "id": "thanh-cafe-phan-boi-chau",
@@ -716,9 +740,12 @@
         "open": "07:00",
         "close": "22:00"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Quán quen của người Thuận Hóa — cà phê thật, không màu mè.",
+      "description": "Thành cafe trên Phan Bội Châu là kiểu quán cà phê truyền thống Huế — mở từ sáng sớm, khách phần lớn là người địa phương ghé quen. Cà phê đậm, ghế gỗ cũ, quạt trần chạy chậm — tất cả tạo nên cái vibe bình yên khó tìm ở nơi khác.",
+      "insiderTips": [
+        "Đến trước 8h sáng để nghe người Huế kể chuyện buổi sáng.",
+        "Gọi cà phê đen không đường để cảm nhận hương vị phin đúng kiểu Huế."
+      ]
     },
     {
       "id": "cui-coffee",
@@ -742,9 +769,13 @@
         "open": "06:30",
         "close": "22:00"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Cà phê rang củi — mộc mạc như đất Huế, đậm như tính người Huế.",
+      "description": "CỦI Coffee trên Bùi Thị Xuân chuyên phục vụ cà phê rang bằng củi theo phương pháp truyền thống — tạo ra hương vị đặc trưng không thể lẫn. Không gian thô mộc, gỗ và đất nung, như một góc làng xưa còn sót lại giữa thành phố.",
+      "insiderTips": [
+        "Hỏi nhân viên về rang mẻ mới nhất — hương vị thay đổi theo từng mẻ rang.",
+        "Thử cà phê muối rang củi — sự kết hợp độc đáo chỉ có ở Huế.",
+        "Mua gói cà phê rang về làm quà — đóng gói đẹp và thơm đặc trưng."
+      ]
     },
     {
       "id": "mohe-ca-phe",
@@ -768,9 +799,12 @@
         "open": "06:30",
         "close": "01:00"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Phong cách và trẻ trung giữa khu Đinh Tiên Hoàng nhộn nhịp.",
+      "description": "MÔHÈ cà phê mang phong cách thiết kế hiện đại vào một con phố quen thuộc của Huế. Không gian rộng rãi, nhiều góc chụp ảnh, menu đa dạng từ cà phê specialty đến đồ uống sáng tạo theo mùa.",
+      "insiderTips": [
+        "Thử các thức uống đặc biệt theo mùa — thường xuất hiện trên story Instagram của quán.",
+        "Buổi tối quán đông hơn — đến sớm nếu muốn có chỗ ngồi đẹp."
+      ]
     },
     {
       "id": "thanh-cafe",
@@ -794,9 +828,12 @@
         "open": "06:00",
         "close": "22:00"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Bình yên dưới chân đồi Ngự Bình — cà phê và tiếng gió.",
+      "description": "Thanh Cafe tọa lạc gần chân đồi Ngự Bình, nơi người Huế hay lên ngắm thành phố từ trên cao. Quán nhỏ, không khí trong lành, lý tưởng để ghé sau khi đi dạo buổi sáng quanh khu vực đồi Ngự Bình.",
+      "insiderTips": [
+        "Kết hợp ghé quán sau khi leo đồi Ngự Bình — cà phê sau khi đi bộ là tuyệt nhất.",
+        "Gọi nước mía hoặc cà phê sữa đá nếu trời nóng."
+      ]
     },
     {
       "id": "ben-trang-cafe-bistro",
@@ -822,8 +859,11 @@
         "close": "23:00"
       },
       "vibe": "Quán cà phê, Nhà hàng",
-      "description": "",
-      "insiderTips": []
+      "description": "Bến Trăng Café & Bistro nằm ngay trên đường Lê Lợi bên bờ sông Hương — một trong những vị trí đắc địa nhất của Huế. Phục vụ cả cà phê lẫn ẩm thực theo phong cách bistro, đây là điểm lý tưởng để ngồi nhìn thuyền qua lại trên sông.",
+      "insiderTips": [
+        "Đặt bàn ngoài hiên bên sông trước — vào cuối tuần chỗ ngoài trời hay đầy sớm.",
+        "Buổi tối khi đèn bật lên và sông Hương phản chiếu ánh sáng là lúc đẹp nhất."
+      ]
     },
     {
       "id": "e-po-cafe",
@@ -847,9 +887,12 @@
         "open": "07:00",
         "close": "22:00"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Cà phê đầu tàu — vintage công nghiệp giữa khu chợ Đông Ba.",
+      "description": "Nằm ngay khu chợ Đông Ba, Đề-Pô Cafe lấy cảm hứng từ hình ảnh depot xe lửa xưa — không gian đậm chất công nghiệp với sắt thép, gỗ cũ và ánh đèn vàng. Một nơi thú vị để dừng chân giữa hành trình khám phá khu chợ lịch sử.",
+      "insiderTips": [
+        "Ghé sau khi tham quan chợ Đông Ba — quán chỉ cách chợ vài bước chân.",
+        "Thử cà phê muối Huế tại đây — phù hợp với không khí mang hơi thở lịch sử của khu vực."
+      ]
     },
     {
       "id": "ame-cafe-coffee-breakfast",
@@ -880,8 +923,11 @@
         "close": "22:00"
       },
       "vibe": "Quán cà phê, Nhà hàng chuyên phục vụ bữa sáng, Nhà hàng chuyên phục vụ bữa nửa buổi, Nhà hàng, Cửa hàng cà phê, Nhà hàng phục vụ bữa trưa, Quán ăn nhẹ",
-      "description": "",
-      "insiderTips": []
+      "description": "Đa:mê Café chuyên về bữa sáng và cà phê buổi sáng trên đường Chu Văn An. Menu phong phú từ bánh mì, trứng đến đồ uống, phục vụ cả thực khách muốn ngồi ăn sáng lâu lẫn những ai chỉ cần một ly cà phê mang đi.",
+      "insiderTips": [
+        "Đến trước 9h để tránh đông và có đủ lựa chọn bánh mì buổi sáng.",
+        "Thử combo bữa sáng — tính ra rẻ hơn và đủ no hơn gọi lẻ."
+      ]
     },
     {
       "id": "ta-gallery-ta-cafe-bakery",
@@ -905,9 +951,12 @@
         "open": "07:00",
         "close": "22:00"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Cà phê trong gallery nghệ thuật — uống cà phê là uống nghệ thuật.",
+      "description": "Ta Gallery kết hợp giữa không gian phòng tranh và quán cà phê tại số 44 Phạm Ngũ Lão. Các tác phẩm nghệ thuật trưng bày thay đổi theo kỳ, biến mỗi lần ghé thăm thành một trải nghiệm mới. Bánh ngọt tự làm là điểm cộng không thể bỏ qua.",
+      "insiderTips": [
+        "Hỏi về triển lãm đang diễn ra — đôi khi có meet & greet với nghệ sĩ.",
+        "Thử các loại bánh nướng tươi trong ngày — thường bán hết trước chiều."
+      ]
     },
     {
       "id": "daudo",
@@ -931,9 +980,12 @@
         "open": "07:00",
         "close": "22:00"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Ẩn trong kiệt, trầm mặc như chính tên gọi.",
+      "description": "DAUDO nằm trong một kiệt nhỏ trên Nguyễn Công Trứ — phải để ý mới tìm được, nhưng tìm được rồi thì không muốn rời. Không gian tối màu, ấm áp, với cà phê specialty và âm nhạc chọn lọc phù hợp cho những buổi chiều chậm.",
+      "insiderTips": [
+        "Chú ý bảng hiệu nhỏ ở cửa kiệt — dễ đi qua nếu không để ý.",
+        "Thử cà phê đen không pha — chất lượng hạt rang đáng để thưởng thức nguyên vẹn."
+      ]
     },
     {
       "id": "a-oi-cafe",
@@ -957,9 +1009,12 @@
         "open": "07:00",
         "close": "22:00"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Nhẹ nhàng như tiếng ru — góc Vỹ Dạ cho những ai cần nghỉ ngơi.",
+      "description": "À Ơi Cafe lấy cảm hứng từ lời ru Huế — nhẹ nhàng, da diết và ấm áp. Nằm trên đường Nguyễn Đỗ Cung ở Vỹ Dạ, quán thu hút nhiều bạn trẻ và du khách muốn tìm một không gian lãng mạn, nên thơ theo đúng hồn Huế.",
+      "insiderTips": [
+        "Buổi chiều muộn khi ánh nắng vàng qua cửa sổ là lúc đẹp nhất để ngồi đây.",
+        "Thử trà hoa nội địa — lựa chọn tốt nếu không uống cà phê."
+      ]
     },
     {
       "id": "cafe-tung",
@@ -983,9 +1038,12 @@
         "open": "06:00",
         "close": "22:00"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Cà phê nhà người bạn — quen, thân, không cần nói nhiều.",
+      "description": "Cafe Tùng trên Hoàng Lanh là kiểu quán mà người Huế hay gọi là \"quán nhà\". Không phô trương, không đông đúc, chỉ có những khách quen ghé đều và câu chuyện buổi sáng không bao giờ cũ.",
+      "insiderTips": [
+        "Ghé vào ngày thường để có không gian yên tĩnh nhất.",
+        "Cà phê phin truyền thống là lựa chọn không bao giờ sai ở đây."
+      ]
     },
     {
       "id": "goc-cu-cafe",
@@ -1009,9 +1067,12 @@
         "open": "07:00",
         "close": "22:00"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Góc xưa cũ của Huế — ngồi đây như ngồi trong ký ức.",
+      "description": "\"Goc cu\" (góc cũ) không phải tên ngẫu nhiên — quán thực sự mang về không khí của một Huế xưa cũ, với đồ gỗ cũ, ảnh đen trắng và cách pha chế cà phê theo lối truyền thống. Nằm trên Đinh Tiên Hoàng, đây là điểm đến của những ai yêu Huế hoài cổ.",
+      "insiderTips": [
+        "Khám phá từng góc nhỏ trong quán — các chi tiết trang trí đều được chọn lọc kỹ.",
+        "Cà phê trứng là món không thể không thử ở đây nếu có trên menu."
+      ]
     },
     {
       "id": "tron-cafe",
@@ -1035,9 +1096,12 @@
         "open": "07:00",
         "close": "00:00"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Trốn khỏi tất cả — kiệt Lê Quý Đôn che khuất thế giới bên ngoài.",
+      "description": "Trốn cafe ẩn trong một kiệt nhỏ trên Lê Quý Đôn — đúng như cái tên, đây là nơi để thoát khỏi nhịp sống hối hả. Không gian xanh, yên tĩnh và riêng tư, thường xuyên lọt top danh sách các quán cà phê ẩn đẹp nhất Huế.",
+      "insiderTips": [
+        "Đặt bàn trước vào cuối tuần — quán nhỏ và hay đầy chỗ.",
+        "Thử ngồi khu vực ngoài trời nếu không khí mát — không gian cây xanh rất thư giãn."
+      ]
     },
     {
       "id": "phinholic",
@@ -1061,9 +1125,12 @@
         "open": "06:30",
         "close": "22:00"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Nghiện phin — specialty coffee theo cách Việt Nam nhất.",
+      "description": "PhinHolic trên Bến Nghé là lời tôn vinh dành cho cà phê phin Việt Nam. Quán chú trọng vào chất lượng hạt và kỹ thuật pha chế phin đúng chuẩn, biến món cà phê truyền thống thành trải nghiệm specialty theo cách rất riêng.",
+      "insiderTips": [
+        "Hỏi nhân viên về nguồn gốc hạt cà phê — họ biết rõ từng batch rang.",
+        "Kiên nhẫn chờ phin nhỏ giọt đúng tốc độ — đừng ép nhanh sẽ mất hương."
+      ]
     },
     {
       "id": "voi-cafe",
@@ -1087,9 +1154,12 @@
         "open": "06:30",
         "close": "22:00"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Hương vối dịu dàng — một Huế xưa còn đọng lại.",
+      "description": "Vối Cafe lấy tên và cảm hứng từ lá vối — loại lá trà dân dã gắn liền với ký ức người Việt xưa. Nằm trên đường Lê Ngô Cát ở Thủy Xuân, quán là sự hòa quyện giữa hương vị truyền thống và không gian hiện đại, ấm áp.",
+      "insiderTips": [
+        "Thử trà vối nếu muốn trải nghiệm hương vị đặc trưng của quán.",
+        "Khu vực Thủy Xuân yên tĩnh — kết hợp ghé các làng hương hoặc lăng tẩm gần đó."
+      ]
     },
     {
       "id": "1984-coffee-pub-restaurant",
@@ -1116,8 +1186,11 @@
         "close": "00:00"
       },
       "vibe": "Quán cà phê, Quán rượu, Nhà hàng",
-      "description": "",
-      "insiderTips": []
+      "description": "1984 Coffee là không gian đa năng trên Võ Thị Sáu — ban ngày là cafe, buổi tối trở thành pub với âm nhạc live. Lấy cảm hứng từ thập niên 80, quán mang đến bầu không khí hoài cổ phóng khoáng, nơi mọi thế hệ đều cảm thấy thoải mái.",
+      "insiderTips": [
+        "Check lịch biểu diễn live music trước khi đến — không phải tối nào cũng có.",
+        "Menu pub buổi tối đa dạng hơn menu cà phê ban ngày."
+      ]
     },
     {
       "id": "view-cafe",
@@ -1141,9 +1214,12 @@
         "open": "06:30",
         "close": "00:00"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Cà phê với tầm nhìn — Huế từ trên cao.",
+      "description": "View Cafe trên Nguyễn Tri Phương xứng danh với tên gọi — nơi đây có tầm nhìn đẹp ra khu vực xung quanh, lý tưởng để ngắm cảnh Huế theo góc độ khác. Không gian thoáng, phục vụ cả đồ uống lẫn đồ ăn nhẹ.",
+      "insiderTips": [
+        "Chọn chỗ ngồi gần cửa sổ hoặc ban công để có view tốt nhất.",
+        "Buổi chiều tà là lúc ánh nắng đẹp và không khí mát nhất."
+      ]
     },
     {
       "id": "giao-cafe",
@@ -1167,9 +1243,12 @@
         "open": "06:30",
         "close": "22:00"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Điểm giao thoa của người Huế — cà phê và câu chuyện mỗi sáng.",
+      "description": "Giao Cafe trên đường Chi Lăng là quán cà phê gia đình phong cách Huế cũ. Khách hàng phần lớn là người địa phương, và những cuộc trò chuyện buổi sáng tại đây thường kéo dài lâu hơn dự định.",
+      "insiderTips": [
+        "Ghé buổi sáng sớm để hòa vào nhịp sống người dân địa phương.",
+        "Cà phê sữa đá pha đặc là lựa chọn quen thuộc của khách thường."
+      ]
     },
     {
       "id": "ong-ba-coffee",
@@ -1193,9 +1272,12 @@
         "open": "06:00",
         "close": "22:30"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Cà phê sáng trước khi vào chợ — nhịp Huế từ 5 giờ sáng.",
+      "description": "Đông Ba Coffee nằm gần chợ Đông Ba lịch sử, phục vụ cà phê từ tờ mờ sáng cho người buôn bán và dân làm sớm. Không gian đơn giản, thức uống đậm đà, và không khí rất Huế của buổi sáng sớm.",
+      "insiderTips": [
+        "Đến trước 7h để bắt kịp không khí buổi sáng nhộn nhịp nhất gần chợ.",
+        "Kết hợp tham quan chợ Đông Ba sau khi uống cà phê — hai điểm chỉ cách nhau vài phút đi bộ."
+      ]
     },
     {
       "id": "nghia-coffee",
@@ -1219,9 +1301,12 @@
         "open": "06:30",
         "close": "22:00"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Cà phê khu tập thể — giản dị và chân thật như người Huế.",
+      "description": "NGHIA Coffee nằm trong một khu tập thể trên đường Nguyễn Trường Tộ — loại quán không cần biển hiệu lớn vì khách quen đã đủ đông. Giá cả bình dân, cà phê ngon đúng chuẩn, không gian thân quen như ngồi nhà hàng xóm.",
+      "insiderTips": [
+        "Hỏi người địa phương để tìm đúng phòng — khu tập thể đôi khi khó định hướng.",
+        "Cà phê đen hoặc sữa đá đều được pha đặc theo khẩu vị Huế."
+      ]
     },
     {
       "id": "kodo",
@@ -1245,9 +1330,13 @@
         "open": "06:30",
         "close": "22:00"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Tinh tế và nhẹ nhàng như hơi thở Nhật Bản trên đường Kim Long.",
+      "description": "KODO mang phong cách tối giản Nhật Bản vào không gian cà phê Kim Long — thiết kế gọn gàng, mỗi chi tiết đều được cân nhắc. Ngoài cà phê chất lượng cao, quán còn nổi tiếng với không gian ngồi làm việc yên tĩnh và phù hợp cho cả nhóm đông.",
+      "insiderTips": [
+        "Thử matcha hoặc các loại trà Nhật nếu không uống cà phê — menu trà đa dạng.",
+        "Quán có wifi tốt và nhiều ổ cắm — lý tưởng cho buổi làm việc dài.",
+        "Đặt bàn trước vào cuối tuần — quán đông nhờ rating cao trên Google."
+      ]
     },
     {
       "id": "hue-imperial-sky-bar-cafe",
@@ -1271,9 +1360,13 @@
         "open": "07:00",
         "close": "00:00"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Trên cao, nhìn xuống Huế — cà phê và gió từ tầng thượng.",
+      "description": "Húe Imperial Sky Bar nằm trên tầng cao của tòa nhà đường Hùng Vương, mang đến tầm nhìn panorama hiếm có ra khu trung tâm Huế. Vừa là cafe ban ngày vừa là sky bar ban đêm, đây là điểm đến cho những ai muốn trải nghiệm Huế từ góc nhìn khác biệt.",
+      "insiderTips": [
+        "Đặt chỗ sớm để có vị trí tốt nhất nhìn ra thành phố.",
+        "Buổi hoàng hôn (17h-18h) là khung giờ đẹp nhất để ngồi đây.",
+        "Sky bar hoạt động đến khuya — menu cocktail đa dạng vào buổi tối."
+      ]
     },
     {
       "id": "noa-espresso",
@@ -1297,9 +1390,12 @@
         "open": "06:00",
         "close": "00:00"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Espresso đúng chuẩn — nhỏ nhưng chất lượng không nhỏ.",
+      "description": "Noa Espresso trên Lê Huân là quán specialty coffee nhỏ chú trọng vào chất lượng chiết xuất espresso. Máy pha cà phê chuyên nghiệp, barista am hiểu kỹ thuật, và không gian đủ yên tĩnh để thực sự thưởng thức từng ngụm.",
+      "insiderTips": [
+        "Thử espresso không pha thêm gì để đánh giá chất lượng hạt và kỹ thuật chiết xuất.",
+        "Hỏi barista về hạt đang dùng — họ thường sẵn sàng chia sẻ."
+      ]
     },
     {
       "id": "ton-nu-vien-cafe",
@@ -1323,9 +1419,12 @@
         "open": "06:00",
         "close": "22:00"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Vườn của người hoàng tộc — cà phê trong bóng cây xanh mát.",
+      "description": "Tôn Nữ Viên (vườn của nữ giới hoàng tộc) là không gian cà phê vườn ẩn trong khuôn viên xanh trên đường Phan Chu Trinh. Tên gọi gợi nhắc đến thời Nguyễn, khi những người phụ nữ quý tộc chăm sóc vườn thượng uyển — và không khí đây quả thật thanh thoát, nhẹ nhàng.",
+      "insiderTips": [
+        "Đi bộ qua khu vườn trước khi vào ngồi — cây cảnh được chăm sóc rất đẹp.",
+        "Ghé vào buổi sáng khi cây còn đẫm sương — không khí trong lành nhất."
+      ]
     },
     {
       "id": "tan-original",
@@ -1349,9 +1448,12 @@
         "open": "06:30",
         "close": "22:00"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Phiên bản gốc của tan. — nơi mọi thứ bắt đầu.",
+      "description": "tan. original là chi nhánh đầu tiên của thương hiệu tan. tại Phạm Hồng Thái — nơi khởi nguồn của phong cách tối giản yên tĩnh mà cả chuỗi theo đuổi. Không gian nhỏ hơn nhưng ấm áp hơn, mang đúng linh hồn của tan. trước khi mở rộng.",
+      "insiderTips": [
+        "Khách quen của tan. thường có điểm đến yêu thích riêng — hỏi nhân viên nếu muốn gợi ý.",
+        "Thử các seasonal drink — thường được test tại đây trước khi nhân rộng."
+      ]
     },
     {
       "id": "hao-ky-coffee",
@@ -1375,9 +1477,12 @@
         "open": "06:00",
         "close": "22:00"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Tò mò dẫn đường — quán cà phê ấm áp cuối đường Kim Long.",
+      "description": "Hảo Kỳ Coffee nằm trên đường Nguyễn Hoàng gần cuối Kim Long — một quán cà phê nhỏ xinh với không gian ấm áp và menu cà phê đa dạng. Tên gọi \"hảo kỳ\" (tò mò, hiếu kỳ) phản ánh đúng tinh thần của quán: luôn thử nghiệm hương vị mới.",
+      "insiderTips": [
+        "Hỏi về menu mới nhất — quán thường xuyên thay đổi và thêm đồ uống mới.",
+        "Khu vực ngồi ngoài trời có view ra đường Kim Long rất thoáng."
+      ]
     },
     {
       "id": "ca-phe-muoi-cs1",
@@ -1427,9 +1532,12 @@
         "open": "05:00",
         "close": "22:00"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Cà phê bên cạnh bưu điện — dừng lại một chút giữa hành trình.",
+      "description": "Cafe Bưu Điện nằm trên Hoàng Hoa Thám, gần bưu điện trung tâm Huế — từ lâu đã là điểm dừng chân quen thuộc của nhiều người. Không gian đơn giản, phục vụ nhanh, phù hợp với những ai cần một ly cà phê nhanh giữa hành trình.",
+      "insiderTips": [
+        "Gọi cà phê mang đi nếu bạn đang vội — phục vụ takeaway nhanh.",
+        "Vị trí thuận tiện gần nhiều địa điểm trung tâm — ghé trước hoặc sau khi tham quan Đại Nội."
+      ]
     },
     {
       "id": "tiem-ca-phe-vivu",
@@ -1453,9 +1561,12 @@
         "open": "06:30",
         "close": "22:30"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Lang thang mà vui — cà phê dành cho những tâm hồn phiêu lãng.",
+      "description": "\"ViVu\" nghĩa là lang thang, rong ruổi — và Tiệm Cà Phê ViVu trên đường Phan Đình Phùng mang đúng tinh thần đó vào từng góc trang trí. Không gian trẻ trung, đầy màu sắc và năng lượng, thích hợp cho những buổi chiều không muốn ở yên một chỗ.",
+      "insiderTips": [
+        "Thử các loại đồ uống phiên bản đặc biệt — quán thường tung bộ menu sáng tạo theo dịp lễ.",
+        "Không gian tốt để chụp ảnh — hỏi nhân viên góc nào đang được yêu thích nhất."
+      ]
     },
     {
       "id": "quan-cafe-51",
@@ -1479,9 +1590,12 @@
         "open": "05:00",
         "close": "18:00"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Số 51 thân quen — cà phê đủ ngon để gọi là chỗ quen.",
+      "description": "Quán Café 51 tọa lạc trên phố Lê Huân — một con phố nhỏ yên tĩnh của Phú Xuân. Phong cách pha chế truyền thống, không gian thoải mái và nhân viên thân thiện khiến đây trở thành điểm quen của nhiều người sống quanh khu vực.",
+      "insiderTips": [
+        "Buổi sáng là thời điểm lý tưởng khi con phố còn chưa đông.",
+        "Gọi cà phê đá pha thêm sữa đặc theo kiểu Huế."
+      ]
     },
     {
       "id": "dechill-ca-phe-muoi-hue-quan-ca-phe-ep-ngam-hoang-hon-hue",
@@ -1505,9 +1619,13 @@
         "open": "06:00",
         "close": "22:00"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Đỉnh đồi Vọng Cảnh — hoàng hôn Huế và ly cà phê muối hoàn hảo.",
+      "description": "DeChill tọa lạc trên đồi Vọng Cảnh, một trong những điểm ngắm hoàng hôn đẹp nhất Huế. Quán kết hợp cà phê muối đặc sản với tầm nhìn ra sông Hương và dãy núi phía xa — trải nghiệm khó quên cho bất kỳ ai ghé thăm.",
+      "insiderTips": [
+        "Đến trước 17h để có chỗ đẹp ngắm hoàng hôn — quán rất đông vào giờ vàng này.",
+        "Gọi cà phê muối kem — món signature phù hợp hoàn hảo với không khí trên đồi.",
+        "Đi xe máy lên đồi — con đường nhỏ dốc, không thích hợp ô tô."
+      ]
     },
     {
       "id": "cua-thuong-tu",
@@ -1533,8 +1651,11 @@
         "close": "22:00"
       },
       "vibe": "Điểm mốc lịch sử",
-      "description": "",
-      "insiderTips": []
+      "description": "Tọa lạc gần Cửa Thượng Tứ — một trong bốn cổng thành lịch sử của Kinh Thành Huế — quán cà phê này là điểm dừng lý tưởng sau khi tham quan di tích. Không gian vừa đủ, ánh sáng tốt, view ra cổng thành rất đáng ngồi.",
+      "insiderTips": [
+        "Chụp ảnh Cửa Thượng Tứ từ trong quán — góc nhìn độc đáo khác với chụp ngoài đường.",
+        "Buổi sáng ánh sáng lên cổng thành rất đẹp — thích hợp cả cho nhiếp ảnh."
+      ]
     },
     {
       "id": "ken-coffee",
@@ -1558,9 +1679,12 @@
         "open": "06:00",
         "close": "22:00"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Cà phê quen mặt của khu Đinh Tiên Hoàng — giản dị và đáng tin.",
+      "description": "Ken Coffee nằm trên đường Đinh Tiên Hoàng nhộn nhịp — một quán cà phê đứng vững qua nhiều năm nhờ chất lượng ổn định và phục vụ thân thiện. Khách hàng thường xuyên là người dân quanh khu Thuận Thành.",
+      "insiderTips": [
+        "Quán đông nhất vào buổi sáng — đến 7-8h để không phải chờ lâu.",
+        "Menu đơn giản nhưng chất — cà phê sữa và bạc xỉu là hai lựa chọn an toàn."
+      ]
     },
     {
       "id": "anh-kafe",
@@ -1584,9 +1708,12 @@
         "open": "07:00",
         "close": "22:30"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Góc phố Đinh Tiên Hoàng — cà phê của người và vì người.",
+      "description": "ANH KAFE là quán cà phê mang phong cách gia đình trên đường Đinh Tiên Hoàng — dễ nhớ, dễ thương và dễ quay lại. Phục vụ cà phê và đồ uống đơn giản trong không gian thoải mái, thích hợp cho mọi lứa tuổi.",
+      "insiderTips": [
+        "Buổi sáng quán đông nhất với người đi làm ghé uống cà phê trước giờ làm.",
+        "Gọi cà phê trứng nếu có trên menu — là biến tấu quen thuộc của người Huế."
+      ]
     },
     {
       "id": "moc-vien-cafe",
@@ -1610,9 +1737,12 @@
         "open": "06:00",
         "close": "22:00"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Vườn mộc mạc trong lòng Kim Long — thiên nhiên và cà phê đúng nghĩa.",
+      "description": "Mộc Viên Cafe nằm sâu trong một con kiệt trên Nguyễn Hoàng, Kim Long — không gian sân vườn với cây cối xanh tốt và các góc ngồi ẩn mình giữa thiên nhiên. Một trong những quán cà phê \"xanh\" và yên bình nhất của Kim Long.",
+      "insiderTips": [
+        "Đi thêm vào kiệt khoảng 50m sau khi thấy biển — quán ở cuối kiệt.",
+        "Buổi sáng sau mưa là đẹp nhất — không khí trong và cây lá còn đẫm nước."
+      ]
     },
     {
       "id": "tiem-ca-phe-81-ca-phe-muoi-hue-quan-ca-phe-ep-hue",
@@ -1636,9 +1766,12 @@
         "open": "06:00",
         "close": "22:00"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Đồi thông Thủy Xuân, cà phê muối và tầm nhìn về phía núi.",
+      "description": "Tiệm Cà Phê 81 nằm trên đường Huyền Trân Công Chúa ở Thủy Xuân — khu vực nổi tiếng với không khí trong lành và cảnh quan đồi thông. Quán chuyên cà phê muối Huế và có không gian đẹp, phù hợp cho chuyến ghé thăm kết hợp với tham quan các lăng tẩm gần đó.",
+      "insiderTips": [
+        "Kết hợp ghé quán trong hành trình thăm lăng tẩm và đồi Vọng Cảnh — cả ba điểm đều gần nhau.",
+        "Cà phê muối kem là signature — gọi thêm đá nếu trời nóng."
+      ]
     },
     {
       "id": "coffee-and-tea",
@@ -1662,9 +1795,12 @@
         "open": "06:00",
         "close": "18:00"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Đơn giản và đủ — cà phê và trà cho mọi sở thích.",
+      "description": "Coffee and Tea trên Đinh Công Tráng là quán phục vụ cả hai thế giới — cà phê đa dạng cho người yêu cà phê, và các loại trà thơm cho những ai không cà phê. Không gian đơn giản, thoải mái và phù hợp đi theo nhóm.",
+      "insiderTips": [
+        "Menu trà khá đa dạng — thử trà sữa Đài Loan nếu không uống cà phê.",
+        "Nhóm đông vẫn thoải mái — quán có bàn lớn phục vụ nhóm."
+      ]
     },
     {
       "id": "xuong-1976-cafe",
@@ -1688,9 +1824,12 @@
         "open": "06:30",
         "close": "22:30"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Xưởng máy năm 76 — cà phê công nghiệp và ký ức một thời bao cấp.",
+      "description": "Xưởng 1976 Cafe lấy cảm hứng từ thẩm mỹ thời bao cấp và không gian nhà máy xưa — sắt, gạch thô và ánh đèn vàng tạo nên bầu không khí vừa lạ vừa quen. Nằm trên đường Hải Triều, đây là điểm đến ưa thích của những ai yêu phong cách vintage công nghiệp.",
+      "insiderTips": [
+        "Khám phá từng chi tiết trong quán — nhiều vật dụng cũ thật được trưng bày.",
+        "Âm nhạc tại đây thường theo phong cách nhạc xưa — hỏi trước nếu muốn có sự kiện đặc biệt."
+      ]
     },
     {
       "id": "quan-ca-phe-chieu",
@@ -1714,9 +1853,12 @@
         "open": "07:00",
         "close": "22:00"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Chiều tà, ly cà phê và Huế chầm chậm qua cửa sổ.",
+      "description": "\"Cà phê Chiều\" — không chỉ là tên mà còn là trải nghiệm. Quán trên đường Đặng Thái Thân mang không khí của những buổi chiều Huế nhẹ nhàng, khi ánh nắng nghiêng dần và mọi thứ trở nên chậm lại. Thiết kế ấm áp, nhạc nhẹ, và cà phê pha theo kiểu cũ.",
+      "insiderTips": [
+        "Đến vào buổi chiều từ 15-17h để cảm nhận đúng không khí mà quán muốn tạo ra.",
+        "Thử cà phê phin với sữa đặc — uống từ từ trong ánh chiều tà là trải nghiệm đặc biệt."
+      ]
     },
     {
       "id": "cafe-o-con",
@@ -1740,9 +1882,12 @@
         "open": "06:00",
         "close": "22:00"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Đò cồn xưa — cà phê bên dòng sông ký ức Chi Lăng.",
+      "description": "Cafe ĐÒ CỒN lấy tên từ hình ảnh những chiếc đò dọc sông xưa — gợi nhớ một Huế cũ khi giao thông đường sông còn là chủ đạo. Nằm trên đường Chi Lăng dài và bằng phẳng, quán có không gian rộng rãi và mang âm hưởng sông nước rất đặc trưng.",
+      "insiderTips": [
+        "Hỏi về không gian bên sông nếu muốn chỗ ngồi có view tốt nhất.",
+        "Thử cà phê muối hoặc cà phê dừa — các biến tấu địa phương."
+      ]
     },
     {
       "id": "song-xanh-cafe",
@@ -1766,9 +1911,433 @@
         "open": "06:30",
         "close": "22:00"
       },
-      "vibe": "Quán cà phê",
-      "description": "",
-      "insiderTips": []
+      "vibe": "Sông xanh, ánh trời và cà phê — Huế trong từng giọt nước.",
+      "description": "Sông Xanh Café ẩn trong một kiệt nhỏ trên Nguyễn Công Trứ — tìm được rồi mới thấy quán mang đúng tên. Không gian xanh mát, thoáng đãng với nhiều cây, và cảm giác như đang ngồi bên một con sông nhỏ. Một góc yên bình hiếm có giữa Phú Hội.",
+      "insiderTips": [
+        "Đi xe máy vào kiệt để dễ tìm hơn — ô tô khó xoay xở trong hẻm nhỏ.",
+        "Buổi sáng khi cây còn tươi và không khí mát là thời điểm đẹp nhất để ngồi đây."
+      ]
+    },
+    {
+      "id": "roof-cafe",
+      "name": "RooF CaFé",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê",
+        "kim long"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHksT9DrI2iJcqucLwT4b6OTqkX_RLsoLzdIueq7T5enTCAyl3g-tBKoaSh5hBLx23n6iSMHyT0fPWDzGo9IGXBz6z1rpuJO33jKR7hemGhTY1Yp1Jwj3aEsscE8cuHoG9Yo8Wazg=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHksT9DrI2iJcqucLwT4b6OTqkX_RLsoLzdIueq7T5enTCAyl3g-tBKoaSh5hBLx23n6iSMHyT0fPWDzGo9IGXBz6z1rpuJO33jKR7hemGhTY1Yp1Jwj3aEsscE8cuHoG9Yo8Wazg=w800-h500-k-no"
+      ],
+      "address": "24 Nguyễn Phúc Nguyên, Kim Long, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4564411,
+        "lng": 107.5567203
+      },
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:30",
+        "close": "22:00"
+      },
+      "vibe": "Lên tầng thượng, nhìn xuống Kim Long — Huế từ mái nhà.",
+      "description": "RooF CaFé tọa lạc trên tầng cao của một ngôi nhà trên đường Nguyễn Phúc Nguyên — từ đây có thể nhìn xuống dọc con phố Kim Long dài và xanh. Không gian nhỏ và riêng tư, phù hợp cho những buổi cà phê chiều mát với tầm nhìn thoáng đãng.",
+      "insiderTips": [
+        "Hỏi đường vào cầu thang — lối vào không rõ từ ngoài đường.",
+        "Buổi chiều có gió mát từ trên cao — mang theo áo khoác mỏng."
+      ],
+      "rating": 4.2
+    },
+    {
+      "id": "me-coffee",
+      "name": "Mè Coffee",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê",
+        "kim long"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAELbvee4UUFmQNedEXeOQgVUhDAjro30udlCBmIZKbDqK0ii7EtmjOQ0MYlV04Xk3Pu4UTS3lS_wiax9j08btouLIK9aNBzjD9mfgNJBPLsfJDYUHkjt4di5pV9SXkU90VTHcwca5P-RrAq=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAELbvee4UUFmQNedEXeOQgVUhDAjro30udlCBmIZKbDqK0ii7EtmjOQ0MYlV04Xk3Pu4UTS3lS_wiax9j08btouLIK9aNBzjD9mfgNJBPLsfJDYUHkjt4di5pV9SXkU90VTHcwca5P-RrAq=w800-h500-k-no"
+      ],
+      "address": "4A Nguyễn Phúc Nguyên, Kim Long, Huế 49000, Việt Nam",
+      "coordinates": {
+        "lat": 16.457156299999998,
+        "lng": 107.5583204
+      },
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:30",
+        "close": "22:30"
+      },
+      "vibe": "Mè rang thơm, cà phê đậm — góc nhỏ đáng yêu của Kim Long.",
+      "description": "Mè Coffee trên số 4A Nguyễn Phúc Nguyên là quán nhỏ xinh với hương vị cà phê hòa quyện cùng mùi mè rang đặc trưng. Không gian ấm cúng, nhân viên thân thiện và giá cả bình dân khiến đây trở thành điểm dừng ưa thích của dân Kim Long.",
+      "insiderTips": [
+        "Thử bánh mè hoặc mè xửng nếu quán có bán thêm — hòa quyện hoàn hảo với cà phê.",
+        "Quán nhỏ, đến sớm để không phải chờ chỗ vào buổi sáng."
+      ],
+      "rating": 4.7
+    },
+    {
+      "id": "nhat-nguyen-coffee",
+      "name": "Nhật Nguyên Coffee",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê",
+        "kim long"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFGpNZlyiSufh5U83YJTWheyG5pLU3FTPSWrWwHQGiACaYFDiO-dgTfD73JAnf2vZEmRFumJfUjGSFVDEQ_WOcTti317f29apb-qVbVZpNl0-KZVYO6bwSe3n9GQsMN64kXv_a-=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFGpNZlyiSufh5U83YJTWheyG5pLU3FTPSWrWwHQGiACaYFDiO-dgTfD73JAnf2vZEmRFumJfUjGSFVDEQ_WOcTti317f29apb-qVbVZpNl0-KZVYO6bwSe3n9GQsMN64kXv_a-=w800-h500-k-no"
+      ],
+      "address": "2 Kim Long, Huế 53000, Việt Nam",
+      "coordinates": {
+        "lat": 16.460755799999998,
+        "lng": 107.5692267
+      },
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:00",
+        "close": "22:00"
+      },
+      "vibe": "Cà phê bình dị đầu phố Kim Long — nơi dân địa phương khởi đầu ngày mới.",
+      "description": "Nhật Nguyên Coffee nằm ở đầu đường Kim Long, gần giao lộ — vị trí thuận tiện để dừng ghé buổi sáng sớm. Phục vụ cà phê và nước uống theo khẩu vị người Huế, quán thu hút đông khách địa phương nhờ chất lượng ổn định và thái độ phục vụ nhiệt tình.",
+      "insiderTips": [
+        "Đến sớm trước 8h để không phải chờ — khách thường đến đông vào giờ này.",
+        "Cà phê sữa đá theo kiểu Huế — đặc, ngọt vừa và rất giải nhiệt."
+      ],
+      "rating": 4.3
+    },
+    {
+      "id": "tiem-ca-phe-sen-a-co-o",
+      "name": "Tiệm cà phê sen đá cố đô",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê",
+        "kim long"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGYYwkycRN93rO50qpZK29MOKPkVz0Ea4J4bPlY5-K9aqSF_fkF5giOc6S9tcKbKta0o4yoooje-TnqwhkxhqLcFdBIEJ42h7ERZrjyf28txOYRhvtNlcS4E3Lt21pgCQWqg6X5czx_5fs6=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGYYwkycRN93rO50qpZK29MOKPkVz0Ea4J4bPlY5-K9aqSF_fkF5giOc6S9tcKbKta0o4yoooje-TnqwhkxhqLcFdBIEJ42h7ERZrjyf28txOYRhvtNlcS4E3Lt21pgCQWqg6X5czx_5fs6=w800-h500-k-no"
+      ],
+      "address": "18 Nguyễn Phúc Nguyên, Kim Long, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4565996,
+        "lng": 107.55687719999999
+      },
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:00",
+        "close": "22:30"
+      },
+      "vibe": "Sen đá Huế — thanh khiết như đóa sen nở giữa cố đô.",
+      "description": "Tiệm Cà Phê Sen Đá Cố Đô trên số 18 Nguyễn Phúc Nguyên kết hợp hình ảnh đóa sen — biểu tượng của Huế — vào không gian cà phê đậm chất cố đô. Với rating 4.9 từ khách thăm, đây là một trong những quán được yêu thích nhất trên tuyến Kim Long, nơi hương sen nhẹ nhàng hòa vào từng góc nhỏ.",
+      "insiderTips": [
+        "Thử cà phê sen đặc trưng của quán — hương thơm dịu dàng rất khác biệt.",
+        "Quán nhỏ và nổi tiếng — đặt bàn trước vào cuối tuần nếu có thể.",
+        "Chụp ảnh khu vực trang trí hoa sen — rất đẹp và đặc trưng."
+      ],
+      "rating": 4.9
+    },
+    {
+      "id": "june-coffee",
+      "name": "June Coffee",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê",
+        "kim long"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG6ziHIdtDajCXKpPfsu8PXyZ-GcWxuXnfVO3zRtkhtVIK-5RedctuGUxNA_JlT6DzNUW4_7f2BtmA6a-hC35LnhVMfd_xsNZkX0MY6_dDxXu-WnNnTQ-0bumqEP7PdrY7gQRNw8iTI6uew=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG6ziHIdtDajCXKpPfsu8PXyZ-GcWxuXnfVO3zRtkhtVIK-5RedctuGUxNA_JlT6DzNUW4_7f2BtmA6a-hC35LnhVMfd_xsNZkX0MY6_dDxXu-WnNnTQ-0bumqEP7PdrY7gQRNw8iTI6uew=w800-h500-k-no"
+      ],
+      "address": "4 Nguyễn Phúc Nguyên, Kim Long, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4570665,
+        "lng": 107.5581325
+      },
+      "priceRange": "₫",
+      "hours": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "vibe": "Nhẹ nhàng như tháng Sáu — cà phê cho những ngày dịu dàng.",
+      "description": "June Coffee tọa lạc tại số 4 Nguyễn Phúc Nguyên — ngay đầu con phố Kim Long quen thuộc. Không khí quán gợi cảm giác của một tháng Sáu dịu dàng: ánh sáng vừa đủ, nhạc nhẹ và cà phê pha đúng vị.",
+      "insiderTips": [
+        "Quán nhỏ và ấm cúng — thích hợp nhất cho 1-2 người ngồi trò chuyện.",
+        "Thử các loại đồ uống theo mùa — June Coffee hay thêm menu mới theo thời tiết."
+      ],
+      "rating": 4.5
+    },
+    {
+      "id": "cafe-96",
+      "name": "Café 96",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê",
+        "kim long"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEHTRkaNgW1rPB6bTueeS_nAHOnzSsC8HjsdamD1MPLDu9pxwX6DW4DCmngNZK5hyTEL9-SmltS0NJ3efaMJ1oAkSYRU0DGi9-oKAp3Ykino7DGHmzltw2jG5WSMvjH69868Bw=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEHTRkaNgW1rPB6bTueeS_nAHOnzSsC8HjsdamD1MPLDu9pxwX6DW4DCmngNZK5hyTEL9-SmltS0NJ3efaMJ1oAkSYRU0DGi9-oKAp3Ykino7DGHmzltw2jG5WSMvjH69868Bw=w800-h500-k-no"
+      ],
+      "address": "96 Nguyễn Phúc Nguyên, Hương Long, Kim Long, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4534734,
+        "lng": 107.5505742
+      },
+      "priceRange": "₫",
+      "hours": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "vibe": "Số 96 Kim Long — địa chỉ đủ xa để tìm, đủ hay để quay lại.",
+      "description": "Café 96 nằm ở số 96 Nguyễn Phúc Nguyên — xa hơn so với các quán tập trung đầu phố, nhưng không khí yên tĩnh và riêng tư hơn hẳn. Quán hướng đến những khách hàng muốn ngồi lâu, đọc sách hoặc làm việc mà không bị chen chỗ.",
+      "insiderTips": [
+        "Thích hợp cho buổi làm việc dài — wifi ổn định và không gian không quá ồn.",
+        "Đến cuối buổi sáng khi đông khách sáng đã ra về — không gian yên tĩnh hơn nhiều."
+      ],
+      "rating": 4.4
+    },
+    {
+      "id": "venus-icafe",
+      "name": "Venus iCafe",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê",
+        "kim long"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAELJ4sD2N0r8YRTyafuaJuqikCtQpYjTSCOca1ZsBqFvmeHJGypgTkW4tZREMOnkfgANzs_GcEjmI3TLuOVjIch_JlEX14wzyRljilfnSklMqoYNXfKdAFT5ddRGJie4vreEGVjcgBcick=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAELJ4sD2N0r8YRTyafuaJuqikCtQpYjTSCOca1ZsBqFvmeHJGypgTkW4tZREMOnkfgANzs_GcEjmI3TLuOVjIch_JlEX14wzyRljilfnSklMqoYNXfKdAFT5ddRGJie4vreEGVjcgBcick=w800-h500-k-no"
+      ],
+      "address": "34 Nguyễn Trãi, Phú Xuân, Huế 530000, Việt Nam",
+      "coordinates": {
+        "lat": 16.4654155,
+        "lng": 107.57464689999999
+      },
+      "priceRange": "₫",
+      "hours": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "vibe": "Internet cafe thế hệ mới — cà phê ngon, máy nhanh, Huế hiện đại.",
+      "description": "Venus iCafe trên Nguyễn Trãi là sự kết hợp thú vị giữa internet cafe và specialty coffee. Với rating 4.9 từ hơn 360 đánh giá, đây là địa chỉ được tin cậy cho cả gaming, làm việc lẫn thưởng thức cà phê chất lượng cao.",
+      "insiderTips": [
+        "Đặt máy trước nếu đến cuối tuần — chỗ ngồi gaming hay đầy.",
+        "Không nhất thiết phải dùng máy — quán cà phê khu vực ngồi bình thường cũng rất tốt."
+      ],
+      "rating": 4.9
+    },
+    {
+      "id": "cafe-ven-song",
+      "name": "Cafe Ven Sông",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê",
+        "kim long"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGQOcKnk-m66IsN6lPEh02G0pporPFo_dtlWrYhzazIx0rcJVP6NBNHs3akJdjbP672UBRTP0804PrQKdguszvjuZWyiIB7cQg59hWdqZLwdR5t0u04aEMouqq7KgQjFXCBw6ugBw=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGQOcKnk-m66IsN6lPEh02G0pporPFo_dtlWrYhzazIx0rcJVP6NBNHs3akJdjbP672UBRTP0804PrQKdguszvjuZWyiIB7cQg59hWdqZLwdR5t0u04aEMouqq7KgQjFXCBw6ugBw=w800-h500-k-no"
+      ],
+      "address": "25 Nguyễn Phúc Thụ, Hương Long, Kim Long, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4624439,
+        "lng": 107.54521299999999
+      },
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:00",
+        "close": "22:00"
+      },
+      "vibe": "Bên sông nhìn ra nước — Kim Long của những buổi sáng lặng gió.",
+      "description": "Cafe Ven Sông nằm trên đường Nguyễn Phúc Thụ, gần bờ sông — một trong số ít quán ở Kim Long có view sông thật sự. Không gian mở, thoáng đãng, với tiếng nước và gió sông tạo nên âm thanh nền hoàn hảo cho một buổi sáng chậm.",
+      "insiderTips": [
+        "Chọn bàn phía ngoài để gần với view sông nhất.",
+        "Đến sáng sớm khi mặt sông còn phẳng lặng và không khí mát mẻ."
+      ],
+      "rating": 4.2
+    },
+    {
+      "id": "mandarin-coffee-restaurant",
+      "name": "Mandarin Coffee & Restaurant",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê",
+        "kim long"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG8AvuqqgUgf7Ps-dTUCEkfQiKKggXsLn_PwC0zTcvH8wMxE-6IueIdeoAHMnqYQ8_Pr3Jt-ZO47q2RBEtjxyB7cca--cOoI0HUtVa4zELGY0Op7W3vzSTDOQN9ioYYl4sAhT0=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG8AvuqqgUgf7Ps-dTUCEkfQiKKggXsLn_PwC0zTcvH8wMxE-6IueIdeoAHMnqYQ8_Pr3Jt-ZO47q2RBEtjxyB7cca--cOoI0HUtVa4zELGY0Op7W3vzSTDOQN9ioYYl4sAhT0=w800-h500-k-no"
+      ],
+      "address": "06 Đường Bà Nguyễn Đình Chi, P, Kim Long, Huế 49000, Việt Nam",
+      "coordinates": {
+        "lat": 16.454790799999998,
+        "lng": 107.55143319999999
+      },
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:00",
+        "close": "21:00"
+      },
+      "vibe": "Phong cách Huế hoàng gia — cà phê và ẩm thực đẳng cấp Kim Long.",
+      "description": "Mandarin Coffee & Restaurant trên đường Nguyễn Đình Chi là một trong những địa chỉ ăn uống và cà phê uy tín nhất khu Kim Long, được chứng minh qua hơn 430 đánh giá với điểm số 4.8. Không gian rộng rãi, phục vụ chuyên nghiệp và thực đơn phong phú từ cà phê đến các món ăn Huế đặc trưng.",
+      "insiderTips": [
+        "Đặt bàn trước cho bữa ăn — quán đông đặc biệt vào trưa và tối cuối tuần.",
+        "Thử món ăn Huế đặc sản nếu đến bữa — chất lượng xứng đáng với rating cao.",
+        "Khu vực ngồi ngoài trời rất đẹp vào buổi chiều mát."
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "tre-coffee",
+      "name": "TRE COFFEE",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê",
+        "kim long"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG7XeTZ6QFgQ0dOLDfSAoTu_k_rS9Og8i3GdZQlL28AmJNMWM1Zd95mnuiIzzhnB6U-_lvxYvcpCnmMjn1EF2LYX7fhtNk_jJIQtSqfFMfy-SCbMpcCndLVRhG_o9OvO2bU8bPABYwzspM=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG7XeTZ6QFgQ0dOLDfSAoTu_k_rS9Og8i3GdZQlL28AmJNMWM1Zd95mnuiIzzhnB6U-_lvxYvcpCnmMjn1EF2LYX7fhtNk_jJIQtSqfFMfy-SCbMpcCndLVRhG_o9OvO2bU8bPABYwzspM=w800-h500-k-no"
+      ],
+      "address": "64 Nguyễn Phúc Thụ, Hương Long, Kim Long, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4622936,
+        "lng": 107.545515
+      },
+      "priceRange": "₫",
+      "hours": {
+        "open": "05:45",
+        "close": "22:30"
+      },
+      "vibe": "Tre xanh và cà phê — Kim Long theo kiểu mộc mạc nhất.",
+      "description": "TRE COFFEE lấy hình ảnh cây tre làm cảm hứng — biểu tượng của sự giản dị và bền bỉ trong văn hóa Việt. Nằm trên đường Nguyễn Phúc Thụ, quán mang không gian xanh mát với vật liệu tre, nứa và gỗ mộc, tạo cảm giác như đang ngồi giữa một khu vườn làng.",
+      "insiderTips": [
+        "Không gian phù hợp nhất vào buổi chiều khi ánh nắng dịu.",
+        "Thử các loại đồ uống lá tươi — thường có trà bạc hà hoặc sả tắc theo mùa."
+      ],
+      "rating": 4.3
+    },
+    {
+      "id": "fin-coffee-c-ty-ca-phe-gia-nguyen",
+      "name": "FIN Coffee (C.Ty Cà Phê Gia Nguyễn)",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê",
+        "kim long"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHjOF0AELOmiJwaZLqO9Sgg-VLbySkoH3Q980uIDv7O6HInoo49DSDHX92c7gtEPW_Ls9xe5vfxEh6HSc0QQp_Fl7myRAR3ADg7mSug8Hf4EFSbLTz5XuuLFtq4KjyULsO_hbSh=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHjOF0AELOmiJwaZLqO9Sgg-VLbySkoH3Q980uIDv7O6HInoo49DSDHX92c7gtEPW_Ls9xe5vfxEh6HSc0QQp_Fl7myRAR3ADg7mSug8Hf4EFSbLTz5XuuLFtq4KjyULsO_hbSh=w800-h500-k-no"
+      ],
+      "address": "15 Kiệt 79 Phạm Thị Liên, Kim Long, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4619409,
+        "lng": 107.55823219999999
+      },
+      "priceRange": "₫",
+      "hours": {
+        "open": "08:00",
+        "close": "17:00"
+      },
+      "vibe": "Cà phê fin gia đình — pha bằng tình, uống bằng tâm.",
+      "description": "FIN Coffee là dự án cà phê gia đình của Gia Nguyễn, nằm trong một kiệt nhỏ trên đường Phạm Thị Liên. Quán chú trọng vào kỹ thuật pha phin truyền thống — mỗi ly cà phê được pha chế tỉ mỉ theo cách gia truyền của gia đình.",
+      "insiderTips": [
+        "Quán mở từ sáng đến chiều (8h-17h) — không phục vụ buổi tối.",
+        "Hỏi về câu chuyện nguồn gốc cà phê — gia đình thường chia sẻ về hạt và cách rang."
+      ],
+      "rating": 4.6
+    },
+    {
+      "id": "chamm-garden",
+      "name": "Chạmm Garden",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê",
+        "kim long"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGopHaDdj0dAkJTOhWykQoEGaT-5ZyeAIWbBn3LHp8xgDgWDRaMIhjWGYKDOGYHb8fte6KRsuKlTpNVCZzSnTpnmVJK5pdG9hwcFJD6wgcj9cJDOJ1yOP0dqIrx6s3_tW4_sjQpZfi_Z9mW=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGopHaDdj0dAkJTOhWykQoEGaT-5ZyeAIWbBn3LHp8xgDgWDRaMIhjWGYKDOGYHb8fte6KRsuKlTpNVCZzSnTpnmVJK5pdG9hwcFJD6wgcj9cJDOJ1yOP0dqIrx6s3_tW4_sjQpZfi_Z9mW=w800-h500-k-no"
+      ],
+      "address": "18 Nguyễn Phúc Nguyên, Kim Long, Huế 49000, Việt Nam",
+      "coordinates": {
+        "lat": 16.4566808,
+        "lng": 107.5569151
+      },
+      "priceRange": "₫",
+      "hours": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "vibe": "Khu vườn chạm đến tâm hồn — không gian xanh đẹp nhất Kim Long.",
+      "description": "Chạmm Garden tại số 18 Nguyễn Phúc Nguyên là một khu vườn cà phê rộng rãi với thiết kế xanh mát và tinh tế. Được hơn 260 lượt đánh giá với điểm 4.8, đây là địa chỉ được yêu thích nhất của khu Kim Long — đặc biệt vào cuối tuần khi các gia đình và nhóm bạn tụ họp.",
+      "insiderTips": [
+        "Đặt bàn trước vào cuối tuần — quán đông và chỗ đẹp ngoài vườn hay hết sớm.",
+        "Khu vực vườn ngoài trời đẹp hơn trong nhà nhiều — ưu tiên chỗ ngồi ngoài.",
+        "Thử cà phê muối hoặc đồ uống signature của quán — thường được cập nhật theo mùa."
+      ],
+      "rating": 4.8
+    },
+    {
+      "id": "dynasty-coffee",
+      "name": "Dynasty coffee",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê",
+        "kim long"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG09J2bvM8UXtjK3IjNCPITr94es_C0ZWC5AY13k_vTe845nzW4FmQ_5SysS_ao8a5EcIiHjZh2Zf0nKlZeE31hR28S1_Dz4_UJFhs-tTK_IT2TcpEtYU89_xzTwKZs9GyFtI8=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG09J2bvM8UXtjK3IjNCPITr94es_C0ZWC5AY13k_vTe845nzW4FmQ_5SysS_ao8a5EcIiHjZh2Zf0nKlZeE31hR28S1_Dz4_UJFhs-tTK_IT2TcpEtYU89_xzTwKZs9GyFtI8=w800-h500-k-no"
+      ],
+      "address": "24 Kim Long, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4601205,
+        "lng": 107.5677381
+      },
+      "priceRange": "₫",
+      "hours": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "vibe": "Vương triều cà phê — phong cách hoàng gia đầu đường Kim Long.",
+      "description": "Dynasty Coffee tọa lạc tại số 24 Kim Long — tên gọi gợi nhắc đến thời kỳ hưng thịnh của các vương triều Huế. Không gian trang nhã pha chút cổ điển, phục vụ cà phê và đồ uống trong bầu không khí ấm áp mang chút hơi thở cố đô.",
+      "insiderTips": [
+        "Khu vực Kim Long đẹp nhất khi đi dọc đường — kết hợp ghé quán trong lúc dạo phố.",
+        "Hỏi nhân viên về menu đặc biệt — đôi khi có đồ uống theo mùa không ghi trên bảng."
+      ],
+      "rating": 4.0
+    },
+    {
+      "id": "happy-coffee",
+      "name": "Happy Coffee",
+      "category": "cafe",
+      "tags": [
+        "quán cà phê",
+        "kim long"
+      ],
+      "coverImage": "",
+      "gallery": [],
+      "address": "79 Phạm Thị Liên, Kim Long, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.461187,
+        "lng": 107.558853
+      },
+      "priceRange": "₫",
+      "hours": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "vibe": "Hạnh phúc đơn giản — một ly cà phê, một sáng bình yên.",
+      "description": "Happy Coffee trên đường Phạm Thị Liên là quán nhỏ mang đúng tinh thần tên gọi — vui vẻ, thân thiện và không phô trương. Phục vụ cà phê và đồ uống đơn giản trong không gian thoải mái, phù hợp cho buổi sáng chậm rãi ở Kim Long.",
+      "insiderTips": [
+        "Quán nhỏ và yên tĩnh — thích hợp nhất cho 1-2 người.",
+        "Gọi cà phê sữa nóng để khởi đầu buổi sáng đúng kiểu Huế."
+      ],
+      "rating": 5.0
     }
   ],
   "collections": [
