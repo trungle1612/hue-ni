@@ -41,6 +41,10 @@ const ALL_PLACES = placesData.places as Place[]
 
 Types in `src/types/index.ts`. Categories: `tomb | landmark | cafe | food | homestay | service`. Labels and filter options in `src/data/constants.ts`.
 
+`Place` fields: `id`, `name`, `category`, `tags`, `coverImage`, `gallery`, `address`, `coordinates` (`{lat, lng}`), `rating`, `priceRange` (`₫/₫₫/₫₫₫`), `hours` (`{open, close}`), `vibe`, `description`, `insiderTips[]`; optional: `collection`, `phone`, `website`, `logo`. The file also exports `collections: Collection[]` (`{id, title, description}`).
+
+`review-places.csv` is a Google Maps scrape used to populate `places.json` — import it via the `/import-places-data` slash command.
+
 ### State
 
 Saved-places list lives in `src/hooks/useMyTrip.ts` — reads/writes `localStorage` key `hue-ni-trip` (JSON array of place IDs). The hook is instantiated **once** inside `MyTripProvider` (`src/contexts/MyTripContext.tsx`), which wraps the entire app in `App.tsx`. All consumers (`BottomNav`, `PlaceCard`, `HomePage`, `MyTripPage`, `DetailsPage`) call `useMyTripContext()` — never `useMyTrip()` directly — so bookmark state is shared and updates propagate everywhere (e.g. the BottomNav badge count on `/my-trip`, the gold dot on saved map pins, the bookmark button state in the bottom sheet).
@@ -71,15 +75,21 @@ Two variants: `vertical` (Heritage list, full-width, 2-line name clamp) and `hor
 
 Both variants include a floating bookmark button (top-right of image) that calls `useMyTripContext()` with `e.stopPropagation()` to prevent card navigation. Saved state: filled red bookmark + spring-pop animation. Unsaved: outline bookmark on dark glassmorphic circle.
 
+### Other Components
+
+- **FilterCombobox** (`src/components/FilterCombobox.tsx`) — category dropdown on HomePage with full keyboard navigation (Arrow keys, Escape, Tab) and outside-click dismissal. Uses emoji icons per category.
+- **OnboardingModal** — geolocation permission dialog, shown once (gated by `hue-ni-onboarded` localStorage key). Dismissible; handles unsupported geolocation gracefully.
+- **ImageGallery** — lazy-loaded image carousel with safe empty-array handling.
+
 ### Design System (enforced — see `designs/DESIGN.md`)
 
-- **No-Line Rule**: no `1px solid` borders anywhere. Use tonal background shifts or `box-shadow: 0 -1px 0 rgba(...)` for separators.
-- **Active CTAs**: silk-sheen gradient `linear-gradient(135deg, var(--color-primary), var(--color-primary-container))` — never flat color.
-- **Glassmorphism**: floating elements use `background: rgba(253,246,236,0.92)` + `backdrop-filter: blur(...)`.
-- **Shadows**: tinted with `rgba(43,22,19,...)` (on-surface color), never black.
-- **Fonts**: `--font-serif: 'Noto Serif'` for headings/titles, `--font-sans: 'Plus Jakarta Sans'` for all UI labels.
-
-Key tokens: `--color-primary: #7d0010`, `--color-secondary: #735c00`, `--color-tertiary: #5e2b34`, `--color-secondary-fixed: #ffe088`, `--bottom-nav-height: 4rem`.
+Note: `designs/DESIGN.md` describes an Apple-inspired aspirational aesthetic. The **actual implementation** uses a warm "Imperial Huế" palette defined in `src/index.css`:
+- Primary: `#7d0010` (deep imperial red), secondary: `#735c00` (gold)
+- Background/surface: cream `#fdf6ec`; on-surface text: `#2b1613`
+- Fonts: Noto Serif (headings) + Plus Jakarta Sans (body)
+- Spacing tokens: `--space-xs` (0.25rem) → `--space-2xl` (3rem)
+- Radius tokens: `--radius-sm` (0.5rem) → `--radius-full` (999px)
+- Shadows: `--shadow-card` (6% opacity) and `--shadow-floating` (12% opacity)
 
 ### Styling
 
