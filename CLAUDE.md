@@ -45,6 +45,8 @@ Types in `src/types/index.ts`. Categories: `tomb | landmark | cafe | food | home
 
 `review-places.csv` is a Google Maps scrape used to populate `places.json` — import it via the `/import-places-data` slash command.
 
+`/import-review-places` to import reviews for the places
+
 ### State
 
 Saved-places list lives in `src/hooks/useMyTrip.ts` — reads/writes `localStorage` key `hue-ni-trip` (JSON array of place IDs). The hook is instantiated **once** inside `MyTripProvider` (`src/contexts/MyTripContext.tsx`), which wraps the entire app in `App.tsx`. All consumers (`BottomNav`, `PlaceCard`, `HomePage`, `MyTripPage`, `DetailsPage`) call `useMyTripContext()` — never `useMyTrip()` directly — so bookmark state is shared and updates propagate everywhere (e.g. the BottomNav badge count on `/my-trip`, the gold dot on saved map pins, the bookmark button state in the bottom sheet).

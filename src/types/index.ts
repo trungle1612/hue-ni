@@ -6,6 +6,13 @@ export type Category =
   | 'homestay'
   | 'service'
 
+export interface Review {
+  author: string
+  text: string
+  rating?: number
+  photos?: string[]
+}
+
 export interface Place {
   id: string
   name: string
@@ -25,6 +32,7 @@ export interface Place {
   phone?: string
   website?: string
   logo?: string
+  reviews?: Review[]
 }
 
 export interface Collection {
