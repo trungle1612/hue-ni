@@ -71,6 +71,7 @@ export function DetailsPage() {
   const navigate = useNavigate()
   const { isSaved, addPlace, removePlace } = useMyTripContext()
   const [lightbox, setLightbox] = useState<LightboxState | null>(null)
+  const [showAllReviews, setShowAllReviews] = useState(false)
 
   const place = ALL_PLACES.find(p => p.id === id)
 
@@ -222,9 +223,17 @@ export function DetailsPage() {
       {(place.reviews?.length ?? 0) > 0 && (
         <div className="details-page__reviews">
           <h2 className="details-page__reviews-title">🗣 Đánh giá từ khách</h2>
-          {place.reviews!.map((review, i) => (
+          {(showAllReviews ? place.reviews! : place.reviews!.slice(0, 5)).map((review, i) => (
             <ReviewCard key={i} index={i} review={review} onPhotoClick={setLightbox} />
           ))}
+          {!showAllReviews && place.reviews!.length > 5 && (
+            <button
+              className="details-page__reviews-more"
+              onClick={() => setShowAllReviews(true)}
+            >
+              Xem thêm {place.reviews!.length - 5} đánh giá
+            </button>
+          )}
         </div>
       )}
 
