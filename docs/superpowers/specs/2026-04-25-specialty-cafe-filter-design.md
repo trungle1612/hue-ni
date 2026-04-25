@@ -45,12 +45,14 @@ Each café can carry multiple sub-type tags. A rooftop garden that also serves c
 
 ### 1c. Data curation criteria
 
-Review all 78 café entries and set `specialty: true/false`:
+Review all 78 café entries and set `specialty: true/false`. A place is `specialty: true` if it meets **either** condition:
 
-- **`specialty: true`** — rating ≥ 4.0 AND has a distinctive character (not a generic chain)
-- **`specialty: false`** — rating < 4.0 OR generic / chain café
+- rating ≥ 4.0 AND has a distinctive character (not a generic chain)
+- OR has a high review count (popular, culturally significant) — even if rating is slightly below 4.0
 
-Known `specialty: false` candidates: "Coffee and Tea" (2.9), "Cà Phê Muối cs1" (3.8), "The time coffee" (4.0 — borderline). Expected ~50–55 places marked `true`.
+High review count overrides a marginal rating dip. Example: "Cà Phê Muối cs1" (3.8) qualifies as `specialty: true` because it is a well-known Huế institution with many reviews.
+
+Known `specialty: false` candidates: places with low rating AND few reviews, or generic chains (e.g. "Coffee and Tea" at 2.9). Expected ~50–55 places marked `true`.
 
 Also add the 4 sub-type tags to each `specialty: true` café as appropriate.
 
