@@ -28,6 +28,7 @@ export interface Place {
   vibe: string
   description: string
   insiderTips: string[]
+  specialty?: boolean
   collection?: string
   phone?: string
   website?: string
