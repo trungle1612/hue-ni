@@ -19,3 +19,11 @@ export const FILTER_OPTIONS: FilterOption[] = [
   { value: 'homestay', label: 'Homestay' },
   { value: 'service', label: 'Dịch vụ' },
 ]
+
+export const CAFE_SUB_FILTERS: { value: string | null; label: string }[] = [
+  { value: null,          label: 'Tất cả' },
+  { value: 'hoai-co',     label: '🏛️ Hoài cổ' },
+  { value: 'ca-phe-muoi', label: '☕ Cà phê muối' },
+  { value: 'san-vuon',    label: '🌿 Sân vườn' },
+  { value: 'check-in',    label: '📸 Check-in' },
+]
