@@ -409,4 +409,5 @@
   outline-color: var(--color-secondary);
   color: #ffffff;
   box-shadow: 0 3px 12px rgba(115, 92, 0, 0.35);
+  backdrop-filter: none;
 }
