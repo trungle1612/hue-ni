@@ -12,7 +12,7 @@ import './style.css'
 
 const ALL_PLACES = placesData.places as Place[]
 
-const MAP_FILTER_OPTIONS = [
+const MAP_FILTER_OPTIONS: Array<{ value: Category | 'all'; icon: string; label: string }> = [
   { value: 'all',      icon: '🗺️', label: 'Tất cả' },
   { value: 'cafe',     icon: '☕',  label: 'Cà phê' },
   { value: 'homestay', icon: '🏡', label: 'Homestay' },
@@ -26,7 +26,7 @@ export function HomePage() {
   const navigate = useNavigate()
   const { isSaved, addPlace, removePlace, savedIds } = useMyTripContext()
   const [showOnboarding, setShowOnboarding] = useState(() => !hasSeenOnboarding())
-  const [selectedCategory, setSelectedCategory] = useState('all')
+  const [selectedCategory, setSelectedCategory] = useState<Category | 'all'>('all')
   const [selectedPlace, setSelectedPlace] = useState<Place | null>(null)
   const [sheetClosing, setSheetClosing] = useState(false)
   const [activeSubFilter, setActiveSubFilter] = useState<string | null>(null)
@@ -34,7 +34,7 @@ export function HomePage() {
   const closeTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
   const toastTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
 
-  const visiblePlaces = filterPlaces(ALL_PLACES, selectedCategory as Category | 'all', activeSubFilter)
+  const visiblePlaces = filterPlaces(ALL_PLACES, selectedCategory, activeSubFilter)
 
   function dismissSheet() {
     if (!selectedPlace) return
