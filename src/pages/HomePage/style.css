@@ -80,6 +80,12 @@
   right: 0;
   z-index: 1000;
   display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.home-map-filters__row {
+  display: flex;
   gap: var(--space-sm);
   overflow-x: auto;
   padding: 0 var(--space-md);
@@ -87,7 +93,7 @@
   -ms-overflow-style: none;
 }
 
-.home-map-filters::-webkit-scrollbar {
+.home-map-filters__row::-webkit-scrollbar {
   display: none;
 }
 
@@ -376,4 +382,31 @@
   0%   { transform: scale(1); }
   50%  { transform: scale(1.2); }
   100% { transform: scale(1); }
+}
+
+/* ── Sub-filter row (café secondary chips) ── */
+
+.home-map-subfilter-row {
+  animation: subfilter-slide-in 0.22s cubic-bezier(0.32, 0, 0.2, 1) both;
+}
+
+@keyframes subfilter-slide-in {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.home-map-chip--sub {
+  padding: 0.35rem 0.75rem;
+  font-size: 0.72rem;
+  background: rgba(255, 243, 224, 0.92);
+  color: var(--color-secondary);
+  outline: 1.5px solid rgba(201, 162, 39, 0.5);
+  outline-offset: -1.5px;
+}
+
+.home-map-chip--sub-active {
+  background: var(--color-secondary);
+  outline-color: var(--color-secondary);
+  color: #ffffff;
+  box-shadow: 0 3px 12px rgba(115, 92, 0, 0.35);
 }

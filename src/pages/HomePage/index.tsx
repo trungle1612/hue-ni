@@ -6,7 +6,7 @@ import { hasSeenOnboarding } from '../../utils/onboarding'
 import { useMyTripContext } from '../../contexts/MyTripContext'
 import placesData from '../../data/places.json'
 import type { Place, Category } from '../../types'
-import { CATEGORY_LABELS } from '../../data/constants'
+import { CATEGORY_LABELS, CAFE_SUB_FILTERS } from '../../data/constants'
 import { filterPlaces } from '../../utils/filterPlaces'
 import './style.css'
 
@@ -102,21 +102,40 @@ export function HomePage() {
         <div className="home-map-area">
           {/* Category filter — floats over map */}
           <div className="home-map-filters" role="group" aria-label="Lọc địa điểm">
-            {MAP_FILTER_OPTIONS.map(opt => (
-              <button
-                key={opt.value}
-                className={`home-map-chip${selectedCategory === opt.value ? ' home-map-chip--active' : ''}`}
-                onClick={() => {
-                  setSelectedCategory(opt.value)
-                  setActiveSubFilter(null)
-                  dismissSheet()
-                }}
-                aria-pressed={selectedCategory === opt.value}
-              >
-                <span className="home-map-chip__icon">{opt.icon}</span>
-                {opt.label}
-              </button>
-            ))}
+            {/* Primary row */}
+            <div className="home-map-filters__row">
+              {MAP_FILTER_OPTIONS.map(opt => (
+                <button
+                  key={opt.value}
+                  className={`home-map-chip${selectedCategory === opt.value ? ' home-map-chip--active' : ''}`}
+                  onClick={() => {
+                    setSelectedCategory(opt.value)
+                    setActiveSubFilter(null)
+                    dismissSheet()
+                  }}
+                  aria-pressed={selectedCategory === opt.value}
+                >
+                  <span className="home-map-chip__icon">{opt.icon}</span>
+                  {opt.label}
+                </button>
+              ))}
+            </div>
+
+            {/* Secondary row — only visible when café is selected */}
+            {selectedCategory === 'cafe' && (
+              <div className="home-map-filters__row home-map-subfilter-row">
+                {CAFE_SUB_FILTERS.map(opt => (
+                  <button
+                    key={String(opt.value)}
+                    className={`home-map-chip home-map-chip--sub${activeSubFilter === opt.value ? ' home-map-chip--sub-active' : ''}`}
+                    onClick={() => setActiveSubFilter(opt.value)}
+                    aria-pressed={activeSubFilter === opt.value}
+                  >
+                    {opt.label}
+                  </button>
+                ))}
+              </div>
+            )}
           </div>
 
           {/* Saved toast */}
