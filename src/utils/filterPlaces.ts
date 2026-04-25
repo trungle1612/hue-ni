@@ -1,8 +1,8 @@
-import type { Place } from '../types'
+import type { Place, Category } from '../types'
 
 export function filterPlaces(
   places: Place[],
-  category: string,
+  category: Category | 'all',
   subFilter: string | null
 ): Place[] {
   if (category === 'all') return places
