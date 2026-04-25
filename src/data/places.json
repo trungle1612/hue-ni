@@ -578,7 +578,8 @@
             "https://lh3.googleusercontent.com/geougc-cs/AMG9lESOtkETjjAwHryvyvbRlfn_eq6FWUQuAXRfHoJkcTw6mue5LGvd8Np36x6QF5P72ilOimv5z1a-rgsyPOoUckXeFBhSKq-yFmEkOHbWbnKIshwtu0ZyG8sVvuzxkQG2e1FGnSypi_rHoQYs"
           ]
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "hue-by-xeooo",
@@ -591,7 +592,8 @@
         "gia đình",
         "sân thượng",
         "wifi",
-        "đặt bàn được"
+        "đặt bàn được",
+        "check-in"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFXUmEB2nDYoU96dEUA9WyUIJuE4AiMZoO7F-z0OTMyNXTfXU5MLBqtOGI0ddifeWXeVB1H3uYTaMSdE-Dw6YjRuyxcMLtHuXwr-8AKP0nc4SXQg4_t6xSoUJHYKZhXN5IYOnQ=w800-h500-k-no",
       "gallery": [
@@ -1037,7 +1039,8 @@
             "https://lh3.googleusercontent.com/geougc-cs/AMG9lERzFR5G9ucn2U5-diXwviPJOGLikqd_eMKp7curohbs3PJE9tJ0bWF-nixNw6oVwyggkEi2y0yOxIyjcNb_QdW-xi9UbFHMQuXK6_7HKfWMbndNZm5oam1Khv5W4FWv7ijJ14HkNQD4eKG7"
           ]
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "t-roaster-ho-xuan-huong",
@@ -1529,7 +1532,8 @@
           "text": "Chỉ thắc mắc sao ra cafe chậm quá. Quán vắng mà đợi hơn 10p mới có.",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "nha-hang-vy-da-xua",
@@ -1550,7 +1554,8 @@
         "ăn trưa",
         "ăn tối",
         "đặt bàn được",
-        "ấm cúng"
+        "ấm cúng",
+        "hoai-co"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEzadd9TAbOt-UgZfkyGudcX2fnU7K2Fn8D3nONe6C6SBXrhl1xomn3m2dfVW0X8BhPQ88eG3ySx_M3S-BZtrZdQ5mRsvEErJnQfZk9FSAdFSqUACsVF840fF-gwgr9xF78kh78=w800-h500-k-no",
       "gallery": [
@@ -2112,7 +2117,8 @@
             "https://lh3.googleusercontent.com/geougc-cs/AMG9lESK2CCp6-Dx8X3x5bXFxhGhmk6Ubg3LJgk8aCT5JTDCWxBaixOuQjAavhtboCqNumEgU5ZCWwSpt34bCcnmGJlExp8orFmQv-BfNUYsi5yw0yBmy6M1XpUY-HbqytKeN3dD0GEhezbGNcgu"
           ]
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "cui-coffee",
@@ -2133,7 +2139,8 @@
         "ăn sáng",
         "ăn trưa",
         "đặt bàn được",
-        "ấm cúng"
+        "ấm cúng",
+        "san-vuon"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGgvRLNrxcgeHs9MCbWU3NF7NWNeF8JkVVmVjugWz5rH3B-b6Et39l62vJ0GE93MJVhA_3w3MzN0Nze0zj1DXWd7lKnE1hGl3eg9sRT5B4Efdh_JjPvGWdiH-xhV34N74OJ1IJz1TVLM3l6=w800-h500-k-no",
       "gallery": [
@@ -2647,7 +2654,8 @@
             "https://lh3.googleusercontent.com/geougc-cs/AMG9lERYnSiuX-lImskrJfwpeGiJMYaAJkjbInAQHfOPA_NGIfSnLkkphBijVDaksb9C9c21RIxIIGO5Y2SM6wZspxrdeW38QT25KYRIileqxBj7qWgpoi3DJ6jshk0tSK82z2FMZSj8NJ9BFU2q"
           ]
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "venus-icafe",
@@ -3050,7 +3058,8 @@
           "text": "nước ngon, bánh mì ngon. Nhân viên vui vẻ, ko gian thoáng mát, có nhiều chỗ checkin",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "thanh-cafe-24-van-cao",
@@ -3571,7 +3580,8 @@
           "text": "1 trong những quán quan tâm khách hàng đầu tiên ở Huế. Sau dần mình mới cảm nhận được các quán khác dịch vụ tăng theo. Giá cũng tăng vèo vèo",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "nha-quin-coffee-roastery-50m2-single-origin-arabica-fine-robusta-111-day-e-khu-tap-the-ong-a-hue",
@@ -4147,7 +4157,8 @@
             "https://lh3.googleusercontent.com/geougc-cs/AMG9lEQriqrbWeh4F5gMCSPpdi65JlVOpPcc7yw3pv_YnPrW4QPZOQnQVeYeJcDxhIcl7S2O7xOF0QoCpSf_enziAUwA0WrDlLMUtqsXkQMpEGlUOVyeh4lSmQ0KiIZsLOHqsfkcJHTr78806cX-"
           ]
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "ta-gallery-ta-cafe-bakery",
@@ -4163,7 +4174,8 @@
         "thân thiện laptop",
         "ăn sáng",
         "đặt bàn được",
-        "ấm cúng"
+        "ấm cúng",
+        "san-vuon"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG2HTd1TxcBdn2BtY42uE7dkjF8JK9I5I7_ljRYJ5kpzqjajzsBAXwiXPltIcxVyfCdTcyoUHogXhJg57b6BKtuc9BJzXaDi7vv16t9w2F6MkhUmt06MorwAngyC-_pKXnWufrUkUgTcWim=w800-h500-k-no",
       "gallery": [
@@ -4529,7 +4541,8 @@
           "text": "Ấm cúng, nhạc nhẹ nhàng, chăm chút về nội thất!👍👍",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "thanh-cafe",
@@ -4965,7 +4978,8 @@
           "text": "Quán dễ thương lắm, nhân viên phục vụ nhiệt tình và thân thiện. Nước pha rất ngon, sẽ quay lại nhiều lần!",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "ben-trang-cafe-bistro",
@@ -4987,7 +5001,8 @@
         "ăn sáng",
         "ăn tối",
         "đặt bàn được",
-        "ấm cúng"
+        "ấm cúng",
+        "check-in"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFSS5EEK-U1_Ty9JYKnwXunKXHMLi1vTM0wAkRdDNHMqYKOh8ouK39F5iP7Mw3T10BsMaSz-A_zrPRDX6qb-6HKq1-GJsbz3Wze-KmNMIxb8NAPKMKlpQWAM0tQKSIMRu9BV359=w800-h500-k-no",
       "gallery": [
@@ -5366,7 +5381,8 @@
             "https://lh3.googleusercontent.com/geougc-cs/AMG9lETfzfM36XkL8Av8SM0a1JDDWE1SrHp61Z4gG4hMrLhvDOQljde8L14ly3rt0M6QemeBZkq99JmYRPorQKVGXCQfw-K5xnbMa3sbq9AjV4cZBprtXTjqA7f1xye9kLuCJKmV-Plks3_I0GJg"
           ]
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "the-lab-coffee",
@@ -5727,7 +5743,8 @@
           "text": "Tuyệt cú meo",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "a-me-cafe-coffee-breakfast",
@@ -6139,7 +6156,8 @@
             "https://lh3.googleusercontent.com/geougc-cs/AMG9lET2AlIAyhEovuxBHzzTTStZQb-0BsBNIGhy3KGoePIvd7QPKn7r6E6uq11e4b_3DIvmwivJP1cYwmRvRhVhxdXlo_2A_NZJ-FZiqqT5HFUgM-SmH-2qPxsdakgV9187SEp_9bGO_MJ_h6ay"
           ]
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "khong-gian-hoai-co-coffee",
@@ -6151,7 +6169,8 @@
         "nhiều trà",
         "sinh viên",
         "đặt bàn được",
-        "ấm cúng"
+        "ấm cúng",
+        "hoai-co"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH6qE7NjNRxnWp7hwbJudsFKJqVV-4y7TtD7Qu84RkFPyKQa5vUzk_2f6hgaxuupGkecyo5TY7MbSggtH6abPBcFeRQnm6NAyZz-men9sLLrHQx6n9AN015hVJ_oiIe08TTv8Ud=w800-h500-k-no",
       "gallery": [
@@ -6591,7 +6610,8 @@
           "text": "Nước siu ngon,giá quá rẻ với chất lượng,quán thoáng,chỉ có lúc mới vào sẽ ngửi thấy mùi hơi khó chịu 1 xíu là hết. Siu rcm nước này",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "phinholic",
@@ -7039,7 +7059,8 @@
           "text": "Cafe muối chai mang về rất ngon. Còn cốc cafe muối mang đi bao bì đẹp, có biểu tượng chùa Thiên Mụ, phù hợp cho b nào muốn check in ^^\nNếu quán Cafe muối số 1 vừa ngon vừa rẻ, thì cafe muối ở đây giá cao hơn nhưng cũng đậm vị cafe hơn.",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "quan-cafe-51",
@@ -7333,7 +7354,8 @@
           "text": "Ngon",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "view-cafe",
@@ -7792,7 +7814,8 @@
           "text": "Quán cà phê view dễ thương, vị trí đẹp. Chủ quán có tâm với môi trường\nNhân viên dễ thương, gần gũi.",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "cong-ca-phe",
@@ -8216,7 +8239,8 @@
           "text": "Cafe Cộng Với 1 Cốc Cacao nóng thì còn gì = 🔥",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "quan-nina-cafe",
@@ -8523,7 +8547,8 @@
           "text": "rất ngon",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "tram-cafe-cafe-chuan-vi-co-o",
@@ -8538,7 +8563,8 @@
         "thú cưng",
         "wifi",
         "yên tĩnh",
-        "ấm cúng"
+        "ấm cúng",
+        "hoai-co"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF4mf-5eTWaMi-cuC1V9s4L0fEtVAxnebpr7OaoQPowGAr23BwyWmAg180UrmQUqJoM5o11k4edl-wyqjVq7ofp6Ub9yxe4JIlG63Fi-KfnqnLdLzB4K-UiajSHUlYYQvAiesiRgw=w800-h500-k-no",
       "gallery": [
@@ -8901,7 +8927,8 @@
           "text": "Cafe muối ngon và nhiều.\nToilet cần được vệ sinh sạch hơn và khép cửa",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "t-roaster",
@@ -9472,7 +9499,8 @@
             "https://lh3.googleusercontent.com/geougc-cs/AMG9lESozwUNTIv3_MOMRn4v1xYC3usTJv8uEATyEJ6nL3SSgFX3d7EgG-rR7Urxv5ZS_s-NcmZdjn8Z-xkKSHKIyz61o4J1f68IsKzdY1V9LcQQlGiz5SensSmb0rCTfLX6JVxUaYwT_liLj9rA"
           ]
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "tan-original",
@@ -9972,7 +10000,8 @@
             "https://lh3.googleusercontent.com/geougc-cs/AMG9lERvZBHhA-wgIhwtLK-TyiZnGM8ymM7AToO3snXycLg8TgaLG4vg6bxEE-tnje--3ADu6ZiHRj6TFisYY-u23UN0UgoA3hMQ-0f-2gLu9vftHn9sy8ta2BpSZp9rgNJMAqUdUnbDW0swoAs"
           ]
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "kodo",
@@ -9991,7 +10020,8 @@
         "yên tĩnh",
         "ăn sáng",
         "đặt bàn được",
-        "ấm cúng"
+        "ấm cúng",
+        "san-vuon"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGBU7PJbs98HmkbqvTTdZZrue1KNw1QLpGrmYP6vb0peY2rRCkMxdL3aza8UWhKLxKHJOHn8rgucmpInraYGvhy0ayGaDJFR1A6dTcQbdHHpxay2FYELG1A3DYHRkNgFSvOq6N8=w800-h500-k-no",
       "gallery": [
@@ -10588,7 +10618,8 @@
             "https://lh3.googleusercontent.com/geougc-cs/AMG9lEQe8dEgB5Xf-ir3QEbyn56n0xnYeqeyi3ZXCouiq6k95yaT9D8DhHpCxvUAOKRo7qe0oyyLv-a-udRh56_ZyhynEN1ofr0-T6thNhWjNpHZuF_tV9lkNnPwOWGsM-K1g6_3nIHBg1aYPblV"
           ]
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "tiem-cafe-tui-minh",
@@ -10607,7 +10638,8 @@
         "yên tĩnh",
         "ăn sáng",
         "đặt bàn được",
-        "ấm cúng"
+        "ấm cúng",
+        "san-vuon"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG24HwQjNvOnZdJW0R9LKQKyQYvQWmRWoq_JEUKfhhArQ7q4xpAjfYT0xkY9-hMjRLv1maW7T58hVI0fkh-uql_T3z6CcIvtZVBFa4B0S2F8GGCVmjWFOCYjYz1ziOFY76zeNiC38Rav2J8=w800-h500-k-no",
       "gallery": [
@@ -11125,7 +11157,8 @@
             "https://lh3.googleusercontent.com/geougc-cs/AMG9lETzF3h0DWBjgggP_XXDvjVsxeH_evinLpf_kMyb9WYZwv_BsOnrZTFyDw1NrC1CJYyNzXHEV2ja62msjX7Ttu66Eq_lthcQVmra4nSK8a7fedsKPGKpIT4h0BAP7iQLwFr91F2Yjck8fx5_"
           ]
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "a-oi-cafe",
@@ -11580,7 +11613,8 @@
           "text": "Nước ngon, không gian yên tĩnh, nhân viên dễ thương ghê luôn ó, quán sạch sẽ, nhân viên take care tốt, sẽ quay lại",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "secret-lounge-hue",
@@ -11596,7 +11630,8 @@
         "wifi",
         "yên tĩnh",
         "đặt bàn được",
-        "ấm cúng"
+        "ấm cúng",
+        "check-in"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH63cQqSlkE4tTmIyuMZ7uIL8W73SojkdG3url5dfkXE2SOjjxplGSicGLB3uOx-3EYdEGxhkw6LBWwjg_5McJYLlLlUCIs4IMPXbHdfwD8GSORHozte88qDC7KxUrbJENDRmfLow=w800-h500-k-no",
       "gallery": [
@@ -11972,14 +12007,16 @@
           "text": "A chủ quán siêu nhiệt tình dịch vụ chăm sóc khách hàng siêu tuyệt. Đồ uống ngon lắm",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "cat-cafe-mocha-aeon-hue-store",
       "name": "Cat cafe Mocha Aeon Huế Store",
       "category": "cafe",
       "tags": [
-        "ca phe"
+        "ca phe",
+        "check-in"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGDfiwtsK1E3cjaoluzHPgG7fCK-xrbRNGHCOWU3Q9bK9A7Bwrqyf3rdTkiBL-VRvcmCkNavLl_ZZaK8sG1LlSsm3-UsKDWQv1xlwy59PFYKUrEO-MVyWzNSSSR17gbqRQ-wQHb=w800-h500-k-no",
       "gallery": [
@@ -12408,7 +12445,8 @@
             "https://lh3.googleusercontent.com/geougc-cs/AMG9lETG1hf1HiYNYIHpk1ar6Yu4dQAjvG9Ad2gKWOLuyCLe9fAfDsK-VpihtF6INgLPrCboLYm8GvXP4YIvthTSglQy6pHQfdC30nfvnyUB4QH8RIfLVT5UkXEu6bHllfDf8TfHAK42RYQssc1r"
           ]
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "phinholic-ca-phe-muoi-ac-san-hue",
@@ -12425,7 +12463,8 @@
         "wifi",
         "ăn sáng",
         "ăn trưa",
-        "ấm cúng"
+        "ấm cúng",
+        "ca-phe-muoi"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFLQSUACm8nuD65-9oLjoHQp7pIOhP4gPQhO6Gd18j4xOxhsJv4Cv523dr8tqYbZ6FwYrXF5MHIvWaZ9A2vsli_JdP2agWxUdJKFzSDteFyoFk7jurhP0emoHeiuC5ECE9F7p5kdQ=w800-h500-k-no",
       "gallery": [
@@ -12841,7 +12880,8 @@
             "https://lh3.googleusercontent.com/geougc-cs/AMG9lEQEs3HXJ1ZUt-YNiFkfpnYwm58qp8FbpF_fGvWVVBpT33NNt8H6T5TvVRgfhZC4KO3opfGC63b3CfX43yiK1Xk815mzkEvY2RARXmYa22p9Gu6zvhMo4Fi8yJi-xvexsej_vq6i8SgTWw8"
           ]
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "e-po-cafe",
@@ -13332,7 +13372,8 @@
             "https://lh3.googleusercontent.com/geougc-cs/AMG9lESZfoSmcBl1biGYwN5M0LJwmUABC7sBVFOPBL9GzWZXU2ng6OWugKJh56yRsJ9EX1rgBLvIIQo4n7Wo8GuuyujDzjFdTJi7su1-F3lX5ND_b3UYWShzL7PBYdwFV4_TGWgggCieVT27ZpE"
           ]
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "ca-phe-muoi-ac-san-hue",
@@ -13342,7 +13383,8 @@
         "bến nghé",
         "ca phe",
         "cà phê ngon",
-        "sinh viên"
+        "sinh viên",
+        "ca-phe-muoi"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHDHvLUoBAwgxNvXuu1-M_MFQ_wQ8Gmo5Fhfoktv3zSzAQGJaHRGYU-QNOlatEQjHldZdAFwW5ZwGKtA0OVDQ3ZE-WvtJa0QPaat0POjDKebmcCiYoNMfOLn099z2u9Gmha60I=w800-h500-k-no",
       "gallery": [
@@ -13690,7 +13732,8 @@
           "text": "Cafe muối ngon hơn ở Sài Gòn, mua gói mang về có hỗ trợ thùng xốp và đá gel gửi máy bay. 10 điểm",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "laph-truong-inh",
@@ -14010,7 +14053,8 @@
           "text": "không gian thoải mái, đồ uống hợp gu",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "memoire-cafe",
@@ -14601,7 +14645,8 @@
             "https://lh3.googleusercontent.com/geougc-cs/AMG9lEQDegqG-6BP6NpOQOjJEEXX5V9GFWcHqEk6ntEgF6bK5kK-lVOyfzr-KDAPALX8sEfbYgblToUuzywaegMsvuI2BWC1gu4myc1jlTIdbRZq9D6DjdKTVlmSpbp12p-xUEhq0V2G8sL-qri-"
           ]
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "giao-cafe",
@@ -15102,7 +15147,8 @@
             "https://lh3.googleusercontent.com/geougc-cs/AMG9lER4w_H3PYFiDB96jBA-wFR2wadqaWVFk2p_ijwuEGZ2WudjxZHB3Jn6u_0SGDoXW5Wvvp3LqA7xCqssfED4_Y-S0e79ci039Kr3uNbWzKx5ZESh8Q3YKa3vjxbzis5DfUMmCjTTkrC2MtXH"
           ]
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "tan-25-nguyen-thi-minh-khai",
@@ -15708,7 +15754,8 @@
             "https://lh3.googleusercontent.com/geougc-cs/AMG9lEQs2fXUPMHDr5eepZ6wyoaT53G-AIvQI5f9Lfz5DXgaoED1GnCH9i_biviNoO5Oq4Dsk2fR3m4S5gBPE4ujZ-ziAwXh_XX1crIl8lY9mexxdfHQAWKyMW-ItexbBZVfAe6b-4SxngV2EHwc"
           ]
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "n-cafe-restaurant",
@@ -16098,7 +16145,8 @@
           "text": "Đồ ăn ngon  Thái đôn chu  đáo. Dịch vụ tốt",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "the-time-coffee",
@@ -16218,7 +16266,7 @@
         "Buổi trưa và chiều ngồi ngoài trời rất nóng; hãy chọn khu vực trong nhà có điều hòa, hoặc đến sau 17 giờ khi nhiệt độ dịu xuống để thưởng thức không gian ngoài trời thoáng đãng.",
         "Có tầng hầm đậu xe máy và chỗ đỗ ô tô trong khuôn viên — tự đặt đồ uống tại quầy thay vì gọi bàn, nên chuẩn bị order sẵn để tiết kiệm thời gian."
       ],
-      "rating": 4.0,
+      "rating": 4,
       "website": "https://cautruongtien.vn/review-the-time-coffee/",
       "phone": "+84 914 105 151",
       "about": {
@@ -16488,7 +16536,8 @@
           "text": "View đẹp lắm\nĐồ uống cũng ngon\nCó khu vui chơi ở đây nữa",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "cafe-top",
@@ -16605,7 +16654,8 @@
           "text": "Quán bán cafê và các loại nước giải khát , không bán đồ ăn , phục vụ lịch sự vui vẻ , giá thức uống rẻ bình dân",
           "rating": 4
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "top-coffee",
@@ -16642,7 +16692,7 @@
         "Buổi ngày không gian mát mẻ, buổi tối quán thường có vibe vui vẻ hơn với nhiều khách trẻ — ghé vào ban đêm nếu muốn tận hưởng không khí sôi động của trung tâm Huế.",
         "Chỗ để xe rộng rãi ngay trước quán — ưu điểm lớn ở khu trung tâm Huế nơi thường khó tìm chỗ đậu xe trong giờ cao điểm."
       ],
-      "rating": 5.0,
+      "rating": 5,
       "phone": "+84 935 572 007",
       "about": {
         "Điểm nổi bật": {
@@ -16700,7 +16750,8 @@
           "text": "いい場所だ",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "xuong-1976-cafe",
@@ -16713,7 +16764,8 @@
         "sinh viên",
         "thân thiện laptop",
         "đặt bàn được",
-        "ấm cúng"
+        "ấm cúng",
+        "hoai-co"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFyUjsjxNumLaFgrxwdR7icxgQGYTh0FI3gJQ6TqMnImKVQOjnUJawxrlecxX7fCiLrHjIedWIaJdKyrbrj7nHbzwi-R2TCD7sw985VI3ne3kdHbs_1Xc_ijCM_wT34iwpOm9i10H34-EY=w800-h500-k-no",
       "gallery": [
@@ -17025,7 +17077,8 @@
           "text": "Quán hết sức tuyệt vời ạ ko có gì để chê",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "nook",
@@ -17348,7 +17401,8 @@
           "text": "quá tuyệt",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "old-money-cafe-cocktails",
@@ -17758,7 +17812,8 @@
           "text": "quán thật tuyệt vời, cà phê ngon và đồ si rất đẹp",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "nha-lao-beo",
@@ -18169,7 +18224,8 @@
           "text": "Đồ uống ngon",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "ngam-ca-phe",
@@ -18682,7 +18738,8 @@
             "https://lh3.googleusercontent.com/geougc-cs/AMG9lETCLE7xjDieZyDjSq3O7JJImF6U9A8EWLTecT4bK04SlzU8vtA4ryVaZvJ1CANGnUgK4fENVu_sGr5sUwPLy_uKGND6pB5h8KCegC8ew4ZKOvz15HZTAXzFE_oZy3_ffLDseS9rXg"
           ]
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "mot",
@@ -19045,7 +19102,8 @@
           "text": "Quán sạch sẽ, phù hợp học tập và làm việc.",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "tiem-ca-phe-81-ca-phe-muoi-hue-quan-ca-phe-ep-hue",
@@ -19061,7 +19119,8 @@
         "thủy xuân",
         "yên tĩnh",
         "đặt bàn được",
-        "ấm cúng"
+        "ấm cúng",
+        "ca-phe-muoi"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEDO2C_C461GnkLM6__U1eJQtREStf-_YgFvr_u5ElilBZuTQkqufVYo1zM0fkT8p6CbTsAiWDnWELsUCT9hIhUv1VDxm8MXM6XrOXeOZICTi5oJelBsJvsdN57vH6lCrVaUI4r=w800-h500-k-no",
       "gallery": [
@@ -19486,7 +19545,8 @@
           "text": "Cafe muối ngon. Quán chill, không khí thư giãn vui vẻ. Không gian rộng lớn, gần đồi Vọng Cảnh",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "root-coffee-roastery",
@@ -19816,7 +19876,8 @@
           "text": "Đo uong ngon",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "ca-phe-muoi-cs1",
@@ -19832,7 +19893,8 @@
         "thân thiện laptop",
         "thú cưng",
         "đặt bàn được",
-        "ấm cúng"
+        "ấm cúng",
+        "ca-phe-muoi"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEqtn87QdZI4LuRbo1Q_DLT0QiqO_jPk2nNtNIp7D9ts_c_CZnzjhD7ErfPf9tb8EzvBGDZAPVqpznKzjGoKO-D4xb0ne6R1nv4ZUAM6HwGQusIbVuBj0WHsq1l91mCotUc8iQX_g=w800-h500-k-no",
       "gallery": [
@@ -20344,7 +20406,8 @@
             "https://lh3.googleusercontent.com/geougc-cs/AMG9lESl-KmmQ3qCU9XNMLwgLqzJHSwDY3VeUI9kh2BnvvYJCaiv04-57WbT4gA5FU1J_P9UqidnzZlqANzzANMtR5uOfuMbfrcBwWRl0ZxYu-WamAPIKj6Lg-zJ2_rnp4M8w0Vd0Q2VJDBDIIyQ"
           ]
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "cafe-on-thu-wheels-and-restaurant",
@@ -20748,7 +20811,8 @@
           "text": "Ngon",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "dechill-ca-phe-muoi-hue-quan-ca-phe-ep-ngam-hoang-hon-hue",
@@ -20765,7 +20829,8 @@
         "thú cưng",
         "thủy xuân",
         "đặt bàn được",
-        "ấm cúng"
+        "ấm cúng",
+        "ca-phe-muoi"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEz8ApMPXm5g9InH27ZhHoMKRRU94AmQBLOV6P6HOSUb56ejtDerLpJQE_AdWBFL6ud1wrHom7RaphIA-7-oW8QvrmLfwDDuv8nXUyLQqTOQntoW9FZdepyzBmEOSo_Dn8OBePB-OAp3pQ=w800-h500-k-no",
       "gallery": [
@@ -21263,7 +21328,8 @@
             "https://lh3.googleusercontent.com/geougc-cs/AMG9lERYbip8vio2ZQw14dyCfGy3Lv2JOcbFG-2H6rd9AzOusU3t4RlLWrG1n8Qt69dEBizLEYcggyQ7NbWdZJ6O-uA41Wg4YCaPrFS5lJmEpjJaHujYzfTY9F-JDr6jBWLyqELTAiro7xf2p4os"
           ]
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "sline-coffee-signature",
@@ -21729,7 +21795,8 @@
           "text": "Trãi nghiệm tốt, quán cf đáng uống, dịch vụ 10đ.",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "han-cafe",
@@ -22138,7 +22205,8 @@
           "text": "Quán dễ thương, nước ngon",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "me-cafe-ben-xua-vi-da",
@@ -22160,7 +22228,8 @@
         "wifi",
         "yên tĩnh",
         "đặt bàn được",
-        "ấm cúng"
+        "ấm cúng",
+        "hoai-co"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHzQ9hWL_ztxTuWYU7Kk0_lmKcSR3n-3bXo27VH__dWpFr_l28yO1NsuDKyzyuoyBAGFZFm9m1CLuIM0El10PTvkBQdC-kY-lPa_jQSBakfQBa06gvjFoZveW9GSrH0829NeLcnql7c0PM=w800-h500-k-no",
       "gallery": [
@@ -22612,7 +22681,8 @@
           "text": "Mê Cafe - Bến Xưa Vĩ Dạ để lại ấn tượng khá tốt trong tôi. Không gian quán thật sự thơ mộng, đặc biệt là vào buổi chiều khi ánh nắng len lỏi qua những tán cây. Cà phê ở đây đậm đà, phù hợp với gu của mình. Nhân viên thân thiện, tuy hơi bận rộn lúc quán đông. Một điều cần lưu ý là âm nhạc có khi hơi lớn, nhưng không quá ảnh hưởng tới trải nghiệm tổng thể. Một địa điểm đáng quay lại!",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "tan",
@@ -23137,7 +23207,8 @@
             "https://lh3.googleusercontent.com/geougc-cs/AMG9lESyco9scOtXcE1oizY3qg-cXBACvUm8h16dfu4AjIKDDLknSDPBzw1gk6nyRdCr12Y39atv2wlWtP1-ZfQ3CttS3KXLIwrv8kJ2tOBe6OOOuBcw6hFK2_hXc5v9RXBcTQnICgwy0ZTNbL9P"
           ]
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "by-cafe",
@@ -23561,7 +23632,8 @@
             "https://lh3.googleusercontent.com/geougc-cs/AMG9lESM0c7VwB373BWODU8_LCD9rDzVtMJ3z6ZNMnxWEC_12ZnExEfH4vV6b_Z-_s1C2UTHj4QgAxxKbiYAf8654K6Rx_KZgCUVtwVvcWEjRMeDRkLymuDxosP7RQFu8XPvVVgNKO1tYpYrM90"
           ]
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "thanh-cafe-phan-boi-chau",
@@ -24051,7 +24123,8 @@
             "https://lh3.googleusercontent.com/geougc-cs/AMG9lETusaQl16iy8N2_AcUFRHy-1I7K55z-rLO08X0u2RyLjBX4glPX3qogHtOi3xb_M_GpU8ZVVAs7_ankv8Ne0U2AhFoAIDm-yMZoKtqf7VUL0fx8tILDmZZxlXlwAwYiJs0-ZDIq8kPieMc"
           ]
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "mohe-ca-phe",
@@ -24505,7 +24578,8 @@
             "https://lh3.googleusercontent.com/geougc-cs/AMG9lESZEdeH3BpUo1gB-ZSnfcMMsqpZOnm3QUG-yWaSQxe4uJKwhZpq89GIWi-S0oYKVFnb4das1ggmzU68wZmLyIOwfrJ2ImYUUiewEPAjF1dzyEb138G6FAS7GqyGhE5XPX_fVc9G"
           ]
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "daudo",
@@ -24994,7 +25068,8 @@
             "https://lh3.googleusercontent.com/geougc-cs/AMG9lERt2F161OzXBz1qmchbPUDjQtnW7IM0_F-nGaPqA1R2kajfN8GRmezGo5JzYLBkVGI4XAfCsrzP0pxJFNTYriMHAhB9mY_LlciOLIzpagJW_3ZxpOWJnaASSiIw9n0CP35IWbv_"
           ]
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "cafe-tung",
@@ -25010,7 +25085,8 @@
         "thân thiện laptop",
         "vỹ dạ",
         "đặt bàn được",
-        "ấm cúng"
+        "ấm cúng",
+        "hoai-co"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGfd-9E0PycP_iSXA-Ak46XcD0u5UhYsXb5BVKMir366vK2gpLS9DTAiU9pUE8fpJ30Rncy-6r0nuyvgFbS4oBcWD2WCYC4C4scRqVy4q-bnBxS60qkKXRggKbQlgPYE68w9uEdWg=w800-h500-k-no",
       "gallery": [
@@ -25316,7 +25392,8 @@
           "text": "Cafe đậm vị , rất tuyệt",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "goc-cu-cafe",
@@ -25549,7 +25626,8 @@
           "text": "👍👍👍👍",
           "rating": 4
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "tron-cafe",
@@ -26127,7 +26205,8 @@
             "https://lh3.googleusercontent.com/geougc-cs/AMG9lERtOEL6YACraHya7h6SEqmCHij36RL1nwHgWGOedSwJabhpIg8ugaG2XUU9n3VmtdVoG4QmuknA98uAWuPGTo9YZNaZ90229sN4_A-GvQxRLvRh_MQow5dnppKndJexRHvxxSOpHHloUpKq"
           ]
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "voi-cafe",
@@ -26439,7 +26518,8 @@
           "text": "View đẹp, cf ngon",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "1984-coffee-pub-restaurant",
@@ -26452,7 +26532,8 @@
         "nhạc sống",
         "sân thượng",
         "đặt bàn được",
-        "ấm cúng"
+        "ấm cúng",
+        "check-in"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFazqN56x-TEKfrEwaUbDthAjuWViFS2tb1RVW11U6PkzUNV6HIJeGH63A60bSLc-BOEiQ1FzbVi6KfB8BQ7RmoYEqetzrByT_oWbttG0VMRCIZk53vTHfGjTSFiQch6Qqef9tIid24QJ4=w800-h500-k-no",
       "gallery": [
@@ -26757,7 +26838,8 @@
           "text": "Quán nhân viên nhiệt tình . Đồ uống ngon giá cả ok",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "ong-ba-coffee",
@@ -27323,7 +27405,8 @@
             "https://lh3.googleusercontent.com/geougc-cs/AMG9lERWAStHN8M_MwsPNm_mJ6grCmScGEabpfY1GVmXZP5JhVupw8Tn8fabf0IvlHN-d3BPfil1gfM0aNSkjKaqMJu-zskr4SR3MftJRqiqKFkwRpaP5ktxmD-ucLFy1GRJ0LU_X8Unqw"
           ]
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "nghia-coffee",
@@ -27716,7 +27799,8 @@
           "text": "rất đẹp",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "hue-imperial-sky-bar-cafe",
@@ -27728,7 +27812,8 @@
         "nhiều trà",
         "sinh viên",
         "thân thiện laptop",
-        "ấm cúng"
+        "ấm cúng",
+        "check-in"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEcg3tjFgVqYsNFte6nak5_di9iteZC0BO9LXXo3lpQrnkUgjVC5tS_YTlwKoD0diFl5xnDtf0ENGQpBTAhX4A3AovW9HFybCHDXViutzf6mM2RoK0jGfmG5vLckjziBjCx41Mvwzc2Xfj3=w800-h500-k-no",
       "gallery": [
@@ -28090,7 +28175,8 @@
           "text": "Thức uống ,bánh  ngon đồ uống được giao nhanh  không gian đẹp và nhân viên thân thiên.",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "noa-espresso",
@@ -28395,7 +28481,8 @@
           "text": "Tuyệt vời",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "ton-nu-vien-cafe",
@@ -28408,7 +28495,8 @@
         "thân thiện laptop",
         "yên tĩnh",
         "đặt bàn được",
-        "ấm cúng"
+        "ấm cúng",
+        "san-vuon"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGMeam6L0lTCWQH_ttpszZwuqSXlTGXXunwSfegMMleqUlFvwK_OxiSMhQX44M4Uv-FM_zZ2i9vlxxWSFgwEumRaWwziuGLZFwsP8cx_FDGr5IQANhITpBMhn8SnT-MDfpJ-4e4=w800-h500-k-no",
       "gallery": [
@@ -28780,7 +28868,8 @@
           "text": "Khuôn viên đẹp",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "hao-ky-coffee",
@@ -28974,7 +29063,8 @@
           "text": "Ngon",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "cafe-buu-ien",
@@ -29164,7 +29254,8 @@
           "text": "nhân viên thái độ",
           "rating": 1
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "tiem-ca-phe-vivu",
@@ -29460,7 +29551,8 @@
           "text": "Rất chill",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "cua-thuong-tu",
@@ -29730,7 +29822,8 @@
           "text": "Đẹp",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "ken-coffee",
@@ -29921,7 +30014,8 @@
           "text": "Ok",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "anh-kafe",
@@ -30300,7 +30394,8 @@
           "text": "Tôi đánh giá cao về dịch vụ và không gian của Anh Kafe đem lại.",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "moc-vien-cafe",
@@ -30315,7 +30410,8 @@
         "thân thiện laptop",
         "thú cưng",
         "đặt bàn được",
-        "ấm cúng"
+        "ấm cúng",
+        "san-vuon"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH4SOcVRKXcZrUHZiSDFMMFYrXlYQWSRk9HWdZe8Qac3lqWJ-ZCI1WQ9FV3Ca5BKF4O378dQc9dP6x5HW37R2_2oz5JJdZ8HayDc0k6U8slUXKyLSQljBFLg0urSB2sNviwY00=w800-h500-k-no",
       "gallery": [
@@ -30470,7 +30566,8 @@
           "text": "Vip",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "coffee-and-tea",
@@ -30729,7 +30826,8 @@
           "text": "Cheese sausage ridiculement petit comparé à ce qu'on aurait pu croire en voyant l'image par contre niveau goût agréablement surprise je m'attendais à pas grand-chose et finalement ça se mange bien en ce qui concerne la boisson j'ai pris un smoothie mangue bon et épais comme je les aimes sans trop de lait ou glaçons .... La communication n'est vraiment pas ça (pas d'accueil...) mais bon quand on sort de la cité impériale c'est sympa la salle est climatisée est-ce que j'ai mangé n'était pas mauvais.",
           "rating": 3
         }
-      ]
+      ],
+      "specialty": false
     },
     {
       "id": "quan-ca-phe-chieu",
@@ -31274,7 +31372,8 @@
             "https://lh3.googleusercontent.com/geougc-cs/AMG9lEQEwI7Su6GvH-0-eDhu5JkFFOTQams3MxJPcguyDGuHG6EkjjH3pQe8bYi4uM4YH6-9TsVskcYaTKoMGWnZh1tcMUDGQU4vQmWHLM7F0qEhA9Kyh3XjwOrQKftIABmCb_sD6sxH"
           ]
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "cafe-o-con",
@@ -31662,7 +31761,8 @@
           "text": "Thoáng mát! Rộng rãi ngồi tỉ tê chắc cả ngày!",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     },
     {
       "id": "song-xanh-cafe",
@@ -31973,7 +32073,8 @@
           "text": "Mát mẻ",
           "rating": 5
         }
-      ]
+      ],
+      "specialty": true
     }
   ],
   "collections": [
