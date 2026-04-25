@@ -5,8 +5,9 @@ import { MapView } from '../../components/MapView'
 import { hasSeenOnboarding } from '../../utils/onboarding'
 import { useMyTripContext } from '../../contexts/MyTripContext'
 import placesData from '../../data/places.json'
-import type { Place } from '../../types'
+import type { Place, Category } from '../../types'
 import { CATEGORY_LABELS } from '../../data/constants'
+import { filterPlaces } from '../../utils/filterPlaces'
 import './style.css'
 
 const ALL_PLACES = placesData.places as Place[]
@@ -28,14 +29,12 @@ export function HomePage() {
   const [selectedCategory, setSelectedCategory] = useState('all')
   const [selectedPlace, setSelectedPlace] = useState<Place | null>(null)
   const [sheetClosing, setSheetClosing] = useState(false)
+  const [activeSubFilter, setActiveSubFilter] = useState<string | null>(null)
   const [showSavedToast, setShowSavedToast] = useState(false)
   const closeTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
   const toastTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
 
-  const visiblePlaces =
-    selectedCategory === 'all'
-      ? ALL_PLACES
-      : ALL_PLACES.filter(p => p.category === selectedCategory)
+  const visiblePlaces = filterPlaces(ALL_PLACES, selectedCategory as Category | 'all', activeSubFilter)
 
   function dismissSheet() {
     if (!selectedPlace) return
@@ -109,6 +108,7 @@ export function HomePage() {
                 className={`home-map-chip${selectedCategory === opt.value ? ' home-map-chip--active' : ''}`}
                 onClick={() => {
                   setSelectedCategory(opt.value)
+                  setActiveSubFilter(null)
                   dismissSheet()
                 }}
                 aria-pressed={selectedCategory === opt.value}
