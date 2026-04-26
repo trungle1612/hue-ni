@@ -1056,7 +1056,9 @@
         "thân thiện laptop",
         "yên tĩnh",
         "đặt bàn được",
-        "ấm cúng"
+        "ấm cúng",
+        "thú cưng",
+        "ca-phe-muoi"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFUZHOIqrPBsHNYLgtDnqbgrRT9NKaymB92mLLacsB2ybqSmNGjE_WlFfIQbiEdf6GgxKH7U1ewd0_SaJ76qM748_cOAwWEgBKRDx6XOcG-jX5np0XaynekYrchjTvM-887bY8Y=w800-h500-k-no",
       "gallery": [
@@ -2135,11 +2137,11 @@
         "sành điệu",
         "sân thượng",
         "thân thiện laptop",
-        "thú cưng",
         "ăn sáng",
         "ăn trưa",
         "đặt bàn được",
         "ấm cúng",
+        "thú cưng",
         "san-vuon"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGgvRLNrxcgeHs9MCbWU3NF7NWNeF8JkVVmVjugWz5rH3B-b6Et39l62vJ0GE93MJVhA_3w3MzN0Nze0zj1DXWd7lKnE1hGl3eg9sRT5B4Efdh_JjPvGWdiH-xhV34N74OJ1IJz1TVLM3l6=w800-h500-k-no",
@@ -2655,7 +2657,7 @@
           ]
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "venus-icafe",
@@ -3059,7 +3061,7 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "thanh-cafe-24-van-cao",
@@ -3595,11 +3597,12 @@
         "sinh viên",
         "sành điệu",
         "thân thiện laptop",
-        "thú cưng",
         "wifi",
         "yên tĩnh",
         "đặt bàn được",
-        "ấm cúng"
+        "ấm cúng",
+        "thú cưng",
+        "hoai-co"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGyY91487yrQakeWlTDmiTImw4Wmls0wJIWbv5cUAm9JR-cA0N-xbcTiJEGFigSpxkXwvmUn0lqohP08QPeYh1fBLISqOP0dAWiNNGc00MNM0f5heOmg9mfBsTaoNhi286vchb304mATFC0=w800-h500-k-no",
       "gallery": [
@@ -4542,7 +4545,7 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "thanh-cafe",
@@ -4557,11 +4560,11 @@
         "nhiều trà",
         "sinh viên",
         "thân thiện laptop",
-        "thú cưng",
         "wifi",
         "yên tĩnh",
         "đặt bàn được",
-        "ấm cúng"
+        "ấm cúng",
+        "thú cưng"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFVl_rjS2IzMiXLxAdUbxzzuTWtAsyv5Zbl2hHX30XXJcGEXXqSN4YbJTdxDWC9DWrJalmH99KNZMCTDueXmfhVaMGHFQ9-Emm3WlnUQhMAFGHyLsFT2l-_7c5f5Eu9FodoLP6C=w800-h500-k-no",
       "gallery": [
@@ -4979,7 +4982,7 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "ben-trang-cafe-bistro",
@@ -4996,13 +4999,13 @@
         "nhiều trà",
         "nhạc sống",
         "sân thượng",
-        "thú cưng",
         "wifi",
         "ăn sáng",
         "ăn tối",
         "đặt bàn được",
         "ấm cúng",
-        "check-in"
+        "check-in",
+        "san-vuon"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFSS5EEK-U1_Ty9JYKnwXunKXHMLi1vTM0wAkRdDNHMqYKOh8ouK39F5iP7Mw3T10BsMaSz-A_zrPRDX6qb-6HKq1-GJsbz3Wze-KmNMIxb8NAPKMKlpQWAM0tQKSIMRu9BV359=w800-h500-k-no",
       "gallery": [
@@ -5398,7 +5401,9 @@
         "sành điệu",
         "thân thiện laptop",
         "yên tĩnh",
-        "ấm cúng"
+        "ấm cúng",
+        "check-in",
+        "workspace"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHzfdsdviAR4rtc6LYf00Kl7zl9L9WLgn4D2FK1GdWBwFHLIBq-JDEdP5a0WNLUfpa5_yMv2NHgqKgbhPQ1nZnsPdP0_-9aasyyGbDb18LbJHP_Gjd4ysiMxKFYXms6Ntw8RNDHkQ=w800-h500-k-no",
       "gallery": [
@@ -5758,12 +5763,12 @@
         "nhiều trà",
         "sinh viên",
         "sành điệu",
-        "thú cưng",
         "wifi",
         "ăn sáng",
         "ăn trưa",
         "đặt bàn được",
-        "ấm cúng"
+        "ấm cúng",
+        "workspace"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG2XRbdEzmglG8H0130xZblGAt2o0RL0ta7flEFIw2axAB6vEfAWRkk59cwkHO2fs7SpcfhexDK5d1JUPpy4Xi_Dyeub7F0ROCwZOf4LHDKn-Enw8O0vwCUIBRM4edJi553UGZaWk7ukPBd=w800-h500-k-no",
       "gallery": [
@@ -6170,7 +6175,8 @@
         "sinh viên",
         "đặt bàn được",
         "ấm cúng",
-        "hoai-co"
+        "hoai-co",
+        "san-vuon"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH6qE7NjNRxnWp7hwbJudsFKJqVV-4y7TtD7Qu84RkFPyKQa5vUzk_2f6hgaxuupGkecyo5TY7MbSggtH6abPBcFeRQnm6NAyZz-men9sLLrHQx6n9AN015hVJ_oiIe08TTv8Ud=w800-h500-k-no",
       "gallery": [
@@ -6628,12 +6634,13 @@
         "sinh viên",
         "sân thượng",
         "thân thiện laptop",
-        "thú cưng",
         "wifi",
         "yên tĩnh",
         "ăn sáng",
         "đặt bàn được",
-        "ấm cúng"
+        "ấm cúng",
+        "ca-phe-muoi",
+        "workspace"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH0pTHHHlHFVurmIllpvPWnI8NQpEp1d8B-Oco371CdNq9Ij_btU2GXnX3LSzrSFQcpeG_3cgcxcAnGNyVzDziYC8z7Bz_g9U0vua0keEUVXZDBEST-93GxyIUP04E9D_bp5KUsqg=w800-h500-k-no",
       "gallery": [
@@ -7355,7 +7362,7 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "view-cafe",
@@ -7366,9 +7373,9 @@
         "cà phê ngon",
         "sinh viên",
         "thân thiện laptop",
-        "thú cưng",
         "wifi",
-        "đặt bàn được"
+        "đặt bàn được",
+        "thú cưng"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFuVyqv0oB0MfeFZJz0peKeqg-0sflrqOImwaPm-A1-xgbN5vYELRLnGW93L6wzs0rZonUMqHIjF9BPilYZYzk5iaWCQKSQJAeVplGAz5Zsj3Et8Dl1zeXUZ_yspoKQcEyONX5g=w800-h500-k-no",
       "gallery": [
@@ -7815,7 +7822,7 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "cong-ca-phe",
@@ -7823,7 +7830,8 @@
       "category": "cafe",
       "tags": [
         "bến nghé",
-        "ca phe"
+        "ca phe",
+        "check-in"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHJrHFqKXgf5RbZWgf7sPC-hqKs97IgfssgGtkgqWQfsr6-ahlkSQlCQqNLgRagbKAXwOaiAOEOYmI3foCKN8QcipU9vkJzOHk6FYQz7mGTNuj_SOi8tLB-e8XuY7Ep1EQyAhI=w800-h500-k-no",
       "gallery": [
@@ -8548,7 +8556,7 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "tram-cafe-cafe-chuan-vi-co-o",
@@ -8560,10 +8568,10 @@
         "nhiều trà",
         "sinh viên",
         "thân thiện laptop",
-        "thú cưng",
         "wifi",
         "yên tĩnh",
         "ấm cúng",
+        "thú cưng",
         "hoai-co"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF4mf-5eTWaMi-cuC1V9s4L0fEtVAxnebpr7OaoQPowGAr23BwyWmAg180UrmQUqJoM5o11k4edl-wyqjVq7ofp6Ub9yxe4JIlG63Fi-KfnqnLdLzB4K-UiajSHUlYYQvAiesiRgw=w800-h500-k-no",
@@ -8928,7 +8936,7 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "t-roaster",
@@ -8945,7 +8953,9 @@
         "thân thiện laptop",
         "yên tĩnh",
         "đặt bàn được",
-        "ấm cúng"
+        "ấm cúng",
+        "ca-phe-muoi",
+        "thú cưng"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFzay-navTclG67E4w28I49xDQ8mPQ4Rz564QlPSdub-M5PFoDdteRBZ_8kVL0Uzrv7vYUOoWJq7oyE_coShlj3ic7OCtgmp8OJ0b16DFefCalKsObKdnSG6i31B_k5hc3daTHKwQ=w800-h500-k-no",
       "gallery": [
@@ -9515,10 +9525,10 @@
         "sinh viên",
         "sành điệu",
         "thân thiện laptop",
-        "thú cưng",
         "yên tĩnh",
         "đặt bàn được",
-        "ấm cúng"
+        "ấm cúng",
+        "check-in"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFI2fFTDLLrf0fmd2gtmEVwSmXKqbwATeKIY9rnVhhi77Jjf9nGiBLuMRaXb6Zqgpmjlqk09YZT2pv7MvV28QMo2B8UIey6_rrP4aIUpprVj2A6Y_QQjNnGiegoIVapQTjLMg5H=w800-h500-k-no",
       "gallery": [
@@ -10016,12 +10026,14 @@
         "nhiều trà",
         "sinh viên",
         "thân thiện laptop",
-        "thú cưng",
         "yên tĩnh",
         "ăn sáng",
         "đặt bàn được",
         "ấm cúng",
-        "san-vuon"
+        "thú cưng",
+        "san-vuon",
+        "ca-phe-muoi",
+        "hoai-co"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGBU7PJbs98HmkbqvTTdZZrue1KNw1QLpGrmYP6vb0peY2rRCkMxdL3aza8UWhKLxKHJOHn8rgucmpInraYGvhy0ayGaDJFR1A6dTcQbdHHpxay2FYELG1A3DYHRkNgFSvOq6N8=w800-h500-k-no",
       "gallery": [
@@ -10633,12 +10645,12 @@
         "nhiều trà",
         "sinh viên",
         "thân thiện laptop",
-        "thú cưng",
         "wifi",
         "yên tĩnh",
         "ăn sáng",
         "đặt bàn được",
         "ấm cúng",
+        "thú cưng",
         "san-vuon"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG24HwQjNvOnZdJW0R9LKQKyQYvQWmRWoq_JEUKfhhArQ7q4xpAjfYT0xkY9-hMjRLv1maW7T58hVI0fkh-uql_T3z6CcIvtZVBFa4B0S2F8GGCVmjWFOCYjYz1ziOFY76zeNiC38Rav2J8=w800-h500-k-no",
@@ -11614,7 +11626,7 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "secret-lounge-hue",
@@ -11626,11 +11638,11 @@
         "lãng mạn",
         "nhạc sống",
         "sành điệu",
-        "thú cưng",
         "wifi",
         "yên tĩnh",
         "đặt bàn được",
         "ấm cúng",
+        "thú cưng",
         "check-in"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH63cQqSlkE4tTmIyuMZ7uIL8W73SojkdG3url5dfkXE2SOjjxplGSicGLB3uOx-3EYdEGxhkw6LBWwjg_5McJYLlLlUCIs4IMPXbHdfwD8GSORHozte88qDC7KxUrbJENDRmfLow=w800-h500-k-no",
@@ -12008,7 +12020,7 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "cat-cafe-mocha-aeon-hue-store",
@@ -12446,7 +12458,7 @@
           ]
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "phinholic-ca-phe-muoi-ac-san-hue",
@@ -12896,7 +12908,8 @@
         "sinh viên",
         "thân thiện laptop",
         "đặt bàn được",
-        "ấm cúng"
+        "ấm cúng",
+        "check-in"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG3tgLuXJmxpj_jYSBdXTFRvsMAtBvDrlTa2DJgLmxPYM3Er2mdDDrvUUjv4YXMypPQxzQlnI1kv3Ve3xj4xrGt3fsA78iy-Hkmq5erTgXhZewDBEfzguc1jQnvtRnA2xBbaJ2D=w800-h500-k-no",
       "gallery": [
@@ -13733,7 +13746,7 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "laph-truong-inh",
@@ -13747,7 +13760,9 @@
         "thân thiện laptop",
         "wifi",
         "đặt bàn được",
-        "ấm cúng"
+        "ấm cúng",
+        "thú cưng",
+        "check-in"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEalT8dc8sV1EpiwNfP6R4FyxaXfj4jwNL8nN-TU-ufwVQHurCQAYme-aEM-R_2SsC97x_UQRw_KCmqic9Yr23fRrhHHemWpqSHzEkZOfhjzqTS0B_QRtBotengaTfRnFj6QJif5w=w800-h500-k-no",
       "gallery": [
@@ -14071,11 +14086,11 @@
         "sành điệu",
         "sân thượng",
         "thân thiện laptop",
-        "thú cưng",
         "yên tĩnh",
         "ăn sáng",
         "đặt bàn được",
-        "ấm cúng"
+        "ấm cúng",
+        "check-in"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFeGh6iZOOS9VD_yKMTx83ZRuwZNNdSYVE6F4Opr-YQl3w4zIMdkoOToz5uF43ZyZTqlf7QxH43ID-TPXDlNEi6h0x_pPtgYg-G5foBcp69bEWaqxCOTsgwjFJwH9f5w9b9fIlzSg=w800-h500-k-no",
       "gallery": [
@@ -14661,7 +14676,9 @@
         "sinh viên",
         "thân thiện laptop",
         "đặt bàn được",
-        "ấm cúng"
+        "ấm cúng",
+        "check-in",
+        "hoai-co"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHDFjo_4yebvQXcQtcjO15L58nLDA__MDftLn-ZIs0hMR6681jzKBi6coXTM__dseq9B6vDUZZ5OVJGYyeA6jE4wleJqgd8B5O7z4lDUIA1HscIWBEfDTFdDk64TciLtC-LPW6iXg=w800-h500-k-no",
       "gallery": [
@@ -15755,7 +15772,7 @@
           ]
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "n-cafe-restaurant",
@@ -16146,7 +16163,7 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "the-time-coffee",
@@ -16537,7 +16554,7 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "cafe-top",
@@ -16655,7 +16672,7 @@
           "rating": 4
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "top-coffee",
@@ -16751,7 +16768,7 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "xuong-1976-cafe",
@@ -17078,7 +17095,7 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "nook",
@@ -17402,7 +17419,7 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "old-money-cafe-cocktails",
@@ -17813,7 +17830,7 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "nha-lao-beo",
@@ -17822,9 +17839,9 @@
       "tags": [
         "ca phe",
         "cà phê ngon",
-        "thú cưng",
         "đặt bàn được",
-        "ấm cúng"
+        "ấm cúng",
+        "thú cưng"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFDHFH5OLIQQ0f75wXrLw5_U6fiHV1g3tFwnxKmlaHUuR4t7mq5yQAaxC3OhmwxOEw8fKZWTyneCZsYxyDlMbhE5inwzL7DvtUDUKBu85u3fh-u6jjf9h_hQrXJtUHxxOnvm0mXSG861EIB=w800-h500-k-no",
       "gallery": [
@@ -18225,7 +18242,7 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "ngam-ca-phe",
@@ -18739,7 +18756,7 @@
           ]
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "mot",
@@ -18752,9 +18769,9 @@
         "nhiều trà",
         "sinh viên",
         "thân thiện laptop",
-        "thú cưng",
         "yên tĩnh",
-        "ấm cúng"
+        "ấm cúng",
+        "workspace"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH71a-rJCwfzlXzu4vpWXwxK2rilO58atcPnxA2bGndhewrAyeHqyrHM_SRfnEaoGIeroHukLyNUvHh0Ve0Jfp01GSJCqSFqoRCLMnxq3euuA65nr8dnZBVrUd-fvRVFEv81GhU=w800-h500-k-no",
       "gallery": [
@@ -19115,11 +19132,11 @@
         "lãng mạn",
         "nhiều trà",
         "sinh viên",
-        "thú cưng",
         "thủy xuân",
         "yên tĩnh",
         "đặt bàn được",
         "ấm cúng",
+        "thú cưng",
         "ca-phe-muoi"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEDO2C_C461GnkLM6__U1eJQtREStf-_YgFvr_u5ElilBZuTQkqufVYo1zM0fkT8p6CbTsAiWDnWELsUCT9hIhUv1VDxm8MXM6XrOXeOZICTi5oJelBsJvsdN57vH6lCrVaUI4r=w800-h500-k-no",
@@ -19546,7 +19563,7 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "root-coffee-roastery",
@@ -19877,7 +19894,7 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "ca-phe-muoi-cs1",
@@ -19891,9 +19908,9 @@
         "sinh viên",
         "sành điệu",
         "thân thiện laptop",
-        "thú cưng",
         "đặt bàn được",
         "ấm cúng",
+        "thú cưng",
         "ca-phe-muoi"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEqtn87QdZI4LuRbo1Q_DLT0QiqO_jPk2nNtNIp7D9ts_c_CZnzjhD7ErfPf9tb8EzvBGDZAPVqpznKzjGoKO-D4xb0ne6R1nv4ZUAM6HwGQusIbVuBj0WHsq1l91mCotUc8iQX_g=w800-h500-k-no",
@@ -20826,10 +20843,10 @@
         "sinh viên",
         "sành điệu",
         "thân thiện laptop",
-        "thú cưng",
         "thủy xuân",
         "đặt bàn được",
         "ấm cúng",
+        "thú cưng",
         "ca-phe-muoi"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEz8ApMPXm5g9InH27ZhHoMKRRU94AmQBLOV6P6HOSUb56ejtDerLpJQE_AdWBFL6ud1wrHom7RaphIA-7-oW8QvrmLfwDDuv8nXUyLQqTOQntoW9FZdepyzBmEOSo_Dn8OBePB-OAp3pQ=w800-h500-k-no",
@@ -21796,7 +21813,7 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "han-cafe",
@@ -22206,7 +22223,7 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "me-cafe-ben-xua-vi-da",
@@ -22223,13 +22240,14 @@
         "sinh viên",
         "sân thượng",
         "thân thiện laptop",
-        "thú cưng",
         "vỹ dạ",
         "wifi",
         "yên tĩnh",
         "đặt bàn được",
         "ấm cúng",
-        "hoai-co"
+        "thú cưng",
+        "hoai-co",
+        "check-in"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHzQ9hWL_ztxTuWYU7Kk0_lmKcSR3n-3bXo27VH__dWpFr_l28yO1NsuDKyzyuoyBAGFZFm9m1CLuIM0El10PTvkBQdC-kY-lPa_jQSBakfQBa06gvjFoZveW9GSrH0829NeLcnql7c0PM=w800-h500-k-no",
       "gallery": [
@@ -22698,7 +22716,9 @@
         "sành điệu",
         "thân thiện laptop",
         "yên tĩnh",
-        "ấm cúng"
+        "ấm cúng",
+        "check-in",
+        "hoai-co"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEcDtXRgITJDkH8QXFmaLUQ4LtCtuuZ8VYolYGewidYH_s7cVC0EwXUX-hv0PEpkPRpee4oCkWlLpe2TtR7twN3ZYX-UfzWqrT4V_wpi5nY7Ink3iHiu76lG6WNtE8M6EGz-NEo=w800-h500-k-no",
       "gallery": [
@@ -23633,7 +23653,7 @@
           ]
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "thanh-cafe-phan-boi-chau",
@@ -23649,7 +23669,9 @@
         "thân thiện laptop",
         "yên tĩnh",
         "đặt bàn được",
-        "ấm cúng"
+        "ấm cúng",
+        "check-in",
+        "san-vuon"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE_YCxUf0Q4apjjipihJ8qcaKTKddPdcFAjm1HLk_mqN7g-pNJUS0PxcjuyW3OfT-3GV8ZvVFrP5gAyqMx-N-JZggHnCcyXdXJSJLp7Up0RH9u7kY2qTqX9_zE65dHrBylSzBbpxvbypOY=w800-h500-k-no",
       "gallery": [
@@ -24579,7 +24601,7 @@
           ]
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "daudo",
@@ -24592,10 +24614,12 @@
         "nhiều trà",
         "sinh viên",
         "thân thiện laptop",
-        "thú cưng",
         "yên tĩnh",
         "đặt bàn được",
-        "ấm cúng"
+        "ấm cúng",
+        "thú cưng",
+        "check-in",
+        "san-vuon"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG910jxi-IkJ_puMO79rl35j0uCPH78pQgZel2JKjIcGbvTfKXmHWdz1GKBVRRrnnmdm40irPyga2cuPc4K8b1g2Yz-Y2U-Y3b3agg9Bdw6-pg7CPWHbMyNyjskGpMCVotvBdVeFlQG_-Ii=w800-h500-k-no",
       "gallery": [
@@ -25393,7 +25417,7 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "goc-cu-cafe",
@@ -25627,7 +25651,7 @@
           "rating": 4
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "tron-cafe",
@@ -25642,7 +25666,8 @@
         "thân thiện laptop",
         "yên tĩnh",
         "đặt bàn được",
-        "ấm cúng"
+        "ấm cúng",
+        "check-in"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGsmWxHd60Xz9NIGrVgXQhS7I-MYhDduaW7-XzyGTGo6LJO76Tz2PyOkWr9iHvzqKUSvKSBHAlwRVHNVwqwKLU189pJerlxols567HNNu3TwGF8Wy6JgQL9VGUrw4JEThzoBL1l=w800-h500-k-no",
       "gallery": [
@@ -26519,7 +26544,7 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "1984-coffee-pub-restaurant",
@@ -26839,7 +26864,7 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "ong-ba-coffee",
@@ -27406,7 +27431,7 @@
           ]
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "nghia-coffee",
@@ -27800,7 +27825,7 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "hue-imperial-sky-bar-cafe",
@@ -28176,7 +28201,7 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "noa-espresso",
@@ -28482,7 +28507,7 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "ton-nu-vien-cafe",
@@ -28869,7 +28894,7 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "hao-ky-coffee",
@@ -29064,7 +29089,7 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "cafe-buu-ien",
@@ -29073,8 +29098,8 @@
       "tags": [
         "ca phe",
         "cà phê ngon",
-        "thú cưng",
-        "wifi"
+        "wifi",
+        "thú cưng"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEYiseZC63z8Z4sjtUvwcMZQqtn4lFHe2eV4JA7N1znCDB-1C0ap7Z32gitXC4dWT46k2VCaGegzgT7By-OAX2XyUnlw5JiaemcS6GTZXIRtEFILqmvwmDxeOPWa1BSOYftHwjgj6rDf20=w800-h500-k-no",
       "gallery": [
@@ -29255,7 +29280,7 @@
           "rating": 1
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "tiem-ca-phe-vivu",
@@ -29552,7 +29577,7 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "cua-thuong-tu",
@@ -29823,7 +29848,7 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "ken-coffee",
@@ -30015,7 +30040,7 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "anh-kafe",
@@ -30395,7 +30420,7 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "moc-vien-cafe",
@@ -30408,9 +30433,9 @@
         "lãng mạn",
         "nhiều trà",
         "thân thiện laptop",
-        "thú cưng",
         "đặt bàn được",
         "ấm cúng",
+        "thú cưng",
         "san-vuon"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH4SOcVRKXcZrUHZiSDFMMFYrXlYQWSRk9HWdZe8Qac3lqWJ-ZCI1WQ9FV3Ca5BKF4O378dQc9dP6x5HW37R2_2oz5JJdZ8HayDc0k6U8slUXKyLSQljBFLg0urSB2sNviwY00=w800-h500-k-no",
@@ -30567,7 +30592,7 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": false
     },
     {
       "id": "coffee-and-tea",
@@ -30840,9 +30865,9 @@
         "nhiều trà",
         "sinh viên",
         "thân thiện laptop",
-        "thú cưng",
         "đặt bàn được",
-        "ấm cúng"
+        "ấm cúng",
+        "thú cưng"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF_It-Vq0zPeFDf1pJawyaSeQ67yWMdBkTpXXWrHvLc6mrnwZfwWlyQNdT_bfz7dqB4rQqjK4fqfG8D99gU-eKf8FZbhGfOKxTYLnSosMn1FLzZqGtoiqWagFZshLByySfDPWXX=w800-h500-k-no",
       "gallery": [
@@ -31387,7 +31412,9 @@
         "thân thiện laptop",
         "yên tĩnh",
         "đặt bàn được",
-        "ấm cúng"
+        "ấm cúng",
+        "thú cưng",
+        "san-vuon"
       ],
       "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF4yelAdQ3XguQoLljFqJa4EAxBJezW8tUKrAvFVBIENp4-AFGCAQpMQpaVYNPn37j4r8RXgjvSNx_agK34ZDKzDzxCiNCq9cD0DW5zrxD6yyCdJYi3tNHcgg7oDHtV64UKBlhR=w800-h500-k-no",
       "gallery": [
@@ -32074,7 +32101,7 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": false
     }
   ],
   "collections": [

@@ -26,5 +26,6 @@ export const CAFE_SUB_FILTERS: { value: string | null; label: string }[] = [
   { value: 'ca-phe-muoi', label: '☕ Cà phê muối' },
   { value: 'thú cưng',   label: '🐾 Thú cưng' },
   { value: 'check-in',    label: '📸 Check-in' },
+  { value: 'workspace',   label: '💻 Workspace' },
   { value: 'san-vuon',    label: '🌿 Sân vườn' },
 ]
