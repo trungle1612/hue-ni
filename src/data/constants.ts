@@ -11,13 +11,13 @@ export const CATEGORY_LABELS: Record<Category, string> = {
 }
 
 export const FILTER_OPTIONS: FilterOption[] = [
-  { value: 'all', label: 'Tất cả' },
-  { value: 'tomb', label: 'Lăng tẩm' },
-  { value: 'landmark', label: 'Di tích' },
-  { value: 'cafe', label: 'Cà phê' },
-  { value: 'food', label: 'Ẩm thực' },
-  { value: 'homestay', label: 'Homestay' },
-  { value: 'service', label: 'Dịch vụ' },
+  { value: 'all', label: 'Tất cả', hidden: false  },
+  { value: 'tomb', label: 'Lăng tẩm', hidden: true },
+  { value: 'landmark', label: 'Di tích', hidden: true },
+  { value: 'cafe', label: 'Cà phê', hidden: true },
+  { value: 'food', label: 'Ẩm thực', hidden: true },
+  { value: 'homestay', label: 'Homestay', hidden: true },
+  { value: 'service', label: 'Dịch vụ', hidden: true },
 ]
 
 export const CAFE_SUB_FILTERS: { value: string | null; label: string }[] = [

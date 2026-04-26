@@ -12,8 +12,7 @@ import './style.css'
 
 const ALL_PLACES = placesData.places as Place[]
 
-const MAP_FILTER_OPTIONS: Array<{ value: Category | 'all'; icon: string; label: string }> = [
-  { value: 'all',      icon: '🗺️', label: 'Tất cả' },
+const MAP_FILTER_OPTIONS: Array<{ value: Category; icon: string; label: string }> = [
   { value: 'cafe',     icon: '☕',  label: 'Cà phê' },
   { value: 'homestay', icon: '🏡', label: 'Homestay' },
   { value: 'food',      icon: '🍜',  label: 'Ẩm thực' },
@@ -26,7 +25,7 @@ export function HomePage() {
   const navigate = useNavigate()
   const { isSaved, addPlace, removePlace, savedIds } = useMyTripContext()
   const [showOnboarding, setShowOnboarding] = useState(() => !hasSeenOnboarding())
-  const [selectedCategory, setSelectedCategory] = useState<Category | 'all'>('all')
+  const [selectedCategory, setSelectedCategory] = useState<Category | 'all'>('cafe')
   const [selectedPlace, setSelectedPlace] = useState<Place | null>(null)
   const [sheetClosing, setSheetClosing] = useState(false)
   const [activeSubFilter, setActiveSubFilter] = useState<string | null>(null)
