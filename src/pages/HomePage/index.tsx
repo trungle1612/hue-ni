@@ -4,13 +4,11 @@ import { OnboardingModal } from '../../components/OnboardingModal'
 import { MapView } from '../../components/MapView'
 import { hasSeenOnboarding } from '../../utils/onboarding'
 import { useMyTripContext } from '../../contexts/MyTripContext'
-import placesData from '../../data/places.json'
+import { loadCategory } from '../../utils/loadCategory'
 import type { Place, Category } from '../../types'
 import { CATEGORY_LABELS, CAFE_SUB_FILTERS } from '../../data/constants'
 import { filterPlaces } from '../../utils/filterPlaces'
 import './style.css'
-
-const ALL_PLACES = placesData.places as Place[]
 
 const MAP_FILTER_OPTIONS: Array<{ value: Category; icon: string; label: string }> = [
   { value: 'cafe',     icon: '☕',  label: 'Cà phê' },
@@ -25,7 +23,9 @@ export function HomePage() {
   const navigate = useNavigate()
   const { isSaved, addPlace, removePlace, savedIds } = useMyTripContext()
   const [showOnboarding, setShowOnboarding] = useState(() => !hasSeenOnboarding())
-  const [selectedCategory, setSelectedCategory] = useState<Category | 'all'>('cafe')
+  const [selectedCategory, setSelectedCategory] = useState<Category>('cafe')
+  const [categoryPlaces, setCategoryPlaces] = useState<Place[]>([])
+  const [isLoadingCategory, setIsLoadingCategory] = useState(true)
   const [selectedPlace, setSelectedPlace] = useState<Place | null>(null)
   const [sheetClosing, setSheetClosing] = useState(false)
   const [activeSubFilter, setActiveSubFilter] = useState<string | null>(null)
@@ -33,7 +33,19 @@ export function HomePage() {
   const closeTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
   const toastTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
 
-  const visiblePlaces = filterPlaces(ALL_PLACES, selectedCategory, activeSubFilter)
+  const visiblePlaces = filterPlaces(categoryPlaces, selectedCategory, activeSubFilter)
+
+  useEffect(() => {
+    let cancelled = false
+    setIsLoadingCategory(true)
+    loadCategory(selectedCategory).then(places => {
+      if (!cancelled) {
+        setCategoryPlaces(places)
+        setIsLoadingCategory(false)
+      }
+    })
+    return () => { cancelled = true }
+  }, [selectedCategory])
 
   function dismissSheet() {
     if (!selectedPlace) return
@@ -74,7 +86,7 @@ export function HomePage() {
 
   function handleExplore() {
     if (!selectedPlace) return
-    navigate(`/details/${selectedPlace.id}`)
+    navigate(`/details/${selectedPlace.id}`, { state: { category: selectedCategory } })
   }
 
   return (
@@ -136,6 +148,11 @@ export function HomePage() {
               </div>
             )}
           </div>
+
+          {/* Category loading indicator */}
+          {isLoadingCategory && (
+            <div className="home-map-loading" aria-live="polite" aria-label="Đang tải..." />
+          )}
 
           {/* Saved toast */}
           {showSavedToast && (

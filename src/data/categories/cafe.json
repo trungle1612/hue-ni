@@ -32103,32 +32103,5 @@
       ],
       "specialty": false
     }
-  ],
-  "collections": [
-    {
-      "id": "echoes-of-dynasty",
-      "title": "Vọng âm triều đại",
-      "description": "Những công trình định nghĩa cố đô Huế"
-    },
-    {
-      "id": "spiritual-hue",
-      "title": "Tâm linh cố đô",
-      "description": "Chùa chiền và đền thờ linh thiêng"
-    },
-    {
-      "id": "local-eats",
-      "title": "Ẩm thực vỉa hè",
-      "description": "Ăn như người Huế thật sự"
-    },
-    {
-      "id": "hidden-gems",
-      "title": "Góc khuất Huế",
-      "description": "Những nơi chỉ dân địa phương mới biết"
-    },
-    {
-      "id": "kim-long-cafes",
-      "title": "Cà phê đường Kim Long",
-      "description": "Những quán cà phê đặc sắc dọc tuyến đường Kim Long"
-    }
   ]
 }

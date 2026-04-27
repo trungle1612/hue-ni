@@ -1,19 +1,28 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { CategoryFilter } from '../../components/CategoryFilter'
 import { PlaceCard } from '../../components/PlaceCard'
-import placesData from '../../data/places.json'
-import type { Place } from '../../types'
+import { loadCategory } from '../../utils/loadCategory'
+import type { Place, Category } from '../../types'
 import { FILTER_OPTIONS } from '../../data/constants'
 import './style.css'
 
-const ALL_PLACES = placesData.places as Place[]
+const ALL_CATEGORIES: Category[] = ['cafe', 'tomb', 'food', 'homestay', 'landmark', 'service']
 
 export function HeritagePage() {
   const [selectedCategory, setSelectedCategory] = useState('all')
+  const [allPlaces, setAllPlaces] = useState<Place[]>([])
+  const [isLoading, setIsLoading] = useState(true)
+
+  useEffect(() => {
+    Promise.all(ALL_CATEGORIES.map(loadCategory)).then(results => {
+      setAllPlaces(results.flat())
+      setIsLoading(false)
+    })
+  }, [])
 
   const filtered = selectedCategory === 'all'
-    ? ALL_PLACES
-    : ALL_PLACES.filter(p => p.category === selectedCategory)
+    ? allPlaces
+    : allPlaces.filter(p => p.category === selectedCategory)
 
   return (
     <div className="heritage-page">
@@ -23,7 +32,7 @@ export function HeritagePage() {
         <p className="heritage-page__subtitle">
           {selectedCategory === 'all'
             ? `${filtered.length} địa điểm`
-            : `${filtered.length} trong ${ALL_PLACES.length} địa điểm`}
+            : `${filtered.length} trong ${allPlaces.length} địa điểm`}
         </p>
       </header>
 
@@ -34,7 +43,9 @@ export function HeritagePage() {
       />
 
       <div className="heritage-page__list">
-        {filtered.length === 0 ? (
+        {isLoading ? (
+          <div className="heritage-page__loading" aria-live="polite" aria-label="Đang tải..." />
+        ) : filtered.length === 0 ? (
           <div className="heritage-page__empty">
             <p className="heritage-page__empty-text">
               Không tìm thấy địa điểm nào trong danh mục này.

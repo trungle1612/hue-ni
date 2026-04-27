@@ -1,12 +1,12 @@
 import { useState, useEffect, useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useMyTripContext } from '../../contexts/MyTripContext'
-import placesData from '../../data/places.json'
-import type { Place } from '../../types'
+import { loadCategory } from '../../utils/loadCategory'
+import type { Place, Category } from '../../types'
 import { CATEGORY_LABELS } from '../../data/constants'
 import './style.css'
 
-const ALL_PLACES = placesData.places as Place[]
+const ALL_CATEGORIES: Category[] = ['cafe', 'tomb', 'food', 'homestay', 'landmark', 'service']
 
 function IconMapEmpty() {
   return (
@@ -52,10 +52,25 @@ export function MyTripPage() {
   const { savedIds, removePlace, clearAll } = useMyTripContext()
   const [confirmingId, setConfirmingId] = useState<string | 'all' | null>(null)
   const confirmTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
+  const [savedPlaces, setSavedPlaces] = useState<Place[]>([])
+  const [isLoading, setIsLoading] = useState(true)
 
-  const savedPlaces = savedIds
-    .map(id => ALL_PLACES.find(p => p.id === id))
-    .filter((p): p is Place => p !== undefined)
+  useEffect(() => {
+    if (savedIds.length === 0) {
+      setSavedPlaces([])
+      setIsLoading(false)
+      return
+    }
+    Promise.all(ALL_CATEGORIES.map(loadCategory)).then(results => {
+      const flat = results.flat()
+      setSavedPlaces(
+        savedIds
+          .map(id => flat.find(p => p.id === id))
+          .filter((p): p is Place => p !== undefined)
+      )
+      setIsLoading(false)
+    })
+  }, [savedIds])
 
   function handleDirections(place: Place) {
     const url = `https://www.google.com/maps/dir/?api=1&destination=${place.coordinates.lat},${place.coordinates.lng}`
@@ -97,12 +112,14 @@ export function MyTripPage() {
       <header className="my-trip-page__header">
         <p className="my-trip-page__overline">Của tôi</p>
         <h1 className="my-trip-page__title">Hành trình</h1>
-        {savedPlaces.length > 0 && (
+        {!isLoading && savedPlaces.length > 0 && (
           <span className="my-trip-page__count">{savedPlaces.length} địa điểm</span>
         )}
       </header>
 
-      {savedPlaces.length === 0 ? (
+      {isLoading ? (
+        <div className="my-trip-page__loading" aria-live="polite" aria-label="Đang tải..." />
+      ) : savedPlaces.length === 0 ? (
         <div className="my-trip-page__empty">
           <IconMapEmpty />
           <p className="my-trip-page__empty-text">Chưa có địa điểm nào</p>

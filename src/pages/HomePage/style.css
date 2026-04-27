@@ -136,6 +136,27 @@
   line-height: 1;
 }
 
+/* ── Category loading indicator ── */
+
+.home-map-loading {
+  position: absolute;
+  top: var(--space-sm);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 600;
+  width: 28px;
+  height: 6px;
+  border-radius: var(--radius-full);
+  background: var(--color-primary);
+  opacity: 0.7;
+  animation: home-map-loading-pulse 1s ease-in-out infinite;
+}
+
+@keyframes home-map-loading-pulse {
+  0%, 100% { opacity: 0.3; transform: translateX(-50%) scaleX(0.8); }
+  50% { opacity: 0.8; transform: translateX(-50%) scaleX(1); }
+}
+
 /* ── Saved toast ── */
 
 .home-map-toast {

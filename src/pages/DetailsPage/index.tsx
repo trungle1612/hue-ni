@@ -1,13 +1,13 @@
-import { useState } from 'react'
-import { useParams, useNavigate } from 'react-router-dom'
+import { useState, useEffect } from 'react'
+import { useParams, useNavigate, useLocation } from 'react-router-dom'
 import { ImageGallery } from '../../components/ImageGallery'
 import { useMyTripContext } from '../../contexts/MyTripContext'
-import placesData from '../../data/places.json'
-import type { Place, Review } from '../../types'
+import { loadCategory } from '../../utils/loadCategory'
+import type { Place, Review, Category } from '../../types'
 import { CATEGORY_LABELS } from '../../data/constants'
 import './style.css'
 
-const ALL_PLACES = placesData.places as Place[]
+const ALL_CATEGORIES: Category[] = ['cafe', 'tomb', 'food', 'homestay', 'landmark', 'service']
 
 function getInitials(name: string): string {
   const parts = name.trim().split(/\s+/)
@@ -69,11 +69,41 @@ function ReviewCard({ review, onPhotoClick, index }: { review: Review; onPhotoCl
 export function DetailsPage() {
   const { id } = useParams<{ id: string }>()
   const navigate = useNavigate()
+  const location = useLocation()
   const { isSaved, addPlace, removePlace } = useMyTripContext()
   const [lightbox, setLightbox] = useState<LightboxState | null>(null)
   const [visibleReviewCount, setVisibleReviewCount] = useState(5)
+  // undefined = loading, null = not found, Place = found
+  const [place, setPlace] = useState<Place | null | undefined>(undefined)
 
-  const place = ALL_PLACES.find(p => p.id === id)
+  useEffect(() => {
+    if (!id) { setPlace(null); return }
+
+    const categoryHint = (location.state as { category?: Category } | null)?.category
+
+    async function findPlace() {
+      if (categoryHint) {
+        const places = await loadCategory(categoryHint)
+        const found = places.find(p => p.id === id)
+        if (found) { setPlace(found); return }
+      }
+      const results = await Promise.all(ALL_CATEGORIES.map(loadCategory))
+      setPlace(results.flat().find(p => p.id === id) ?? null)
+    }
+
+    findPlace()
+  }, [id, location.state])
+
+  if (place === undefined) {
+    return (
+      <div className="details-page">
+        <button className="details-page__back" onClick={() => navigate(-1)} aria-label="Quay lại">
+          ←
+        </button>
+        <div className="details-page__loading" aria-live="polite" aria-label="Đang tải..." />
+      </div>
+    )
+  }
 
   if (!place) {
     return (
@@ -88,9 +118,7 @@ export function DetailsPage() {
     )
   }
 
-  // TypeScript doesn't narrow across function closure boundaries; assert non-null
-  // since the early return above guarantees place is defined at this point.
-  const saved = isSaved(place!.id)
+  const saved = isSaved(place.id)
 
   function handleDirections() {
     const url = `https://www.google.com/maps/dir/?api=1&destination=${place!.coordinates.lat},${place!.coordinates.lng}`

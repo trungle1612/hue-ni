@@ -41,6 +41,22 @@
   padding: var(--space-md);
 }
 
+/* Loading state */
+.heritage-page__loading {
+  margin: var(--space-2xl) auto;
+  width: 40px;
+  height: 8px;
+  border-radius: var(--radius-full);
+  background: var(--color-primary);
+  opacity: 0.5;
+  animation: heritage-loading-pulse 1s ease-in-out infinite;
+}
+
+@keyframes heritage-loading-pulse {
+  0%, 100% { opacity: 0.25; transform: scaleX(0.7); }
+  50% { opacity: 0.6; transform: scaleX(1); }
+}
+
 /* Empty state */
 .heritage-page__empty {
   padding: var(--space-2xl) var(--space-md);
