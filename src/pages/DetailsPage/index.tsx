@@ -4,7 +4,7 @@ import { ImageGallery } from '../../components/ImageGallery'
 import { useMyTripContext } from '../../contexts/MyTripContext'
 import { loadCategory } from '../../utils/loadCategory'
 import type { Place, Review, Category } from '../../types'
-import { CATEGORY_LABELS } from '../../data/constants'
+import { CATEGORY_LABELS, TAG_LABEL_MAP } from '../../data/constants'
 import './style.css'
 
 const ALL_CATEGORIES: Category[] = ['cafe', 'tomb', 'food', 'homestay', 'landmark', 'service']
@@ -62,6 +62,29 @@ function ReviewCard({ review, onPhotoClick, index }: { review: Review; onPhotoCl
           )}
         </div>
       )}
+    </div>
+  )
+}
+
+function TagList({ tags }: { tags: string[] }) {
+  if (tags.length === 0) return null
+  return (
+    <div className="details-page__tags">
+      <span className="details-page__tags-label">✦ Đặc điểm</span>
+      <div className="details-page__tags-row">
+        {tags.map((tag, i) => {
+          const label = TAG_LABEL_MAP[tag]
+          return (
+            <span
+              key={tag}
+              className={`details-page__tag${label ? ' details-page__tag--featured' : ''}`}
+              style={{ '--tag-i': i } as React.CSSProperties}
+            >
+              {label ?? tag}
+            </span>
+          )
+        })}
+      </div>
     </div>
   )
 }
@@ -226,6 +249,8 @@ export function DetailsPage() {
 
         <p className="details-page__description">{place.description}</p>
       </div>
+
+      <TagList tags={place.tags} />
 
       {/* Gallery */}
       {place.gallery.length > 0 && (

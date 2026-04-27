@@ -29,3 +29,12 @@ export const CAFE_SUB_FILTERS: { value: string | null; label: string }[] = [
   { value: 'workspace',   label: '💻 Workspace' },
   { value: 'san-vuon',    label: '🌿 Sân vườn' },
 ]
+
+export const TAG_LABEL_MAP: Record<string, string> = {
+  'hoai-co':     '🏛️ Hoài cổ',
+  'ca-phe-muoi': '☕ Cà phê muối',
+  'thu-cung':    '🐾 Thú cưng',
+  'check-in':    '📸 Check-in',
+  'workspace':   '💻 Workspace',
+  'san-vuon':    '🌿 Sân vườn',
+}
