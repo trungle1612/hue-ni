@@ -9,6 +9,9 @@ import './style.css'
 
 const ALL_CATEGORIES: Category[] = ['cafe', 'tomb', 'food', 'homestay', 'landmark', 'service']
 
+const TAB_ORDER = ['tips', 'reviews', 'menu'] as const
+type Tab = typeof TAB_ORDER[number]
+
 function getInitials(name: string): string {
   const parts = name.trim().split(/\s+/)
   return parts.length >= 2
@@ -96,6 +99,8 @@ export function DetailsPage() {
   const { isSaved, addPlace, removePlace } = useMyTripContext()
   const [lightbox, setLightbox] = useState<LightboxState | null>(null)
   const [visibleReviewCount, setVisibleReviewCount] = useState(5)
+  const [activeTab, setActiveTab] = useState<Tab>('tips')
+  const tabIndex = TAB_ORDER.indexOf(activeTab)
   // undefined = loading, null = not found, Place = found
   const [place, setPlace] = useState<Place | null | undefined>(undefined)
 
@@ -260,35 +265,85 @@ export function DetailsPage() {
         </>
       )}
 
-      {/* Insider tips */}
-      {place.insiderTips.length > 0 && (
-        <div className="details-page__tips">
-          <h2 className="details-page__tips-title">💡 Mẹo nội bộ</h2>
-          {place.insiderTips.map((tip, i) => (
-            <div key={i} className="details-page__tip">
-              {tip}
-            </div>
+      {/* Tabs: Mẹo / Đánh giá / Thực đơn */}
+      <div className="details-page__tabs">
+        <div
+          className="details-page__tab-bar"
+          style={{ '--tab-index': tabIndex } as React.CSSProperties}
+          role="tablist"
+          aria-label="Thông tin địa điểm"
+        >
+          <div className="details-page__tab-indicator" aria-hidden="true" />
+          {TAB_ORDER.map((tab) => (
+            <button
+              key={tab}
+              role="tab"
+              aria-selected={activeTab === tab}
+              aria-controls={`tabpanel-${tab}`}
+              className={`details-page__tab-btn${activeTab === tab ? ' details-page__tab-btn--active' : ''}`}
+              onClick={() => setActiveTab(tab)}
+            >
+              {tab === 'tips' ? '💡 Mẹo' : tab === 'reviews' ? '🗣 Đánh giá' : '🍽 Thực đơn'}
+            </button>
           ))}
         </div>
-      )}
 
-      {/* Reviews */}
-      {(place.reviews?.length ?? 0) > 0 && (
-        <div className="details-page__reviews">
-          <h2 className="details-page__reviews-title">🗣 Đánh giá từ khách</h2>
-          {place.reviews!.slice(0, visibleReviewCount).map((review, i) => (
-            <ReviewCard key={i} index={i} review={review} onPhotoClick={setLightbox} />
-          ))}
-          {visibleReviewCount < place.reviews!.length && (
-            <button
-              className="details-page__reviews-more"
-              onClick={() => setVisibleReviewCount(c => c + 5)}
-            >
-              Xem thêm {Math.min(5, place.reviews!.length - visibleReviewCount)} đánh giá
-            </button>
+        {/* Tips panel */}
+        <div
+          id="tabpanel-tips"
+          role="tabpanel"
+          hidden={activeTab !== 'tips'}
+          className={`details-page__tab-panel${activeTab === 'tips' ? ' details-page__tab-panel--active' : ''}`}
+        >
+          {place.insiderTips.length > 0 ? (
+            place.insiderTips.map((tip, i) => (
+              <div key={i} className="details-page__tip">{tip}</div>
+            ))
+          ) : (
+            <p className="details-page__tab-empty">Chưa có mẹo nào cho địa điểm này.</p>
           )}
         </div>
-      )}
+
+        {/* Reviews panel */}
+        <div
+          id="tabpanel-reviews"
+          role="tabpanel"
+          hidden={activeTab !== 'reviews'}
+          className={`details-page__tab-panel${activeTab === 'reviews' ? ' details-page__tab-panel--active' : ''}`}
+        >
+          {(place.reviews?.length ?? 0) > 0 ? (
+            <>
+              {place.reviews!.slice(0, visibleReviewCount).map((review, i) => (
+                <ReviewCard key={i} index={i} review={review} onPhotoClick={setLightbox} />
+              ))}
+              {visibleReviewCount < place.reviews!.length && (
+                <button
+                  className="details-page__reviews-more"
+                  onClick={() => setVisibleReviewCount(c => c + 5)}
+                >
+                  Xem thêm {Math.min(5, place.reviews!.length - visibleReviewCount)} đánh giá
+                </button>
+              )}
+            </>
+          ) : (
+            <p className="details-page__tab-empty">Chưa có đánh giá nào.</p>
+          )}
+        </div>
+
+        {/* Menu placeholder panel */}
+        <div
+          id="tabpanel-menu"
+          role="tabpanel"
+          hidden={activeTab !== 'menu'}
+          className={`details-page__tab-panel${activeTab === 'menu' ? ' details-page__tab-panel--active' : ''}`}
+        >
+          <div className="details-page__menu-placeholder">
+            <span className="details-page__menu-placeholder-icon">🍽</span>
+            <p className="details-page__menu-placeholder-title">Thực đơn sắp có</p>
+            <p className="details-page__menu-placeholder-sub">Chúng tôi đang cập nhật thực đơn cho địa điểm này.</p>
+          </div>
+        </div>
+      </div>
 
       {/* Photo lightbox */}
       {lightbox && (
