@@ -330,18 +330,22 @@ export function DetailsPage() {
           )}
         </div>
 
-        {/* Menu placeholder panel */}
+        {/* Menu panel */}
         <div
           id="tabpanel-menu"
           role="tabpanel"
           hidden={activeTab !== 'menu'}
           className={`details-page__tab-panel${activeTab === 'menu' ? ' details-page__tab-panel--active' : ''}`}
         >
-          <div className="details-page__menu-placeholder">
-            <span className="details-page__menu-placeholder-icon">🍽</span>
-            <p className="details-page__menu-placeholder-title">Thực đơn sắp có</p>
-            <p className="details-page__menu-placeholder-sub">Chúng tôi đang cập nhật thực đơn cho địa điểm này.</p>
-          </div>
+          {(place.menu?.length ?? 0) > 0 ? (
+            <ImageGallery images={place.menu!} placeName={place.name} />
+          ) : (
+            <div className="details-page__menu-placeholder">
+              <span className="details-page__menu-placeholder-icon">🍽</span>
+              <p className="details-page__menu-placeholder-title">Thực đơn sắp có</p>
+              <p className="details-page__menu-placeholder-sub">Chúng tôi đang cập nhật thực đơn cho địa điểm này.</p>
+            </div>
+          )}
         </div>
       </div>
 
