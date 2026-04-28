@@ -2,6 +2,7 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 Check designs/DESIGN.md to see the design principle.
+Always use frontend-design to implement UI.
 
 ## Commands
 

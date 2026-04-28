@@ -21,3 +21,7 @@
   border-radius: var(--radius-md);
   scroll-snap-align: start;
 }
+
+.image-gallery__item--clickable {
+  cursor: zoom-in;
+}

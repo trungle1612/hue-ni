@@ -267,7 +267,11 @@ export function DetailsPage() {
       {place.gallery.length > 0 && (
         <>
           <h2 className="details-page__gallery-title">Hình ảnh</h2>
-          <ImageGallery images={place.gallery} placeName={place.name} />
+          <ImageGallery
+            images={place.gallery}
+            placeName={place.name}
+            onImageClick={(i) => setLightbox({ images: place.gallery, index: i })}
+          />
         </>
       )}
 
@@ -344,7 +348,11 @@ export function DetailsPage() {
           className={`details-page__tab-panel${effectiveTab === 'menu' ? ' details-page__tab-panel--active' : ''}`}
         >
           {(place.menu?.length ?? 0) > 0 ? (
-            <ImageGallery images={place.menu ?? []} placeName={place.name} />
+            <ImageGallery
+              images={place.menu ?? []}
+              placeName={place.name}
+              onImageClick={(i) => setLightbox({ images: place.menu!, index: i })}
+            />
           ) : (
             <div className="details-page__menu-placeholder">
               <span className="details-page__menu-placeholder-icon">🍽</span>
