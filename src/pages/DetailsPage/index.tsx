@@ -9,7 +9,7 @@ import './style.css'
 
 const ALL_CATEGORIES: Category[] = ['cafe', 'tomb', 'food', 'homestay', 'landmark', 'service']
 
-const TAB_ORDER = ['tips', 'reviews', 'menu'] as const
+const TAB_ORDER = ['tips', 'menu', 'reviews'] as const
 type Tab = typeof TAB_ORDER[number]
 
 function getInitials(name: string): string {
@@ -151,8 +151,8 @@ export function DetailsPage() {
     ? TAB_ORDER
     : TAB_ORDER.filter(t => t !== 'menu')
 
-  const effectiveTab: Tab = visibleTabs.includes(activeTab) ? activeTab : visibleTabs[0]
-  const tabIndex = visibleTabs.indexOf(effectiveTab)
+  const effectiveTab: Tab = visibleTabs.some(t => t === activeTab) ? activeTab : visibleTabs[0]
+  const tabIndex = visibleTabs.findIndex(t => t === effectiveTab)
 
   function handleDirections() {
     const url = `https://www.google.com/maps/dir/?api=1&destination=${place!.coordinates.lat},${place!.coordinates.lng}`
