@@ -34,6 +34,7 @@ export interface Place {
   website?: string
   logo?: string
   reviews?: Review[]
+  menu?: string[]
 }
 
 export interface Collection {
