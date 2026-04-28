@@ -32,18 +32,15 @@ React Router v7. Four routes:
 
 `AppLayout` wraps the first three routes and provides the fixed `BottomNav` (`position: fixed`, `z-index: 100`). Page content must account for `--bottom-nav-height: 4rem`. HomePage does this via `height: calc(100dvh - var(--bottom-nav-height))`; other pages rely on `paddingBottom` in `AppLayout`'s `<main>`.
 
-### Data (`src/data/places.json`)
+### Data (`src/data/categories/`)
 
-All place data is static JSON imported directly — no fetching. Consumed as:
-```ts
-const ALL_PLACES = placesData.places as Place[]
-```
+Place data is split into per-category JSON files (`cafe.json`, `food.json`, `tomb.json`, `homestay.json`, `landmark.json`, `service.json`), each with shape `{ "places": Place[] }`. They are **lazy-loaded** via dynamic imports in `src/utils/loadCategory.ts`, which caches results in a `Map<Category, Place[]>`. Collections live in `src/data/collections.json`.
 
 Types in `src/types/index.ts`. Categories: `tomb | landmark | cafe | food | homestay | service`. Labels and filter options in `src/data/constants.ts`.
 
-`Place` fields: `id`, `name`, `category`, `tags`, `coverImage`, `gallery`, `address`, `coordinates` (`{lat, lng}`), `rating`, `priceRange` (`₫/₫₫/₫₫₫`), `hours` (`{open, close}`), `vibe`, `description`, `insiderTips[]`; optional: `collection`, `phone`, `website`, `logo`. The file also exports `collections: Collection[]` (`{id, title, description}`).
+`Place` fields: `id`, `name`, `category`, `tags`, `coverImage`, `gallery`, `address`, `coordinates` (`{lat, lng}`), `rating`, `priceRange` (`₫/₫₫/₫₫₫`), `hours` (`{open, close}`), `vibe`, `description`, `insiderTips[]`; optional: `specialty`, `collection`, `phone`, `website`, `logo`, `reviews` (`Review[]`), `menu` (array of image URLs — cafes/food only, populated from `coffee_menus.csv`). Collections: `Collection[]` (`{id, title, description}`).
 
-`review-places.csv` is a Google Maps scrape used to populate `places.json` — import it via the `/import-places-data` slash command.
+`review-places.csv` is a Google Maps scrape used to populate the category JSON files — import it via the `/import-places-data` slash command.
 
 `/import-review-places` to import reviews for the places
 
@@ -82,6 +79,10 @@ Both variants include a floating bookmark button (top-right of image) that calls
 - **FilterCombobox** (`src/components/FilterCombobox.tsx`) — category dropdown on HomePage with full keyboard navigation (Arrow keys, Escape, Tab) and outside-click dismissal. Uses emoji icons per category.
 - **OnboardingModal** — geolocation permission dialog, shown once (gated by `hue-ni-onboarded` localStorage key). Dismissible; handles unsupported geolocation gracefully.
 - **ImageGallery** — lazy-loaded image carousel with safe empty-array handling.
+
+### DetailsPage tabs (`src/pages/DetailsPage/index.tsx`)
+
+Three tabs: `tips`, `reviews`, `menu` (defined in `TAB_ORDER`). The menu tab is only surfaced for `cafe` and `food` categories — `visibleTabs` filters it out for other categories, and `effectiveTab` falls back to `visibleTabs[0]` if the stored `activeTab` is no longer visible. The sliding indicator `--tab-index` CSS var is driven by `visibleTabs.findIndex(effectiveTab)`.
 
 ### Design System (enforced — see `designs/DESIGN.md`)
 
