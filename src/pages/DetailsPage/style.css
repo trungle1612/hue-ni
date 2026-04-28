@@ -560,6 +560,24 @@
   }
 }
 
+@keyframes lightbox-slide-from-right {
+  from { opacity: 0; transform: translateX(48px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes lightbox-slide-from-left {
+  from { opacity: 0; transform: translateX(-48px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+.details-page__lightbox-img--slide-left {
+  animation: lightbox-slide-from-right 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.details-page__lightbox-img--slide-right {
+  animation: lightbox-slide-from-left 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
 .details-page__lightbox-close {
   position: absolute;
   top: var(--space-md);

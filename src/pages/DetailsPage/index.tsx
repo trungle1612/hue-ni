@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useParams, useNavigate, useLocation } from 'react-router-dom'
 import { ImageGallery } from '../../components/ImageGallery'
 import { useMyTripContext } from '../../contexts/MyTripContext'
@@ -98,6 +98,9 @@ export function DetailsPage() {
   const location = useLocation()
   const { isSaved, addPlace, removePlace } = useMyTripContext()
   const [lightbox, setLightbox] = useState<LightboxState | null>(null)
+  const [slideDir, setSlideDir] = useState<'left' | 'right' | null>(null)
+  const touchStartX = useRef<number | null>(null)
+  const swipeJustHappened = useRef(false)
   const [visibleReviewCount, setVisibleReviewCount] = useState(5)
   const [activeTab, setActiveTab] = useState<Tab>('tips')
   // undefined = loading, null = not found, Place = found
@@ -185,6 +188,15 @@ export function DetailsPage() {
     }
   }
 
+  function lightboxPrev() {
+    setSlideDir('right')
+    setLightbox(lb => lb && lb.index > 0 ? { ...lb, index: lb.index - 1 } : lb)
+  }
+  function lightboxNext() {
+    setSlideDir('left')
+    setLightbox(lb => lb && lb.index < lb.images.length - 1 ? { ...lb, index: lb.index + 1 } : lb)
+  }
+
   return (
     <div className="details-page">
       <button
@@ -270,7 +282,7 @@ export function DetailsPage() {
           <ImageGallery
             images={place.gallery}
             placeName={place.name}
-            onImageClick={(i) => setLightbox({ images: place.gallery, index: i })}
+            onImageClick={(i) => { setSlideDir(null); setLightbox({ images: place.gallery, index: i }) }}
           />
         </>
       )}
@@ -351,7 +363,7 @@ export function DetailsPage() {
             <ImageGallery
               images={place.menu ?? []}
               placeName={place.name}
-              onImageClick={(i) => setLightbox({ images: place.menu!, index: i })}
+              onImageClick={(i) => { setSlideDir(null); setLightbox({ images: place.menu!, index: i }) }}
             />
           ) : (
             <div className="details-page__menu-placeholder">
@@ -367,10 +379,21 @@ export function DetailsPage() {
       {lightbox && (
         <div
           className="details-page__lightbox"
-          onClick={() => setLightbox(null)}
+          onClick={() => {
+            if (swipeJustHappened.current) { swipeJustHappened.current = false; return }
+            setLightbox(null)
+          }}
           role="dialog"
           aria-modal="true"
           aria-label="Anh phong to"
+          onPointerDown={e => { touchStartX.current = e.clientX }}
+          onPointerUp={e => {
+            if (touchStartX.current === null) return
+            const delta = touchStartX.current - e.clientX
+            touchStartX.current = null
+            if (delta > 50) { swipeJustHappened.current = true; lightboxNext() }
+            else if (delta < -50) { swipeJustHappened.current = true; lightboxPrev() }
+          }}
         >
           <button
             className="details-page__lightbox-close"
@@ -380,16 +403,17 @@ export function DetailsPage() {
             ×
           </button>
           <img
+            key={lightbox.index}
             src={lightbox.images[lightbox.index]}
             alt="Anh danh gia"
-            className="details-page__lightbox-img"
+            className={`details-page__lightbox-img${slideDir ? ` details-page__lightbox-img--slide-${slideDir}` : ''}`}
             onClick={e => e.stopPropagation()}
           />
           {lightbox.images.length > 1 && (
             <>
               <button
                 className="details-page__lightbox-nav details-page__lightbox-nav--prev"
-                onClick={e => { e.stopPropagation(); setLightbox(lb => lb && lb.index > 0 ? { ...lb, index: lb.index - 1 } : lb) }}
+                onClick={e => { e.stopPropagation(); lightboxPrev() }}
                 aria-label="Anh truoc"
                 disabled={lightbox.index === 0}
               >
@@ -397,7 +421,7 @@ export function DetailsPage() {
               </button>
               <button
                 className="details-page__lightbox-nav details-page__lightbox-nav--next"
-                onClick={e => { e.stopPropagation(); setLightbox(lb => lb && lb.index < lb.images.length - 1 ? { ...lb, index: lb.index + 1 } : lb) }}
+                onClick={e => { e.stopPropagation(); lightboxNext() }}
                 aria-label="Anh sau"
                 disabled={lightbox.index === lightbox.images.length - 1}
               >
