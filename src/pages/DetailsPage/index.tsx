@@ -100,7 +100,6 @@ export function DetailsPage() {
   const [lightbox, setLightbox] = useState<LightboxState | null>(null)
   const [visibleReviewCount, setVisibleReviewCount] = useState(5)
   const [activeTab, setActiveTab] = useState<Tab>('tips')
-  const tabIndex = TAB_ORDER.indexOf(activeTab)
   // undefined = loading, null = not found, Place = found
   const [place, setPlace] = useState<Place | null | undefined>(undefined)
 
@@ -147,6 +146,13 @@ export function DetailsPage() {
   }
 
   const saved = isSaved(place.id)
+
+  const visibleTabs = (place.category === 'cafe' || place.category === 'food')
+    ? TAB_ORDER
+    : TAB_ORDER.filter(t => t !== 'menu')
+
+  const effectiveTab: Tab = visibleTabs.includes(activeTab) ? activeTab : visibleTabs[0]
+  const tabIndex = visibleTabs.indexOf(effectiveTab)
 
   function handleDirections() {
     const url = `https://www.google.com/maps/dir/?api=1&destination=${place!.coordinates.lat},${place!.coordinates.lng}`
@@ -274,13 +280,13 @@ export function DetailsPage() {
           aria-label="Thông tin địa điểm"
         >
           <div className="details-page__tab-indicator" aria-hidden="true" />
-          {TAB_ORDER.map((tab) => (
+          {visibleTabs.map((tab) => (
             <button
               key={tab}
               role="tab"
-              aria-selected={activeTab === tab}
+              aria-selected={effectiveTab === tab}
               aria-controls={`tabpanel-${tab}`}
-              className={`details-page__tab-btn${activeTab === tab ? ' details-page__tab-btn--active' : ''}`}
+              className={`details-page__tab-btn${effectiveTab === tab ? ' details-page__tab-btn--active' : ''}`}
               onClick={() => setActiveTab(tab)}
             >
               {tab === 'tips' ? '💡 Mẹo' : tab === 'reviews' ? '🗣 Đánh giá' : '🍽 Thực đơn'}
@@ -292,8 +298,8 @@ export function DetailsPage() {
         <div
           id="tabpanel-tips"
           role="tabpanel"
-          hidden={activeTab !== 'tips'}
-          className={`details-page__tab-panel${activeTab === 'tips' ? ' details-page__tab-panel--active' : ''}`}
+          hidden={effectiveTab !== 'tips'}
+          className={`details-page__tab-panel${effectiveTab === 'tips' ? ' details-page__tab-panel--active' : ''}`}
         >
           {place.insiderTips.length > 0 ? (
             place.insiderTips.map((tip, i) => (
@@ -308,8 +314,8 @@ export function DetailsPage() {
         <div
           id="tabpanel-reviews"
           role="tabpanel"
-          hidden={activeTab !== 'reviews'}
-          className={`details-page__tab-panel${activeTab === 'reviews' ? ' details-page__tab-panel--active' : ''}`}
+          hidden={effectiveTab !== 'reviews'}
+          className={`details-page__tab-panel${effectiveTab === 'reviews' ? ' details-page__tab-panel--active' : ''}`}
         >
           {(place.reviews?.length ?? 0) > 0 ? (
             <>
@@ -334,11 +340,11 @@ export function DetailsPage() {
         <div
           id="tabpanel-menu"
           role="tabpanel"
-          hidden={activeTab !== 'menu'}
-          className={`details-page__tab-panel${activeTab === 'menu' ? ' details-page__tab-panel--active' : ''}`}
+          hidden={effectiveTab !== 'menu'}
+          className={`details-page__tab-panel${effectiveTab === 'menu' ? ' details-page__tab-panel--active' : ''}`}
         >
           {(place.menu?.length ?? 0) > 0 ? (
-            <ImageGallery images={place.menu!} placeName={place.name} />
+            <ImageGallery images={place.menu ?? []} placeName={place.name} />
           ) : (
             <div className="details-page__menu-placeholder">
               <span className="details-page__menu-placeholder-icon">🍽</span>
