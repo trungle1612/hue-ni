@@ -579,7 +579,12 @@
           ]
         }
       ],
-      "specialty": true
+      "specialty": true,
+      "menu": [
+        "https://lh3.googleusercontent.com/p/AF1QipOSme3iFkSYKnE_SE70taD9QbfVg6tfsxTMJ_Xg=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHtGdFvNvFubWdXOIovEp5BPCW37exg8Gou6NFwxgmtfBJmOBAZJPYglqjxa3BhmEi8A_nnNixP_TvPGLCELERqcVOuzHsPGwVWWjTfR0Lkca4m8Pp0fhStD8vdhRgg863jmsqPFA=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHqC_0GGNCQyGgULhtvkgY5FGxyW_ANdxcO3cHpKGZ3FU3wa08OS8-01_Nrh7qDf_tH_w8y5ZPm9MsV-EzZ-BRZHaDKhLYp7deMvKf0vHRoZw9VqsE4ErUMc7qq-HB88EiI781_tw=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "hue-by-xeooo",
@@ -1040,7 +1045,12 @@
           ]
         }
       ],
-      "specialty": true
+      "specialty": true,
+      "menu": [
+        "https://lh3.googleusercontent.com/p/AF1QipPWdR7JgAxIVrL-yWy49xaK3_leXQsZvSpNH2jL=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/p/AF1QipOQ57bc-VS0EfG71lbgmcT6uTF_Ubm9pxp59-hw=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/p/AF1QipM4k67_sw1P0hkqoewZ2DbXRrdrlFpy2nqZUkUG=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "t-roaster-ho-xuan-huong",
@@ -1535,7 +1545,12 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": true,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG5mJkK7i2ZdQyqSvok6seIrkflIdA-YF-YC9qcwfHYA-xfkQLVQS4gLwTRnf1-d521YrxSZy1xdKxiF4XtU31gV775P9Ifv-n-Hz-J-EO2coUj1POhhHP19_09Jm4kb0QTAck7_FcDV1Y=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGwdPbIBC1Xc3O1NgEhRVuSylgp32g7nntrTlspHO7FZzRca4HiwPMAyc98X5diHECfIiJdRiXyzAWDcUkl-t2U0cEiH25RTsy4ibe6rKVEAR_otxAicshwJ_88WsPNbnI8glfQNQTnQYsx=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGS61xRmzxm2aA7Bwu91GqI4khLweTPst_2jRky8XjDWG7fun45szWPqrklYjaK7fmAo6Gc2MqkN2wru97ftbedsnPq96CEjOwTrrI8HV1J2EA5ILdhx6KQQqwhyetY7h9zXyVg3g=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "nha-hang-vy-da-xua",
@@ -2120,7 +2135,12 @@
           ]
         }
       ],
-      "specialty": true
+      "specialty": true,
+      "menu": [
+        "https://lh3.googleusercontent.com/p/AF1QipNZBCRsLPq77hfr_7cVUpBWd4B-1b_7whQg61Bw=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/p/AF1QipP82TyP4Ko2fI3vvJC8KUUTxlgD037Im4ew0lym=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/p/AF1QipOAuhijcSzky6MbbH8IPZVMoMiEi3OxZyNuW0UX=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "cui-coffee",
@@ -2657,7 +2677,12 @@
           ]
         }
       ],
-      "specialty": false
+      "specialty": false,
+      "menu": [
+        "https://lh3.googleusercontent.com/p/AF1QipNqOzdW2RvuLLjeNpAJkUsBfCk0AV4v1nYdX3f9=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFfvDYEspydvYPUOAYV1kBwNy9uEn1-BCjTONFaLyxFdGrZTg4ubzXh1-35cQLgfp269HSv4jmSPGkg6Mqb6_2PqeEMwicfSFJj7pO5XYcUgBIeApK5M52h80QY_hzGDFpZUsypP5IT21EQ=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGouG7nBsY3WLdO41TLPpaEV2oQ8So8FZtMKbA8HfhxM83DUVpNIQzyaknRoOk4qaO0UVsqZb-KH94wxgaA3o83LRDImaP-XgHzmkQjDLu809qiUIpx6Ykt_GVA7rzZzWoAr1kH=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "venus-icafe",
@@ -3061,7 +3086,12 @@
           "rating": 5
         }
       ],
-      "specialty": false
+      "specialty": false,
+      "menu": [
+        "https://lh3.googleusercontent.com/p/AF1QipP6ouSpVjD11lXYua-gkksmUB2IMGcGJTWkY1cn=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/p/AF1QipMwSz_UBAAvEhFYDy8xU_bpOy-D6rKXI2J2Nl-Y=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGM0kK6gobLgacYIj0CYBLOGPjOo4P0b3jAE2MZtWK_-zEsv9GyM0X-Ifr_QbHiNwJo-BdU4lqNtqrLh_Q5BVTzAAU7lHJrMeMrTvDSOqEL2QFECDU5Bwhu2iwOu56R_SNxXSihvp5HHVk=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "thanh-cafe-24-van-cao",
@@ -3583,7 +3613,12 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": true,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEs-PvSMXtBOlpyQylrTEkImk4a7z5vzxz94iK6EfeBaQkce2uevsfFrutnMLHQ0ghEyuugogAmj4Pi1GFVA5khy3zswbY1Dk5-qa1lEaoDo6dsL7OhDHrZ2-G8qFZLCmHfVGzbTz118cc8=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFgZ7IXv3xnmKBI0iOnOO2xFAo5LtouV8-q0xrHRkuzUQV4TsBV5hNIN35O3Fuz71Jv4lTJd3L1-5wdlD_ZZdDPhAHoW9EyB8Zn-mhtOpBijuY51pZlZJbv9V5bhPVv6b_SJ2RTyfOr_o_7=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGuMrydOHhOqGuwqnZqH4SmMEvFv7S05Ipr6j1shwJqoSlIUSoXv-9E6cMGAH-oADDlcMEmG5glsBioiEmV_WBmrwvA6_AuOLYxWc2Q55f9P_rg1ISdmp1zY9nqGO5F8l8829gqA78GeoU=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "nha-quin-coffee-roastery-50m2-single-origin-arabica-fine-robusta-111-day-e-khu-tap-the-ong-a-hue",
@@ -4161,7 +4196,12 @@
           ]
         }
       ],
-      "specialty": true
+      "specialty": true,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEIlEXGE9MfFNXkkadXLrIHxihC_ZpjrT1Rr1exAVY8mDhKjOHAxngchOfuAuCpzev8wVCvbb5gViPvlZurze0_ioUeCemh3TnOPEzKMxfUYNkkAAAhDkyUhXbCUb5BPgxt8tLreijl8cs=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEwITBnTcTeEYZXWhRIRebBRk9GAjADV1JOMeGZutb3OTOs0jLoTkYxAxgr-YvzUiG51IzngstGAYfhJoQnNo9LTNvXsw7zPdDIS_4p8ho1VcnC99jgExwS-e-_Fw1I-ikIajUObHSjCao=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGBPsplGBppUtlTuRuMoGW5VvuqJIqW4gZfki5hddlhLwrG__ELzvO2lp3qyaTTV2P8Fpc57dv_z4Qx27lElDSXM67P7eVzPjcfy_fTJx6xwHKmqPX4mkKGD8qsb34iNvQxjyknI4eW2IM=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "ta-gallery-ta-cafe-bakery",
@@ -4545,7 +4585,12 @@
           "rating": 5
         }
       ],
-      "specialty": false
+      "specialty": false,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG3FGxoCfaH_qaOeRYvE_XwBl0FjA6N3GLM9G6oXHbcLJeryJ0NXsHSLGmn0zDb96C28GZx8Z25YqBX2XVTu6RbYwMkVxycxkbURHYtsJ5nRmb-6QIqWmsD8yHA9ktNfRpBBJuipty_OdVP=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHNuwXnqgUvMVuNlifPbMk9SBUA8-LqWpqCUiYqdemD21G5fkfpa3D4JTR4tnT9xbCs8Q7zimbp79Zj_DYoFiFHaZXZuWSYmpYIG7a3wRAw_leUNsb54bZ-BIComnztbAI2XGby=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE6xxJhn839x_X_pTolTP4fRdVI6_Ha5l2i-XM5Ornd-q9CobteQIuJ-pQBC04nrBSx_zjoDjvOEycJ0hEVfFJn2WDxKKMwvRs2ES9QC7icVAQoyoC4NMGPcaT76pMPYH4KfSMlTpd_196l=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "thanh-cafe",
@@ -4982,7 +5027,12 @@
           "rating": 5
         }
       ],
-      "specialty": false
+      "specialty": false,
+      "menu": [
+        "https://lh3.googleusercontent.com/p/AF1QipOJ3mDf5iMWefro0Tmsy1k_hCYMCD4aBbeja2s0=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH-gbdt8wLHTXufDvIhOJRiuWjTtMK7tYItAcyWe4pdcW5ZUGmezM67TDqo5bXYAnk9p5FGbxFLZkXeFHlL-v-STMFAZflTjqTQUoNc6wzNeBIvPfJvVxsRzsIMtmw9kMlF0zzA=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEcFEQl9ZN8FeVTSYM8v5-IF3ikj-yilVatFzodtWn0jcVYaSccTju1dJty9c1GklMpFpDcg2dXF0yqlzSluGY8rmAtyVYgzH-IE0WxO5fJL_RU03tFbom5hK5h8yUg3_D1uZnW=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "ben-trang-cafe-bistro",
@@ -5385,7 +5435,12 @@
           ]
         }
       ],
-      "specialty": true
+      "specialty": true,
+      "menu": [
+        "https://lh3.googleusercontent.com/p/AF1QipPZI9RfhZgpJRmoWydrePRiJxuZDNQGCh7oSVtv=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/p/AF1QipO_Y9RPcnS7m0cyNxHD9W0ei2LmtwM4A7ElOBki=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/p/AF1QipOTwv8XccViO6j8t0vQDmUG-QZcgSakuGQETFBJ=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "the-lab-coffee",
@@ -5749,7 +5804,12 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": true,
+      "menu": [
+        "https://lh3.googleusercontent.com/p/AF1QipMw-wcK7P1qTYGr4EWvV7IZVc1qAbg_p8gPsOE=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEqkEXui9iCzaeoVC2hfrzlyTEnbzX7sJqFZALknKlvo25hyZQzf8OSeHWwgHV8fml4oGVvf7rYUaO2iSMKqUb8oDQybw5DYdqt5N8XjHK-rHASFPct4yS1vNEnnRoVsrknu2WqCmVNXcE=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEESZHFZb0uR64438v1RUYrQJ6TUCZBGARjeMUmAaxVx4onzi7AQVXDBF2SrFC7UvTJs3QeIblP_6bbeALp6GnQ9psVlwZ_UsZWnYftW5TAwXydrwLawwmXnUY7aFrCcGpArm5MKg=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "a-me-cafe-coffee-breakfast",
@@ -6162,7 +6222,12 @@
           ]
         }
       ],
-      "specialty": true
+      "specialty": true,
+      "menu": [
+        "https://lh3.googleusercontent.com/p/AF1QipOiH7GosP4rC6PMp7P01jZX9J_lLX_eTkZEP-BB=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/p/AF1QipMZSFIRgmdLWCnutX1n0PXeo2fYuyYO7PgYYM2Z=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFjd5HQApn5ESB7gWpqCta8fnYeu_ORF6yQvfepNfmfHoQ4ZLdRjvRUZLl46qW7LkNtPHLiXs1eJo1QLgRXup7X-2yDbEl-iP6v5Mm5-V_aE-MgYHqWsndAJXT7ff6lFQaxs_ggYP98aTBu=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "khong-gian-hoai-co-coffee",
@@ -6617,7 +6682,12 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": true,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHUZ3kR_RMqC_-vAfebz72q-OIN_GmoJhfElQMKcu-P7s4greVNeq7k4MbgIaapSRGb570LvPGQFwwfCse1mC6BKYTHEVEHoeyt-dA8foqOtv_LTQ6TLWbVEJRtXZ2Sx--y1fuCMA=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFmJ9X9m5sVAnt2dqhDETW7VSJyVvAOsJYJMZ-A-Z4By93sNY_MS-Gq7mvDnXHX0bH-m8Fd6GX94O8ZcHMxvfTGeIqf6bQF8iBSotipjeKwdYVIvR7rzOKYNcL4AW_hHNvZRmAzSXrMjEV6=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFiMzyBBvrUae3fD8JHUt5A2vpBvKhQYXphWzL8AbgxjGfTTXLS6fH7mJnmjhU_2Q2PnTBoT6UMR7ztaAXrhmC-aEbA5lpXkZSL268yTeqYKxeoxGvts6f8l7zJQpdWbIF1bCZgxA=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "phinholic",
@@ -7067,7 +7137,12 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": true,
+      "menu": [
+        "https://lh3.googleusercontent.com/p/AF1QipNUHIRHnHR8sVFBGRgZtebQZD42SOf2mGG7sc_A=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/p/AF1QipOWNk-jC6x3NeR4uoFhDIp22U_Rp_uzXRkuL6Fc=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGpNJeTybbosFZctNw9Eb3kxir2eY96oHaw8qbAQCbDji-BwNqN65oMh4bz5t3xurvkFYgt0jvfAQy0Q8kDHZRS7eYvsz4t9_jwO-uqaVTthrGIBsJIfWHpHKG3uziTzEc_SuN9gw=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "quan-cafe-51",
@@ -7362,7 +7437,12 @@
           "rating": 5
         }
       ],
-      "specialty": false
+      "specialty": false,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFXb2uOg1DkeHdwEegpzLFHyucfsVkzbfTs6Vlkk059tPswRbEAuOaKVgiIG3lDDobSYF_w_JV-RkQam_JJbPbRjGPaXPRA9cVXh6E4eGdhTy2jTb_HwsamNpIqmMFKkIbx4WF5=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHDbvG0DzX6UGV5xHR-sZpqYVnUm-DGVl2Kb8sCYyb0g7WimvBKLiT7jR5iO-Bzg2rX8lNLIUchZabDH71DWwpZ-Y3WLC7jxrTYDCWgWUI1h_T7tjvzq1ayk5gIoIottZBhXwIP=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEbqNtYSQnT-UEe8ItjKG5cBr23nxswYfkCSFRIAEHOUv5OvSYJ5Wi7FciEBjPPp_8hMSLY00Gj18aj5ydKMC8S1M7Sh4n3W1Nmc8rSQcUm9Zvtqjx02hPK-83s6Kr0q8ZBQ4Tc=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "view-cafe",
@@ -7822,7 +7902,12 @@
           "rating": 5
         }
       ],
-      "specialty": false
+      "specialty": false,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGKbO1kKV0pae2460ns-cIVJZH9B4sT6ZYOcdc-AiyXvmckC83iz-E03CeoBZ-qWnM120x5AjAd9oMzd9ocNRNo372WvDhi5oUHKkW585EMM9N5u6AukT-CclNbo-e0zd9yXoqFFA=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEmuf-JMbLp2CgAUp0EVTWKc0SVGfwCtAIlPoa3i51KTNC0_v6plRyjIyhE1Goh-WCXFdaGrbxGC5RmFOwEbHaLOW6ZGcYcYJtaJEXjevs9NflQP8w5hShdHLJgq_lK67CJ3H2Ucoy-Dxl1=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE3gCit6pVA_Fv86NuQyLUYHh1EQ1qPfsxTC2jR-w5d1XLLbrLMnZEYIR2xjvdICNnY1LMIDGbmNFM5yDbAK7FZQMYkof8B1ZqPrq2w7g05GQR867fZIpGGl8BrSjsngc9zTJ4tQw=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "cong-ca-phe",
@@ -8248,7 +8333,12 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": true,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE8udimb-26VgW7f9IQwensNFJByleyfix5Mr9kI17U36MFvREKOoprgjQlH8PbM8p2VAtc4LT1weLSVRoalZ5Y7m49rzi_c4k0YVxVwNpCcOhW3VOeqEtz_wHVgxuacj5k3Y0qsw=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/p/AF1QipNGbsEGeVPZ1hcKUxSQw9FFjINBtOtfrhKPCng=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGJcv7tMprazYMH44hrd7q8lxMpTBXBwjIopN_kJxoWRA-rxrVe9lVDZUO5GtZWkX2AqZlh0lvXZZmr2sfQxc7hMTlTiQ3pap_AROmZPQPpdMRKaH6PE1kYNNojjQ1n0sauGOZZG_uV8iix=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "quan-nina-cafe",
@@ -8556,7 +8646,12 @@
           "rating": 5
         }
       ],
-      "specialty": false
+      "specialty": false,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGkez0dkho44c2FSxVrEqzl7oPMbdz1eBhvrU9tDPPSJXo4QQ301S1roEBRX2hx1-sqBY9YAH3jYWXRPd46S0eaJurETkJNhswe75bEoB7QZbLSGNymhyz9P_ElZ5y2wHSaxMQjB59Y5oig=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHFo47_6E2HqnP0jiOcfbgcQJhs1B8YFywT990y6UBVjZGeDvsUy5skwhgfd_-xo13A8-ZNBnAjtPPRtAlpGULE_DjfpO9nxo3dKuOTrERVYyEG-_jbcTu8J5Nd5eIeP3RScMtoS0K-Mncw=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGizH0XGVY3uAoIy1PNbCwcatUx2J-x8mqtQw7CJEMfnBLI52yedd8EH23qUmxEHC76hnwXCIdxKeEaiaYE3vapbE05wQ-mD__J58R_dX3HuomqZ_5ldxLxD_f0sxIwfFuOl0FtdDR7FH0=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "tram-cafe-cafe-chuan-vi-co-o",
@@ -8936,7 +9031,12 @@
           "rating": 5
         }
       ],
-      "specialty": false
+      "specialty": false,
+      "menu": [
+        "https://lh3.googleusercontent.com/p/AF1QipP_azje17QX6iFKdK-nMOcNERnb02HH-Nt5Z1X8=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF1kV67wYV5YwuYuyQ8xvX0suI7edxY8OzS109XKrd-i6L0ZnYqUzlpXP3yvznpCO3gXoUEP3DF2mX_Vev-gjSWZUdntu1vOjy7ysZYAEwivMAckznwRmcaMgxmySV_zKD2FruD=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFS9wE8cSXJE23HQ5UEMf03okDbo-JpMlFRKqaI0qKqVZy4S9SVsJG_pq_U2NHiDcOAaIVaB0gfq0n5RvVOfqUl2jx-92nKrBPz0YQkYpvROljwf2HBdzWBBchXW28TQlCRZIVk=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "t-roaster",
@@ -9510,7 +9610,12 @@
           ]
         }
       ],
-      "specialty": true
+      "specialty": true,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGHyLhZxywBGuR3T3XDqZYSHuUCZ3ysjgvMxvGvYKInTV-nhebWvgW-f7cHXGaW7rdLUSQGCRK48jo83u-NSmI3s6jwScsCB2CcUtobtcGFB21A-RwwnLOfD1zcDMSZL-ppciSo0duHU5dT=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEU7WBBrw_-VTjPB3euy8OTxf1m4ovnFZqdcl7sJJomj8wa-0pKaktLB76LTS6DIo63f_-yhgrceJgKLWBVFx8L4BahS30-klcGh36hTlqKUF4eeJ4YVsvdDosG6mzSZxXRh3CRBlC1wS4=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFCPPTcpO4EBROMHrZaSKcppft_X5A7upxSn3TS_0UguwfpFK0fqMGbVyBJQlQ-heN69K3r0Nq_yenGZy3n-9vTTNKb4EZeTvGF7Oo9PmK3IWRXUzqM21UKN6nc26fINGL-AZi1=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "tan-original",
@@ -10011,7 +10116,12 @@
           ]
         }
       ],
-      "specialty": true
+      "specialty": true,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFHiRdAtG7qvqZ9NF3xcZLaYoEwEa2DATubcPbpBUR-SuGw_IHQbftPkHlQvRg8reO-dlqWrkk6aXudQUbeC-VO4PC9NqAsbAgduf0DPAYmyUd3mYy_vNfbh7CexzHL5E1xooI=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFfnjbr4pkHVwmfYw5Usw8pxsHC7YBWIn-Gf7w0mvrtaflnYYJrRqUeXUHIKRvEgaO6FFv3c05Na9BDsgK4c6lWdrrM5rGrpNcvnp5KAP-l1zkCNy62O2mpEtggq-9alcoFW6T3uA=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFRd47g75ELeJi5T3aoSJ54TWKcHGVs9pIhOk6ThXVOgl8gKpC5zWuOCNKi_YfC-THEMTP4nlCf3yrC_pRXWMBJ-7a0yLtybE81uk5Xu4BbFtaiVNOsgqBSVoeEKpoKwTtLnAAvykLpzAY=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "kodo",
@@ -10631,7 +10741,12 @@
           ]
         }
       ],
-      "specialty": true
+      "specialty": true,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEvFfw6WCzzBsrJxnifRxvSsAaSVy6xcirQAU_X8Y2_9GOz0SNCEyIFzQmhNhPpAu-Azg_wbkPeHHE6dMGL0zVJBgP3Dp_yaXR16Ro696GG6tvHUPQCRVsLW2FmyLwwf2jIRMCz=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHzTGeFcUW0-WjF0oZrVe6I-xEMBHitw3nbItV2NlRjJIchYH6vducEjXvk_p0oJXu8ksgt9JPMFCaN3nYqAwcNeSg1k5NcjkbrognpohFhEZZXXn7yqoVwoPe7hV7nNk8mKEHu=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/p/AF1QipPT3DWQQdjN6p4C3vWcz-ZNLjJutigR3wqCRuVq=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "tiem-cafe-tui-minh",
@@ -11170,7 +11285,12 @@
           ]
         }
       ],
-      "specialty": true
+      "specialty": true,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHlTvjCzJcZmNSNxuCRRzn9wI1xuoSDjZGzh9sFUOGXEbQB6pJWD3omU03tSD1ieKLlZnCwSwkdvf83ggvLrol6TNlbr6lTZp8rdbSaZLjy0TU8RWAsGeebColR3gtVwilsSPAU=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEgmSkPh8TGt07ldvqjFwIg8uP6sDwtfhgvkvhs0hQ5MzlWVI1Sux478M7Gna3_5geLMfYdSf8zBGbUeExJbn5gDeeb5NVwVE0mg_wAvt9ydxcsxJrlmfVMVFLekGVfNHKk6wmU=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG6OZSsWIeoKN9jdX3iNWn83mpF9FxciskBNSNKhxZl0qBM0GSLf3vZ3HVDB_KRIAmd_Viv6hBsSl0CIjsBrGBIHLpNQAlo8yVnw5sv2tPyF0-pYQKLZBJH0P1KpcT0KQTqbppx=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "a-oi-cafe",
@@ -11626,7 +11746,12 @@
           "rating": 5
         }
       ],
-      "specialty": false
+      "specialty": false,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHxOHNg1Daj-02XcqPAfiQoVBjVoePt8i_94xrmU7n77OklQEmMXTNkr6_LHyJ3IStq87e_u0Ml9mg7ludejIoSHE_KYbfX_rHN9-ICxmq7mXDtGM0DIx8OC1IFz2lT8DU0CYwrmg=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHXMq-NrEqdUF6MltICu7WbleQ26WxKjWPHdycX4cj9wzzudCUYgeWbnram2iUkaLcTHl6bWXdKkUVrgeXu99mQ-BFDt34D7j2SrHeNUjkWXn7Jq2a4JW0aSfqdbqGt4IShO47YWg=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE9Msp-8K1nuzz56MdkCzNntYHxrJRqNiK88JedLxWDR5gvmlyjo_WGC1AeTCiNHG-SIHtdVe-Yx27v6_5U8L8Xu_oe_fQ7W_0CcNL7-Vai2sucKeJvSUcVOBgkZo95WZ7a9JCh=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "secret-lounge-hue",
@@ -12020,7 +12145,12 @@
           "rating": 5
         }
       ],
-      "specialty": false
+      "specialty": false,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFVfwcN6TiL10Q0SeXxyFvO_Oj1xTR9mxhdodKy9lX-Bmfqdvu485_FvFg1NGoQ-Wm9QAK7Z-wZNqmy05CL_ptnriCHTLUtYoV58C0ssvWTFX4ZSaXKxxqeNd_jGhCyubBUxCSlcpKnaTA=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGa8ufxXzD8YAjOm5GhEkpGceozntX2sA-xwVYsQ6ba-WTEFAuIGB4jaWxGDMHTZnMDxkAHMgrWKazWbLk9kbILcZBtgS4N4DHe5oosp326BWGj9GeiQaDwrBLUle0wYXezagR7FHJ_Obg=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGf3dnzwAYNeQbIbkhZFAfhOKT0uMK7z1ySJwhAd3jw2iUxImbADeyfvFDlfC7SQosKdH_30DJ88NLX-aSWskF_SIII_g9d7qd3InR6tRB_IVYIRQhksaGFH0Cndj5EGbBKI6_dGVo_HEUo=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "cat-cafe-mocha-aeon-hue-store",
@@ -12893,7 +13023,12 @@
           ]
         }
       ],
-      "specialty": true
+      "specialty": true,
+      "menu": [
+        "https://lh3.googleusercontent.com/p/AF1QipPSFOQUK6NJiYCzI5QMmmxiX8-D7XBklVGqhNfv=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/p/AF1QipPSNuPJfQcR3YdmYBSZOyqF2jZLqsQCSdH45Rbz=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/p/AF1QipPcA2oW-M-DhSXgh_L0G0gJrKuSjlGPDO2TZYoP=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "e-po-cafe",
@@ -13386,7 +13521,12 @@
           ]
         }
       ],
-      "specialty": true
+      "specialty": true,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEBLCmfAXKRz5lJxS5971p02zWEiOUFJVvjqz6WJpdv3sUMiHUOn6aKvgHfIHWh0Vvev8pqyc1Ye9p1a8uBmOrbdxudp5q0_2YSdi5TYiKNqjwTnCdUi9jLEZlXZr9n6t8874IgkAc3frUa=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH0MUgge9QjbVYnOkDl3zMUQ8GrT9eWBg6Kj9-kTAYA-E2kJ-4YfMLz5k756B4J3I9QtZ5gUWtz5Uf_cfVsosRWMFFTTtNP0CrdQLi80HSU3nhaSZnVc11LJsLIqCfQA7BLKaSZ=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHGuM-4_xhmhDHHX9pyiPcz3fzBnpadQHLVdrSR_VjbJjzKAZ1hT_RcKSBhoIaZFbc8F_-Kma7uED1fI5mTi6hwRij9sJZNVd-RQ77zZKQoQ7YKFAk3VW3TkzMTmEvjXXO6cy_soxHcBE0=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "ca-phe-muoi-ac-san-hue",
@@ -13746,7 +13886,12 @@
           "rating": 5
         }
       ],
-      "specialty": false
+      "specialty": false,
+      "menu": [
+        "https://lh3.googleusercontent.com/p/AF1QipMlkjjED54h7lpCNIpddDsRSEmocyekFM-wpG8O=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/p/AF1QipMA3zjgxAqzyXtefxTLGXCNTm_QR9PRFtaXn0Oh=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/p/AF1QipOaKZXFBixpCZuFsNrdqiInAIVTa3fyV-78Ywbp=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "laph-truong-inh",
@@ -14069,7 +14214,12 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": true,
+      "menu": [
+        "https://lh3.googleusercontent.com/p/AF1QipOp_T5CsIxAt-hxYgFkgDeCsvkHdKyIakL4ajMk=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/p/AF1QipOmJptxbVM5Q6oo6DevwtgmZf_kAmN0qoI_CJ3Q=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEqtTrqd3hgG1eOF-IoZ38vZ510QZLiYH18wLuaciLg5cTsGcYvI1YvsQ3FDAJepUo3SYxRPVbt926x4f26S1s0AqhVU3g_ACm-qpib90F5o21Glzmx9Eu27PPHR3Y3qP7wJOr9Ig=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "memoire-cafe",
@@ -14661,7 +14811,12 @@
           ]
         }
       ],
-      "specialty": true
+      "specialty": true,
+      "menu": [
+        "https://lh3.googleusercontent.com/p/AF1QipOtqYF0HlYGArLZVHxM1Ziw3cGakxShkmgqwYB8=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/p/AF1QipPEU5kejx66Lo7vEkBqKgSV1bhY_mpGcBTKLmlE=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHVeceq7fNwt-Akf_lJUpEnKFAvarVGSsoatPonwf2cSv9sFZZmaGmWRLvghBvMC0W7kJbdCoIRI7JWupNTRMqpf8DZ9Bwgxc_Yrw7ALlZ90aZQ7i7Qp-vWDeYPmrNRafXXQacFYoLYNC2W=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "giao-cafe",
@@ -15165,7 +15320,12 @@
           ]
         }
       ],
-      "specialty": true
+      "specialty": true,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGVtwRveDF_gt20J1-8OY-uQely5gKDxzHbawy6p9dyAN9WYE95TIuQxOr_L4Fzk719EbfRviScNtV4NZ3yQuTGcDktaz-mu-FDHZF-WlpV02Hwig_GQ4QPVBITR3qqWs8ZPon5WGhiB-4=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAESk38Pq0AnC8hPOzLZuS1P_jy9KUNjlMmqaOyyTZe3HSD-9p8kMVZNVVj0ZU0EBU0NhZn7z7liLUTqeSB8IrY-57Ytqty4cPyJ1gS9Aj-HMMaFFeabooevmLRc360CgK4fN_oD=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH1f--4X9ZZlL4uKbXuU0B0giBCHUBSaeaCdE3gakpjLdAXu_BUq6t80pICxmy4hSFCb9FP4RadZeuJL8v_yZdFhA_joolx55aMPFa0Abu_dXgQam4lwnKoVqETLmjpQCdE2KQVJsSUdMMO=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "tan-25-nguyen-thi-minh-khai",
@@ -15772,7 +15932,12 @@
           ]
         }
       ],
-      "specialty": false
+      "specialty": false,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHrl2A8lSN4K8TYxSp6qm6YTUG9GZecwWI_y3V9MZitUtmhhdaeNSl74fer4RzkSP0wGONdOM_2hHHsALErOFbVkIe19gcUka-j7t0VMA5QxImAOZjQeJQPFHxKDUzHDCTNqWNn=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHylsy9dsp1JlclD0GAgiXZtB5RLFUNZaZxn5N88pZhcY0wvIGLzpXiQz_LeK_pNKDMTylNZ1znBrPkmNEPsiRSvIa4uQ359q3UCOqzhIseTYIZT8zkP1mr4-12CGCCUVR8OiwwXpjuPP4=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGhN5Ehg3H3T1KdhBFVvM8wb4e_iTnJ16VASbL6EMXCI4UmKJzNlXuCAv10tiQd14EPNeoAWhRvG2tpMJVI0is14B-mr5buZWO0hMw0Mb8Wu2vxkySUwfSmdzzMUWkeNk6HbIB995xopXJ1=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "n-cafe-restaurant",
@@ -16163,7 +16328,12 @@
           "rating": 5
         }
       ],
-      "specialty": false
+      "specialty": false,
+      "menu": [
+        "https://lh3.googleusercontent.com/p/AF1QipMV9D2GnPy9-clRUT6avubIUzY0u9GRY8kW_M4B=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF0-G23A7fqKnsXMsiz8OzG6QgZbFU8qtmT_dbiP5jc8j1MEukUSxKek4oY6SvH7zlwRaJ-3-v7BdeDwxDYl3tX93yT57gzYLhLuUuKkf75wpykPK9Ox4YdiTAWcvwtq_QgFe7_=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHNKRO4QcT-Wa37cUYWLBvCGBro4fFpWzBgfz9Y8qI_rhkWO8VRiBo1DgoCIV-jT8a6L0Ylg4puEeSIIVu3kUM6C88e5R89cZSXSMdtpvgu8_vbqcT53Xo-2CTvKJDMYoPjdZBy=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "the-time-coffee",
@@ -16554,7 +16724,12 @@
           "rating": 5
         }
       ],
-      "specialty": false
+      "specialty": false,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEC1xKTo7eyK292wRxlpZlyxmYxsPJviOfSRE91q1C0VdFiHbmooAr9UjM-VYiC8qN6sPWwJJqAHxr1ymskBHdlYWqmynXp1Wf2qSmTig6b6pasAaey9yEX4StBosFLmCMs7lmuoA=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE5F_yf20-C-2Ve0IPnj3fSCjMCAIEVh6NXqomyv9MNfFOKNuozs3MWHBlUkmGvnMJ6Vh1KODD98cWCx9hFOz2DO2exYk3vFEsH0AIyrpu3zex0jlNdijn-vapS_nBCDjJInBVb3Q=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFTgF2xHim8i-AAsG18gklmr4SSBRc2VgVA-oqH45KrsGJb1n_e_mzqggs-EhBr3-yyRy-AOyAE1oiXHdT7vhhANUv2VdbRxe5zXHqiAjZBreqHvGOR_lB78naBIMYKuYnGtjxm=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "cafe-top",
@@ -17095,7 +17270,10 @@
           "rating": 5
         }
       ],
-      "specialty": false
+      "specialty": false,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFQINo49ywdS_tSpegAGnNXc0xTsksgMfhIr_J_-WCTla9arl7EH9MXrt8T2YY5Q1uHjwEF7PSZH3dyLZrUK8n-72YyKsHvaMZQLssz-EXKCGOUOCtIXXfOA8P-DFb21OqZJZfvLQ=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "nook",
@@ -17419,7 +17597,12 @@
           "rating": 5
         }
       ],
-      "specialty": false
+      "specialty": false,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEoul67JZKy1MaZPbg3Sdh9-8m92WxcjUn4d9Ni1LJZsy08TzTjzfft_X-3kPWFneEGWeha_wTkvoYteAiV-S5OIf81c4jgnW-fJ_QWhedX_cqxoQRwsu5zoDlPUFfNwmPIQrS5qgD4KLM=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH2XtgzTS_9hQUPehMBNPGjvHUD96fMK6nTfziDQjc2socOKYb06bJTrJq8fGo90-QHJGbaUpd2cK9Jj1cYalsAyt0wGxoKJ0yR-dYCFawp9p0xQsG2uUoC7_bEy7v54j6f77I=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG10WjBk4IDlhDDI864I05RQO6oD5yAoGmU1jH2TGL9ywvuzj0CoC5jqcgBUjebk4ppLaWPQiiG12J_Y1QZvGWYG6d-vdEsqLY-H-nSdZfNW2v_hf1RNYuw3z7lNN9_pCXrJLE6sX0ITsQ=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "old-money-cafe-cocktails",
@@ -17830,7 +18013,12 @@
           "rating": 5
         }
       ],
-      "specialty": false
+      "specialty": false,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFLgasmshr6Nh6VTGWGBBPikkuMeYktZkBUn7EoNVLea7MUbFauCc41nO4QowbwTmMENNUUpSMaeVq8wYMU3SZmpdeaWAX4wVftkjgx1EK1_2sVvomA7MeUDM71aDmDbHAbcmqt6A=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFucIfUthOpeukKC2LZJDEWazs2GBsZKBdvDhibKk7Ct4hEwcdpk_7b6JWCle996g7Z36U-64KiHifB-lVHx6BrRLq9rAesJFHqF7T6RLdz_ybSiar1KVdPpS-64RdCedFBoioCaQ=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFZmXMF4yt-njVXxGXhCqaAnrSG4BVSPjB1ibcpy98x3Mb4iUOnutRR6UxEcqLr90McQAM9wcNGchk1tWHievyR6LGo2QvogWcgryhpUWDz1BCQtlgbrQo5uXFKblh8ZQ0emcH4=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "nha-lao-beo",
@@ -18242,7 +18430,12 @@
           "rating": 5
         }
       ],
-      "specialty": false
+      "specialty": false,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGFlxp8xk22Hu9e-eqZcdtfYCQtz3xH20zuk4Urzwg-Nhwd0aVNIym9qvX5YnCeskyNZyXCiJr_3c1kLeA-KY00EyEZpJuOwAbYWpjNShcaKjX4JlCHBzvk7AohgWQFEEjIE1yfR8cK2I1e=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFhK2gI0Qk_UfiE8yEivFkQEN9oQqg9SZn4gFoJj-TRCbWGpi1gvCOIc0bRZkdyEIKiZaf6LzMn3Ifr1pJNvCex0JJMHlEMmeA7A92H1auN3sa8DtfJLqNcubHoKAyAaG9ZWtbQR0SSwXS0=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF_1UC7obzxpEEK8sOGbmymtkjdXM-bqi9kD0lpjEO4NGi0ik233vDqnjy33SMjkd3Pg7Sqg7r59WP-oF4cKHzpHjXP1juK2zE79ujemVJvjp-Wt-cIrw82ThBhuJinSSnWGqWlWQZQ9bvi=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "ngam-ca-phe",
@@ -18756,7 +18949,12 @@
           ]
         }
       ],
-      "specialty": false
+      "specialty": false,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFMJTjnek_hU-aLeNkagceSsntso_8U9jkEwSAq6U6UnLtBAbHtWMmN5_N7zsTB6hHk4toxgo4KQ9ufov-QARuD2GnrIZsDLWc7lugyPHVG4Kf6wePoTRCwCz5Z0a79pLhWkyLcWCF49gY=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGu84wA1rtkoP-J8-UfLqVd4nQbtTaZsfBgRHaCMVRUZp27Pisedb88j-40SyNEfYj3tsQdGqFyn35KrEkYtZcHXoDS-VckTMHy8NsQNZZsCO0ETyCkJrgoskDJYC_B1k4Mt_tWVA=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG96KVJ8DManlrY171bElyfAb1NWFMBLQn2pNeujwTWhRv-td3MkuAGVd8-dn6HLhR_3br1Wz0NAQy5Y92tWfccY4hmp3mpyi1ynWnrivm_DBVqryWO45Ik49K3utKCRrq28sbz=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "mot",
@@ -19120,7 +19318,12 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": true,
+      "menu": [
+        "https://lh3.googleusercontent.com/p/AF1QipNmi9NP6XHVwM8irNOa_PLm7T9dERTCRjWKLe4p=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFkWzHDqRKpENUatTiKHKqzu5br8JG_UTRcTsS4RhsG9V4GQlIOCXfUTfG7FIvs3MLtW7vKDv9_WXanSi8xClCgshwzaltuPdaAxvPveARuQfixSl7Q72bDLGaimVPvLZ8EviwZjLNfNO7l=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/p/AF1QipM_wGmyw7lYlf72qdv-MuejUQgWqoULGyexZhL_=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "tiem-ca-phe-81-ca-phe-muoi-hue-quan-ca-phe-ep-hue",
@@ -19563,7 +19766,12 @@
           "rating": 5
         }
       ],
-      "specialty": false
+      "specialty": false,
+      "menu": [
+        "https://lh3.googleusercontent.com/p/AF1QipPW_nimYLbgtVlMdVItTjPgtmCQwyF9Zpx64Ryw=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/p/AF1QipMHP33WtCC1JGBDwo-zCidKwxce57GTx4f6egl6=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEMN1GcLlxdiv8iQn87Miy-IbVOXiF1IpaGnoftA6x9RhQQrgVnudfLVdpU0ULxQbOvw7nSUUtHWJ2ZrJthfiLTckBUYpfpqbGbTfmWvoSug9N3eKNhtqYJAcuzthzVZcgL8hyYaA=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "root-coffee-roastery",
@@ -19894,7 +20102,11 @@
           "rating": 5
         }
       ],
-      "specialty": false
+      "specialty": false,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFK_TyF1lRTayaqrcHvFn9NbSXY-K8gq_iK_ctg1WuEJI-AEVQGn6U8Xk_37Qao1wv8YvAZf4NNsCrOzRTmRQdPWHnrs6JCp8am2n12LveNqJ8eE5Xc77iSbR2Mahnd5iNW72YF41JISKUg=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHe3btW4jYirMg__-8vfn-HYeNdppExRMrOQcVmiVltbF368_9UdxdC-ZyQsafxlgZ_IfXTXdht4POBj54-oI9SB7Jn8bcUwufM6C-mD6Pm8wP-zJn6i5wZHg3vKAHCSVRP0ORAYriM6wFb=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "ca-phe-muoi-cs1",
@@ -20424,7 +20636,12 @@
           ]
         }
       ],
-      "specialty": true
+      "specialty": true,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHEhtyYozbFT9PXuT36agBXzxWXylu7ZP1yddgZ9B5-GzMam2arxQWQcVx4XcHwJomZxVLWx8HtTJDP0otmF8OEAUMbpAx9wpFpgVpJiUx0S-RUrsFbAeK2K1IiH4KTD2_34okRz7uEKxzV=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFsiIjbyq2b2ih_i4iKr1ozwjLp3WmMlnQuGLmGRX_Hc5ZTLa0I6l5ke9HCDDkL9vUpaQ9N9i-cQP_9NuIYVpXBRjyEFa2X7yaDCBEGhHN7KBn3Lk21IbLNnBGJaraSfqci_-ZlcAXfhvhE=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEBrs4_C02QZ7CCM6Xuy6qb8T-paEN8qjriDBA1NfikI68rlN8QENEWACcPEJFKpcZ3pvgzZ36OLYp3LVM_ukPo1y8MDwkT8gPpmhZGsdwy8ZGB7tnicbrLFwrjrKJrQzzGM-yl=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "cafe-on-thu-wheels-and-restaurant",
@@ -20829,7 +21046,12 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": true,
+      "menu": [
+        "https://lh3.googleusercontent.com/p/AF1QipMmaeuNazp5zFK4IzvDen-v71pq-r1WtZ-DuHn5=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF0qhK8avUh0772OBo9MazEUpRSexNN8dUeGd8aC7pwTcyKuOFObzQqWNn1Pz-Z4V-5ICxaadW1rNLBSqBvqRes7X1x5Bm7TjALGsjyBnIR86JQd-SkFytszt5h8hhEPHuEvc4=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF2QpBMFU0LI7ZougJPP6q8D2o-11biEI2RwzY_KvXYYiXdI4ZK9fLUW9CHhz32rTcvHA9x7qMzmnHjo8xcKzGKx22W4XAHhpVOat6hJIP3xketriguznwTcRQSECpDq26nG1evmYqfZ6Rj=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "dechill-ca-phe-muoi-hue-quan-ca-phe-ep-ngam-hoang-hon-hue",
@@ -21346,7 +21568,12 @@
           ]
         }
       ],
-      "specialty": true
+      "specialty": true,
+      "menu": [
+        "https://lh3.googleusercontent.com/p/AF1QipM4Z_Bh9uOclstx8Yj4W2qGxDNF-eMdfQd_s_3Q=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHS--FPjTpO45PYH-X1cxc4efKMn4NPT-z_nDgACVDwggC5PMymV2ZAp7SdU8gxjr6UIFEa8odugAF84GIYJLO2TV6IXUn1JA_uaV8Sxw23Zt57s-SgGA_AsjB_3w-s4ZTWArsr0g=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGOEa-Y-5GOxNb-9RT8Zdpu-nr1tHzqejGFze-3L2zwxPkwIWjp1UKwINzlkTkYTltDplqvLqjglpxZwxlUyw1vP7NKBGiadAI8j4sEBQHvK_-gq959IeW81y803ZgfTfvj9pAifQ=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "sline-coffee-signature",
@@ -21813,7 +22040,12 @@
           "rating": 5
         }
       ],
-      "specialty": false
+      "specialty": false,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHdoooblh6Pp6kG_Qj5VHf4jrBbDIKSGC07UzybpCWl0m9aqyuxwJVP21p5fuMzaZPjy4sFFTp_yaNe6J4NCC9ErOpaz59WKeVznk426LRzgBSPpW-MkJGukfhhnOPa9-0VAPw0lCaPZ8er=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEcM827bGRN6Fth41vV0PPzBd1sB6K59hyhTjYiADT7K3-VtIIQv5tD6NCOEfPQZ_p9UQfMZAYL1gQoEhBnXa4YG-Nw9JZhVEomCeLXe2WrVwuY5jrEJ6MvvRfIJehGttiilDflWXzmy5k=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF1ImTstznWgrGCywApZteLYeDVOmJqFeIXim_L90ISTSI_zxlfw0cWVAH1fj_50WDXD7tFgZfaczvcGtmHqRDpUZXRf4wGvKiWAg9Y7kuUQgRQNNPdd4_Cnb4FvR2XNhid-wtW4IqCyyAz=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "han-cafe",
@@ -22223,7 +22455,12 @@
           "rating": 5
         }
       ],
-      "specialty": false
+      "specialty": false,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFkGZkjHB-rEOlSqEkFYYPXyZqwqCRzdVbZlpzTbUa1gwvpHoVWPPFdmw8wmKbBu0U87wycx7V4ogcHM4mDjgAop5WYVGYzRLxRRbxzoeB8Ykqfe3o8fBrMg07wSg0fbgARpyn6JtujklXU=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG5gaT_QapXG7et_DDxA29fbvWB-ik4fePMBoyo97BYul5pIEisHfVJ24wFM0vpUFK40MjZrDSVr862B4wwiUsgZ0VcPadKLSLS5ZxmA42MuK5nVlw9TJKnv_ZwL1gOct_grTs=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEnBKUmh01zWKWFinFjhCTlld6DLBOSFdSC-6VS4NBYvIv67qL_Yetbu7n94Kz6zr9HBzqKvauwpIRFXYYhnXdQ5zFkMoVL4EsAli712E2fOnA0TeMMaTBiZmGchju6tirqQykqt3ynu6_Z=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "me-cafe-ben-xua-vi-da",
@@ -22700,7 +22937,12 @@
           "rating": 5
         }
       ],
-      "specialty": true
+      "specialty": true,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEwRwug1zhzdh26z5IPvG1_P1m6x3DRqBFWeifn5nn7kc4yQx6Rm1Wi2_yR6exisEUdKRroQBuU3djkgDaGlXYJTXA88op0WueFPGF2DpOYNF-R4PIDVhYH3uz66EkdbVZHV62iDxm2fQ9H=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEJezrZRDwPZBNQtQSPiRnAi_KekyHSEDWFJxLoAXqAJK4Qs_4BM66sSL83pcCoZmS1dbsdhVcd6aBGkaVQIN2RncszBCVEL0pqZ1NzL8rnmWmv1JPYY8zE8JWCNdBLFW3qyE6_=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEOii5Lr7QA3NBhm5sWvtJPiectpe4IU15Qri4XFJBnyt5etrEFCSdCbEI9jWQsJy97fbBy2ZzA6VzbxyK0_u9a9KYIFVjVTJHjaaNZrw9xuOR_eA64QH3BRNu-vHynuG3c_LkPGk7Rf9_N=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "tan",
@@ -23653,7 +23895,10 @@
           ]
         }
       ],
-      "specialty": false
+      "specialty": false,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHcHvTTAnVx6MoXsFBEgQLn4Outz4ap8i7dQr87A942jO3uGSpLxSxdQey3A78Qw50qog9MBdIInTnSilFhVR7u4d0Z9jw7mGAgk2hLtBNQo-sj1v08VsY1ynknC9rLwKAQzKrlsQ8iKcA=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "thanh-cafe-phan-boi-chau",
@@ -24146,7 +24391,12 @@
           ]
         }
       ],
-      "specialty": true
+      "specialty": true,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH9ZFfdhJFcmKi-MHb-3nqfBMF2uRByA0MBCJmqin0C4rYd1yEFdcb90AXi94GYP78n8ACZ7TkqmrxeQ8zLSQiCoLoombldjnMcIZIyyLT3FER1A_N0UF6_FV2MMDRLfSe0_3jKfup_elaA=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGslMQzYve0atPVtBS4BvJBgQKu69Lbp3LQmiInGBNdJVn9I7Lc4nrGeBJcf-It6a3g6xsqeJpBZ9ISXPr2e3fUTy9xqF5ytQccckwd406f_UNw1o-eI0Vt6nRJWZMSwJkWqpU=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFb_vqW-ZqtaT7WCn0H80OAKOb_rjkwB9Kx9CTaz_E8pMqHbk6EpKRcPyobpp7UJwEXL9_yG_eOYOpSGEPo-VWASSPtd8PTuU5MpGyvzSg8QB7eiXBP5AAj2FJSv6hnmt3E3iOrNNCbrbJS=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "mohe-ca-phe",
@@ -24601,7 +24851,12 @@
           ]
         }
       ],
-      "specialty": false
+      "specialty": false,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG1bwzRN5Mt20_b5nXkLWk0WFvUvIDrOi5gn6ZWH2-O_KSeUdDGBAEpvrk6ElHEApKXyUPdTD5FZ5qziQUhpHW690n_biMf2X-25Wqe41gbAopSMO-H4Y1dzxn0FAMxoKCjjFgF=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGoTmtMFVLOpgF-3jPg14pS5Fu2BzdUk_QZktMw-0jkdWF7CoQNIJtJJNRCULDz5C1ZTdOpjRgobRmxdGmKK7wvRpkRVD7c3HaUN7RV6pYbfWXbuCBEQTDD3fH5X6VvuxxWnJyD=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFuw_WSFFCac0iGFMSuGE8kbU1Xhvij6DvY61aUo0TjNplyapUtQ2VwIznolqZG-2I5yMD9JfVPU0YGCm3x6QR1HosYNITAsuKZPVirj4Jltoze_jT0KnyqnTzRZKuGZImHVTtMmaakkpiQ=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "daudo",
@@ -25093,7 +25348,12 @@
           ]
         }
       ],
-      "specialty": true
+      "specialty": true,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFIeyPSAnN4GSxJKSzlHNKoEyYyUDQIlrQn1Zh7lDEqJtDO_Kpjdn9RWAUrimDMuyVdP9v0omobKZLSSlQ3YTO6kaNY0B67QyXgBteYKGmqSd2bYRN8HS7Wz2vGyH1GFSmCsrakFGnnGDa8=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFITbSWcjBuzV9b3_fj0CGTllijIAT1ivPr-UfMkZfQ3UJaHxcsODcdiPDimWmiSVt1WVxyZX-_7D-uKMrepM2m1YKND3b-7Dh4fdeuM2Aky1qUamRTON6E_xWqtfCoFV9u2d_j0PVzikY=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF4PT8yRRb-LLqyh4wBiW_wkfe_1DjhBmz3THpPawqQMq26J9NvOqszHl1GN6eiI9sI5uydKctFxyyEz1GeAMs4jJ_D-RPDskQwf1uIEuhzMU2VhBzuqx8aJGjgnWlAmmdFlo5CFB5hkNI=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "cafe-tung",
@@ -25417,7 +25677,12 @@
           "rating": 5
         }
       ],
-      "specialty": false
+      "specialty": false,
+      "menu": [
+        "https://lh3.googleusercontent.com/p/AF1QipOAV6ZNzwp7LmCZI6HaQmN0qeFTalw8r-fK-_Ui=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHhrHPp0FZnNvAU7HhEn6UvuDwnsbDmC2evVVCrv5CRvsNUhwAyBMME1e4GHRHjmR8fIX5aaKT5l0mATWKPUM3cXdwmA1PgmkTt7iMGLn1Q0ZUdz3QIaxHi5cw43ap2tUS7RUmo=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGPlpO75T5_9yS53FUPuExj17-adudOrA4yhvHvK3-Rk-GHPHFK_8HEHCTyrMrMGgfzk48I2ULbz3VU56Hlz4A7jdg6EAKO1eTAL2WFMbNurkz60uGKvVqggAfQuFklAi7ePxnOqA=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "goc-cu-cafe",
@@ -26231,7 +26496,12 @@
           ]
         }
       ],
-      "specialty": true
+      "specialty": true,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH5W9OvB4Lt9jrShQ1ZyHwfbrtw85Rt4kq2BL7WzcyW03YrK2fbYeaHzdtHhLIF5w5roalArxE7DRQLgjKsflExNWA4YjnS9XRz1G9DLYm_Hri-CEII8fFsAHWogTSOMXaaAu5fmXrGK3gj=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFHpPvfQxNkkO43eGLMvy8ybSicvdMUMV2xZYyUOshSLj0wH9oC_2gAugPYXy21C6K6O5g4qOAcq8RqovBvNOTsVG_z5ptzsv1nqcACf9BXE23MYbWpr80b8LxGlu17wHLpkbOBzlZiO1HT=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH-LQksOByQdkSo0XaLznZmVZ6snOPPbnWf73ykYgOnQVY40PH8S85JBgPVMNmdVZxS9LJg3XFGy_l3BWYj6f7u573ccMYBzbAv7PrjASImDWZyFLIVwVTiT9BzxbrbPtnLW9UhGCsjl6rf=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "voi-cafe",
@@ -26544,7 +26814,11 @@
           "rating": 5
         }
       ],
-      "specialty": false
+      "specialty": false,
+      "menu": [
+        "https://lh3.googleusercontent.com/p/AF1QipNlTxTHEC7Ww31DAGVO1GnNPXZxIceXICmB3ZkU=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFFIagVFHU_MFeyOdrPE-OmHkSOeHoTictjtasy3Jze7geBjE4y9BTFwKpdAxl-dXbdrzGmRgn76ygJBzxj31Yb-gVrV1_GqM4ismYRjZIx2wKRmll_VgxGjQUUzzInr9HMtb5JCQ=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "1984-coffee-pub-restaurant",
@@ -26864,7 +27138,12 @@
           "rating": 5
         }
       ],
-      "specialty": false
+      "specialty": false,
+      "menu": [
+        "https://lh3.googleusercontent.com/p/AF1QipP5NWwzaubHownLct4X0awKcfEXq3DNXg_B-8NE=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/p/AF1QipO3ORj3tgDdoUaQqHgGJ6LOELp4IlHMjodIMRQX=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/p/AF1QipNsDoKfg-Siu-IKboKaCSM9CPn8rg_l0Kx81uNY=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "ong-ba-coffee",
@@ -27431,7 +27710,12 @@
           ]
         }
       ],
-      "specialty": false
+      "specialty": false,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAESBlFATnuMq4sgYISfsOvDcOAQmiy-29LeoEd479YszL4tuX_0GJeXiB6YjD4pUQrYr-BASTTvCxL7W7z7KJg1KomvpdZXu8lmPtGM9iv0j5ezTRPMRiQfjAZqde85lLjuHaYKzq44tADI=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFuCOs3DwMZJc131oy_z309zLRJi5V_O9gDK2ADeMnnHMv4An5n5bT91NWq7jV7bEJhWE7WT8fXjeaFFJJGmlos0Yb-tI7pYPNkwsp2bfIUvIwWNxZFnDmCVBfFIYtY5VcGbO0GBw=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGR6saNjOM6cSGNlieAInX6wbMXnKIDTE-HZQN0Ku9VKISY0VWJbTYfCGjsTHZkCYmYpbjGUafNB-vaK5PAoNe4Ph76H1xr-pz-Y2bu3g-zXhshnE_SIDYc4HRFMHQyQ76OZFeEGsmaZBC-=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "nghia-coffee",
@@ -27825,7 +28109,12 @@
           "rating": 5
         }
       ],
-      "specialty": false
+      "specialty": false,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFR6b2g9lD0KAtf0LWnKsoo91m4YSa1uxih0SdLsnmlzGAcXauqKEonU-1xfgjoehXHpz3dntLtbzwI7OrldAtxtmaXGAyOmWjTi8MfTPzZ40vBeBQvbs0YE7LsCZ7E9U8AR61IQQ=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG2Lc5GSb4j-LmAhr2xJLQ4ldjrqQV3W37zup9pSj1PDhqDfLg_7fwIEvTI0J7OiKH_fgeSwzj4AwZHz-Q5CuPoUUVp_duQwuPWRkhjMAzxZe9ggMHYRPajQSonDgnEjao9YVMjKioOWp4=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHl_wgC68HI-VD6PhJQ4NCgorHTnCPhDHpXKqHxRcjhxJ4ShKi0iGKCn5aQPkmZ8Pi2DaFAUKfK9HhWhp-VV71vhshGyiXK_EGj2m-VWTdl-sQxT_Lhlz_r3O4EUbN7933IN_mgOw=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "hue-imperial-sky-bar-cafe",
@@ -28507,7 +28796,12 @@
           "rating": 5
         }
       ],
-      "specialty": false
+      "specialty": false,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHnFcWOu5Wg2jPqe9eh-MMz7iMEN84tbbBlAuoXwVzwxsVeeHOGt5Tbq-pORXDj8njy3qtJcW-l1W0N-hgSzl_-DD9MCUbZCMn7HSxj2lZKYiAbn02cZAf-wWzWy-6aQgAN1qI=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEHMtbIQbGPNVpjU9VUoRGq2XE-2jvGtSEJK3UiyZKrVua4V98bxv2Uo7V5PKY3CFwm3UPnWJcfNgSTtGFlhCUzBIL550vUcEFOrR47DzbXlwT_i327iYlQJuENIc2THWgi9vY=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFPWxJ8nwoZfzkiowaFBeUuEKlPRDPvdvfQAlrfzB1xXXpA8k_lopocTmOgn9IpcVrpD2zpQ4XWLUjYqDsT9w51VrUtI_fkQhZuLH46YPtmD3BqJpiCbivkXwSVyTuO69TqmJbphw=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "ton-nu-vien-cafe",
@@ -28894,7 +29188,11 @@
           "rating": 5
         }
       ],
-      "specialty": false
+      "specialty": false,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEwiRb4TH_-FfqU5vyLXQ0vUEJK7WtzlUxlAq1b-fB9SAKpfGgNWA-Qv7RWGAZpUGz9dRS4VF644biIKyCPYQn4xIQ2Frp7dz4Y0I7QWuKcPs_yktezmD-m7yKilwz2E33Bgig=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF_rgOuKoY_B_oyCuabC6djasGH5drhu39K5VAJBLYdqx8h6IQ0_JQdHVw4vT2a1ngwHCGpeSW5qBn_dsVNsaIy5d8vbu2xtEW2sMylYqiRSdHk67nyfP22PsaVE5Ab3rHhEwzEPg=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "hao-ky-coffee",
@@ -29280,7 +29578,12 @@
           "rating": 1
         }
       ],
-      "specialty": false
+      "specialty": false,
+      "menu": [
+        "https://lh3.googleusercontent.com/p/AF1QipMpUkzKjiHBQzqfyiAEWe9ktLgzOjdfEZdDgsdQ=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEaxchfOnbCN8jQNs3UQSiHhk-5A3-PgpZ-A2zAC7yZzDcnoV-2ZeCCY2_3MRNYvjlUzaU_WQ6mxDOcT7H36dXGvDmKl4PdiQ7f3Ji21yNoHnHGhxBQir6FrkXuTMuMcYBz4Szb3IAinHE=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFmP6B4mWmzh74QJLszzgkgUZBCrNGgjPFWGdNZuSC8_I3DAHJzLPfC_r9voMOul6nGBdAAzkq7T6Svg7c6tC8XxMPOdidOFYhlvs_6NB6pgoPEDL2Fzh9Pf4BWosaCLDXPyL8rdW-eVJea=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "tiem-ca-phe-vivu",
@@ -29577,7 +29880,10 @@
           "rating": 5
         }
       ],
-      "specialty": false
+      "specialty": false,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEL7K6HyubXJWbdYTiYPeYMefEZ9uHviFDAVCbty9PFDYl8YwxGjB-_1l80olkBSsk7KiHrFSHMcqhemCuZbPUAtN020DkR-rb3nP7MRO1dVFBu5-XkXUqk5nryVS9FYZKlDVwp4Q=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "cua-thuong-tu",
@@ -30592,7 +30898,10 @@
           "rating": 5
         }
       ],
-      "specialty": false
+      "specialty": false,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF-O8wV6iAz5fizx1UGlCYVSxnrTSh9LoG7cqqYVXylhtjYUgPTEBTJFDEEcruU6FNfJLPL2nPSoYyDQZrtvGF1AALMNqISYcqIKeARp7J6AsHkBs1eHCKDnbL3VM4C75TbdzGB=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "coffee-and-tea",
@@ -30852,7 +31161,12 @@
           "rating": 3
         }
       ],
-      "specialty": false
+      "specialty": false,
+      "menu": [
+        "https://lh3.googleusercontent.com/p/AF1QipOEkzAbWOrGc9RzdEwwni7a1BtOj4M_fmFqm6NR=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEHtjOgR3C3qwJp8k-DCG6_rJDLYE6ShVdxS3Vk2jkBd1PWnoVip3A2Ip5sJ6hsQbsTTQgOfA5wAV75CeybIz2C1txV9lVI3BbQDgvQXDVNsQ9W74J8yPOov1avd7Qg-Kta-XtBXg=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHMowKKXFF_ZiNAG6BPgisWwoumTrbK7LFdr4xqW6CYOMDit7wzDHYJnzgkX14ViG44gpFxoGd11WC4pSdEakpmXIljBvFz0_PdhPl1i0jTvLpXW95fQ0qNNIGurk8srKrnGgL6=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "quan-ca-phe-chieu",
@@ -31398,7 +31712,12 @@
           ]
         }
       ],
-      "specialty": true
+      "specialty": true,
+      "menu": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH9_ILn5BAV86KsJB0a2a1nnHKm2Xei13KOy-e4KD7Ewbg0SKrWFFibaMQiJiwhkgGPsOIiVjDEAyK-wRr5f-HeLxXwm0pZ06jm83zm9AD9WUR6uOeRA7tyzuLSrgGtPxPrAAg236eMFk_q=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGMYSQWIRSVP6M8bfzsNz8Os8l4alnuc-pRv39mccqhqaGhdfrjoNwWt-lie5qSRLt_0FPQaLo2C4JFNBqEDvzIpnPfwvNyyJkDy3L3PdZKSl0hk3ZB9crQBBUshpT3gf_JNO-qpQ=w2048-h2048-k-no",
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHr7hWknLFehhno2jetWx2lsob9GBquoTP7n7gh5Fq163fl1kSrjARiNTbJFqtj30hXO4wrnsnymr1Q13TVWYigGkge-5p4bBoSoqb9zkIKfkhumZ-BRCcKZBlc3vxmpdExIkm0Va3iZOxX=w2048-h2048-k-no"
+      ]
     },
     {
       "id": "cafe-o-con",
