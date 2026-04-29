@@ -297,7 +297,7 @@ export function PlaceDetailSheet({
       {/* ── Full state ── */}
       {snapState === 'full' && (
         <div className="place-detail-sheet__full">
-          <div className="place-detail-sheet__cover-wrap place-detail-sheet__cover-wrap--gallery">
+          <div className="place-detail-sheet__full-top">
             <button
               className="place-detail-sheet__back"
               onClick={() => onSnap('peek')}
@@ -305,7 +305,10 @@ export function PlaceDetailSheet({
             >
               ← Bản đồ
             </button>
+          </div>
+          <div className="place-detail-sheet__cover-wrap--gallery">
             <ImageGallery
+              hero
               images={[place.coverImage, ...place.gallery]}
               placeName={place.name}
               onImageClick={i => {
