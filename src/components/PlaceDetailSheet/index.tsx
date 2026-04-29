@@ -160,7 +160,7 @@ export function PlaceDetailSheet({
           <div className="place-detail-sheet__peek-actions">
             <button
               className="place-detail-sheet__cta"
-              onClick={() => onSnap('mid')}
+              onClick={() => onSnap('full')}
               aria-label={`Xem chi tiết ${place.name}`}
             >
               Xem chi tiết ↑
@@ -297,11 +297,21 @@ export function PlaceDetailSheet({
       {/* ── Full state ── */}
       {snapState === 'full' && (
         <div className="place-detail-sheet__full">
-          <div className="place-detail-sheet__cover-wrap">
-            <img
-              src={place.coverImage}
-              alt={place.name}
-              className="place-detail-sheet__cover place-detail-sheet__cover--full"
+          <div className="place-detail-sheet__cover-wrap place-detail-sheet__cover-wrap--gallery">
+            <button
+              className="place-detail-sheet__back"
+              onClick={() => onSnap('peek')}
+              aria-label="Về bản đồ"
+            >
+              ← Bản đồ
+            </button>
+            <ImageGallery
+              images={[place.coverImage, ...place.gallery]}
+              placeName={place.name}
+              onImageClick={i => {
+                setSlideDir(null)
+                setLightbox({ images: [place.coverImage, ...place.gallery], index: i })
+              }}
             />
           </div>
           <div className="place-detail-sheet__full-body">
@@ -311,55 +321,35 @@ export function PlaceDetailSheet({
             <h2 className="place-detail-sheet__name">{place.name}</h2>
             <p className="place-detail-sheet__vibe">{place.vibe}</p>
 
-            <div className="place-detail-sheet__info-grid">
-              <div className="place-detail-sheet__info-item">
-                <span className="place-detail-sheet__info-label">Đánh giá</span>
-                <span className="place-detail-sheet__info-value">★ {place.rating}</span>
+            <div className="place-detail-sheet__info-list">
+              <div className="place-detail-sheet__info-row place-detail-sheet__info-row--inline">
+                <span className="place-detail-sheet__info-chip">★ {place.rating}</span>
+                <span className="place-detail-sheet__info-chip">{place.priceRange}</span>
               </div>
-              <div className="place-detail-sheet__info-item">
-                <span className="place-detail-sheet__info-label">Giá</span>
-                <span className="place-detail-sheet__info-value">{place.priceRange}</span>
+              <div className="place-detail-sheet__info-row">
+                <span className="place-detail-sheet__info-icon">🕐</span>
+                <span className="place-detail-sheet__info-text">{place.hours.open} – {place.hours.close}</span>
               </div>
-              <div className="place-detail-sheet__info-item">
-                <span className="place-detail-sheet__info-label">Giờ mở cửa</span>
-                <span className="place-detail-sheet__info-value">
-                  {place.hours.open} – {place.hours.close}
-                </span>
-              </div>
-              <div className="place-detail-sheet__info-item">
-                <span className="place-detail-sheet__info-label">Địa chỉ</span>
-                <span
-                  className="place-detail-sheet__info-value"
-                  style={{ fontSize: '0.75rem' }}
-                >
-                  {place.address}
-                </span>
+              <div className="place-detail-sheet__info-row">
+                <span className="place-detail-sheet__info-icon">📍</span>
+                <span className="place-detail-sheet__info-text">{place.address}</span>
               </div>
               {place.phone && (
-                <div className="place-detail-sheet__info-item">
-                  <span className="place-detail-sheet__info-label">Điện thoại</span>
-                  <a
-                    className="place-detail-sheet__info-value"
-                    href={`tel:${place.phone}`}
-                    style={{ color: 'var(--color-primary)', textDecoration: 'none' }}
-                  >
+                <div className="place-detail-sheet__info-row">
+                  <span className="place-detail-sheet__info-icon">📞</span>
+                  <a className="place-detail-sheet__info-text place-detail-sheet__info-link" href={`tel:${place.phone}`}>
                     {place.phone}
                   </a>
                 </div>
               )}
               {place.website && (
-                <div className="place-detail-sheet__info-item">
-                  <span className="place-detail-sheet__info-label">Website</span>
+                <div className="place-detail-sheet__info-row">
+                  <span className="place-detail-sheet__info-icon">🌐</span>
                   <a
-                    className="place-detail-sheet__info-value"
+                    className="place-detail-sheet__info-text place-detail-sheet__info-link"
                     href={place.website}
                     target="_blank"
                     rel="noopener noreferrer"
-                    style={{
-                      color: 'var(--color-primary)',
-                      textDecoration: 'none',
-                      fontSize: '0.75rem',
-                    }}
                   >
                     {place.website.replace(/^https?:\/\/(www\.)?/, '')}
                   </a>
@@ -370,20 +360,6 @@ export function PlaceDetailSheet({
             <p className="place-detail-sheet__description">{place.description}</p>
 
             <TagList tags={place.tags} />
-
-            {place.gallery.length > 0 && (
-              <>
-                <h3 className="place-detail-sheet__section-title">Hình ảnh</h3>
-                <ImageGallery
-                  images={place.gallery}
-                  placeName={place.name}
-                  onImageClick={i => {
-                    setSlideDir(null)
-                    setLightbox({ images: place.gallery, index: i })
-                  }}
-                />
-              </>
-            )}
 
             {/* Tabs */}
             <div className="place-detail-sheet__tabs">
@@ -490,6 +466,42 @@ export function PlaceDetailSheet({
                 )}
               </div>
             </div>
+          </div>
+
+          {/* ── Sticky action bar ── */}
+          <div className="place-detail-sheet__full-actions">
+            <button
+              className="place-detail-sheet__cta-btn"
+              onClick={handleDirections}
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
+                strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <polygon points="3,11 22,2 13,21 11,13" />
+              </svg>
+              Chỉ đường
+            </button>
+            <button
+              className={`place-detail-sheet__icon-btn${saved ? ' place-detail-sheet__icon-btn--saved' : ''}`}
+              onClick={handleSave}
+              aria-label={saved ? 'Bỏ lưu' : 'Lưu địa điểm'}
+            >
+              <svg viewBox="0 0 24 24" fill={saved ? 'currentColor' : 'none'} stroke="currentColor"
+                strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <path d={BOOKMARK_PATH} />
+              </svg>
+            </button>
+            <button
+              className="place-detail-sheet__icon-btn"
+              onClick={handleShare}
+              aria-label="Chia sẻ"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"
+                strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <circle cx="18" cy="5" r="3" /><circle cx="6" cy="12" r="3" /><circle cx="18" cy="19" r="3" />
+                <line x1="8.59" y1="13.51" x2="15.42" y2="17.49" />
+                <line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
+              </svg>
+            </button>
           </div>
         </div>
       )}
