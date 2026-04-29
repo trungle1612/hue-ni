@@ -231,7 +231,7 @@ export function PlaceDetailSheet({
               </span>
             </div>
             <p className="place-detail-sheet__address">📍 {place.address}</p>
-            <TagList tags={place.tags} />
+            <TagList tags={place.tags} maxVisible={6} />
             <div className="place-detail-sheet__mid-actions">
               <button
                 className="place-detail-sheet__action-btn place-detail-sheet__action-btn--primary"
@@ -305,6 +305,40 @@ export function PlaceDetailSheet({
             >
               ← Bản đồ
             </button>
+            <div className="place-detail-sheet__top-actions">
+              <button
+                className="place-detail-sheet__top-cta"
+                onClick={handleDirections}
+              >
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
+                  strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <polygon points="3,11 22,2 13,21 11,13" />
+                </svg>
+                Chỉ đường
+              </button>
+              <button
+                className={`place-detail-sheet__top-icon${saved ? ' place-detail-sheet__top-icon--saved' : ''}`}
+                onClick={handleSave}
+                aria-label={saved ? 'Bỏ lưu' : 'Lưu'}
+              >
+                <svg viewBox="0 0 24 24" fill={saved ? 'currentColor' : 'none'} stroke="currentColor"
+                  strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <path d={BOOKMARK_PATH} />
+                </svg>
+              </button>
+              <button
+                className="place-detail-sheet__top-icon"
+                onClick={handleShare}
+                aria-label="Chia sẻ"
+              >
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"
+                  strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <circle cx="18" cy="5" r="3" /><circle cx="6" cy="12" r="3" /><circle cx="18" cy="19" r="3" />
+                  <line x1="8.59" y1="13.51" x2="15.42" y2="17.49" />
+                  <line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
+                </svg>
+              </button>
+            </div>
           </div>
           <div className="place-detail-sheet__cover-wrap--gallery">
             <ImageGallery
@@ -362,7 +396,7 @@ export function PlaceDetailSheet({
 
             <p className="place-detail-sheet__description">{place.description}</p>
 
-            <TagList tags={place.tags} />
+            <TagList tags={place.tags} maxVisible={6} />
 
             {/* Tabs */}
             <div className="place-detail-sheet__tabs">
@@ -471,41 +505,6 @@ export function PlaceDetailSheet({
             </div>
           </div>
 
-          {/* ── Sticky action bar ── */}
-          <div className="place-detail-sheet__full-actions">
-            <button
-              className="place-detail-sheet__cta-btn"
-              onClick={handleDirections}
-            >
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
-                strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                <polygon points="3,11 22,2 13,21 11,13" />
-              </svg>
-              Chỉ đường
-            </button>
-            <button
-              className={`place-detail-sheet__icon-btn${saved ? ' place-detail-sheet__icon-btn--saved' : ''}`}
-              onClick={handleSave}
-              aria-label={saved ? 'Bỏ lưu' : 'Lưu địa điểm'}
-            >
-              <svg viewBox="0 0 24 24" fill={saved ? 'currentColor' : 'none'} stroke="currentColor"
-                strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                <path d={BOOKMARK_PATH} />
-              </svg>
-            </button>
-            <button
-              className="place-detail-sheet__icon-btn"
-              onClick={handleShare}
-              aria-label="Chia sẻ"
-            >
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"
-                strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                <circle cx="18" cy="5" r="3" /><circle cx="6" cy="12" r="3" /><circle cx="18" cy="19" r="3" />
-                <line x1="8.59" y1="13.51" x2="15.42" y2="17.49" />
-                <line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
-              </svg>
-            </button>
-          </div>
         </div>
       )}
 
