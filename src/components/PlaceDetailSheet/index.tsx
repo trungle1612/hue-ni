@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from 'react'
+import { useState, useRef } from 'react'
 import { ImageGallery } from '../ImageGallery'
 import { ReviewCard, type LightboxState } from '../ReviewCard'
 import { TagList } from '../TagList'
@@ -38,12 +38,14 @@ export function PlaceDetailSheet({
   const touchStartX = useRef<number | null>(null)
   const swipeJustHappened = useRef(false)
   const dragStartY = useRef<number | null>(null)
+  const [stateForPlaceId, setStateForPlaceId] = useState<string | undefined>(undefined)
 
-  useEffect(() => {
+  if (place?.id !== stateForPlaceId) {
+    setStateForPlaceId(place?.id)
     setActiveTab('tips')
     setVisibleReviewCount(5)
     setLightbox(null)
-  }, [place?.id])
+  }
 
   if (!place || snapState === 'closed') return null
 
@@ -66,7 +68,11 @@ export function PlaceDetailSheet({
   async function handleShare() {
     try {
       if (navigator.share) {
-        await navigator.share({ title: place!.name, text: place!.vibe })
+        await navigator.share({
+          title: place!.name,
+          text: place!.vibe,
+          url: `${window.location.origin}/details/${place!.id}`,
+        })
       } else {
         await navigator.clipboard.writeText(window.location.href)
       }
@@ -114,7 +120,7 @@ export function PlaceDetailSheet({
   return (
     <div
       className={`place-detail-sheet place-detail-sheet--${snapState}`}
-      role="dialog"
+      role="region"
       aria-label={place.name}
     >
       {/* ── Drag handle ── */}
@@ -122,6 +128,7 @@ export function PlaceDetailSheet({
         className="place-detail-sheet__handle"
         onPointerDown={handleDragStart}
         onPointerUp={handleDragEnd}
+        onPointerCancel={() => { dragStartY.current = null }}
       />
 
       {/* ── Peek state ── */}

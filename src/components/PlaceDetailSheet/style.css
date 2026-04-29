@@ -13,7 +13,7 @@
 }
 
 .place-detail-sheet--peek { height: 148px; overflow: hidden; }
-.place-detail-sheet--mid  { height: 52vh;  overflow: hidden; }
+.place-detail-sheet--mid  { height: 52vh;  overflow-y: auto; -webkit-overflow-scrolling: touch; }
 .place-detail-sheet--full {
   height: calc(92vh - var(--bottom-nav-height, 4rem));
   overflow-y: auto;
