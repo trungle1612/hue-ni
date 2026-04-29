@@ -452,6 +452,11 @@
   border-radius: var(--radius-full);
 }
 
+/* TagList contextual spacing */
+.details-page .tag-list {
+  padding: 0 var(--space-md) var(--space-lg);
+}
+
 /* ── Tabs ─────────────────────────────────── */
 .details-page__tabs {
   margin-top: var(--space-lg);
