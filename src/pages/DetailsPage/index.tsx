@@ -1,9 +1,10 @@
 import { useState, useEffect, useRef } from 'react'
 import { useParams, useNavigate, useLocation } from 'react-router-dom'
 import { ImageGallery } from '../../components/ImageGallery'
+import { ReviewCard, type LightboxState } from '../../components/ReviewCard'
 import { useMyTripContext } from '../../contexts/MyTripContext'
 import { loadCategory } from '../../utils/loadCategory'
-import type { Place, Review, Category } from '../../types'
+import type { Place, Category } from '../../types'
 import { CATEGORY_LABELS, TAG_LABEL_MAP } from '../../data/constants'
 import './style.css'
 
@@ -11,63 +12,6 @@ const ALL_CATEGORIES: Category[] = ['cafe', 'tomb', 'food', 'homestay', 'landmar
 
 const TAB_ORDER = ['tips', 'menu', 'reviews'] as const
 type Tab = typeof TAB_ORDER[number]
-
-function getInitials(name: string): string {
-  const parts = name.trim().split(/\s+/)
-  return parts.length >= 2
-    ? (parts[0][0] + parts[parts.length - 1][0]).toUpperCase()
-    : name.slice(0, 2).toUpperCase()
-}
-
-function renderStars(rating: number): string {
-  return Array.from({ length: 5 }, (_, i) => (i < rating ? '★' : '☆')).join('')
-}
-
-type LightboxState = { images: string[]; index: number }
-
-function ReviewCard({ review, onPhotoClick, index }: { review: Review; onPhotoClick: (state: LightboxState) => void; index: number }) {
-  const photos = review.photos ?? []
-  const visiblePhotos = photos.slice(0, 3)
-  const overflow = photos.length - visiblePhotos.length
-
-  return (
-    <div className="details-page__review-card" style={{ '--review-i': index } as React.CSSProperties}>
-      <div className="details-page__review-header">
-        <div className="details-page__review-avatar">{getInitials(review.author)}</div>
-        <div>
-          <div className="details-page__review-author">{review.author}</div>
-          {review.rating !== undefined && (
-            <div className="details-page__review-stars">{renderStars(review.rating)}</div>
-          )}
-        </div>
-      </div>
-      <p className="details-page__review-text">{review.text}</p>
-      {visiblePhotos.length > 0 && (
-        <div className="details-page__review-photos">
-          {visiblePhotos.map((url, i) => (
-            <img
-              key={i}
-              src={url}
-              alt={`Anh danh gia ${i + 1}`}
-              className="details-page__review-photo"
-              loading="lazy"
-              onClick={() => onPhotoClick({ images: photos, index: i })}
-            />
-          ))}
-          {overflow > 0 && (
-            <button
-              className="details-page__review-photo-more"
-              onClick={() => onPhotoClick({ images: photos, index: 3 })}
-              aria-label={`Xem them ${overflow} anh`}
-            >
-              +{overflow}
-            </button>
-          )}
-        </div>
-      )}
-    </div>
-  )
-}
 
 function TagList({ tags }: { tags: string[] }) {
   if (tags.length === 0) return null
