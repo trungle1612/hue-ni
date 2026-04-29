@@ -47,7 +47,7 @@ export function PlaceDetailSheet({
     setLightbox(null)
   }
 
-  if (!place || snapState === 'closed') return null
+  if (!place) return null
 
   const saved = isSaved(place.id)
 

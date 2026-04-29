@@ -152,7 +152,7 @@ export function HomePage() {
             place={selectedPlace}
             snapState={snapState}
             onSnap={setSnapState}
-            onClose={() => { setSnapState('closed'); setSelectedPlace(null) }}
+            onClose={() => { setSnapState('closed'); setTimeout(() => setSelectedPlace(null), 300) }}
             onSave={handleSheetSave}
           />
         </div>
