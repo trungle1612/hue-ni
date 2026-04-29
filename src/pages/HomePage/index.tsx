@@ -1,13 +1,13 @@
 import { useState, useRef, useEffect } from 'react'
-import { useNavigate } from 'react-router-dom'
 import { OnboardingModal } from '../../components/OnboardingModal'
 import { MapView } from '../../components/MapView'
 import { hasSeenOnboarding } from '../../utils/onboarding'
 import { useMyTripContext } from '../../contexts/MyTripContext'
 import { loadCategory } from '../../utils/loadCategory'
 import type { Place, Category } from '../../types'
-import { CATEGORY_LABELS, CAFE_SUB_FILTERS } from '../../data/constants'
+import { CAFE_SUB_FILTERS } from '../../data/constants'
 import { filterPlaces } from '../../utils/filterPlaces'
+import { PlaceDetailSheet, type SnapState } from '../../components/PlaceDetailSheet'
 import './style.css'
 
 const MAP_FILTER_OPTIONS: Array<{ value: Category; icon: string; label: string }> = [
@@ -17,20 +17,16 @@ const MAP_FILTER_OPTIONS: Array<{ value: Category; icon: string; label: string }
   { value: 'tomb',      icon: '⛩️',  label: 'Lăng tẩm' },
 ]
 
-const BOOKMARK_PATH = 'M5 3h14a1 1 0 011 1v17.28a.5.5 0 01-.8.4L12 17.22l-7.2 4.46A.5.5 0 014 21.28V4a1 1 0 011-1z'
-
 export function HomePage() {
-  const navigate = useNavigate()
-  const { isSaved, addPlace, removePlace, savedIds } = useMyTripContext()
+  const { savedIds } = useMyTripContext()
   const [showOnboarding, setShowOnboarding] = useState(() => !hasSeenOnboarding())
   const [selectedCategory, setSelectedCategory] = useState<Category>('cafe')
   const [categoryPlaces, setCategoryPlaces] = useState<Place[]>([])
   const [isLoadingCategory, setIsLoadingCategory] = useState(true)
   const [selectedPlace, setSelectedPlace] = useState<Place | null>(null)
-  const [sheetClosing, setSheetClosing] = useState(false)
+  const [snapState, setSnapState] = useState<SnapState>('closed')
   const [activeSubFilter, setActiveSubFilter] = useState<string | null>(null)
   const [showSavedToast, setShowSavedToast] = useState(false)
-  const closeTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
   const toastTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
 
   const visiblePlaces = filterPlaces(categoryPlaces, selectedCategory, activeSubFilter)
@@ -47,47 +43,25 @@ export function HomePage() {
     return () => { cancelled = true }
   }, [selectedCategory])
 
-  function dismissSheet() {
-    if (!selectedPlace) return
-    setSheetClosing(true)
-    closeTimerRef.current = setTimeout(() => {
-      setSelectedPlace(null)
-      setSheetClosing(false)
-    }, 240)
-  }
-
   function handleSelectPlace(place: Place | null) {
     if (place === null) {
-      dismissSheet()
+      setSnapState('closed')
+      setSelectedPlace(null)
     } else {
-      if (closeTimerRef.current) {
-        clearTimeout(closeTimerRef.current)
-        closeTimerRef.current = null
-      }
-      setSheetClosing(false)
       setSelectedPlace(place)
+      setSnapState('peek')
     }
   }
 
-  function handleSaveToggle(place: Place) {
-    if (isSaved(place.id)) {
-      removePlace(place.id)
-    } else {
-      addPlace(place.id)
-      if (toastTimerRef.current) clearTimeout(toastTimerRef.current)
-      setShowSavedToast(true)
-      toastTimerRef.current = setTimeout(() => setShowSavedToast(false), 2200)
-    }
+  function handleSheetSave() {
+    if (toastTimerRef.current) clearTimeout(toastTimerRef.current)
+    setShowSavedToast(true)
+    toastTimerRef.current = setTimeout(() => setShowSavedToast(false), 2200)
   }
 
   useEffect(() => () => {
     if (toastTimerRef.current) clearTimeout(toastTimerRef.current)
   }, [])
-
-  function handleExplore() {
-    if (!selectedPlace) return
-    navigate(`/details/${selectedPlace.id}`, { state: { category: selectedCategory } })
-  }
 
   return (
     <>
@@ -122,7 +96,7 @@ export function HomePage() {
                   onClick={() => {
                     setSelectedCategory(opt.value)
                     setActiveSubFilter(null)
-                    dismissSheet()
+                    handleSelectPlace(null)
                   }}
                   aria-pressed={selectedCategory === opt.value}
                 >
@@ -170,85 +144,17 @@ export function HomePage() {
             places={visiblePlaces}
             selectedPlace={selectedPlace}
             onSelectPlace={handleSelectPlace}
-            sheetOpen={selectedPlace !== null && !sheetClosing}
+            sheetOpen={snapState !== 'closed'}
             savedIds={savedIds}
           />
 
-          {/* ── Bottom place sheet ── */}
-          {selectedPlace && (
-            <div className={`home-map-sheet${sheetClosing ? ' home-map-sheet--closing' : ''}`} role="dialog" aria-label={selectedPlace.name}>
-              <div className="home-map-sheet__drag-handle" />
-
-              <div className="home-map-sheet__body">
-                {/* Thumbnail */}
-                <div className="home-map-sheet__thumb-wrap">
-                  <img
-                    className="home-map-sheet__thumb"
-                    src={selectedPlace.coverImage}
-                    alt={selectedPlace.name}
-                    loading="lazy"
-                  />
-                </div>
-
-                {/* Info */}
-                <div className="home-map-sheet__info">
-                  <span className="home-map-sheet__category">
-                    {CATEGORY_LABELS[selectedPlace.category] ?? selectedPlace.category}
-                  </span>
-
-                  <h2 className="home-map-sheet__name">{selectedPlace.name}</h2>
-
-                  <div className="home-map-sheet__meta">
-                    <span className="home-map-sheet__rating">★ {selectedPlace.rating}</span>
-                  </div>
-
-                  <p className="home-map-sheet__address">
-                    <span className="home-map-sheet__address-icon">📍</span>
-                    {selectedPlace.address}
-                  </p>
-
-                  <div className="home-map-sheet__actions">
-                    <button
-                      className="home-map-sheet__cta"
-                      onClick={handleExplore}
-                      aria-label={`Khám phá ${selectedPlace.name}`}
-                    >
-                      Khám phá chi tiết
-                    </button>
-                    <button
-                      className={`home-map-sheet__save${isSaved(selectedPlace.id) ? ' home-map-sheet__save--saved' : ''}`}
-                      onClick={() => handleSaveToggle(selectedPlace)}
-                      aria-label={isSaved(selectedPlace.id) ? 'Bỏ lưu' : 'Lưu địa điểm'}
-                      type="button"
-                    >
-                      {isSaved(selectedPlace.id) ? (
-                        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                          <path d={BOOKMARK_PATH} />
-                        </svg>
-                      ) : (
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                          strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                          <path d={BOOKMARK_PATH} />
-                        </svg>
-                      )}
-                    </button>
-                    <button
-                      className="home-map-sheet__share"
-                      onClick={() => {
-                        if (navigator.share) {
-                          navigator.share({ title: selectedPlace.name, text: selectedPlace.vibe })
-                            .catch(() => {/* user cancelled */})
-                        }
-                      }}
-                      aria-label="Chia sẻ"
-                    >
-                      ↗
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          )}
+          <PlaceDetailSheet
+            place={selectedPlace}
+            snapState={snapState}
+            onSnap={setSnapState}
+            onClose={() => { setSnapState('closed'); setSelectedPlace(null) }}
+            onSave={handleSheetSave}
+          />
         </div>
       </div>
     </>
