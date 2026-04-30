@@ -52,11 +52,11 @@ export const FOOD_GROUP_OPTIONS: ComboboxOption[] = [
 
 export const FOOD_DISH_MAP: Record<string, { value: string; label: string }[]> = {
   'bun': [
-    { value: 'bun-bo',         label: 'Bún bò' },
-    { value: 'bun-mam-nem',    label: 'Bún mắm nêm' },
-    { value: 'bun-thit-nuong', label: 'Bún thịt nướng' },
-    { value: 'bun-nghe',       label: 'Bún nghệ' },
-    { value: 'bun-chay',       label: 'Bún chay' },
+    { value: 'bun-bo',         label: '🍜 Bún bò' },
+    { value: 'bun-mam-nem',    label: '🦐 Bún mắm nêm' },
+    { value: 'bun-thit-nuong', label: '🥩 Bún thịt nướng' },
+    { value: 'bun-nghe',       label: '🌿 Bún nghệ' },
+    { value: 'bun-chay',       label: '🌱 Bún chay' },
   ],
   'banh-canh': [
     { value: 'cha-cua', label: '🦀 Chả cua' },
