@@ -196,7 +196,7 @@
   100% { opacity: 0; transform: translateX(-50%) translateY(-4px); }
 }
 
-/* ── Sub-filter row (café secondary chips) ── */
+/* ── Sub-filter row (café and food secondary chips) ── */
 
 .home-map-subfilter-row {
   animation: subfilter-slide-in 0.22s cubic-bezier(0.32, 0, 0.2, 1) both;
