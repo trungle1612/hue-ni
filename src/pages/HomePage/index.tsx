@@ -134,28 +134,27 @@ export function HomePage() {
                   value={foodGroup}
                   onChange={v => { setFoodGroup(v); setFoodDish(null) }}
                 />
-              </div>
-            )}
-
-            {selectedCategory === 'food' && foodGroup !== 'all' && FOOD_DISH_MAP[foodGroup] && (
-              <div className="home-map-filters__row home-map-subfilter-row">
-                <button
-                  className={`home-map-chip home-map-chip--sub${foodDish === null ? ' home-map-chip--sub-active' : ''}`}
-                  onClick={() => setFoodDish(null)}
-                  aria-pressed={foodDish === null}
-                >
-                  Tất cả
-                </button>
-                {FOOD_DISH_MAP[foodGroup].map(dish => (
-                  <button
-                    key={dish.value}
-                    className={`home-map-chip home-map-chip--sub${foodDish === dish.value ? ' home-map-chip--sub-active' : ''}`}
-                    onClick={() => setFoodDish(dish.value)}
-                    aria-pressed={foodDish === dish.value}
-                  >
-                    {dish.label}
-                  </button>
-                ))}
+                {foodGroup !== 'all' && FOOD_DISH_MAP[foodGroup] && (
+                  <div className="home-map-filters__dish-chips">
+                    <button
+                      className={`home-map-chip home-map-chip--sub${foodDish === null ? ' home-map-chip--sub-active' : ''}`}
+                      onClick={() => setFoodDish(null)}
+                      aria-pressed={foodDish === null}
+                    >
+                      Tất cả
+                    </button>
+                    {FOOD_DISH_MAP[foodGroup].map(dish => (
+                      <button
+                        key={dish.value}
+                        className={`home-map-chip home-map-chip--sub${foodDish === dish.value ? ' home-map-chip--sub-active' : ''}`}
+                        onClick={() => setFoodDish(dish.value)}
+                        aria-pressed={foodDish === dish.value}
+                      >
+                        {dish.label}
+                      </button>
+                    ))}
+                  </div>
+                )}
               </div>
             )}
           </div>
