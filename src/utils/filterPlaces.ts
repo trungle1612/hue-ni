@@ -38,13 +38,12 @@ export function filterPlaces(
   if (category === 'food') {
     const activeKey = (foodDish ?? foodGroup) || 'all'
     if (activeKey === 'all') return places.filter(p => p.category === 'food')
-    const keywords = FOOD_KEYWORDS[activeKey] ?? []
-    const nameLower = (name: string) => name.toLowerCase()
-    return places.filter(
-      p =>
-        p.category === 'food' &&
-        keywords.some(kw => nameLower(p.name).includes(kw.toLowerCase()))
-    )
+    const lowerKws = (FOOD_KEYWORDS[activeKey] ?? []).map(kw => kw.toLowerCase())
+    return places.filter(p => {
+      if (p.category !== 'food') return false
+      const lower = p.name.toLowerCase()
+      return lowerKws.some(kw => lower.includes(kw))
+    })
   }
 
   return places.filter(p => p.category === category)

@@ -83,3 +83,66 @@ describe('filterPlaces', () => {
     expect(result[0].id).toBe('t1')
   })
 })
+
+// Minimal Place stub for food filtering tests
+function makeFood(name: string): Place {
+  return {
+    id: name,
+    name,
+    category: 'food',
+    tags: [],
+    coverImage: '',
+    gallery: [],
+    address: '',
+    coordinates: { lat: 16.46, lng: 107.59 },
+    rating: 4,
+    priceRange: '₫',
+    hours: { open: '06:00', close: '21:00' },
+    vibe: '',
+    description: '',
+    insiderTips: [],
+  }
+}
+
+const bunBo = makeFood('Bún Bò Huế Sen')
+const bunChay = makeFood('Bún chay O Nhi')
+const banhCanh = makeFood('Bánh canh cá lóc Dì Ba')
+const nậmLọc = makeFood('Bánh nậm lọc bà Xuân')
+const comHen = makeFood('Cơm hến Âm Phủ')
+
+describe('filterPlaces — food branch', () => {
+  it('returns all food places when no foodGroup provided', () => {
+    const result = filterPlaces([bunBo, banhCanh, comHen], 'food', null)
+    expect(result).toHaveLength(3)
+  })
+
+  it('returns all food places when foodGroup is "all"', () => {
+    const result = filterPlaces([bunBo, banhCanh], 'food', null, 'all')
+    expect(result).toHaveLength(2)
+  })
+
+  it('filters by group keyword', () => {
+    const result = filterPlaces([bunBo, bunChay, banhCanh, comHen], 'food', null, 'bun')
+    expect(result).toEqual([bunBo, bunChay])
+  })
+
+  it('dish key takes priority over group key', () => {
+    const result = filterPlaces([bunBo, bunChay], 'food', null, 'bun', 'bun-bo')
+    expect(result).toEqual([bunBo])
+  })
+
+  it('null dish falls back to group key', () => {
+    const result = filterPlaces([bunBo, bunChay, comHen], 'food', null, 'bun', null)
+    expect(result).toEqual([bunBo, bunChay])
+  })
+
+  it('matches multi-keyword entry (banh-beo)', () => {
+    const result = filterPlaces([nậmLọc, comHen], 'food', null, 'banh-beo')
+    expect(result).toEqual([nậmLọc])
+  })
+
+  it('unknown key returns empty array without crashing', () => {
+    const result = filterPlaces([bunBo], 'food', null, 'unknown-key')
+    expect(result).toHaveLength(0)
+  })
+})
