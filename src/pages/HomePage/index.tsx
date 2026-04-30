@@ -128,7 +128,7 @@ export function HomePage() {
             )}
 
             {selectedCategory === 'food' && (
-              <div className="home-map-filters__row home-map-subfilter-row">
+              <div className="home-map-filters__combobox-row home-map-subfilter-row">
                 <FilterCombobox
                   options={FOOD_GROUP_OPTIONS}
                   value={foodGroup}

@@ -97,6 +97,13 @@
   display: none;
 }
 
+.home-map-filters__combobox-row {
+  display: flex;
+  gap: var(--space-sm);
+  padding: 0 var(--space-md);
+  overflow: visible;
+}
+
 .home-map-chip {
   flex-shrink: 0;
   display: flex;
