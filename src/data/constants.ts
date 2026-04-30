@@ -1,5 +1,6 @@
 import type { Category } from '../types'
 import type { FilterOption } from '../components/CategoryFilter'
+import type { ComboboxOption } from '../components/FilterCombobox'
 
 export const CATEGORY_LABELS: Record<Category, string> = {
   tomb: 'Lăng tẩm',
@@ -37,4 +38,29 @@ export const TAG_LABEL_MAP: Record<string, string> = {
   'check-in':    '📸 Check-in',
   'workspace':   '💻 Workspace',
   'san-vuon':    '🌿 Sân vườn',
+}
+
+export const FOOD_GROUP_OPTIONS: ComboboxOption[] = [
+  { value: 'all',       icon: '🍽️', label: 'Chọn món' },
+  { value: 'bun',       icon: '🍜', label: 'Bún' },
+  { value: 'banh-ep',   icon: '🥞', label: 'Bánh ép' },
+  { value: 'banh-beo',  icon: '🍥', label: 'Bánh bèo, nậm lọc' },
+  { value: 'banh-canh', icon: '🍲', label: 'Bánh canh' },
+  { value: 'com-hen',   icon: '🐚', label: 'Cơm hến' },
+  { value: 'che',       icon: '🍮', label: 'Chè' },
+]
+
+export const FOOD_DISH_MAP: Record<string, { value: string; label: string }[]> = {
+  'bun': [
+    { value: 'bun-bo',         label: 'Bún bò' },
+    { value: 'bun-mam-nem',    label: 'Bún mắm nêm' },
+    { value: 'bun-thit-nuong', label: 'Bún thịt nướng' },
+    { value: 'bun-nghe',       label: 'Bún nghệ' },
+    { value: 'bun-chay',       label: 'Bún chay' },
+  ],
+  'banh-canh': [
+    { value: 'cha-cua', label: '🦀 Chả cua' },
+    { value: 'ca-loc',  label: '🐟 Cá lóc' },
+    { value: 'nam-pho', label: '🥣 Nam phổ' },
+  ],
 }
