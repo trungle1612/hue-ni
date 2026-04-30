@@ -5,7 +5,8 @@ import { hasSeenOnboarding } from '../../utils/onboarding'
 import { useMyTripContext } from '../../contexts/MyTripContext'
 import { loadCategory } from '../../utils/loadCategory'
 import type { Place, Category } from '../../types'
-import { CAFE_SUB_FILTERS } from '../../data/constants'
+import { CAFE_SUB_FILTERS, FOOD_GROUP_OPTIONS, FOOD_DISH_MAP } from '../../data/constants'
+import { FilterCombobox } from '../../components/FilterCombobox'
 import { filterPlaces } from '../../utils/filterPlaces'
 import { PlaceDetailSheet, type SnapState } from '../../components/PlaceDetailSheet'
 import './style.css'
@@ -26,10 +27,12 @@ export function HomePage() {
   const [selectedPlace, setSelectedPlace] = useState<Place | null>(null)
   const [snapState, setSnapState] = useState<SnapState>('closed')
   const [activeSubFilter, setActiveSubFilter] = useState<string | null>(null)
+  const [foodGroup, setFoodGroup] = useState<string>('all')
+  const [foodDish,  setFoodDish]  = useState<string | null>(null)
   const [showSavedToast, setShowSavedToast] = useState(false)
   const toastTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
 
-  const visiblePlaces = filterPlaces(categoryPlaces, selectedCategory, activeSubFilter)
+  const visiblePlaces = filterPlaces(categoryPlaces, selectedCategory, activeSubFilter, foodGroup, foodDish)
 
   useEffect(() => {
     let cancelled = false
@@ -96,6 +99,8 @@ export function HomePage() {
                   onClick={() => {
                     setSelectedCategory(opt.value)
                     setActiveSubFilter(null)
+                    setFoodGroup('all')
+                    setFoodDish(null)
                     handleSelectPlace(null)
                   }}
                   aria-pressed={selectedCategory === opt.value}
@@ -117,6 +122,38 @@ export function HomePage() {
                     aria-pressed={activeSubFilter === opt.value}
                   >
                     {opt.label}
+                  </button>
+                ))}
+              </div>
+            )}
+
+            {selectedCategory === 'food' && (
+              <div className="home-map-filters__row home-map-subfilter-row">
+                <FilterCombobox
+                  options={FOOD_GROUP_OPTIONS}
+                  value={foodGroup}
+                  onChange={v => { setFoodGroup(v); setFoodDish(null) }}
+                />
+              </div>
+            )}
+
+            {selectedCategory === 'food' && foodGroup !== 'all' && FOOD_DISH_MAP[foodGroup] && (
+              <div className="home-map-filters__row home-map-subfilter-row">
+                <button
+                  className={`home-map-chip home-map-chip--sub${foodDish === null ? ' home-map-chip--sub-active' : ''}`}
+                  onClick={() => setFoodDish(null)}
+                  aria-pressed={foodDish === null}
+                >
+                  Tất cả
+                </button>
+                {FOOD_DISH_MAP[foodGroup].map(dish => (
+                  <button
+                    key={dish.value}
+                    className={`home-map-chip home-map-chip--sub${foodDish === dish.value ? ' home-map-chip--sub-active' : ''}`}
+                    onClick={() => setFoodDish(dish.value)}
+                    aria-pressed={foodDish === dish.value}
+                  >
+                    {dish.label}
                   </button>
                 ))}
               </div>
