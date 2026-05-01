@@ -34,7 +34,21 @@
       "phone": "+84 932 413 313",
       "website": "https://www.facebook.com/bunbohuesen",
       "google_id": "0x3141a17ef286917f:0x62ef73c5e27cfa16",
-      "place_id": "ChIJf5GG8n6hQTERFvp84sVz72I"
+      "place_id": "ChIJf5GG8n6hQTERFvp84sVz72I",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "bun-bo-hue-nha-an",
@@ -63,7 +77,15 @@
       "insiderTips": [],
       "phone": "+84 364 689 589",
       "google_id": "0x3141a10049857f7d:0xe7ff34397810d36d",
-      "place_id": "ChIJfX-FSQChQTERbdMQeDk0_-c"
+      "place_id": "ChIJfX-FSQChQTERbdMQeDk0_-c",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "bun-bo-hue-co-o-bun-bo-com-nguoi-canh-van-co-so-2",
@@ -94,7 +116,17 @@
       "phone": "+84 919 567 585",
       "website": "https://www.facebook.com/share/1AduBHrC6h/%3Fmibextid%3DwwXIfr",
       "google_id": "0x3141a1ca1b0488f7:0xa051fe4b3949ec36",
-      "place_id": "ChIJ94gEG8qhQTERNuxJOUv-UaA"
+      "place_id": "ChIJ94gEG8qhQTERNuxJOUv-UaA",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": [
+          "family_friendly"
+        ]
+      }
     },
     {
       "id": "bun-bo-o-ty",
@@ -126,7 +158,19 @@
       "insiderTips": [],
       "phone": "+84 905 406 515",
       "google_id": "0x3141a12703a7aebf:0x9fe679eb0c34270a",
-      "place_id": "ChIJv66nAyehQTERCic0DOt55p8"
+      "place_id": "ChIJv66nAyehQTERCic0DOt55p8",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "bun-bo-hue-co-linh-hue-beef-noodle-soup",
@@ -158,7 +202,19 @@
       "insiderTips": [],
       "phone": "+84 772 433 464",
       "google_id": "0x3141a1006ccd42b1:0x8d341e76b602dd8",
-      "place_id": "ChIJsULNbAChQTER2C1ga-dB0wg"
+      "place_id": "ChIJsULNbAChQTER2C1ga-dB0wg",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "ba-hoa",
@@ -193,7 +249,18 @@
       ],
       "phone": "+84 946 347 466",
       "google_id": "0x3141a1398c2d9ec1:0x6eeea7f0750d7d5",
-      "place_id": "ChIJwZ4tjDmhQTER1ddQB3_q7gY"
+      "place_id": "ChIJwZ4tjDmhQTER1ddQB3_q7gY",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "quan-bun-bo-nguyen-du",
@@ -223,7 +290,18 @@
       "description": "Quán Bún Bò Nguyễn Du được đánh giá 4.5/5 sao trên Google Maps. Tọa lạc tại Đường Nguyễn Du, Phú Cát, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a127031c5495:0xd50a4a8d3b1148e9",
-      "place_id": "ChIJlVQcAyehQTER6UgRO41KCtU"
+      "place_id": "ChIJlVQcAyehQTER6UgRO41KCtU",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "bun-bo-hue-o-xuan",
@@ -252,7 +330,15 @@
       "insiderTips": [],
       "phone": "+84 388 759 805",
       "google_id": "0x3141a1004c00d961:0x3d177bdf2d37939b",
-      "place_id": "ChIJYdkATAChQTERm5M3Ld97Fz0"
+      "place_id": "ChIJYdkATAChQTERm5M3Ld97Fz0",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "bun-bo-ba-nga",
@@ -281,7 +367,15 @@
       "insiderTips": [],
       "phone": "+84 935 555 915",
       "google_id": "0x3141a12ee384a9ed:0x7759af471eaf1c55",
-      "place_id": "ChIJ7amE4y6hQTERVRyvHkevWXc"
+      "place_id": "ChIJ7amE4y6hQTERVRyvHkevWXc",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "bun-bo-o-phung-chu-vong",
@@ -314,7 +408,19 @@
       "phone": "+84 934 817 992",
       "website": "https://www.facebook.com/share/16jdnMcdsf/",
       "google_id": "0x3141a12703083bb9:0x6d9b2114006aba97",
-      "place_id": "ChIJuTsIAyehQTERl7pqABQhm20"
+      "place_id": "ChIJuTsIAyehQTERl7pqABQhm20",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "bun-bo-hue-o-mai",
@@ -343,7 +449,17 @@
       "description": "Bún bò Huế O Mai được đánh giá 4.9/5 sao trên Google Maps. Tọa lạc tại 72 Mai Thúc Loan, Phú Hậu, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1e5cc98e6d9:0xf09fe321ea84d027",
-      "place_id": "ChIJ2eaYzOWhQTERJ9CE6iHjn_A"
+      "place_id": "ChIJ2eaYzOWhQTERJ9CE6iHjn_A",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "bun-bo-hue",
@@ -372,7 +488,15 @@
       "insiderTips": [],
       "phone": "+84 777 499 229",
       "google_id": "0x3141a1e90a388833:0x913191c3b0ec6fa8",
-      "place_id": "ChIJM4g4CumhQTERqG_ssMORMZE"
+      "place_id": "ChIJM4g4CumhQTERqG_ssMORMZE",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "quan-142-bun-bo-hue",
@@ -401,7 +525,15 @@
       "insiderTips": [],
       "phone": "+84 905 801 089",
       "google_id": "0x3141a1003868db29:0x129c0aee2846ad2e",
-      "place_id": "ChIJKdtoOAChQTERLq1GKO4KnBI"
+      "place_id": "ChIJKdtoOAChQTERLq1GKO4KnBI",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "bun-bo-loan",
@@ -431,7 +563,18 @@
       "description": "Bún bò Loan được đánh giá 4.4/5 sao trên Google Maps. Tọa lạc tại 158b Phan Chu Trinh, Phước Vĩnh, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a13aa0ab3513:0x1c0b206dc50f79b",
-      "place_id": "ChIJEzWroDqhQTERm_dQ3AaywAE"
+      "place_id": "ChIJEzWroDqhQTERm_dQ3AaywAE",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "quan-82-bun-bo-hue-chuan-vi-hue",
@@ -461,7 +604,17 @@
       "insiderTips": [],
       "website": "https://www.foody.vn/hue/bun-bo-vy-da",
       "google_id": "0x3141a10077f4cf81:0x3316eb76ab8dbd9d",
-      "place_id": "ChIJgc_0dwChQTERnb2Nq3brFjM"
+      "place_id": "ChIJgc_0dwChQTERnb2Nq3brFjM",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "bun-bo-o-lieu",
@@ -490,7 +643,15 @@
       "insiderTips": [],
       "phone": "+84 775 375 875",
       "google_id": "0x3141a1675f57ad09:0x518eae35e84889e9",
-      "place_id": "ChIJCa1XX2ehQTER6YlI6DWujlE"
+      "place_id": "ChIJCa1XX2ehQTER6YlI6DWujlE",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "quan-bun-bo-hue-kim-ong-2",
@@ -521,7 +682,18 @@
       "insiderTips": [],
       "phone": "+84 906 497 227",
       "google_id": "0x3141a13fccbfaeb9:0x235d5a1500639b01",
-      "place_id": "ChIJua6_zD-hQTERAZtjABVaXSM"
+      "place_id": "ChIJua6_zD-hQTERAZtjABVaXSM",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "bun-bo-hue-o-be",
@@ -555,7 +727,19 @@
       "phone": "+84 906 089 279",
       "website": "https://www.facebook.com/bunbohueobenguyenhue",
       "google_id": "0x3141a13f611b0af5:0x11d9b153361f3e5c",
-      "place_id": "ChIJ9QobYT-hQTERXD4fNlOx2RE"
+      "place_id": "ChIJ9QobYT-hQTERXD4fNlOx2RE",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "bun-bo-hue-ba-gai",
@@ -587,7 +771,19 @@
       "insiderTips": [],
       "phone": "+84 835 909 992",
       "google_id": "0x3141a1395cf02065:0x620fb77bb02794ba",
-      "place_id": "ChIJZSDwXDmhQTERupQnsHu3D2I"
+      "place_id": "ChIJZSDwXDmhQTERupQnsHu3D2I",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "bun-bo-o-a",
@@ -616,7 +812,15 @@
       "insiderTips": [],
       "phone": "+84 793 519 241",
       "google_id": "0x3141a6ba809b8359:0xf94721735c34a075",
-      "place_id": "ChIJWYObgLqmQTERdaA0XHMhR_k"
+      "place_id": "ChIJWYObgLqmQTERdaA0XHMhR_k",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "quan-bun-bo-hue-quynh-anh",
@@ -648,7 +852,19 @@
       "insiderTips": [],
       "phone": "+84 944 968 050",
       "google_id": "0x3141a1b935f0d585:0xbae67033f4cf3435",
-      "place_id": "ChIJhdXwNbmhQTERNTTP9DNw5ro"
+      "place_id": "ChIJhdXwNbmhQTERNTTP9DNw5ro",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "quan-bun-bo-hue-o-oanh",
@@ -679,7 +895,18 @@
       "insiderTips": [],
       "phone": "+84 777 985 847",
       "google_id": "0x3141a11812f87d73:0x29681c92379d9565",
-      "place_id": "ChIJc334EhihQTERZZWdN5IcaCk"
+      "place_id": "ChIJc334EhihQTERZZWdN5IcaCk",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "bun-bo-thuy",
@@ -712,7 +939,20 @@
       "insiderTips": [],
       "phone": "+84 338 285 383",
       "google_id": "0x3141a122916b8bf3:0x18106c21dc8e0ae5",
-      "place_id": "ChIJ84trkSKhQTER5QqO3CFsEBg"
+      "place_id": "ChIJ84trkSKhQTER5QqO3CFsEBg",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch"
+        ],
+        "vibe": [
+          "family_friendly"
+        ]
+      }
     },
     {
       "id": "ac-san-so-1-chinh-goc-bun-bo-hue",
@@ -748,7 +988,21 @@
       ],
       "phone": "+84 762 615 097",
       "google_id": "0x3141a138d70923d7:0xdfb21164ccc259d6",
-      "place_id": "ChIJ1yMJ1zihQTER1lnCzGQRst8"
+      "place_id": "ChIJ1yMJ1zihQTER1lnCzGQRst8",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "bun-bo-me-keo",
@@ -778,7 +1032,18 @@
       "description": "Bún bò mệ Kéo được đánh giá 4.0/5 sao trên Google Maps. Tọa lạc tại 20 Bạch Đằng, tổ 19, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1ca41e5bf03:0x7f35035e0fe667af",
-      "place_id": "ChIJA7_lQcqhQTERr2fmD14DNX8"
+      "place_id": "ChIJA7_lQcqhQTERr2fmD14DNX8",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "bun-bo-hue-ba-thu",
@@ -806,7 +1071,15 @@
       "description": "Bún Bò Huế Bà Thu được đánh giá 4.8/5 sao trên Google Maps. Tọa lạc tại 237 Đ. Chi Lăng, Phú Cát, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1af0ead5687:0x6061f21d6b1f01d",
-      "place_id": "ChIJh1atDq-hQTERHfCx1iEfBgY"
+      "place_id": "ChIJh1atDq-hQTERHfCx1iEfBgY",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "quan-hang-bun-bo-hue",
@@ -835,7 +1108,15 @@
       "insiderTips": [],
       "phone": "+84 914 825 336",
       "google_id": "0x3141a100223d88cd:0x4635a2ee383ed56c",
-      "place_id": "ChIJzYg9IgChQTERbNU-OO6iNUY"
+      "place_id": "ChIJzYg9IgChQTERbNU-OO6iNUY",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "bun-bo-hue-145-hung-vuong",
@@ -863,7 +1144,15 @@
       "description": "Bún Bò Huế 145 Hùng Vương được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 145 Hùng Vương tổ 1, Phú Nhuận, Thuận Hóa, Huế 49000, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a10034e938c9:0x5e6bdc3601ef4ec0",
-      "place_id": "ChIJyTjpNAChQTERwE7vATbca14"
+      "place_id": "ChIJyTjpNAChQTERwE7vATbca14",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "bun-hanh-bun-bo-bun-vit",
@@ -893,7 +1182,18 @@
       "description": "Bún Hạnh - Bún bò + Bún vịt được đánh giá 4.4/5 sao trên Google Maps. Tọa lạc tại 69 Đặng Văn Ngữ, An Đông, An Cựu, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a160287a3153:0x2f173ad24a612042",
-      "place_id": "ChIJUzF6KGChQTERQiBhStI6Fy8"
+      "place_id": "ChIJUzF6KGChQTERQiBhStI6Fy8",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "bun-bo-hue-my-tam",
@@ -926,7 +1226,19 @@
       "phone": "+84 376 736 200",
       "website": "https://www.foody.vn/hue/bun-bo-my-tam-tran-cao-van",
       "google_id": "0x3141a1397aef08f7:0x3f97089ae5774dcb",
-      "place_id": "ChIJ9wjvejmhQTERy0135ZoIlz8"
+      "place_id": "ChIJ9wjvejmhQTERy0135ZoIlz8",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "bun-bo-o-me",
@@ -955,7 +1267,15 @@
       "insiderTips": [],
       "phone": "+84 896 610 661",
       "google_id": "0x3141a10022dd5305:0x5823f434b3e89bab",
-      "place_id": "ChIJBVPdIgChQTERq5voszT0I1g"
+      "place_id": "ChIJBVPdIgChQTERq5voszT0I1g",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "bun-bo-hue-full-house",
@@ -985,7 +1305,17 @@
       "insiderTips": [],
       "phone": "+84 773 590 668",
       "google_id": "0x3141a100013745cf:0xd75e22c67e38bee9",
-      "place_id": "ChIJz0U3AQChQTER6b44fsYiXtc"
+      "place_id": "ChIJz0U3AQChQTER6b44fsYiXtc",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "bun-com-nguoi-canh-van",
@@ -1017,7 +1347,17 @@
       "insiderTips": [],
       "phone": "+84 905 969 635",
       "google_id": "0x3141a18dff2a7db3:0x759b81988b0b353d",
-      "place_id": "ChIJs30q_42hQTERPTULi5iBm3U"
+      "place_id": "ChIJs30q_42hQTERPTULi5iBm3U",
+      "foodTags": {
+        "dishType": [
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "ba-bot-2-bun-bo",
@@ -1048,7 +1388,18 @@
       "insiderTips": [],
       "phone": "+84 906 567 651",
       "google_id": "0x3141a1001c6604dd:0xa0f6764feb496db",
-      "place_id": "ChIJ3QRmHAChQTER25a0_mRnDwo"
+      "place_id": "ChIJ3QRmHAChQTER25a0_mRnDwo",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "bun-bo-hue-o-nho",
@@ -1076,7 +1427,15 @@
       "description": "Bún Bò Huế O Nhỏ được đánh giá 4.5/5 sao trên Google Maps. Tọa lạc tại 48 Hai Bà Trưng, Vĩnh Ninh, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1003d1adf69:0x393cb0d30fb4ba93",
-      "place_id": "ChIJad8aPQChQTERk7q0D9OwPDk"
+      "place_id": "ChIJad8aPQChQTERk7q0D9OwPDk",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "bun-bo-o-huong",
@@ -1104,7 +1463,15 @@
       "description": "Bún Bò O Hường được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 6 Nguyễn Thiện Thuật, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a7fa238e7f07:0x2858099424054834",
-      "place_id": "ChIJB3-OI_qnQTERNEgFJJQJWCg"
+      "place_id": "ChIJB3-OI_qnQTERNEgFJJQJWCg",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "bun-bo-di-van",
@@ -1133,7 +1500,17 @@
       "description": "Bún bò Dì Vân được đánh giá 4.8/5 sao trên Google Maps. Tọa lạc tại 147 Hùng Vương, Phú Nhuận, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a160b6381461:0x113d3919c3c5b307",
-      "place_id": "ChIJYRQ4tmChQTERB7PFwxk5PRE"
+      "place_id": "ChIJYRQ4tmChQTERB7PFwxk5PRE",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "bun-bo-o-xuan",
@@ -1163,7 +1540,18 @@
       "description": "Bún bò O Xuân được đánh giá 4.9/5 sao trên Google Maps. Tọa lạc tại 153 Phan Đình Phùng, Phú Nhuận, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1b91f269f49:0xd96d2a558e9ae16f",
-      "place_id": "ChIJSZ8mH7mhQTERb-GajlUqbdk"
+      "place_id": "ChIJSZ8mH7mhQTERb-GajlUqbdk",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "bun-bo-kim-anh",
@@ -1192,7 +1580,17 @@
       "description": "Bún bò Kim Anh được đánh giá 4.5/5 sao trên Google Maps. Tọa lạc tại 29 Ngô Gia Tự, Vĩnh Ninh, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1004cb4b465:0xedb7e88915809b0c",
-      "place_id": "ChIJZbS0TAChQTERDJuAFYnot-0"
+      "place_id": "ChIJZbS0TAChQTERDJuAFYnot-0",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "bun-bo-nguyet",
@@ -1220,7 +1618,15 @@
       "description": "Bún bò Nguyệt được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 3 Hòa Bình, Thuận Thành, Phú Xuân, Huế 52000, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1000924ccaf:0x638531d72d84da16",
-      "place_id": "ChIJr8wkCQChQTERFtqELdcxhWM"
+      "place_id": "ChIJr8wkCQChQTERFtqELdcxhWM",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "quan-bun-bo-hue-o-xoa",
@@ -1250,7 +1656,17 @@
       "insiderTips": [],
       "phone": "+84 963 824 372",
       "google_id": "0x3141a1006f87f9cb:0x9614a1002233f157",
-      "place_id": "ChIJy_mHbwChQTERV_EzIgChFJY"
+      "place_id": "ChIJy_mHbwChQTERV_EzIgChFJY",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "bun-bo-hue-o-no",
@@ -1279,7 +1695,17 @@
       "description": "Bún Bò Huế O Nở được đánh giá 4.6/5 sao trên Google Maps. Tọa lạc tại 95 Nguyễn Huệ, Phú Nhuận, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a100445808a1:0xbc927d610a660227",
-      "place_id": "ChIJoQhYRAChQTERJwJmCmF9krw"
+      "place_id": "ChIJoQhYRAChQTERJwJmCmF9krw",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "bun-bo-hue-my-duyen",
@@ -1311,7 +1737,17 @@
       "phone": "+84 345 323 656",
       "website": "https://www.facebook.com/profile.php%3Fid%3D100012141067127%26mibextid%3DLQQJ4d",
       "google_id": "0x3141a7677346a5b3:0x96218b83f7683ec7",
-      "place_id": "ChIJs6VGc2enQTERxz5o94OLIZY"
+      "place_id": "ChIJs6VGc2enQTERxz5o94OLIZY",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "bun-bo-mu-roi-bui-tre-vang",
@@ -1342,7 +1778,18 @@
       "insiderTips": [],
       "phone": "+84 906 436 911",
       "google_id": "0x3141a1d149ba1d83:0xb2a13120144f308e",
-      "place_id": "ChIJgx26SdGhQTERjjBPFCAxobI"
+      "place_id": "ChIJgx26SdGhQTERjjBPFCAxobI",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "quan-bun-bo-hue",
@@ -1370,7 +1817,12 @@
       "description": "Quan Bun Bo Hue được đánh giá 4.3/5 sao trên Google Maps. Tọa lạc tại 289 Nguyễn Sinh Cung, Tây Thượng, Vỹ Dạ, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a0dc4b2a87c5:0xc913a006f628faeb",
-      "place_id": "ChIJxYcqS9ygQTER6_oo9gagE8k"
+      "place_id": "ChIJxYcqS9ygQTER6_oo9gagE8k",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "bun-bo-di-hoa",
@@ -1398,7 +1850,15 @@
       "description": "Bún Bò Dì Hoa được đánh giá 4.4/5 sao trên Google Maps. Tọa lạc tại 33 Duy Tân, tổ 18, An Cựu, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a10056eeb44f:0x7c9a26b5ed2b5e02",
-      "place_id": "ChIJT7TuVgChQTERAl4r7bUmmnw"
+      "place_id": "ChIJT7TuVgChQTERAl4r7bUmmnw",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "bun-bo-o-nhung",
@@ -1427,7 +1887,17 @@
       "description": "Bún bò O Nhung được đánh giá 4.7/5 sao trên Google Maps. Tọa lạc tại 26 Đường Lương Văn Can, An Cựu, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1193923c6f9:0x47c58345303523cc",
-      "place_id": "ChIJ-cYjORmhQTERzCM1MEWDxUc"
+      "place_id": "ChIJ-cYjORmhQTERzCM1MEWDxUc",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "bun-bo-my",
@@ -1457,7 +1927,18 @@
       "description": "Bún Bò Mỹ được đánh giá 4.8/5 sao trên Google Maps. Tọa lạc tại 134 Bà Triệu, Xuân Phú, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a115d9fef625:0x723ddaf21ff81902",
-      "place_id": "ChIJJfb-2RWhQTERAhn4H_LaPXI"
+      "place_id": "ChIJJfb-2RWhQTERAhn4H_LaPXI",
+      "foodTags": {
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "ba-thuan-banh-trang-cuon-heo-quay-lu",
@@ -1486,7 +1967,12 @@
       "insiderTips": [],
       "phone": "+84 348 420 291",
       "google_id": "0x3141a1f98f58c869:0x2e358c93784ca2b9",
-      "place_id": "ChIJachYj_mhQTERuaJMeJOMNS4"
+      "place_id": "ChIJachYj_mhQTERuaJMeJOMNS4",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "ha-noi-pho-bun-cha-bun-au-mam-tom",
@@ -1515,7 +2001,14 @@
       "insiderTips": [],
       "phone": "+84 866 809 824",
       "google_id": "0x3141a15616f340c1:0xacc63886baa94d96",
-      "place_id": "ChIJwUDzFlahQTERlk2puoY4xqw"
+      "place_id": "ChIJwUDzFlahQTERlk2puoY4xqw",
+      "foodTags": {
+        "dishType": [
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "quan-mam-hue",
@@ -1545,7 +2038,15 @@
       "description": "Quán Mắm Huế được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 17/15 Đường Thạch Hãn, Phú Xuân, Huế 49000, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a6ce64a28b17:0x4daced597fb68b3f",
-      "place_id": "ChIJF4uiZM6mQTERP4u2f1ntrE0"
+      "place_id": "ChIJF4uiZM6mQTERP4u2f1ntrE0",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "quan-cay-bang-bun-thit-nuong-bun-mam",
@@ -1575,7 +2076,18 @@
       "description": "Quán Cây Bàng - Bún Thịt Nướng, Bún Mắm được đánh giá 4.7/5 sao trên Google Maps. Tọa lạc tại CH8P+9VF, Thủy Bằng, Thủy Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a3ed73d1a6eb:0x108a9e59917d8668",
-      "place_id": "ChIJ66bRc-2jQTERaIZ9kVmeihA"
+      "place_id": "ChIJ66bRc-2jQTERaIZ9kVmeihA",
+      "foodTags": {
+        "dishType": [
+          "bun-thit-nuong",
+          "bun"
+        ],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "bun-mam-nem-nha-nguyet",
@@ -1604,7 +2116,15 @@
       "insiderTips": [],
       "phone": "+84 794 581 753",
       "google_id": "0x3141a100529e1f9d:0xc3e9ba549dc65973",
-      "place_id": "ChIJnR-eUgChQTERc1nGnVS66cM"
+      "place_id": "ChIJnR-eUgChQTERc1nGnVS66cM",
+      "foodTags": {
+        "dishType": [
+          "bun-mam-nem",
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "bun-mam-nem-o-be",
@@ -1635,7 +2155,18 @@
       "insiderTips": [],
       "phone": "+84 935 587 655",
       "google_id": "0x3141a13539fc72b3:0xe1ce577fbed63305",
-      "place_id": "ChIJs3L8OTWhQTERBTPWvn9XzuE"
+      "place_id": "ChIJs3L8OTWhQTERBTPWvn9XzuE",
+      "foodTags": {
+        "dishType": [
+          "bun-mam-nem",
+          "bun"
+        ],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "bun-mam-nem-o-sen-chan-cau-cho-dinh",
@@ -1664,7 +2195,15 @@
       "insiderTips": [],
       "phone": "+84 798 074 246",
       "google_id": "0x3141a100654d654b:0x40f5ca1e5cc991f5",
-      "place_id": "ChIJS2VNZQChQTER9ZHJXB7K9UA"
+      "place_id": "ChIJS2VNZQChQTER9ZHJXB7K9UA",
+      "foodTags": {
+        "dishType": [
+          "bun-mam-nem",
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "quan-me-theo",
@@ -1697,7 +2236,17 @@
         "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
       ],
       "google_id": "0x3141a1468f7a55d5:0xc6e85d98f1ab9d8d",
-      "place_id": "ChIJ1VV6j0ahQTERjZ2r8Zhd6MY"
+      "place_id": "ChIJ1VV6j0ahQTERjZ2r8Zhd6MY",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "bun-mam-nem",
@@ -1725,7 +2274,15 @@
       "description": "Bún mắm nêm được đánh giá 4.5/5 sao trên Google Maps. Tọa lạc tại 14 Ngô Gia Tự, Vĩnh Ninh, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a100457a66b9:0xdd9e9a98fb138d91",
-      "place_id": "ChIJuWZ6RQChQTERkY0T-5iant0"
+      "place_id": "ChIJuWZ6RQChQTERkY0T-5iant0",
+      "foodTags": {
+        "dishType": [
+          "bun-mam-nem",
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "bun-mam-nem-be-en",
@@ -1754,7 +2311,17 @@
       "description": "Bún Mắm Nêm Bé Đen được đánh giá 4.3/5 sao trên Google Maps. Tọa lạc tại 42 Bà Triệu, tổ 6, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1bb49160ba9:0x7e9efaf0b697890d",
-      "place_id": "ChIJqQsWSbuhQTERDYmXtvD6nn4"
+      "place_id": "ChIJqQsWSbuhQTERDYmXtvD6nn4",
+      "foodTags": {
+        "dishType": [
+          "bun-mam-nem",
+          "bun"
+        ],
+        "mealTime": [
+          "lunch"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "ben-ngu-quan",
@@ -1791,7 +2358,18 @@
       "phone": "+84 966 331 275",
       "website": "https://www.facebook.com/B%25E1%25BA%25BFn-Ng%25E1%25BB%25B1-Qu%25C3%25A1n-1952238304991253/",
       "google_id": "0x3141a14622100ce5:0xf17b8fef7d9d3695",
-      "place_id": "ChIJ5QwQIkahQTERlTadfe-Pe_E"
+      "place_id": "ChIJ5QwQIkahQTERlTadfe-Pe_E",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "bun-mam-nem-bun-tron",
@@ -1819,7 +2397,15 @@
       "description": "Bún Mắm Nêm - Bún Trộn được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 38 Nhật Lệ, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a106cc17a181:0x39acaf60ed23d2c9",
-      "place_id": "ChIJgaEXzAahQTERydIj7WCvrDk"
+      "place_id": "ChIJgaEXzAahQTERydIj7WCvrDk",
+      "foodTags": {
+        "dishType": [
+          "bun-mam-nem",
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "dua-bun-mam",
@@ -1851,7 +2437,16 @@
       "phone": "+84 903 525 773",
       "website": "https://www.facebook.com/duabunmam",
       "google_id": "0x3141a1002bf827c5:0x8209c74de385a3c",
-      "place_id": "ChIJxSf4KwChQTERPFo43nScIAg"
+      "place_id": "ChIJxSf4KwChQTERPFo43nScIAg",
+      "foodTags": {
+        "dishType": [
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "bun-mam-nem-be-xu",
@@ -1881,7 +2476,17 @@
       "insiderTips": [],
       "phone": "+84 799 448 447",
       "google_id": "0x3141a100220859d7:0xd5f58402ce8f0b16",
-      "place_id": "ChIJ11kIIgChQTERFguPzgKE9dU"
+      "place_id": "ChIJ11kIIgChQTERFguPzgKE9dU",
+      "foodTags": {
+        "dishType": [
+          "bun-mam-nem",
+          "bun"
+        ],
+        "mealTime": [
+          "lunch"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "quan-bun-mam-nem",
@@ -1911,7 +2516,15 @@
       "description": "Quan Bun Mam Nem được đánh giá 4.8/5 sao trên Google Maps. Tọa lạc tại 90 Yết Kiêu, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a7c6c27f14bf:0x78384b911f302c31",
-      "place_id": "ChIJvxR_wsanQTERMSwwH5FLOHg"
+      "place_id": "ChIJvxR_wsanQTERMSwwH5FLOHg",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "quan-non-hue-ac-san-mon-hue-authentic-hue-food",
@@ -1947,7 +2560,18 @@
       ],
       "phone": "+84 788 675 875",
       "google_id": "0x3141a167c31a2941:0x6eed41736027c99e",
-      "place_id": "ChIJQSkaw2ehQTERnsknYHNB7W4"
+      "place_id": "ChIJQSkaw2ehQTERnsknYHNB7W4",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "bun-mam-nem-o-ty",
@@ -1975,7 +2599,18 @@
       "description": "Bún mắm nêm O Tý được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 1A Cao Bá Quát, tổ, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1a121b0435d:0x65cb2d982e880fbb",
-      "place_id": "ChIJXUOwIaGhQTERuw-ILpgty2U"
+      "place_id": "ChIJXUOwIaGhQTERuw-ILpgty2U",
+      "foodTags": {
+        "dishType": [
+          "bun-mam-nem",
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "quan-ba-ty-bun-thit-nuong-va-nem-lui-co-so-2",
@@ -2007,7 +2642,19 @@
       "insiderTips": [],
       "phone": "+84 329 198 789",
       "google_id": "0x3141a1002b922825:0xf5ec157780f4193e",
-      "place_id": "ChIJJSiSKwChQTERPhn0gHcV7PU"
+      "place_id": "ChIJJSiSKwChQTERPhn0gHcV7PU",
+      "foodTags": {
+        "dishType": [
+          "bun-thit-nuong",
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "bun-mam-me-bu",
@@ -2039,7 +2686,18 @@
       "insiderTips": [],
       "phone": "+84 916 490 375",
       "google_id": "0x3141a11644946265:0x1e2c6709ef250381",
-      "place_id": "ChIJZWKURBahQTERgQMl7wlnLB4"
+      "place_id": "ChIJZWKURBahQTERgQMl7wlnLB4",
+      "foodTags": {
+        "dishType": [
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "nem-lui-o-en",
@@ -2070,7 +2728,15 @@
       "insiderTips": [],
       "phone": "+84 899 878 859",
       "google_id": "0x3141a17220f4e62f:0xfa4f146003536de6",
-      "place_id": "ChIJL-b0IHKhQTER5m1TA2AUT_o"
+      "place_id": "ChIJL-b0IHKhQTER5m1TA2AUT_o",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "ac-san-xu-quang",
@@ -2102,7 +2768,16 @@
       "insiderTips": [],
       "phone": "+84 934 990 513",
       "google_id": "0x3141a18376904823:0x5f74507182a52879",
-      "place_id": "ChIJI0iQdoOhQTEReSilgnFQdF8"
+      "place_id": "ChIJI0iQdoOhQTEReSilgnFQdF8",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "bun-thit-nuong-bun-mam",
@@ -2133,7 +2808,18 @@
       "insiderTips": [],
       "phone": "+84 906 555 629",
       "google_id": "0x3141a1460d87c741:0x640950b1256beffd",
-      "place_id": "ChIJQceHDUahQTER_e9rJbFQCWQ"
+      "place_id": "ChIJQceHDUahQTER_e9rJbFQCWQ",
+      "foodTags": {
+        "dishType": [
+          "bun-thit-nuong",
+          "bun"
+        ],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "bun-nam-nem-chi-xu",
@@ -2159,7 +2845,14 @@
       "description": "Bún nắm nêm chị Xù được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 30 Nguyễn Tri Phương, Phú Hội, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1007722a613:0x23023c65b085e5be",
-      "place_id": "ChIJE6YidwChQTERvuWFsGU8AiM"
+      "place_id": "ChIJE6YidwChQTERvuWFsGU8AiM",
+      "foodTags": {
+        "dishType": [
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "mi-bun-com-hen-o-tham-cho-mai",
@@ -2190,7 +2883,18 @@
       "insiderTips": [],
       "phone": "+84 971 322 253",
       "google_id": "0x3141a162eafc4bb3:0xd88faad143b3c45e",
-      "place_id": "ChIJs0v86mKhQTERXsSzQ9Gqj9g"
+      "place_id": "ChIJs0v86mKhQTERXsSzQ9Gqj9g",
+      "foodTags": {
+        "dishType": [
+          "bun",
+          "com-hen"
+        ],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "bun-thit-nuong-mam-nem-rieu-cua",
@@ -2222,7 +2926,20 @@
       "insiderTips": [],
       "phone": "+84 234 3501 472",
       "google_id": "0x3141a11513ebb995:0x798344d3242a3213",
-      "place_id": "ChIJlbnrExWhQTEREzIqJNNEg3k"
+      "place_id": "ChIJlbnrExWhQTEREzIqJNNEg3k",
+      "foodTags": {
+        "dishType": [
+          "bun-mam-nem",
+          "bun-thit-nuong",
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "bep-me-chut",
@@ -2252,7 +2969,15 @@
       "description": "Bép Mệ Chút được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 7 Kiệt 81 Nguyễn Huệ, Phú Nhuận, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a13f66766835:0xde41758f07b33154",
-      "place_id": "ChIJNWh2Zj-hQTERVDGzB491Qd4"
+      "place_id": "ChIJNWh2Zj-hQTERVDGzB491Qd4",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "bun-au-mam-nem",
@@ -2278,7 +3003,15 @@
       "description": "Bún đậu mắm nêm được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 1 Đào Duy Từ, Phú Bình, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a12c949d57c5:0x7b37784a17eb2103",
-      "place_id": "ChIJxVedlCyhQTERAyHrF0p4N3s"
+      "place_id": "ChIJxVedlCyhQTERAyHrF0p4N3s",
+      "foodTags": {
+        "dishType": [
+          "bun-mam-nem",
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "quan-bun-thit-nuong-31-yet-kieu-vo-chong-hien-ao",
@@ -2309,7 +3042,18 @@
       "insiderTips": [],
       "phone": "+84 766 627 097",
       "google_id": "0x3141a7279638373b:0x90742a032229b64",
-      "place_id": "ChIJOzc4lienQTERZJsiMqBCBwk"
+      "place_id": "ChIJOzc4lienQTERZJsiMqBCBwk",
+      "foodTags": {
+        "dishType": [
+          "bun-thit-nuong",
+          "bun"
+        ],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "bun-thit-nuong-chi",
@@ -2340,7 +3084,18 @@
       "insiderTips": [],
       "phone": "+84 948 475 597",
       "google_id": "0x3141a798d6602edb:0xdbc09d1ddc6ca869",
-      "place_id": "ChIJ2y5g1pinQTERaahs3B2dwNs"
+      "place_id": "ChIJ2y5g1pinQTERaahs3B2dwNs",
+      "foodTags": {
+        "dishType": [
+          "bun-thit-nuong",
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "banh-uot-bun-thit-nuong-huyen-anh",
@@ -2379,7 +3134,21 @@
       "phone": "+84 908 686 575",
       "website": "https://www.facebook.com/Qu%25C3%25A1n-HUY%25E1%25BB%2580N-ANH-%25C4%2590%25E1%25BA%25B7c-S%25E1%25BA%25A3n-B%25C3%25A1nh-%25C6%25AF%25E1%25BB%259Bt-B%25C3%25BAn-Th%25E1%25BB%258Bt-N%25C6%25B0%25E1%25BB%259Bng-112646566753615",
       "google_id": "0x3141a6b9a92f3fbb:0xf5fa27a4884fd97d",
-      "place_id": "ChIJuz8vqbmmQTERfdlPiKQn-vU"
+      "place_id": "ChIJuz8vqbmmQTERfdlPiKQn-vU",
+      "foodTags": {
+        "dishType": [
+          "bun-thit-nuong",
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "nem-lui-ba-ty",
@@ -2412,7 +3181,16 @@
       "phone": "+84 935 778 434",
       "website": "https://www.foody.vn/hue/bun-thit-nuong-dao-duy-tu",
       "google_id": "0x3141a191f49b244b:0x33e40ea34358df6",
-      "place_id": "ChIJSySb9JGhQTER9o01NOpAPgM"
+      "place_id": "ChIJSySb9JGhQTER9o01NOpAPgM",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "quan-bun-thit-nuong-o-tam",
@@ -2443,7 +3221,18 @@
       "insiderTips": [],
       "phone": "+84 794 550 600",
       "google_id": "0x3141a1e5517ea989:0xb4c2a4c53814982a",
-      "place_id": "ChIJial-UeWhQTERKpgUOMWkwrQ"
+      "place_id": "ChIJial-UeWhQTERKpgUOMWkwrQ",
+      "foodTags": {
+        "dishType": [
+          "bun-thit-nuong",
+          "bun"
+        ],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "maison-trang",
@@ -2480,7 +3269,18 @@
       "phone": "+84 935 813 636",
       "website": "https://www.facebook.com/MaisonTrangres/",
       "google_id": "0x3141a1e12c11c365:0x3df00b7c14938154",
-      "place_id": "ChIJZcMRLOGhQTERVIGTFHwL8D0"
+      "place_id": "ChIJZcMRLOGhQTERVIGTFHwL8D0",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "quan-an-an-tam",
@@ -2518,7 +3318,18 @@
       "phone": "+84 935 596 960",
       "website": "https://www.facebook.com/QUANANANTAM",
       "google_id": "0x3141a1fabc19a655:0xb9117916d05e562d",
-      "place_id": "ChIJVaYZvPqhQTERLVZe0BZ5Ebk"
+      "place_id": "ChIJVaYZvPqhQTERLVZe0BZ5Ebk",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "quan-bun-thit-nuong",
@@ -2547,7 +3358,15 @@
       "insiderTips": [],
       "phone": "+84 899 211 765",
       "google_id": "0x3141a7b18e5bb2d5:0x2de97ebabd4cb3fe",
-      "place_id": "ChIJ1bJbjrGnQTER_rNMvbp-6S0"
+      "place_id": "ChIJ1bJbjrGnQTER_rNMvbp-6S0",
+      "foodTags": {
+        "dishType": [
+          "bun-thit-nuong",
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "bun-thit-nuong-chi-hong",
@@ -2578,7 +3397,18 @@
       "insiderTips": [],
       "phone": "+84 905 472 668",
       "google_id": "0x3141a1a418b509ef:0x2761d346292766fb",
-      "place_id": "ChIJ7wm1GKShQTER-2YnKUbTYSc"
+      "place_id": "ChIJ7wm1GKShQTER-2YnKUbTYSc",
+      "foodTags": {
+        "dishType": [
+          "bun-thit-nuong",
+          "bun"
+        ],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "bun-thit-nuong-huong",
@@ -2608,7 +3438,15 @@
       "insiderTips": [],
       "phone": "+84 706 888 314",
       "google_id": "0x3141a70047798e9b:0x1f91c379d9de0115",
-      "place_id": "ChIJm455RwCnQTERFQHe2XnDkR8"
+      "place_id": "ChIJm455RwCnQTERFQHe2XnDkR8",
+      "foodTags": {
+        "dishType": [
+          "bun-thit-nuong",
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "bun-thit-nuong",
@@ -2638,7 +3476,14 @@
       "insiderTips": [],
       "phone": "+84 942 570 066",
       "google_id": "0x3141a12bf2b3aecf:0x680e281f31854b80",
-      "place_id": "ChIJz66z8iuhQTERgEuFMR8oDmg"
+      "place_id": "ChIJz66z8iuhQTERgEuFMR8oDmg",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [
+          "lunch"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "hanh-bun-thit-nuong",
@@ -2666,7 +3511,15 @@
       "description": "Hạnh - Bún Thịt Nướng được đánh giá 4.6/5 sao trên Google Maps. Tọa lạc tại 363 Đ. Chi Lăng, Phú Hiệp, Phú Xuân, Huế 49109, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1626a3b0c7b:0x9b08c8be415378d1",
-      "place_id": "ChIJeww7amKhQTER0XhTQb7ICJs"
+      "place_id": "ChIJeww7amKhQTER0XhTQb7ICJs",
+      "foodTags": {
+        "dishType": [
+          "bun-thit-nuong",
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "bep-thi",
@@ -2703,7 +3556,18 @@
       ],
       "phone": "+84 905 884 307",
       "google_id": "0x3141a146d321f66b:0xd2fdd4d90c606a21",
-      "place_id": "ChIJa_Yh00ahQTERIWpgDNnU_dI"
+      "place_id": "ChIJa_Yh00ahQTERIWpgDNnU_dI",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "bun-thit-nuong-place",
@@ -2732,7 +3596,14 @@
       "description": "Bun Thit Nướng Place được đánh giá 4.5/5 sao trên Google Maps. Tọa lạc tại 59 Nguyễn Công Trứ, Phú Hội, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1229fd460ed:0x19cbb8088e653852",
-      "place_id": "ChIJ7WDUnyKhQTERUjhljgi4yxk"
+      "place_id": "ChIJ7WDUnyKhQTERUjhljgi4yxk",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [
+          "lunch"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "bun-thit-nuong-di-van",
@@ -2761,7 +3632,15 @@
       "insiderTips": [],
       "phone": "+84 329 538 775",
       "google_id": "0x3141a100769160f7:0x13c64f9a3e4bb55b",
-      "place_id": "ChIJ92CRdgChQTERW7VLPppPxhM"
+      "place_id": "ChIJ92CRdgChQTERW7VLPppPxhM",
+      "foodTags": {
+        "dishType": [
+          "bun-thit-nuong",
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "bun-nghe-o-ket",
@@ -2790,7 +3669,15 @@
       "insiderTips": [],
       "website": "https://www.foody.vn/hue/bun-nghe-o-ket-co-so-1",
       "google_id": "0x3141a115c3bf6839:0xb4e51604cad64728",
-      "place_id": "ChIJOWi_wxWhQTERKEfWygQW5bQ"
+      "place_id": "ChIJOWi_wxWhQTERKEfWygQW5bQ",
+      "foodTags": {
+        "dishType": [
+          "bun-nghe",
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "bun-nghe",
@@ -2821,7 +3708,18 @@
       "insiderTips": [],
       "phone": "+84 772 505 658",
       "google_id": "0x3141a13dc9e583f5:0xc57bb6ce8acf36fe",
-      "place_id": "ChIJ9YPlyT2hQTER_jbPis62e8U"
+      "place_id": "ChIJ9YPlyT2hQTER_jbPis62e8U",
+      "foodTags": {
+        "dishType": [
+          "bun-nghe",
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "bun-nghe-68",
@@ -2850,7 +3748,15 @@
       "insiderTips": [],
       "phone": "+84 969 421 437",
       "google_id": "0x3141a1000070c3fb:0x99765bce95da1bfe",
-      "place_id": "ChIJ-8NwAAChQTER_hvalc5bdpk"
+      "place_id": "ChIJ-8NwAAChQTER_hvalc5bdpk",
+      "foodTags": {
+        "dishType": [
+          "bun-nghe",
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "bun-nghe-via-he",
@@ -2878,7 +3784,15 @@
       "description": "Bún nghệ vỉa hè được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 11a Hai Bà Trưng, Vĩnh Ninh, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a10031c5d299:0x21c9cd3460d7b821",
-      "place_id": "ChIJmdLFMQChQTERIbjXYDTNySE"
+      "place_id": "ChIJmdLFMQChQTERIbjXYDTNySE",
+      "foodTags": {
+        "dishType": [
+          "bun-nghe",
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "quan-bun-nghe-bun-hen",
@@ -2905,7 +3819,17 @@
       "description": "Quán bún nghệ, bún hến được đánh giá 4.0/5 sao trên Google Maps. Tọa lạc tại 30 Nguyễn Thiện Thuật, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a791896dd6c1:0x2b453dda610c23c8",
-      "place_id": "ChIJwdZtiZGnQTERyCMMYdo9RSs"
+      "place_id": "ChIJwdZtiZGnQTERyCMMYdo9RSs",
+      "foodTags": {
+        "dishType": [
+          "bun-nghe",
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "bun-nghe-o-ty",
@@ -2933,7 +3857,15 @@
       "description": "Bún nghệ O Tý được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 43 ĐT10A, Thôn Nam Thượng, Mỹ Thượng, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a10049ef7543:0x846471109d6c3922",
-      "place_id": "ChIJQ3XvSQChQTERIjlsnRBxZIQ"
+      "place_id": "ChIJQ3XvSQChQTERIjlsnRBxZIQ",
+      "foodTags": {
+        "dishType": [
+          "bun-nghe",
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "bun-nghe-chao-vit-me-mung",
@@ -2961,7 +3893,15 @@
       "description": "Bún nghệ cháo Vịt Mệ Mừng được đánh giá 4.7/5 sao trên Google Maps. Tọa lạc tại 55 Dương Văn An, Xuân Phú, Vỹ Dạ, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a10073721397:0xbfaa059db03497c8",
-      "place_id": "ChIJlxNycwChQTERyJc0sJ0Fqr8"
+      "place_id": "ChIJlxNycwChQTERyJc0sJ0Fqr8",
+      "foodTags": {
+        "dishType": [
+          "bun-nghe",
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "bun-nghe-num-uoi",
@@ -2990,7 +3930,15 @@
       "insiderTips": [],
       "phone": "+84 777 990 198",
       "google_id": "0x3141a1005cbca821:0xc10f77c36c5f6dc1",
-      "place_id": "ChIJIai8XAChQTERwW1fbMN3D8E"
+      "place_id": "ChIJIai8XAChQTERwW1fbMN3D8E",
+      "foodTags": {
+        "dishType": [
+          "bun-nghe",
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "abo-food-gan-kieu-bun-nghe-hue",
@@ -3018,7 +3966,15 @@
       "phone": "+84 796 817 481",
       "website": "https://www.facebook.com/gankieuhue/",
       "google_id": "0x3141a1b01ad9af25:0xcc084949fc641829",
-      "place_id": "ChIJJa_ZGrChQTERKRhk_ElJCMw"
+      "place_id": "ChIJJa_ZGrChQTERKRhk_ElJCMw",
+      "foodTags": {
+        "dishType": [
+          "bun-nghe",
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "a-bo-quan",
@@ -3050,7 +4006,16 @@
         "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
       ],
       "google_id": "0x3141a157a761039b:0xad0ac6566945c0e1",
-      "place_id": "ChIJmwNhp1ehQTER4cBFaVbGCq0"
+      "place_id": "ChIJmwNhp1ehQTER4cBFaVbGCq0",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "com-hen-ba-hang",
@@ -3082,7 +4047,18 @@
       "insiderTips": [],
       "phone": "+84 368 835 345",
       "google_id": "0x3141a6b157b9ef0f:0xd59a07c0acd78c1e",
-      "place_id": "ChIJD--5V7GmQTERHozXrMAHmtU"
+      "place_id": "ChIJD--5V7GmQTERHozXrMAHmtU",
+      "foodTags": {
+        "dishType": [
+          "com-hen"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "hue-cuisine-ac-san-hue-banh-beo-nam-loc",
@@ -3120,7 +4096,21 @@
       "phone": "+84 798 210 252",
       "website": "http://www.huecuisinecafe.com/",
       "google_id": "0x3141a1d47a033c65:0x63e984cd45365722",
-      "place_id": "ChIJZTwDetShQTERIlc2Rc2E6WM"
+      "place_id": "ChIJZTwDetShQTERIlc2Rc2E6WM",
+      "foodTags": {
+        "dishType": [
+          "banh-beo"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "family_friendly",
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "nha-hang-vy-da-xua",
@@ -3158,7 +4148,18 @@
       "phone": "+84 889 289 229",
       "website": "https://www.facebook.com/nhahangvydaxua/",
       "google_id": "0x3141a12070c0950f:0x75cf9c13072a053c",
-      "place_id": "ChIJD5XAcCChQTERPAUqBxOcz3U"
+      "place_id": "ChIJD5XAcCChQTERPAUqBxOcz3U",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "quan-bun-chay",
@@ -3189,7 +4190,18 @@
       "insiderTips": [],
       "phone": "+84 702 347 412",
       "google_id": "0x3141a1b02217121f:0x5ccffd1ac0bd521f",
-      "place_id": "ChIJHxIXIrChQTERH1K9wBr9z1w"
+      "place_id": "ChIJHxIXIrChQTERH1K9wBr9z1w",
+      "foodTags": {
+        "dishType": [
+          "bun-chay",
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "quan-an-chay-truong-an",
@@ -3225,7 +4237,18 @@
       ],
       "phone": "+84 948 575 696",
       "google_id": "0x3141a1572443a3bb:0xede3015e4334ceeb",
-      "place_id": "ChIJu6NDJFehQTER6840Q14B4-0"
+      "place_id": "ChIJu6NDJFehQTER6840Q14B4-0",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "hang-chay-ba-dung",
@@ -3256,7 +4279,14 @@
       "insiderTips": [],
       "phone": "+84 978 237 555",
       "google_id": "0x3141a7289a6ee897:0xa9c2db3e7c947762",
-      "place_id": "ChIJl-humiinQTERYneUfD7bwqk"
+      "place_id": "ChIJl-humiinQTERYneUfD7bwqk",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [
+          "lunch"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "quan-chay-ba-minh",
@@ -3296,7 +4326,19 @@
       "phone": "+84 799 483 186",
       "website": "https://www.facebook.com/quanchaybaminh",
       "google_id": "0x3141a12f10d82ab1:0x7a02d8b8f424835f",
-      "place_id": "ChIJsSrYEC-hQTERX4Mk9LjYAno"
+      "place_id": "ChIJsSrYEC-hQTERX4Mk9LjYAno",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "family_friendly",
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "quan-bun-chay-o-hien",
@@ -3327,7 +4369,18 @@
       "insiderTips": [],
       "phone": "+84 857 915 992",
       "google_id": "0x3141a142b4f30379:0x348945fc173b5097",
-      "place_id": "ChIJeQPztEKhQTERl1A7F_xFiTQ"
+      "place_id": "ChIJeQPztEKhQTERl1A7F_xFiTQ",
+      "foodTags": {
+        "dishType": [
+          "bun-chay",
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "nha-hang-chay-huong-mai",
@@ -3364,7 +4417,18 @@
       ],
       "phone": "+84 879 193 777",
       "google_id": "0x3141a18a3d7ae117:0xfa498be2c2b76472",
-      "place_id": "ChIJF-F6PYqhQTERcmS3wuKLSfo"
+      "place_id": "ChIJF-F6PYqhQTERcmS3wuKLSfo",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "bun-chay-o-loan",
@@ -3392,7 +4456,15 @@
       "description": "Bún Chay O Loan được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 27 Đào Duy Từ, Phú Bình, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1001e16433d:0x39ea4609d478b8e9",
-      "place_id": "ChIJPUMWHgChQTER6bh41AlG6jk"
+      "place_id": "ChIJPUMWHgChQTER6bh41AlG6jk",
+      "foodTags": {
+        "dishType": [
+          "bun-chay",
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "quan-chay-o-hue-quan-chay-uc-chanh",
@@ -3427,7 +4499,18 @@
       ],
       "phone": "+84 988 550 428",
       "google_id": "0x3141a12321d213c9:0xe9e52dd16685f3e5",
-      "place_id": "ChIJyRPSISOhQTER5fOFZtEt5ek"
+      "place_id": "ChIJyRPSISOhQTER5fOFZtEt5ek",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "quan-bun-chay-binh-dan",
@@ -3455,7 +4538,18 @@
       "description": "Quán Bún Chay bình dân được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 68 Đặng Huy Trứ, Trường An, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a140601cf345:0xb71c58ff96815c67",
-      "place_id": "ChIJRfMcYEChQTERZ1yBlv9YHLc"
+      "place_id": "ChIJRfMcYEChQTERZ1yBlv9YHLc",
+      "foodTags": {
+        "dishType": [
+          "bun-chay",
+          "bun"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "nhi-com-hen-bun-chay-1-15-am-lich",
@@ -3484,7 +4578,15 @@
       "insiderTips": [],
       "phone": "+84 768 548 562",
       "google_id": "0x3141a1003c3adb1d:0x10792f69cd34af35",
-      "place_id": "ChIJHds6PAChQTERNa80zWkveRA"
+      "place_id": "ChIJHds6PAChQTERNa80zWkveRA",
+      "foodTags": {
+        "dishType": [
+          "bun-chay",
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "bun-chay-kim-anh",
@@ -3512,7 +4614,15 @@
       "description": "Bún chay Kim Anh được đánh giá 4.0/5 sao trên Google Maps. Tọa lạc tại 31 Ngô Gia Tự, Vĩnh Ninh, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a10042f61f63:0x5b6205afa6f4cbac",
-      "place_id": "ChIJYx_2QgChQTERrMv0pq8FYls"
+      "place_id": "ChIJYx_2QgChQTERrMv0pq8FYls",
+      "foodTags": {
+        "dishType": [
+          "bun-chay",
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "bun-chay-banh-canh-chay",
@@ -3541,7 +4651,18 @@
       "description": "Bún chay - Bánh canh chay được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 73 An Dương Vương, An Đông, An Cựu, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a11c6048ca07:0xb499f4045813dfaf",
-      "place_id": "ChIJB8pIYByhQTERr98TWAT0mbQ"
+      "place_id": "ChIJB8pIYByhQTERr98TWAT0mbQ",
+      "foodTags": {
+        "dishType": [
+          "bun-chay",
+          "bun",
+          "banh-canh"
+        ],
+        "mealTime": [
+          "breakfast"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "o-gai-banh-beo-nam-o-be-sang-bun-chay",
@@ -3571,7 +4692,16 @@
       "insiderTips": [],
       "phone": "+84 903 592 191",
       "google_id": "0x3141a0de2472390f:0xe2bb13beda47f27c",
-      "place_id": "ChIJDzlyJN6gQTERfPJH2r4Tu-I"
+      "place_id": "ChIJDzlyJN6gQTERfPJH2r4Tu-I",
+      "foodTags": {
+        "dishType": [
+          "bun-chay",
+          "bun",
+          "banh-beo"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "chay-corner-in-hue-vietnamese-dumplings",
@@ -3607,7 +4737,18 @@
       "insiderTips": [],
       "phone": "+84 839 448 817",
       "google_id": "0x3141a13030b9edf9:0x2fd85a0e0a1d5e8d",
-      "place_id": "ChIJ-e25MDChQTERjV4dCg5a2C8"
+      "place_id": "ChIJ-e25MDChQTERjV4dCg5a2C8",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "family_friendly"
+        ]
+      }
     },
     {
       "id": "an-nhien-garden-vegetarian-nha-hang-cafe",
@@ -3646,7 +4787,19 @@
       "phone": "+84 948 106 066",
       "website": "https://annhienvegetarian.com/%3Futm_source%3DPost%26utm_medium%3DGMBG%26utm_id%3DGoogleMyBusiness",
       "google_id": "0x3141a10d06971b63:0xb5a320c06034414d",
-      "place_id": "ChIJYxuXBg2hQTERTUE0YMAgo7U"
+      "place_id": "ChIJYxuXBg2hQTERTUE0YMAgo7U",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "family_friendly",
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "an-nhi-chay",
@@ -3682,7 +4835,17 @@
       "phone": "+84 866 044 844",
       "website": "https://www.facebook.com/profile.php%3Fid%3D100095185448129",
       "google_id": "0x3141a13662d0df29:0xacc9b1a4aa7ef72",
-      "place_id": "ChIJKd_QYjahQTERcu-nShqbzAo"
+      "place_id": "ChIJKd_QYjahQTERcu-nShqbzAo",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "nha-hang-chay-tinh-quan",
@@ -3719,7 +4882,18 @@
       "phone": "+84 234 3837 382",
       "website": "http://parkviewhotelhue.com/vi/restaurant-bar/tinh-quan-vegetarian-restaurant/",
       "google_id": "0x3141a139a08b1be9:0xd32131a630433190",
-      "place_id": "ChIJ6RuLoDmhQTERkDFDMKYxIdM"
+      "place_id": "ChIJ6RuLoDmhQTERkDFDMKYxIdM",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "hy-kien-vegetarian-street-food",
@@ -3751,7 +4925,14 @@
       "phone": "+84 899 917 576",
       "website": "https://www.facebook.com/profile.php%3Fid%3D61563849778590",
       "google_id": "0x3141a1f5ad5d79c5:0x21f7383e1638bb10",
-      "place_id": "ChIJxXldrfWhQTERELs4Fj449yE"
+      "place_id": "ChIJxXldrfWhQTERELs4Fj449yE",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [
+          "lunch"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "banh-ep-gia-di-hue",
@@ -3788,7 +4969,20 @@
       "phone": "+84 702 555 507",
       "website": "https://bit.ly/3xReKbo",
       "google_id": "0x3141a11650072871:0xaf803097e1273fa1",
-      "place_id": "ChIJcSgHUBahQTERoT8n4ZcwgK8"
+      "place_id": "ChIJcSgHUBahQTERoT8n4ZcwgK8",
+      "foodTags": {
+        "dishType": [
+          "banh-ep"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "tiem-banh-ep-1992",
@@ -3822,7 +5016,19 @@
       ],
       "phone": "+84 946 751 992",
       "google_id": "0x3141a1581796c887:0xae0403180c0559f8",
-      "place_id": "ChIJh8iWF1ihQTER-FkFDBgDBK4"
+      "place_id": "ChIJh8iWF1ihQTER-FkFDBgDBK4",
+      "foodTags": {
+        "dishType": [
+          "banh-ep"
+        ],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "banh-ep-la-ca-58-nguyen-huu-tho",
@@ -3852,7 +5058,14 @@
       "phone": "+84 793 583 158",
       "website": "https://www.facebook.com/profile.php%3Fid%3D61559643825624%26mibextid%3DLQQJ4d",
       "google_id": "0x3141a15e2e78a8cb:0x124dd58891038407",
-      "place_id": "ChIJy6h4Ll6hQTERB4QDkYjVTRI"
+      "place_id": "ChIJy6h4Ll6hQTERB4QDkYjVTRI",
+      "foodTags": {
+        "dishType": [
+          "banh-ep"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "banh-ep-trang",
@@ -3889,7 +5102,20 @@
       "phone": "+84 702 352 352",
       "website": "https://www.facebook.com/banheptrang.since2020",
       "google_id": "0x3141a11b120c56e5:0x3fc5e0cf789a6fa5",
-      "place_id": "ChIJ5VYMEhuhQTERpW-aeM_gxT8"
+      "place_id": "ChIJ5VYMEhuhQTERpW-aeM_gxT8",
+      "foodTags": {
+        "dishType": [
+          "banh-ep"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "banh-ep-hue",
@@ -3921,7 +5147,17 @@
       "insiderTips": [],
       "phone": "+84 777 923 776",
       "google_id": "0x3141a14e6a6ebfad:0x62ba281fc82d9c",
-      "place_id": "ChIJrb9uak6hQTERnC3IHyi6YgA"
+      "place_id": "ChIJrb9uak6hQTERnC3IHyi6YgA",
+      "foodTags": {
+        "dishType": [
+          "banh-ep"
+        ],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "banh-ep-cay-su",
@@ -3951,7 +5187,16 @@
       "insiderTips": [],
       "website": "https://www.foody.vn/hue/banh-ep-cay-su",
       "google_id": "0x3141a1740968c607:0x8b5cadc70c33db18",
-      "place_id": "ChIJB8ZoCXShQTERGNszDMetXIs"
+      "place_id": "ChIJB8ZoCXShQTERGNszDMetXIs",
+      "foodTags": {
+        "dishType": [
+          "banh-ep"
+        ],
+        "mealTime": [
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "banh-ep-nha-su",
@@ -3981,7 +5226,14 @@
       "phone": "+84 935 671 221",
       "website": "https://www.facebook.com/Banhepcauhainhasu",
       "google_id": "0x3141a13297e3f0b9:0x14d16c23a44bb485",
-      "place_id": "ChIJufDjlzKhQTERhbRLpCNs0RQ"
+      "place_id": "ChIJufDjlzKhQTERhbRLpCNs0RQ",
+      "foodTags": {
+        "dishType": [
+          "banh-ep"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "banh-ep-o-ni",
@@ -4010,7 +5262,14 @@
       "insiderTips": [],
       "phone": "+84 366 456 424",
       "google_id": "0x3141a1b4b22e66ad:0xb93b3b2ef407cfa2",
-      "place_id": "ChIJrWYusrShQTERos8H9C47O7k"
+      "place_id": "ChIJrWYusrShQTERos8H9C47O7k",
+      "foodTags": {
+        "dishType": [
+          "banh-ep"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "banh-ep-3-thi",
@@ -4039,7 +5298,14 @@
       "insiderTips": [],
       "phone": "+84 916 842 096",
       "google_id": "0x3141a7004e53a351:0xcb58fb2313b4c267",
-      "place_id": "ChIJUaNTTgCnQTERZ8K0EyP7WMs"
+      "place_id": "ChIJUaNTTgCnQTERZ8K0EyP7WMs",
+      "foodTags": {
+        "dishType": [
+          "banh-ep"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "banh-ep-o-niem",
@@ -4068,7 +5334,14 @@
       "insiderTips": [],
       "website": "https://www.foody.vn/hue/banh-ep-o-niem",
       "google_id": "0x3141a13f82546331:0xeb87d9578fc4787d",
-      "place_id": "ChIJMWNUgj-hQTERfXjEj1fZh-s"
+      "place_id": "ChIJMWNUgj-hQTERfXjEj1fZh-s",
+      "foodTags": {
+        "dishType": [
+          "banh-ep"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "banh-ep-hien",
@@ -4096,7 +5369,14 @@
       "description": "Bánh Ép Hiền được đánh giá 4.7/5 sao trên Google Maps. Tọa lạc tại 27 Dương Văn An, Xuân Phú, Vỹ Dạ, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a155149df1ed:0xe615a0780e54bbb5",
-      "place_id": "ChIJ7fGdFFWhQTERtbtUDnigFeY"
+      "place_id": "ChIJ7fGdFFWhQTERtbtUDnigFeY",
+      "foodTags": {
+        "dishType": [
+          "banh-ep"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "banh-ep-na",
@@ -4126,7 +5406,14 @@
       "phone": "+84 764 009 413",
       "website": "https://www.foody.vn/hue/banh-ep-na",
       "google_id": "0x3141a17d8a7c4641:0xd9d9805b5ca55c6a",
-      "place_id": "ChIJQUZ8in2hQTERalylXFuA2dk"
+      "place_id": "ChIJQUZ8in2hQTERalylXFuA2dk",
+      "foodTags": {
+        "dishType": [
+          "banh-ep"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "banh-ep-cay-dua",
@@ -4156,7 +5443,14 @@
       "insiderTips": [],
       "website": "https://www.foody.vn/hue/banh-ep-cay-dua",
       "google_id": "0x3141a0e1a8bb5d29:0x527aa306c74e4ddb",
-      "place_id": "ChIJKV27qOGgQTER201OxwajelI"
+      "place_id": "ChIJKV27qOGgQTER201OxwajelI",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "banh-ep-kho-93",
@@ -4185,7 +5479,14 @@
       "insiderTips": [],
       "phone": "+84 932 827 426",
       "google_id": "0x3141a12c5d7f6e9d:0xfc29a5cc161d5495",
-      "place_id": "ChIJnW5_XSyhQTERlVQdFsylKfw"
+      "place_id": "ChIJnW5_XSyhQTERlVQdFsylKfw",
+      "foodTags": {
+        "dishType": [
+          "banh-ep"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "banh-ep-chi-xi",
@@ -4215,7 +5516,16 @@
       "insiderTips": [],
       "website": "https://www.foody.vn/hue/banh-ep-chi-xi",
       "google_id": "0x3141a12c7fe12fc1:0x3a18343a79718d59",
-      "place_id": "ChIJwS_hfyyhQTERWY1xeTo0GDo"
+      "place_id": "ChIJwS_hfyyhQTERWY1xeTo0GDo",
+      "foodTags": {
+        "dishType": [
+          "banh-ep"
+        ],
+        "mealTime": [
+          "lunch"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "banh-ep-camay",
@@ -4244,7 +5554,14 @@
       "insiderTips": [],
       "phone": "+84 777 535 735",
       "google_id": "0x3141a19df39d6d1d:0x1dd569cc5ff9f2a8",
-      "place_id": "ChIJHW2d852hQTERqPL5X8xp1R0"
+      "place_id": "ChIJHW2d852hQTERqPL5X8xp1R0",
+      "foodTags": {
+        "dishType": [
+          "banh-ep"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "banh-ep-chi-phuong",
@@ -4273,7 +5590,14 @@
       "insiderTips": [],
       "phone": "+84 388 820 651",
       "google_id": "0x3141a3003f3f75e1:0xb7c3026784b0b6b7",
-      "place_id": "ChIJ4XU_PwCjQTERt7awhGcCw7c"
+      "place_id": "ChIJ4XU_PwCjQTERt7awhGcCw7c",
+      "foodTags": {
+        "dishType": [
+          "banh-ep"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "banh-ep-lo-cui-banh-ep-ac-san-hue-banh-beo-nam-loc",
@@ -4303,7 +5627,15 @@
       "phone": "+84 797 750 123",
       "website": "https://www.facebook.com/profile.php%3Fid%3D61578075729954",
       "google_id": "0x3141a1007cecc5e5:0x2b350a95ef93dda7",
-      "place_id": "ChIJ5cXsfAChQTERp92T75UKNSs"
+      "place_id": "ChIJ5cXsfAChQTERp92T75UKNSs",
+      "foodTags": {
+        "dishType": [
+          "banh-ep",
+          "banh-beo"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "quan-banh-beo-nam-loc-hue-xua",
@@ -4339,7 +5671,20 @@
       "phone": "+84 948 628 001",
       "website": "http://www.facebook.com/BanhBeoNamLocHueXua",
       "google_id": "0x3141a0d884d0af8f:0xaee706b9b3cdd8f6",
-      "place_id": "ChIJj6_QhNigQTER9tjNs7kG564"
+      "place_id": "ChIJj6_QhNigQTER9tjNs7kG564",
+      "foodTags": {
+        "dishType": [
+          "banh-beo"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "banh-beo-nam-loc-quan-an-789",
@@ -4369,7 +5714,16 @@
       "insiderTips": [],
       "phone": "+84 914 270 381",
       "google_id": "0x3141a10061d599f7:0x1a55aedaeaf21b5a",
-      "place_id": "ChIJ95nVYQChQTERWhvy6tquVRo"
+      "place_id": "ChIJ95nVYQChQTERWhvy6tquVRo",
+      "foodTags": {
+        "dishType": [
+          "banh-beo"
+        ],
+        "mealTime": [
+          "breakfast"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "quan-banh-o-le",
@@ -4405,7 +5759,16 @@
       "insiderTips": [],
       "phone": "+84 234 3510 651",
       "google_id": "0x3141a6b87c8ce2a3:0x82a28db950a83af2",
-      "place_id": "ChIJo-KMfLimQTER8jqoULmNooI"
+      "place_id": "ChIJo-KMfLimQTER8jqoULmNooI",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "banh-beo-nam-loc-ba-o",
@@ -4444,7 +5807,20 @@
       "phone": "+84 234 3541 182",
       "website": "https://www.facebook.com/pages/B%25C3%25A1nh-B%25C3%25A8o-N%25E1%25BA%25ADm-L%25E1%25BB%258Dc-B%25C3%25A0-%25C4%2590%25E1%25BB%258F/389595581107683%3Ffref%3Dts",
       "google_id": "0x3141a0d816cc215d:0x619d364edf9e97c3",
-      "place_id": "ChIJXSHMFtigQTERw5ee3042nWE"
+      "place_id": "ChIJXSHMFtigQTERw5ee3042nWE",
+      "foodTags": {
+        "dishType": [
+          "banh-beo"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "banh-beo-nam-loc-o-ngot",
@@ -4478,7 +5854,19 @@
       ],
       "phone": "+84 935 453 426",
       "google_id": "0x3141a34cafecb95d:0x36cb1198149d40ec",
-      "place_id": "ChIJXbnsr0yjQTER7ECdFJgRyzY"
+      "place_id": "ChIJXbnsr0yjQTER7ECdFJgRyzY",
+      "foodTags": {
+        "dishType": [
+          "banh-beo"
+        ],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "quan-huong-beo-nam-loc-cung-an-inh-gia-truyen",
@@ -4515,7 +5903,21 @@
       ],
       "phone": "+84 948 276 857",
       "google_id": "0x3141a1f5e9bb90f5:0x1e579b019d26ebff",
-      "place_id": "ChIJ9ZC76fWhQTER_-smnQGbVx4"
+      "place_id": "ChIJ9ZC76fWhQTER_-smnQGbVx4",
+      "foodTags": {
+        "dishType": [
+          "banh-beo"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "family_friendly",
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "quan-o-som-ac-san-banh-beo-banh-nam-banh-loc",
@@ -4544,7 +5946,14 @@
       "insiderTips": [],
       "phone": "+84 768 588 006",
       "google_id": "0x3141a1a255a07ad3:0x20885c3cf12d2ad3",
-      "place_id": "ChIJ03qgVaKhQTER0yot8TxciCA"
+      "place_id": "ChIJ03qgVaKhQTER0yot8TxciCA",
+      "foodTags": {
+        "dishType": [
+          "banh-beo"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "quan-ngo-banh-nam-loc-beo",
@@ -4573,7 +5982,12 @@
       "description": "Quán Ngỏ - bánh nậm-lọc-bèo được đánh giá 4.8/5 sao trên Google Maps. Tọa lạc tại 30 Phú Mộng, Kim Long, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a7003f45208b:0x7c9ce6023b03d860",
-      "place_id": "ChIJiyBFPwCnQTERYNgDOwLmnHw"
+      "place_id": "ChIJiyBFPwCnQTERYNgDOwLmnHw",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "banh-beo-nam-loc-nam-chi",
@@ -4603,7 +6017,14 @@
       "insiderTips": [],
       "phone": "+84 799 322 676",
       "google_id": "0x3141a1787e55794b:0xe57175db3515d383",
-      "place_id": "ChIJS3lVfnihQTERg9MVNdt1ceU"
+      "place_id": "ChIJS3lVfnihQTERg9MVNdt1ceU",
+      "foodTags": {
+        "dishType": [
+          "banh-beo"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-nam-pho-beo-nam-loc-quan-hang",
@@ -4634,7 +6055,19 @@
       "insiderTips": [],
       "phone": "+84 702 151 869",
       "google_id": "0x3141a10076e1a6a5:0xd4ef61c497392994",
-      "place_id": "ChIJpabhdgChQTERlCk5l8Rh79Q"
+      "place_id": "ChIJpabhdgChQTERlCk5l8Rh79Q",
+      "foodTags": {
+        "dishType": [
+          "banh-beo",
+          "nam-pho",
+          "banh-canh"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "quan-banh-beo-nam-loc-nani",
@@ -4663,7 +6096,14 @@
       "insiderTips": [],
       "phone": "+84 772 422 302",
       "google_id": "0x3141a40015193467:0x999378dcbf3e7144",
-      "place_id": "ChIJZzQZFQCkQTERRHE-v9x4k5k"
+      "place_id": "ChIJZzQZFQCkQTERRHE-v9x4k5k",
+      "foodTags": {
+        "dishType": [
+          "banh-beo"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "quan-banh-chi",
@@ -4699,7 +6139,18 @@
       "phone": "+84 935 757 020",
       "website": "https://www.facebook.com/QuanBanhChi",
       "google_id": "0x3141a149f5ce3299:0x995fc75122dc54a4",
-      "place_id": "ChIJmTLO9UmhQTERpFTcIlHHX5k"
+      "place_id": "ChIJmTLO9UmhQTERpFTcIlHHX5k",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "com-hen-bun-hen-mi-hen-thuy",
@@ -4729,7 +6180,17 @@
       "insiderTips": [],
       "phone": "+84 905 303 924",
       "google_id": "0x3141a145a5d6bd25:0xc72c62684a06af57",
-      "place_id": "ChIJJb3WpUWhQTERV68GSmhiLMc"
+      "place_id": "ChIJJb3WpUWhQTERV68GSmhiLMc",
+      "foodTags": {
+        "dishType": [
+          "bun",
+          "com-hen"
+        ],
+        "mealTime": [
+          "breakfast"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "banh-bot-loc-banh-nam-va-ac-san-hue-la-que",
@@ -4759,7 +6220,12 @@
       "phone": "+84 935 088 394",
       "website": "https://laque.vn/",
       "google_id": "0x3141a7aef00f791f:0x9ccaba1c38b045e0",
-      "place_id": "ChIJH3kP8K6nQTER4EWwOBy6ypw"
+      "place_id": "ChIJH3kP8K6nQTER4EWwOBy6ypw",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "quan-trung-bo-banh-beo-banh-loc-banh-nam",
@@ -4788,7 +6254,14 @@
       "insiderTips": [],
       "phone": "+84 234 3518 433",
       "google_id": "0x3141a12660f94ef9:0xc695267fb6c1ca8b",
-      "place_id": "ChIJ-U75YCahQTERi8rBtn8mlcY"
+      "place_id": "ChIJ-U75YCahQTERi8rBtn8mlcY",
+      "foodTags": {
+        "dishType": [
+          "banh-beo"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "banh-beo-nam-loc-chi-vui",
@@ -4817,7 +6290,14 @@
       "insiderTips": [],
       "phone": "+84 969 971 521",
       "google_id": "0x3141a3cb00862a8b:0x555ee01ffefab838",
-      "place_id": "ChIJiyqGAMujQTEROLj6_h_gXlU"
+      "place_id": "ChIJiyqGAMujQTEROLj6_h_gXlU",
+      "foodTags": {
+        "dishType": [
+          "banh-beo"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "quan-ba-gai-beo-nam",
@@ -4848,7 +6328,15 @@
       "insiderTips": [],
       "phone": "+84 234 3822 744",
       "google_id": "0x3141a118762b44a9:0x99ea008ac8e0055a",
-      "place_id": "ChIJqUQrdhihQTERWgXgyIoA6pk"
+      "place_id": "ChIJqUQrdhihQTERWgXgyIoA6pk",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "banh-ba-chi-xu-hue-ac-san-beo-nam-loc-ram-it",
@@ -4884,7 +6372,18 @@
       "phone": "+84 945 660 126",
       "website": "https://banhbachi.com/goc-chia-se/",
       "google_id": "0x3141a76821e53a6b:0x4b15441fddfefce4",
-      "place_id": "ChIJazrlIWinQTER5Pz-3R9EFUs"
+      "place_id": "ChIJazrlIWinQTER5Pz-3R9EFUs",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "banh-loc-hue-huong-cau",
@@ -4921,7 +6420,18 @@
       "phone": "+84 763 149 069",
       "website": "http://beonamlochuehuongcau.com/",
       "google_id": "0x3141a0d89aeb5609:0x8176ae44889c310a",
-      "place_id": "ChIJCVbrmtigQTERCjGciESudoE"
+      "place_id": "ChIJCVbrmtigQTERCjGciESudoE",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "banh-beo-ut",
@@ -4950,7 +6460,14 @@
       "insiderTips": [],
       "phone": "+84 905 067 596",
       "google_id": "0x3141a7ab89c77483:0x8dc39e9597770fdb",
-      "place_id": "ChIJg3THiaunQTER2w93l5Wew40"
+      "place_id": "ChIJg3THiaunQTER2w93l5Wew40",
+      "foodTags": {
+        "dishType": [
+          "banh-beo"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "rin-banh-canh-nam-pho-banh-beo-banh-loc",
@@ -4979,7 +6496,16 @@
       "insiderTips": [],
       "phone": "+84 935 204 841",
       "google_id": "0x3141a10057c43fbd:0xabe509864d1cf204",
-      "place_id": "ChIJvT_EVwChQTERBPIcTYYJ5as"
+      "place_id": "ChIJvT_EVwChQTERBPIcTYYJ5as",
+      "foodTags": {
+        "dishType": [
+          "banh-beo",
+          "nam-pho",
+          "banh-canh"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "banh-loc-nam-beo-co-yen",
@@ -5007,7 +6533,12 @@
       "description": "Bánh lọc, nậm, bèo cô Yến được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 58 Hoàng Diệu, Tây Lộc, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a7004d762433:0xc3a45500b99e79d1",
-      "place_id": "ChIJMyR2TQCnQTER0XmeuQBVpMM"
+      "place_id": "ChIJMyR2TQCnQTER0XmeuQBVpMM",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "goc-banh-beo-ba-cu-cung-an-inh",
@@ -5039,7 +6570,17 @@
       "phone": "+84 983 832 895",
       "website": "https://www.foody.vn/hue/goc-banh-beo-ba-cu",
       "google_id": "0x3141a140264006cb:0xe83cf4334424d55f",
-      "place_id": "ChIJywZAJkChQTERX9UkRDP0POg"
+      "place_id": "ChIJywZAJkChQTERX9UkRDP0POg",
+      "foodTags": {
+        "dishType": [
+          "banh-beo"
+        ],
+        "mealTime": [
+          "breakfast",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "an-thanh-quan-banh-hue-an-thanh",
@@ -5075,7 +6616,18 @@
       "phone": "+84 912 984 455",
       "website": "https://www.facebook.com/banhhueanthanh",
       "google_id": "0x314217d20e178925:0xf1056cac754c4770",
-      "place_id": "ChIJJYkXDtIXQjERcEdMdaxsBfE"
+      "place_id": "ChIJJYkXDtIXQjERcEdMdaxsBfE",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [
+          "breakfast",
+          "lunch"
+        ],
+        "vibe": [
+          "family_friendly",
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "banh-ba-chi-xu-hue-ac-san-banh-bot-loc-banh-nam-banh-beo-chen-banh-ram-it",
@@ -5112,7 +6664,21 @@
       "phone": "+84 945 660 126",
       "website": "https://banhbachi.com/goc-chia-se/",
       "google_id": "0x3141a7339adfccbb:0xf3168fca6d97bd4d",
-      "place_id": "ChIJu8zfmjOnQTERTb2XbcqPFvM"
+      "place_id": "ChIJu8zfmjOnQTERTb2XbcqPFvM",
+      "foodTags": {
+        "dishType": [
+          "banh-beo"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "family_friendly",
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "banh-beo-khay",
@@ -5141,7 +6707,14 @@
       "insiderTips": [],
       "phone": "+84 787 783 356",
       "google_id": "0x3141a16881ad7489:0x24714ea8a1e5cc1e",
-      "place_id": "ChIJiXStgWihQTERHszloahOcSQ"
+      "place_id": "ChIJiXStgWihQTERHszloahOcSQ",
+      "foodTags": {
+        "dishType": [
+          "banh-beo"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "hang-me-me",
@@ -5175,7 +6748,18 @@
         "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
       ],
       "google_id": "0x3141a122c5915def:0x8e4618ec4bc5bf4c",
-      "place_id": "ChIJ712RxSKhQTERTL_FS-wYRo4"
+      "place_id": "ChIJ712RxSKhQTERTL_FS-wYRo4",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "beo-nam-loc",
@@ -5204,7 +6788,12 @@
       "insiderTips": [],
       "phone": "+84 373 551 567",
       "google_id": "0x3141a1de655d6565:0x4705ae6f70c17f30",
-      "place_id": "ChIJZWVdZd6hQTERMH_BcG-uBUc"
+      "place_id": "ChIJZWVdZd6hQTERMH_BcG-uBUc",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "quan-binh-banh-beo-nam-loc",
@@ -5233,7 +6822,14 @@
       "insiderTips": [],
       "phone": "+84 706 252 673",
       "google_id": "0x3141a6cdc96d70d7:0x9b3c8522fa2cbd35",
-      "place_id": "ChIJ13Btyc2mQTERNb0s-iKFPJs"
+      "place_id": "ChIJ13Btyc2mQTERNb0s-iKFPJs",
+      "foodTags": {
+        "dishType": [
+          "banh-beo"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-cua-roi-me-nga",
@@ -5267,7 +6863,20 @@
       "phone": "+84 916 832 175",
       "website": "https://www.facebook.com/profile.php%3Fid%3D100091828388659%26mibextid%3DLQQJ4d",
       "google_id": "0x3141a1f6a9425677:0x4b4819fccb09223e",
-      "place_id": "ChIJd1ZCqfahQTERPiIJy_wZSEs"
+      "place_id": "ChIJd1ZCqfahQTERPiIJy_wZSEs",
+      "foodTags": {
+        "dishType": [
+          "banh-canh"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "family_friendly"
+        ]
+      }
     },
     {
       "id": "banh-canh-cua-huong",
@@ -5299,7 +6908,18 @@
       "insiderTips": [],
       "phone": "+84 774 503 789",
       "google_id": "0x3141a13bd46617cd:0xd68fb89ab0f11a56",
-      "place_id": "ChIJzRdm1DuhQTERVhrxsJq4j9Y"
+      "place_id": "ChIJzRdm1DuhQTERVhrxsJq4j9Y",
+      "foodTags": {
+        "dishType": [
+          "banh-canh"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-hai-san-mu-ni",
@@ -5329,7 +6949,16 @@
       "insiderTips": [],
       "phone": "+84 905 808 098",
       "google_id": "0x3141a13c52fe4bfb:0xfef0224cabcab510",
-      "place_id": "ChIJ-0v-UjyhQTERELXKq0wi8P4"
+      "place_id": "ChIJ-0v-UjyhQTERELXKq0wi8P4",
+      "foodTags": {
+        "dishType": [
+          "banh-canh"
+        ],
+        "mealTime": [
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-o-gao",
@@ -5361,7 +6990,17 @@
       "phone": "+84 935 239 612",
       "website": "https://www.facebook.com/share/18shJKyS8X/%3Fmibextid%3DwwXIfr",
       "google_id": "0x3141a100400a4433:0x41cc43049453f84d",
-      "place_id": "ChIJM0QKQAChQTERTfhTlARDzEE"
+      "place_id": "ChIJM0QKQAChQTERTfhTlARDzEE",
+      "foodTags": {
+        "dishType": [
+          "banh-canh"
+        ],
+        "mealTime": [
+          "breakfast",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-cua-di-trang-38-pham-hong-thai",
@@ -5392,7 +7031,16 @@
       "phone": "+84 859 990 708",
       "website": "https://www.facebook.com/share/181yNocGBm/%3Fmibextid%3DwwXIfr",
       "google_id": "0x3141a1001fb86109:0x938d400bf3e816fa",
-      "place_id": "ChIJCWG4HwChQTER-hbo8wtAjZM"
+      "place_id": "ChIJCWG4HwChQTER-hbo8wtAjZM",
+      "foodTags": {
+        "dishType": [
+          "banh-canh"
+        ],
+        "mealTime": [
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-cua-roi-o-sen",
@@ -5422,7 +7070,16 @@
       "description": "Bánh canh cua rời - O Sen được đánh giá 4.9/5 sao trên Google Maps. Tọa lạc tại 5 Phạm Thị Liên, Kim Long, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a763f1bdb0bd:0x4386940064358b7d",
-      "place_id": "ChIJvbC98WOnQTERfYs1ZACUhkM"
+      "place_id": "ChIJvbC98WOnQTERfYs1ZACUhkM",
+      "foodTags": {
+        "dishType": [
+          "banh-canh"
+        ],
+        "mealTime": [
+          "breakfast"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-cua",
@@ -5450,7 +7107,14 @@
       "description": "Bánh Canh Cua được đánh giá 4.6/5 sao trên Google Maps. Tọa lạc tại FHCQ+97V, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1252539ebab:0x62173cc3fb76242b",
-      "place_id": "ChIJq-s5JSWhQTERKyR2-8M8F2I"
+      "place_id": "ChIJq-s5JSWhQTERKyR2-8M8F2I",
+      "foodTags": {
+        "dishType": [
+          "banh-canh"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-cha-cua-o-ao",
@@ -5479,7 +7143,15 @@
       "insiderTips": [],
       "phone": "+84 888 777 224",
       "google_id": "0x3141a1d56898a435:0x307fe84ea13cf3c",
-      "place_id": "ChIJNaSYaNWhQTERPM8T6oT-BwM"
+      "place_id": "ChIJNaSYaNWhQTERPM8T6oT-BwM",
+      "foodTags": {
+        "dishType": [
+          "cha-cua",
+          "banh-canh"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-cua-roi-kim-ha",
@@ -5507,7 +7179,14 @@
       "description": "Bánh canh cua rời Kim Hà được đánh giá 4.8/5 sao trên Google Maps. Tọa lạc tại 78 Lê Thánh Tôn, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1bf5be48419:0xad4d914893ff6250",
-      "place_id": "ChIJGYTkW7-hQTERUGL_k0iRTa0"
+      "place_id": "ChIJGYTkW7-hQTERUGL_k0iRTa0",
+      "foodTags": {
+        "dishType": [
+          "banh-canh"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-ba-oi",
@@ -5536,7 +7215,14 @@
       "insiderTips": [],
       "phone": "+84 979 034 923",
       "google_id": "0x3141a0d1602a0f27:0xf1619be9c0ca26d8",
-      "place_id": "ChIJJw8qYNGgQTER2CbKwOmbYfE"
+      "place_id": "ChIJJw8qYNGgQTER2CbKwOmbYfE",
+      "foodTags": {
+        "dishType": [
+          "banh-canh"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-o-buom",
@@ -5569,7 +7255,18 @@
       "insiderTips": [],
       "phone": "+84 339 876 509",
       "google_id": "0x3141a1e6fe74d45f:0x31a0f4c4b382aabd",
-      "place_id": "ChIJX9R0_uahQTERvaqCs8T0oDE"
+      "place_id": "ChIJX9R0_uahQTERvaqCs8T0oDE",
+      "foodTags": {
+        "dishType": [
+          "banh-canh"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-cua-roi-phuong-nhi",
@@ -5598,7 +7295,14 @@
       "insiderTips": [],
       "phone": "+84 941 809 575",
       "google_id": "0x3141a1007d9383a5:0x29852c56d5cbd793",
-      "place_id": "ChIJpYOTfQChQTERk9fL1VYshSk"
+      "place_id": "ChIJpYOTfQChQTERk9fL1VYshSk",
+      "foodTags": {
+        "dishType": [
+          "banh-canh"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "truong-tien-banh-canh-cua",
@@ -5628,7 +7332,16 @@
       "insiderTips": [],
       "phone": "+84 915 964 698",
       "google_id": "0x3141a1f6ec1c6ec1:0x585345ccf077451f",
-      "place_id": "ChIJwW4c7PahQTERH0V38MxFU1g"
+      "place_id": "ChIJwW4c7PahQTERH0V38MxFU1g",
+      "foodTags": {
+        "dishType": [
+          "banh-canh"
+        ],
+        "mealTime": [
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-o-ma",
@@ -5657,7 +7370,16 @@
       "description": "Bánh canh đồ mã được đánh giá 4.9/5 sao trên Google Maps. Tọa lạc tại 74 Mạc Đĩnh Chi, Phú Cát, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a10078c7850d:0x56e8ce17494dbe58",
-      "place_id": "ChIJDYXHeAChQTERWL5NSRfO6FY"
+      "place_id": "ChIJDYXHeAChQTERWL5NSRfO6FY",
+      "foodTags": {
+        "dishType": [
+          "banh-canh"
+        ],
+        "mealTime": [
+          "breakfast"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-mui",
@@ -5689,7 +7411,17 @@
       "phone": "+84 834 332 227",
       "website": "https://www.foody.vn/hue/banh-canh-mui",
       "google_id": "0x3141a113738e9fe5:0xfd4f6cd441c6201e",
-      "place_id": "ChIJ5Z-OcxOhQTERHiDGQdRsT_0"
+      "place_id": "ChIJ5Z-OcxOhQTERHiDGQdRsT_0",
+      "foodTags": {
+        "dishType": [
+          "banh-canh"
+        ],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-thit-vit-ngoc-tuong-quan",
@@ -5725,7 +7457,20 @@
       "phone": "+84 888 818 679",
       "website": "https://www.facebook.com/FoodExplorerVietnam",
       "google_id": "0x3141a11df8af7b5b:0xb9822a8acb1cc7f0",
-      "place_id": "ChIJW3uv-B2hQTER8Mccy4oqgrk"
+      "place_id": "ChIJW3uv-B2hQTER8Mccy4oqgrk",
+      "foodTags": {
+        "dishType": [
+          "banh-canh"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "quan-thuy-banh-canh-ca-loc-cha-cua-xuong-heo",
@@ -5754,7 +7499,18 @@
       "description": "Quán Thuỷ-bánh canh cá lóc-chả cua-xương heo được đánh giá 4.5/5 sao trên Google Maps. Tọa lạc tại 24 Nguyễn Gia Thiều, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a13a61614f3b:0xe34aaae7decaad7f",
-      "place_id": "ChIJO09hYTqhQTERf63K3ueqSuM"
+      "place_id": "ChIJO09hYTqhQTERf63K3ueqSuM",
+      "foodTags": {
+        "dishType": [
+          "cha-cua",
+          "ca-loc",
+          "banh-canh"
+        ],
+        "mealTime": [
+          "lunch"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-bo-trung-di-huong",
@@ -5785,7 +7541,17 @@
       "insiderTips": [],
       "phone": "+84 905 589 998",
       "google_id": "0x3141a198a7f1aa19:0x5a46df6539222a40",
-      "place_id": "ChIJGarxp5ihQTERQCoiOWXfRlo"
+      "place_id": "ChIJGarxp5ihQTERQCoiOWXfRlo",
+      "foodTags": {
+        "dishType": [
+          "banh-canh"
+        ],
+        "mealTime": [
+          "breakfast",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-cua-roi-le-huan",
@@ -5816,7 +7582,18 @@
       "description": "Bánh Canh Cua Rời - Lê Huân được đánh giá 4.9/5 sao trên Google Maps. Tọa lạc tại 53 Lê Huân, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a100114371ff:0xa046e61ae9217174",
-      "place_id": "ChIJ_3FDEQChQTERdHEh6RrmRqA"
+      "place_id": "ChIJ_3FDEQChQTERdHEh6RrmRqA",
+      "foodTags": {
+        "dishType": [
+          "banh-canh"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-ca-loc-sen-xu",
@@ -5845,7 +7622,17 @@
       "description": "Bánh Canh Cá Lóc Sen Xù được đánh giá 4.8/5 sao trên Google Maps. Tọa lạc tại 2 Hải Triều, An Cựu, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1ddffdc67e9:0x6281f5e2fcc4a1ce",
-      "place_id": "ChIJ6Wfc_92hQTERzqHE_OL1gWI"
+      "place_id": "ChIJ6Wfc_92hQTERzqHE_OL1gWI",
+      "foodTags": {
+        "dishType": [
+          "ca-loc",
+          "banh-canh"
+        ],
+        "mealTime": [
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-cha-cua",
@@ -5873,7 +7660,15 @@
       "description": "Bánh canh chả cua được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 124 Lê Lợi, Phú Hội, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a100565eb663:0x8415334fb7e7cafc",
-      "place_id": "ChIJY7ZeVgChQTER_Mrnt08zFYQ"
+      "place_id": "ChIJY7ZeVgChQTER_Mrnt08zFYQ",
+      "foodTags": {
+        "dishType": [
+          "cha-cua",
+          "banh-canh"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-ngon",
@@ -5904,7 +7699,18 @@
       "description": "Bánh Canh Ngon được đánh giá 4.3/5 sao trên Google Maps. Tọa lạc tại 32 Phạm Hồng Thái, Vĩnh Ninh, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1397d8072e9:0xe8bf5f11e0394c98",
-      "place_id": "ChIJ6XKAfTmhQTERmEw54BFfv-g"
+      "place_id": "ChIJ6XKAfTmhQTERmEw54BFfv-g",
+      "foodTags": {
+        "dishType": [
+          "banh-canh"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "uong-banh-canh-han-thuyen",
@@ -5935,7 +7741,17 @@
       "description": "Đường bánh canh Hàn Thuyên được đánh giá 4.2/5 sao trên Google Maps. Tọa lạc tại FHCJ+XC9, Hàn Thuyên, Phú Hậu, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a12e6cb0e72f:0x4115d2ce43e2c225",
-      "place_id": "ChIJL-ewbC6hQTERJcLiQ87SFUE"
+      "place_id": "ChIJL-ewbC6hQTERJcLiQ87SFUE",
+      "foodTags": {
+        "dishType": [
+          "banh-canh"
+        ],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-o-lai",
@@ -5963,7 +7779,14 @@
       "description": "Bánh Canh O Lài được đánh giá 4.8/5 sao trên Google Maps. Tọa lạc tại 232 Bùi Thị Xuân, Phường Đúc, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a6b0ebfd9c15:0x3c5629a8792cfc8a",
-      "place_id": "ChIJFZz967CmQTERivwseagpVjw"
+      "place_id": "ChIJFZz967CmQTERivwseagpVjw",
+      "foodTags": {
+        "dishType": [
+          "banh-canh"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-ca-loc-tam-toa",
@@ -5991,7 +7814,15 @@
       "description": "Bánh canh cá lóc Tam Tòa được đánh giá 4.6/5 sao trên Google Maps. Tọa lạc tại 45 Đinh Công Tráng, Phú Hậu, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1e1fc642813:0xb3f46715ef07adce",
-      "place_id": "ChIJEyhk_OGhQTERzq0H7xVn9LM"
+      "place_id": "ChIJEyhk_OGhQTERzq0H7xVn9LM",
+      "foodTags": {
+        "dishType": [
+          "ca-loc",
+          "banh-canh"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-di-thuy-thuy-duong",
@@ -6019,7 +7850,14 @@
       "phone": "+84 384 324 692",
       "website": "https://www.facebook.com/share/17yAsJi9eV/",
       "google_id": "0x3141a100218adf5d:0xa648a385989882af",
-      "place_id": "ChIJXd-KIQChQTERr4KYmIWjSKY"
+      "place_id": "ChIJXd-KIQChQTERr4KYmIWjSKY",
+      "foodTags": {
+        "dishType": [
+          "banh-canh"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-rieu-cua",
@@ -6047,7 +7885,14 @@
       "description": "Bánh canh riêu cua được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 77 Hồ Đắc Di, An Cựu, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1003ded63a9:0x27cfdec8a8ef042f",
-      "place_id": "ChIJqWPtPQChQTERLwTvqMjezyc"
+      "place_id": "ChIJqWPtPQChQTERLwTvqMjezyc",
+      "foodTags": {
+        "dishType": [
+          "banh-canh"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-di-thuan",
@@ -6077,7 +7922,16 @@
       "insiderTips": [],
       "phone": "+84 352 653 910",
       "google_id": "0x3141a13374728b4f:0x2bea25da07ac9cf6",
-      "place_id": "ChIJT4tydDOhQTER9pysB9ol6is"
+      "place_id": "ChIJT4tydDOhQTER9pysB9ol6is",
+      "foodTags": {
+        "dishType": [
+          "banh-canh"
+        ],
+        "mealTime": [
+          "breakfast"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-ca-loc-soc-tran-2",
@@ -6106,7 +7960,15 @@
       "insiderTips": [],
       "phone": "+84 877 644 668",
       "google_id": "0x3141a1b127a4c449:0x5a9b8bbe2e626183",
-      "place_id": "ChIJScSkJ7GhQTERg2FiLr6Lm1o"
+      "place_id": "ChIJScSkJ7GhQTERg2FiLr6Lm1o",
+      "foodTags": {
+        "dishType": [
+          "ca-loc",
+          "banh-canh"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "hang-banh-canh-ca-loc",
@@ -6137,7 +7999,19 @@
       "description": "Hằng Bánh Canh Cá Lóc được đánh giá 4.4/5 sao trên Google Maps. Tọa lạc tại 136 Bà Triệu, Xuân Phú, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1999ec29e4b:0xbf6c85dd1586527c",
-      "place_id": "ChIJS57CnpmhQTERfFKGFd2FbL8"
+      "place_id": "ChIJS57CnpmhQTERfFKGFd2FbL8",
+      "foodTags": {
+        "dishType": [
+          "ca-loc",
+          "banh-canh"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-ca-loc-a-tai",
@@ -6165,7 +8039,15 @@
       "description": "Bánh canh cá lóc A Tài được đánh giá 4.5/5 sao trên Google Maps. Tọa lạc tại 36 Trần Quang Khải, Phú Hội, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1f0dbd1af4f:0xe2b75cfc73921ae3",
-      "place_id": "ChIJT6_R2_ChQTER4xqSc_xct-I"
+      "place_id": "ChIJT6_R2_ChQTER4xqSc_xct-I",
+      "foodTags": {
+        "dishType": [
+          "ca-loc",
+          "banh-canh"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-ca-loc-o-hoa",
@@ -6195,7 +8077,17 @@
       "insiderTips": [],
       "phone": "+84 762 677 084",
       "google_id": "0x3141a1498e06519d:0x70e53c368b14c9ed",
-      "place_id": "ChIJnVEGjkmhQTER7ckUizY85XA"
+      "place_id": "ChIJnVEGjkmhQTER7ckUizY85XA",
+      "foodTags": {
+        "dishType": [
+          "ca-loc",
+          "banh-canh"
+        ],
+        "mealTime": [
+          "breakfast"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-ca-loc-di-huong",
@@ -6223,7 +8115,15 @@
       "description": "Bánh Canh Cá Lóc Dì Hương được đánh giá 4.3/5 sao trên Google Maps. Tọa lạc tại 14 Lê Thánh Tôn, Phú Hậu, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1eed4fed01f:0x583219271403ed1a",
-      "place_id": "ChIJH9D-1O6hQTERGu0DFCcZMlg"
+      "place_id": "ChIJH9D-1O6hQTERGu0DFCcZMlg",
+      "foodTags": {
+        "dishType": [
+          "ca-loc",
+          "banh-canh"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "quan-banh-canh-ca-loc",
@@ -6251,7 +8151,15 @@
       "description": "Quán Bánh Canh Cá Lóc được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại CH8Q+836, Thủy Bằng, Hương Thủy, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a3e1c4394239:0x8dbbe127482d00b6",
-      "place_id": "ChIJOUI5xOGjQTERtgAtSCfhu40"
+      "place_id": "ChIJOUI5xOGjQTERtgAtSCfhu40",
+      "foodTags": {
+        "dishType": [
+          "ca-loc",
+          "banh-canh"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-ca-loc-thuy-duong",
@@ -6280,7 +8188,15 @@
       "description": "Bánh canh cá lóc Thuỷ Dương được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 20 Nguyễn Phúc Nguyên, Kim Long, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a7b07009ff67:0x9aa8f05c6a038a1b",
-      "place_id": "ChIJZ_8JcLCnQTERG4oDalzwqJo"
+      "place_id": "ChIJZ_8JcLCnQTERG4oDalzwqJo",
+      "foodTags": {
+        "dishType": [
+          "ca-loc",
+          "banh-canh"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-ca-ro-ca-loc-thao",
@@ -6312,7 +8228,19 @@
       "insiderTips": [],
       "phone": "+84 377 001 020",
       "google_id": "0x3141a17679678cb1:0x89288f27aaa539da",
-      "place_id": "ChIJsYxneXahQTER2jmlqiePKIk"
+      "place_id": "ChIJsYxneXahQTER2jmlqiePKIk",
+      "foodTags": {
+        "dishType": [
+          "ca-loc",
+          "banh-canh"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-ca-loc-thu",
@@ -6341,7 +8269,15 @@
       "insiderTips": [],
       "phone": "+84 971 839 002",
       "google_id": "0x3141a1d42a9952c3:0x961d3edb950663a6",
-      "place_id": "ChIJw1KZKtShQTERpmMGlds-HZY"
+      "place_id": "ChIJw1KZKtShQTERpmMGlds-HZY",
+      "foodTags": {
+        "dishType": [
+          "ca-loc",
+          "banh-canh"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-ca-loc-hoang",
@@ -6373,7 +8309,19 @@
       "insiderTips": [],
       "phone": "+84 234 3854 013",
       "google_id": "0x3141a157e56f9e5f:0xe916ea463bb94429",
-      "place_id": "ChIJX55v5VehQTERKUS5O0bqFuk"
+      "place_id": "ChIJX55v5VehQTERKUS5O0bqFuk",
+      "foodTags": {
+        "dishType": [
+          "ca-loc",
+          "banh-canh"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-di-thuy-ca-ro-ca-loc",
@@ -6401,7 +8349,15 @@
       "description": "Bánh canh dì Thuỷ cá rô - cá lóc được đánh giá 4.6/5 sao trên Google Maps. Tọa lạc tại CJW8+VVW, Thanh Thủy, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a121626d2dc9:0x509e3c52aa336e36",
-      "place_id": "ChIJyS1tYiGhQTERNm4zqlI8nlA"
+      "place_id": "ChIJyS1tYiGhQTERNm4zqlI8nlA",
+      "foodTags": {
+        "dishType": [
+          "ca-loc",
+          "banh-canh"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-ca-loc-hao-hao",
@@ -6430,7 +8386,15 @@
       "insiderTips": [],
       "phone": "+84 859 837 056",
       "google_id": "0x3141a1005b70f543:0x78956a9c7f163711",
-      "place_id": "ChIJQ_VwWwChQTERETcWf5xqlXg"
+      "place_id": "ChIJQ_VwWwChQTERETcWf5xqlXg",
+      "foodTags": {
+        "dishType": [
+          "ca-loc",
+          "banh-canh"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-loan-ca-loc",
@@ -6461,7 +8425,18 @@
       "insiderTips": [],
       "phone": "+84 354 000 738",
       "google_id": "0x3141a17f4c0b26e9:0x2174fa649c1e9df5",
-      "place_id": "ChIJ6SYLTH-hQTER9Z0enGT6dCE"
+      "place_id": "ChIJ6SYLTH-hQTER9Z0enGT6dCE",
+      "foodTags": {
+        "dishType": [
+          "ca-loc",
+          "banh-canh"
+        ],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "di-ut-banh-canh-ca-loc",
@@ -6489,7 +8464,15 @@
       "description": "Dì Út - Bánh canh cá lóc được đánh giá 4.8/5 sao trên Google Maps. Tọa lạc tại 11 Nguyễn Khoa Chiêm, An Cựu, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a16963c38f8d:0xfeca7268bdf920c4",
-      "place_id": "ChIJjY_DY2mhQTERxCD5vWhyyv4"
+      "place_id": "ChIJjY_DY2mhQTERxCD5vWhyyv4",
+      "foodTags": {
+        "dishType": [
+          "ca-loc",
+          "banh-canh"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-ca-loc",
@@ -6516,7 +8499,17 @@
       "description": "Bánh canh cá lóc được đánh giá 4.3/5 sao trên Google Maps. Tọa lạc tại 124 Nguyễn Huệ, Phú Nhuận, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1384c2adabd:0xac4b347fcf468a94",
-      "place_id": "ChIJvdoqTDihQTERlIpGz380S6w"
+      "place_id": "ChIJvdoqTDihQTERlIpGz380S6w",
+      "foodTags": {
+        "dishType": [
+          "ca-loc",
+          "banh-canh"
+        ],
+        "mealTime": [
+          "breakfast"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "binh-banh-canh-ca-loc",
@@ -6546,7 +8539,18 @@
       "description": "Bình - Bánh canh cá lóc được đánh giá 4.4/5 sao trên Google Maps. Tọa lạc tại 140 Trường Chinh, An Đông, An Cựu, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1ee7a4e8773:0xc42badb3be90eedf",
-      "place_id": "ChIJc4dOeu6hQTER3-6QvrOtK8Q"
+      "place_id": "ChIJc4dOeu6hQTER3-6QvrOtK8Q",
+      "foodTags": {
+        "dishType": [
+          "ca-loc",
+          "banh-canh"
+        ],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-ca-loc-bich-tram",
@@ -6577,7 +8581,18 @@
       "insiderTips": [],
       "phone": "+84 908 339 572",
       "google_id": "0x3141a110323761c9:0x5e9413549fe648b6",
-      "place_id": "ChIJyWE3MhChQTERtkjmn1QTlF4"
+      "place_id": "ChIJyWE3MhChQTERtkjmn1QTlF4",
+      "foodTags": {
+        "dishType": [
+          "ca-loc",
+          "banh-canh"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-ca-loc-tuan",
@@ -6606,7 +8621,15 @@
       "insiderTips": [],
       "phone": "+84 343 446 824",
       "google_id": "0x3141a1ec85b6c45d:0x85fc85d7e79690f2",
-      "place_id": "ChIJXcS2heyhQTER8pCW59eF_IU"
+      "place_id": "ChIJXcS2heyhQTER8pCW59eF_IU",
+      "foodTags": {
+        "dishType": [
+          "ca-loc",
+          "banh-canh"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-ca-loc-be",
@@ -6634,7 +8657,15 @@
       "description": "Bánh canh cá lóc Bê được đánh giá 4.7/5 sao trên Google Maps. Tọa lạc tại 234 Nguyễn Tất Thành, Thanh Thủy, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a188fd91f595:0xfebe557531fa93b1",
-      "place_id": "ChIJlfWR_YihQTERsZP6MXVVvv4"
+      "place_id": "ChIJlfWR_YihQTERsZP6MXVVvv4",
+      "foodTags": {
+        "dishType": [
+          "ca-loc",
+          "banh-canh"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-ca-loc-di-mai",
@@ -6663,7 +8694,17 @@
       "description": "Bánh Canh Cá Lóc Dì Mai được đánh giá 4.6/5 sao trên Google Maps. Tọa lạc tại 18 Nguyễn Sinh Cung, Vỹ Dạ, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1222f5dae51:0xe8fd16d40b458d37",
-      "place_id": "ChIJUa5dLyKhQTERN41FC9QW_eg"
+      "place_id": "ChIJUa5dLyKhQTERN41FC9QW_eg",
+      "foodTags": {
+        "dishType": [
+          "ca-loc",
+          "banh-canh"
+        ],
+        "mealTime": [
+          "lunch"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "quan-banh-canh-ca-loc-ngoc-lan",
@@ -6694,7 +8735,19 @@
       "description": "Quán Bánh Canh Cá Lóc Ngọc Lan được đánh giá 4.0/5 sao trên Google Maps. Tọa lạc tại 89 An Dương Vương, An Cựu, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a16eb1f3f581:0x89335f9ef8b1bc2a",
-      "place_id": "ChIJgfXzsW6hQTERKryx-J5fM4k"
+      "place_id": "ChIJgfXzsW6hQTERKryx-J5fM4k",
+      "foodTags": {
+        "dishType": [
+          "ca-loc",
+          "banh-canh"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-nam-pho",
@@ -6722,7 +8775,15 @@
       "description": "Bánh canh nam phổ được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 306 Phan Chu Trinh, An Cựu, Huế 49000, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a100607698bf:0xe6f8b97a4d7f9c24",
-      "place_id": "ChIJv5h2YAChQTERJJx_TXq5-OY"
+      "place_id": "ChIJv5h2YAChQTERJJx_TXq5-OY",
+      "foodTags": {
+        "dishType": [
+          "nam-pho",
+          "banh-canh"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "thuy-banh-canh-nam-pho",
@@ -6755,7 +8816,19 @@
       "phone": "+84 785 237 766",
       "website": "https://www.facebook.com/profile.php%3Fid%3D100088143647975%26mibextid%3DLQQJ4d",
       "google_id": "0x3141a13bd3be2cb9:0xc38e10e489643a13",
-      "place_id": "ChIJuSy-0zuhQTEREzpkieQQjsM"
+      "place_id": "ChIJuSy-0zuhQTEREzpkieQQjsM",
+      "foodTags": {
+        "dishType": [
+          "nam-pho",
+          "banh-canh"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-lang-nam-pho",
@@ -6783,7 +8856,15 @@
       "description": "Bánh canh làng Nam Phổ được đánh giá 4.2/5 sao trên Google Maps. Tọa lạc tại FHXX+7QF, Nguyễn Sinh Cung, Phú Thượng, Mỹ Thượng, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1f8c7c4f699:0x1bb52601b3ef6421",
-      "place_id": "ChIJmfbEx_ihQTERIWTvswEmtRs"
+      "place_id": "ChIJmfbEx_ihQTERIWTvswEmtRs",
+      "foodTags": {
+        "dishType": [
+          "nam-pho",
+          "banh-canh"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "banh-beo-banh-canh-nam-pho-be-hue",
@@ -6812,7 +8893,16 @@
       "insiderTips": [],
       "phone": "+84 838 151 124",
       "google_id": "0x3141a1d1061bee61:0x4542c5551aee9461",
-      "place_id": "ChIJYe4bBtGhQTERYZTuGlXFQkU"
+      "place_id": "ChIJYe4bBtGhQTERYZTuGlXFQkU",
+      "foodTags": {
+        "dishType": [
+          "banh-beo",
+          "nam-pho",
+          "banh-canh"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-nam-pho-ha",
@@ -6840,7 +8930,15 @@
       "description": "Bánh Canh Nam Phổ Hà được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 77 Yết Kiêu, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a70017e83645:0xb63bc1db6851fc03",
-      "place_id": "ChIJRTboFwCnQTERA_xRaNvBO7Y"
+      "place_id": "ChIJRTboFwCnQTERA_xRaNvBO7Y",
+      "foodTags": {
+        "dishType": [
+          "nam-pho",
+          "banh-canh"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-nam-pho-o-hong",
@@ -6870,7 +8968,16 @@
       "insiderTips": [],
       "phone": "+84 905 157 224",
       "google_id": "0x3141a100779bf98f:0x17ee97b575a8ef55",
-      "place_id": "ChIJj_mbdwChQTERVe-odbWX7hc"
+      "place_id": "ChIJj_mbdwChQTERVe-odbWX7hc",
+      "foodTags": {
+        "dishType": [
+          "nam-pho"
+        ],
+        "mealTime": [
+          "breakfast"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-me-du",
@@ -6900,7 +9007,17 @@
       "description": "Bánh canh Mệ Dư được đánh giá 4.7/5 sao trên Google Maps. Tọa lạc tại FHWX+FPW, Thôn Nam Thượng, Mỹ Thượng, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a174e13fd8c7:0x37ac0cc9287ceef1",
-      "place_id": "ChIJx9g_4XShQTER8e58KMkMrDc"
+      "place_id": "ChIJx9g_4XShQTER8e58KMkMrDc",
+      "foodTags": {
+        "dishType": [
+          "banh-canh"
+        ],
+        "mealTime": [
+          "breakfast",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "ganh-hang-rong-banh-canh-nam-pho-nam-loc-goi",
@@ -6929,7 +9046,18 @@
       "description": "Gành hàng rong, Bánh canh Nam Phổ, Nậm Lọc gói được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 5 Phan Bội Châu, Vĩnh Ninh, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a10067053595:0x45fe34edc28bebf8",
-      "place_id": "ChIJlTUFZwChQTER-OuLwu00_kU"
+      "place_id": "ChIJlTUFZwChQTER-OuLwu00_kU",
+      "foodTags": {
+        "dishType": [
+          "banh-beo",
+          "nam-pho",
+          "banh-canh"
+        ],
+        "mealTime": [
+          "breakfast"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-nam-pho-nam-loc-beo-ram-it-banh-uot-banh-goi",
@@ -6957,7 +9085,15 @@
       "description": "Bánh canh Nam Phổ (Nậm, Lọc, Bèo, Ram ít, bánh Ướt, bánh Gói) được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 116 Bùi Thị Xuân, Thuận Hóa, Huế 49124, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a700086e216b:0x309734c9eda85c0",
-      "place_id": "ChIJayFuCACnQTERwIXankxzCQM"
+      "place_id": "ChIJayFuCACnQTERwIXankxzCQM",
+      "foodTags": {
+        "dishType": [
+          "nam-pho",
+          "banh-canh"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "banh-beo-banh-canh-nam-pho-nhu-y",
@@ -6986,7 +9122,16 @@
       "insiderTips": [],
       "phone": "+84 859 008 081",
       "google_id": "0x3141a10030bee4bd:0x94e1879b9f5c598a",
-      "place_id": "ChIJveS-MAChQTERillcn5uH4ZQ"
+      "place_id": "ChIJveS-MAChQTERillcn5uH4ZQ",
+      "foodTags": {
+        "dishType": [
+          "banh-beo",
+          "nam-pho",
+          "banh-canh"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "bun-nghe-banh-canh-nam-pho-di-hoa",
@@ -7016,7 +9161,20 @@
       "description": "bún nghệ bánh canh nam phổ dì Hòa được đánh giá 4.0/5 sao trên Google Maps. Tọa lạc tại 207 Bùi Thị Xuân, Phường Đúc, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a755a20357fb:0x7e07d433a6650749",
-      "place_id": "ChIJ-1cDolWnQTERSQdlpjPUB34"
+      "place_id": "ChIJ-1cDolWnQTERSQdlpjPUB34",
+      "foodTags": {
+        "dishType": [
+          "bun-nghe",
+          "bun",
+          "nam-pho",
+          "banh-canh"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-nam-pho-bao-vinh",
@@ -7044,7 +9202,15 @@
       "description": "Bánh canh Nam phổ bao vinh được đánh giá 4.0/5 sao trên Google Maps. Tọa lạc tại FHWG+2VP, Đặng Tất, Hương Vang, Hóa Châu, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1006d01b8cb:0x1fa24bea072a3ff0",
-      "place_id": "ChIJy7gBbQChQTER8D8qB-pLoh8"
+      "place_id": "ChIJy7gBbQChQTER8D8qB-pLoh8",
+      "foodTags": {
+        "dishType": [
+          "nam-pho",
+          "banh-canh"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "banh-beo-o-thu",
@@ -7074,7 +9240,14 @@
       "phone": "+84 906 692 702",
       "website": "https://www.foody.vn/hue/banh-canh-nam-pho-banh-beo-o-thu",
       "google_id": "0x3141a0db7bb58a45:0xebae3d2c87ab63b8",
-      "place_id": "ChIJRYq1e9ugQTERuGOrhyw9rus"
+      "place_id": "ChIJRYq1e9ugQTERuGOrhyw9rus",
+      "foodTags": {
+        "dishType": [
+          "banh-beo"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "banh-canh-nam-pho-loc-nam",
@@ -7102,7 +9275,15 @@
       "description": "Bánh canh nam phổ, lọc, nậm được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 35 Nguyễn Trường Tộ, Phước Vĩnh, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a10052948ed1:0xe43d72846d5e850d",
-      "place_id": "ChIJ0Y6UUgChQTERDYVebYRyPeQ"
+      "place_id": "ChIJ0Y6UUgChQTERDYVebYRyPeQ",
+      "foodTags": {
+        "dishType": [
+          "nam-pho",
+          "banh-canh"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "com-hen-05-han-mac-tu-com-hen-bun-hen-banh-loc-banh-nam",
@@ -7132,7 +9313,17 @@
       "insiderTips": [],
       "phone": "+84 982 050 005",
       "google_id": "0x3141a172e4387c0d:0x1eacfe406236fc31",
-      "place_id": "ChIJDXw45HKhQTERMfw2YkD-rB4"
+      "place_id": "ChIJDXw45HKhQTERMfw2YkD-rB4",
+      "foodTags": {
+        "dishType": [
+          "bun",
+          "com-hen"
+        ],
+        "mealTime": [
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "com-hen-hoa-ong",
@@ -7166,7 +9357,18 @@
       "phone": "+84 234 3848 359",
       "website": "http://facebook.com/hothihoa08121962",
       "google_id": "0x3141a120eec0e6c3:0x5e3ba950477012ba",
-      "place_id": "ChIJw-bA7iChQTERuhJwR1CpO14"
+      "place_id": "ChIJw-bA7iChQTERuhJwR1CpO14",
+      "foodTags": {
+        "dishType": [
+          "com-hen"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "com-hen-huong-xua",
@@ -7201,7 +9403,19 @@
       ],
       "phone": "+84 905 232 153",
       "google_id": "0x3141a10315ce3b7f:0x63d07590e16f7155",
-      "place_id": "ChIJfzvOFQOhQTERVXFv4ZB10GM"
+      "place_id": "ChIJfzvOFQOhQTERVXFv4ZB10GM",
+      "foodTags": {
+        "dishType": [
+          "com-hen"
+        ],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "com-hen-17-han-mac-tu",
@@ -7238,7 +9452,20 @@
       "phone": "+84 985 978 931",
       "website": "https://m.facebook.com/1634425106838682",
       "google_id": "0x3141a121f6e3f3e9:0x837a9af1b0ab99d2",
-      "place_id": "ChIJ6fPj9iGhQTER0pmrsPGaeoM"
+      "place_id": "ChIJ6fPj9iGhQTER0pmrsPGaeoM",
+      "foodTags": {
+        "dishType": [
+          "com-hen"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "com-hen-ngon",
@@ -7268,7 +9495,17 @@
       "description": "Cơm Hến Ngon được đánh giá 4.4/5 sao trên Google Maps. Tọa lạc tại 2 Kiệt 7 Ưng Bình, Vỹ Dạ, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a0df6f075cf1:0xd9128ec929ace40b",
-      "place_id": "ChIJ8VwHb9-gQTERC-SsKcmOEtk"
+      "place_id": "ChIJ8VwHb9-gQTERC-SsKcmOEtk",
+      "foodTags": {
+        "dishType": [
+          "com-hen"
+        ],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "com-hen-thanh",
@@ -7299,7 +9536,17 @@
       "insiderTips": [],
       "phone": "+84 794 648 304",
       "google_id": "0x3141a1008fb1814f:0xf452011f860e4cdf",
-      "place_id": "ChIJT4GxjwChQTER30wOhh8BUvQ"
+      "place_id": "ChIJT4GxjwChQTER30wOhh8BUvQ",
+      "foodTags": {
+        "dishType": [
+          "com-hen"
+        ],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "com-hen-o-hai",
@@ -7330,7 +9577,17 @@
       "insiderTips": [],
       "phone": "+84 774 585 638",
       "google_id": "0x3141a17ce09e9053:0x1dee104740df0e5e",
-      "place_id": "ChIJU5Ce4HyhQTERXg7fQEcQ7h0"
+      "place_id": "ChIJU5Ce4HyhQTERXg7fQEcQ7h0",
+      "foodTags": {
+        "dishType": [
+          "com-hen"
+        ],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "com-hen-ba-cam",
@@ -7366,7 +9623,20 @@
       "phone": "+84 763 189 115",
       "website": "https://www.foody.vn/hue/com-hen-ba-cam",
       "google_id": "0x3141a13900000001:0x200a4ad72288ece7",
-      "place_id": "ChIJAQAAADmhQTER5-yIItdKCiA"
+      "place_id": "ChIJAQAAADmhQTER5-yIItdKCiA",
+      "foodTags": {
+        "dishType": [
+          "com-hen"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "com-hen-ba-en",
@@ -7398,7 +9668,18 @@
       "insiderTips": [],
       "website": "https://www.foody.vn/hue/com-hen-ba-den",
       "google_id": "0x3141a13db8733d05:0xd666129ba0e9e6db",
-      "place_id": "ChIJBT1zuD2hQTER2-bpoJsSZtY"
+      "place_id": "ChIJBT1zuD2hQTER2-bpoJsSZtY",
+      "foodTags": {
+        "dishType": [
+          "com-hen"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "com-hen-ne",
@@ -7429,7 +9710,17 @@
       "insiderTips": [],
       "phone": "+84 389 139 656",
       "google_id": "0x3141a1e0f9ed847f:0xdc7f61caa8d56df3",
-      "place_id": "ChIJf4Tt-eChQTER823VqMphf9w"
+      "place_id": "ChIJf4Tt-eChQTER823VqMphf9w",
+      "foodTags": {
+        "dishType": [
+          "com-hen"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "com-hen-tam-phuc",
@@ -7463,7 +9754,19 @@
       ],
       "phone": "+84 763 739 981",
       "google_id": "0x3141a0df65919fb9:0x55a952f0512f497c",
-      "place_id": "ChIJuZ-RZd-gQTERfEkvUfBSqVU"
+      "place_id": "ChIJuZ-RZd-gQTERfEkvUfBSqVU",
+      "foodTags": {
+        "dishType": [
+          "com-hen"
+        ],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "com-hen-minh-nghia",
@@ -7497,7 +9800,19 @@
       ],
       "phone": "+84 777 054 600",
       "google_id": "0x3141a178e51eab55:0xd9792880f7215051",
-      "place_id": "ChIJVase5XihQTERUVAh94Aoedk"
+      "place_id": "ChIJVase5XihQTERUVAh94Aoedk",
+      "foodTags": {
+        "dishType": [
+          "com-hen"
+        ],
+        "mealTime": [
+          "lunch"
+        ],
+        "vibe": [
+          "family_friendly",
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "com-hen-thuy",
@@ -7525,7 +9840,14 @@
       "description": "Cơm Hến Thuý được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 285 Đ. Chi Lăng, Phú Hiệp, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a10012496fc5:0x5de0d41033958d6b",
-      "place_id": "ChIJxW9JEgChQTERa42VMxDU4F0"
+      "place_id": "ChIJxW9JEgChQTERa42VMxDU4F0",
+      "foodTags": {
+        "dishType": [
+          "com-hen"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "com-hen-be-liem",
@@ -7557,7 +9879,18 @@
       "description": "Cơm Hến Bé Liêm được đánh giá 4.5/5 sao trên Google Maps. Tọa lạc tại 64 Nguyễn Công Trứ, Phú Hội, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1180d07c01b:0xc04584caaf7b75bb",
-      "place_id": "ChIJG8AHDRihQTERu3V7r8qERcA"
+      "place_id": "ChIJG8AHDRihQTERu3V7r8qERcA",
+      "foodTags": {
+        "dishType": [
+          "com-hen"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "com-hen-oanh",
@@ -7590,7 +9923,19 @@
         "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
       ],
       "google_id": "0x3141a122b173f451:0x953526d395e06ded",
-      "place_id": "ChIJUfRzsSKhQTER7W3gldMmNZU"
+      "place_id": "ChIJUfRzsSKhQTER7W3gldMmNZU",
+      "foodTags": {
+        "dishType": [
+          "com-hen"
+        ],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "com-hen-3-han-mac-tu",
@@ -7626,7 +9971,18 @@
       ],
       "phone": "+84 945 872 862",
       "google_id": "0x3141a122308b33b5:0xba670bf07d091717",
-      "place_id": "ChIJtTOLMCKhQTERFxcJffALZ7o"
+      "place_id": "ChIJtTOLMCKhQTERFxcJffALZ7o",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "com-hen-bun-hen-lanh",
@@ -7656,7 +10012,18 @@
       "description": "Cơm hến, bún hến Lành được đánh giá 4.5/5 sao trên Google Maps. Tọa lạc tại 23 Ngô Gia Tự, Vĩnh Ninh, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1d4b4a734ed:0x908f8827a3866af6",
-      "place_id": "ChIJ7TSntNShQTER9mqGoyeIj5A"
+      "place_id": "ChIJ7TSntNShQTER9mqGoyeIj5A",
+      "foodTags": {
+        "dishType": [
+          "bun",
+          "com-hen"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "com-hen-o-bi",
@@ -7688,7 +10055,17 @@
       "insiderTips": [],
       "phone": "+84 768 587 464",
       "google_id": "0x3141a7d3fa6e7a5b:0xf521fa463b18d3e4",
-      "place_id": "ChIJW3pu-tOnQTER5NMYO0b6IfU"
+      "place_id": "ChIJW3pu-tOnQTER5NMYO0b6IfU",
+      "foodTags": {
+        "dishType": [
+          "com-hen"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "com-hen-ap-a-01-han-mac-tu",
@@ -7721,7 +10098,17 @@
       "phone": "+84 905 570 949",
       "website": "https://www.facebook.com/profile.php%3Fid%3D100082958006136%26mibextid%3DZbWKwL",
       "google_id": "0x3141a10072c35399:0x8fcd8a1fdb438867",
-      "place_id": "ChIJmVPDcgChQTERZ4hD2x-KzY8"
+      "place_id": "ChIJmVPDcgChQTERZ4hD2x-KzY8",
+      "foodTags": {
+        "dishType": [
+          "com-hen"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "thu-com-hen-bun-hen",
@@ -7749,7 +10136,14 @@
       "description": "Thu Com Hến - Bún Hến được đánh giá 4.9/5 sao trên Google Maps. Tọa lạc tại 188 Điện Biên Phủ, P, Thuận Hóa, Huế 49000, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a14e1f053151:0x523fb50c2a04be2c",
-      "place_id": "ChIJUTEFH06hQTERLL4EKgy1P1I"
+      "place_id": "ChIJUTEFH06hQTERLL4EKgy1P1I",
+      "foodTags": {
+        "dishType": [
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "quan-com-hen-be-bo-vy-da",
@@ -7779,7 +10173,14 @@
       "phone": "+84 944 968 288",
       "website": "https://www.facebook.com/ComhenBeBo",
       "google_id": "0x3141a12044c2300d:0x59db17cab57964ff",
-      "place_id": "ChIJDTDCRCChQTER_2R5tcoX21k"
+      "place_id": "ChIJDTDCRCChQTER_2R5tcoX21k",
+      "foodTags": {
+        "dishType": [
+          "com-hen"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "com-hen-men-ca",
@@ -7813,7 +10214,19 @@
       ],
       "phone": "+84 366 817 870",
       "google_id": "0x3141a33a30a9d41f:0x4b41fef1e56a09f0",
-      "place_id": "ChIJH9SpMDqjQTER8Alq5fH-QUs"
+      "place_id": "ChIJH9SpMDqjQTER8Alq5fH-QUs",
+      "foodTags": {
+        "dishType": [
+          "com-hen"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "com-hen-phuong-loan",
@@ -7842,7 +10255,14 @@
       "description": "Cơm Hến Phương Loan được đánh giá 4.5/5 sao trên Google Maps. Tọa lạc tại 108 Kim Long, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a735d009395f:0xaf2d3db9374e20f2",
-      "place_id": "ChIJXzkJ0DWnQTER8iBON7k9La8"
+      "place_id": "ChIJXzkJ0DWnQTER8iBON7k9La8",
+      "foodTags": {
+        "dishType": [
+          "com-hen"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "bun-hen-com-hen",
@@ -7872,7 +10292,18 @@
       "description": "Bún Hến - Cơm Hến được đánh giá 4.1/5 sao trên Google Maps. Tọa lạc tại 162 Nguyễn Huệ, Phú Nhuận, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1f2b2d53c47:0x7865dd9c715c3405",
-      "place_id": "ChIJRzzVsvKhQTERBTRccZzdZXg"
+      "place_id": "ChIJRzzVsvKhQTERBTRccZzdZXg",
+      "foodTags": {
+        "dishType": [
+          "bun",
+          "com-hen"
+        ],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "an-sang-com-hen-truong-inh",
@@ -7903,7 +10334,16 @@
       "description": "Ăn sáng Cơm hến Trương Định được đánh giá 4.2/5 sao trên Google Maps. Tọa lạc tại 28 Trương Định, Vĩnh Ninh, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a13bd3159c3d:0x103804510b2a1f9d",
-      "place_id": "ChIJPZwV0zuhQTERnR8qC1EEOBA"
+      "place_id": "ChIJPZwV0zuhQTERnR8qC1EEOBA",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "com-hen-huong",
@@ -7931,7 +10371,14 @@
       "phone": "+84 342 624 052",
       "website": "https://www.facebook.com/comhen.huong",
       "google_id": "0x3141a10063fcca0f:0xf4cf17d37ba3f8b3",
-      "place_id": "ChIJD8r8YwChQTERs_ije9MXz_Q"
+      "place_id": "ChIJD8r8YwChQTERs_ije9MXz_Q",
+      "foodTags": {
+        "dishType": [
+          "com-hen"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "bun-hen-o-hue",
@@ -7959,7 +10406,14 @@
       "description": "Bún Hến O Huệ được đánh giá 4.4/5 sao trên Google Maps. Tọa lạc tại kiet 48 Ngự Bình, tổ 15, An Cựu, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a14463e3f699:0x51ea208f171e57e8",
-      "place_id": "ChIJmfbjY0ShQTER6FceF48g6lE"
+      "place_id": "ChIJmfbjY0ShQTER6FceF48g6lE",
+      "foodTags": {
+        "dishType": [
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "com-hen-ti-hon",
@@ -7987,7 +10441,14 @@
       "description": "Cơm Hến Tí Hon được đánh giá 4.8/5 sao trên Google Maps. Tọa lạc tại 21 Phạm Văn Đồng, Vỹ Dạ, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a100517b61bb:0x2a00abed45f0915d",
-      "place_id": "ChIJu2F7UQChQTERXZHwRe2rACo"
+      "place_id": "ChIJu2F7UQChQTERXZHwRe2rACo",
+      "foodTags": {
+        "dishType": [
+          "com-hen"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "com-hen-bun-hen-huong-14-ngo-gia-tu",
@@ -8018,7 +10479,18 @@
       "insiderTips": [],
       "phone": "+84 986 223 511",
       "google_id": "0x3141a1c75c29a917:0x86e70d79d0d95c04",
-      "place_id": "ChIJF6kpXMehQTERBFzZ0HkN54Y"
+      "place_id": "ChIJF6kpXMehQTERBFzZ0HkN54Y",
+      "foodTags": {
+        "dishType": [
+          "bun",
+          "com-hen"
+        ],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "quan-com-hen-hong-thuy",
@@ -8049,7 +10521,16 @@
       "phone": "+84 354 319 015",
       "website": "https://www.foody.vn/hue/com-hen-hong-thuy",
       "google_id": "0x3141a12e5b804bdd:0x94f569328fc64f9d",
-      "place_id": "ChIJ3UuAWy6hQTERnU_GjzJp9ZQ"
+      "place_id": "ChIJ3UuAWy6hQTERnU_GjzJp9ZQ",
+      "foodTags": {
+        "dishType": [
+          "com-hen"
+        ],
+        "mealTime": [
+          "breakfast"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "quan-com-hen-o-nhan",
@@ -8083,7 +10564,19 @@
       ],
       "phone": "+84 703 653 752",
       "google_id": "0x3141a196c3b861f1:0x84d3e3948b19e8f7",
-      "place_id": "ChIJ8WG4w5ahQTER9-gZi5Tj04Q"
+      "place_id": "ChIJ8WG4w5ahQTER9-gZi5Tj04Q",
+      "foodTags": {
+        "dishType": [
+          "com-hen"
+        ],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "com-hen-o-thu",
@@ -8113,7 +10606,17 @@
       "description": "Cơm hến O Thu được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 423 Tăng Bạt Hổ, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1624bd9abd1:0xec0e1917b8bba73f",
-      "place_id": "ChIJ0avZS2KhQTERP6e7uBcZDuw"
+      "place_id": "ChIJ0avZS2KhQTERP6e7uBcZDuw",
+      "foodTags": {
+        "dishType": [
+          "com-hen"
+        ],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "bun-hen-o-lan",
@@ -8142,7 +10645,14 @@
       "insiderTips": [],
       "phone": "+84 782 742 963",
       "google_id": "0x3141a7784569d289:0xbf87bb1b750d4c6c",
-      "place_id": "ChIJidJpRXinQTERbEwNdRu7h78"
+      "place_id": "ChIJidJpRXinQTERbEwNdRu7h78",
+      "foodTags": {
+        "dishType": [
+          "bun"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "com-hen-loan",
@@ -8171,7 +10681,14 @@
       "insiderTips": [],
       "phone": "+84 905 835 375",
       "google_id": "0x3141a10e4dab4ccb:0x8df01eb2db030278",
-      "place_id": "ChIJy0yrTQ6hQTEReAID27Ie8I0"
+      "place_id": "ChIJy0yrTQ6hQTEReAID27Ie8I0",
+      "foodTags": {
+        "dishType": [
+          "com-hen"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "che-hem",
@@ -8204,7 +10721,14 @@
       ],
       "website": "https://www.foody.vn/hue/che-hem",
       "google_id": "0x3141a16ba7456fa5:0x2f3cddaefe593767",
-      "place_id": "ChIJpW9Fp2uhQTERZzdZ_q7dPC8"
+      "place_id": "ChIJpW9Fp2uhQTERZzdZ_q7dPC8",
+      "foodTags": {
+        "dishType": [
+          "che"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "che-thanh",
@@ -8236,7 +10760,17 @@
       "insiderTips": [],
       "phone": "+84 905 673 303",
       "google_id": "0x3141a1e3e346dc29:0xfad8f64612bc71dd",
-      "place_id": "ChIJKdxG4-OhQTER3XG8Ekb22Po"
+      "place_id": "ChIJKdxG4-OhQTER3XG8Ekb22Po",
+      "foodTags": {
+        "dishType": [
+          "che"
+        ],
+        "mealTime": [
+          "breakfast",
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "che-mo-ton-ich",
@@ -8265,7 +10799,14 @@
       "insiderTips": [],
       "phone": "+84 986 408 694",
       "google_id": "0x3141a13065375f0f:0x1c449355353d15b2",
-      "place_id": "ChIJD183ZTChQTERshU9NVWTRBw"
+      "place_id": "ChIJD183ZTChQTERshU9NVWTRBw",
+      "foodTags": {
+        "dishType": [
+          "che"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "che-cam",
@@ -8295,7 +10836,14 @@
       "insiderTips": [],
       "website": "https://www.foody.vn/hue/che-cam",
       "google_id": "0x3141a1222e564fff:0xc0c11088605948f0",
-      "place_id": "ChIJ_09WLiKhQTER8EhZYIgQwcA"
+      "place_id": "ChIJ_09WLiKhQTER8EhZYIgQwcA",
+      "foodTags": {
+        "dishType": [
+          "che"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "ngoc-che-buoi-truong-inh",
@@ -8332,7 +10880,21 @@
       "phone": "+84 905 571 575",
       "website": "https://www.facebook.com/ngocchebuoitphue",
       "google_id": "0x3141a1733b44edc7:0x9905b4101091f08c",
-      "place_id": "ChIJx-1EO3OhQTERjPCREBC0BZk"
+      "place_id": "ChIJx-1EO3OhQTERjPCREBC0BZk",
+      "foodTags": {
+        "dishType": [
+          "che"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "family_friendly",
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "che-o-loi",
@@ -8361,7 +10923,14 @@
       "insiderTips": [],
       "phone": "+84 905 454 500",
       "google_id": "0x3141a1062884ae0f:0x2af1fe93222b40e2",
-      "place_id": "ChIJD66EKAahQTER4kArIpP-8So"
+      "place_id": "ChIJD66EKAahQTER4kArIpP-8So",
+      "foodTags": {
+        "dishType": [
+          "che"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "che-hue-20-mon-ngoc-hien",
@@ -8391,7 +10960,14 @@
       "insiderTips": [],
       "phone": "+84 948 493 518",
       "google_id": "0x3141a13073b4e5d1:0xfeb0fc781907cb0f",
-      "place_id": "ChIJ0eW0czChQTERD8sHGXj8sP4"
+      "place_id": "ChIJ0eW0czChQTERD8sHGXj8sP4",
+      "foodTags": {
+        "dishType": [
+          "che"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "che-ong-lac",
@@ -8421,7 +10997,14 @@
       "phone": "+84 708 101 889",
       "website": "https://www.foody.vn/hue/che-ong-lac",
       "google_id": "0x3141a10ca412c377:0x5218d106ce98b459",
-      "place_id": "ChIJd8MSpAyhQTERWbSYzgbRGFI"
+      "place_id": "ChIJd8MSpAyhQTERWbSYzgbRGFI",
+      "foodTags": {
+        "dishType": [
+          "che"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "che-chua",
@@ -8450,7 +11033,14 @@
       "description": "Chè Chùa được đánh giá 4.1/5 sao trên Google Maps. Tọa lạc tại 145 Hùng Vương, Phú Nhuận, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a12abd0fc039:0xcc8a75888c773fd6",
-      "place_id": "ChIJOcAPvSqhQTER1j93jIh1isw"
+      "place_id": "ChIJOcAPvSqhQTER1j93jIh1isw",
+      "foodTags": {
+        "dishType": [
+          "che"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "ngoc-che-buoi-truong-chinh",
@@ -8480,7 +11070,14 @@
       "phone": "+84 788 514 514",
       "website": "https://www.facebook.com/ngocchebuoitphue",
       "google_id": "0x3141a15e543d4605:0x74d34b746b5799f7",
-      "place_id": "ChIJBUY9VF6hQTER95lXa3RL03Q"
+      "place_id": "ChIJBUY9VF6hQTER95lXa3RL03Q",
+      "foodTags": {
+        "dishType": [
+          "che"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "tiem-chang-banh-uc-nem-ran-ha-noi",
@@ -8517,7 +11114,19 @@
       "phone": "+84 905 876 376",
       "website": "https://chethaitrangtrang.blogspot.com/",
       "google_id": "0x3141a1144fdc50bb:0x58ba4fa419ba1dab",
-      "place_id": "ChIJu1DcTxShQTERqx26GaRPulg"
+      "place_id": "ChIJu1DcTxShQTERqx26GaRPulg",
+      "foodTags": {
+        "dishType": [],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "family_friendly",
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "tiem-che-hue",
@@ -8545,7 +11154,14 @@
       "description": "Tiệm chè HUẾ được đánh giá 4.2/5 sao trên Google Maps. Tọa lạc tại 45 Lê Lợi, Phú Hội, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a100056d2861:0x57f54572a1dfd084",
-      "place_id": "ChIJYShtBQChQTERhNDfoXJF9Vc"
+      "place_id": "ChIJYShtBQChQTERhNDfoXJF9Vc",
+      "foodTags": {
+        "dishType": [
+          "che"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "che-o-bay",
@@ -8574,7 +11190,14 @@
       "insiderTips": [],
       "phone": "+84 905 933 851",
       "google_id": "0x3141a17361fc43c5:0x62837eaf97f99a21",
-      "place_id": "ChIJxUP8YXOhQTERIZr5l69-g2I"
+      "place_id": "ChIJxUP8YXOhQTERIZr5l69-g2I",
+      "foodTags": {
+        "dishType": [
+          "che"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "ngoc-che-buoi-nguyen-hue",
@@ -8603,7 +11226,14 @@
       "insiderTips": [],
       "phone": "+84 905 982 626",
       "google_id": "0x3141a149c78c77c9:0xa20b0b42f1cb2aa",
-      "place_id": "ChIJyXeMx0mhQTERqrIcL7SwIAo"
+      "place_id": "ChIJyXeMx0mhQTERqrIcL7SwIAo",
+      "foodTags": {
+        "dishType": [
+          "che"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "che-chi-ac-san-che-hue",
@@ -8631,7 +11261,14 @@
       "description": "Chè Chi - Đặc sản chè Huế được đánh giá 4.9/5 sao trên Google Maps. Tọa lạc tại 2 Tuy Lý Vương, Vỹ Dạ, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1e0bdbc881f:0x8ef734623f808357",
-      "place_id": "ChIJH4i8veChQTERV4OAP2I0944"
+      "place_id": "ChIJH4i8veChQTERV4OAP2I0944",
+      "foodTags": {
+        "dishType": [
+          "che"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "chef-che-xin-homemade",
@@ -8659,7 +11296,14 @@
       "description": "CHEF Chè Xịn Homemade được đánh giá 4.6/5 sao trên Google Maps. Tọa lạc tại 33 Trần Quang Khải, Phú Hội, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a18f3afc927d:0xe2e3fcabf5ad8f7b",
-      "place_id": "ChIJfZL8Oo-hQTERe4-t9av84-I"
+      "place_id": "ChIJfZL8Oo-hQTERe4-t9av84-I",
+      "foodTags": {
+        "dishType": [
+          "che"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "che-hem-cung-inh-20-mon",
@@ -8689,7 +11333,14 @@
       "phone": "+84 914 563 182",
       "website": "https://www.foody.vn/hue/che-hem-cung-dinh-20-mon",
       "google_id": "0x3141a128c54367f3:0xc817de0352f0190e",
-      "place_id": "ChIJ82dDxSihQTERDhnwUgPeF8g"
+      "place_id": "ChIJ82dDxSihQTERDhnwUgPeF8g",
+      "foodTags": {
+        "dishType": [
+          "che"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "che-o-xe-che-hue-17-han-mac-tu",
@@ -8725,7 +11376,20 @@
       "phone": "+84 934 771 630",
       "website": "https://m.facebook.com/oxe.chehue",
       "google_id": "0x3141a11584d8ae87:0x1bfaa7a84a7fdb44",
-      "place_id": "ChIJh67YhBWhQTERRNt_Sqin-hs"
+      "place_id": "ChIJh67YhBWhQTERRNt_Sqin-hs",
+      "foodTags": {
+        "dishType": [
+          "che"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "che-ty",
@@ -8754,7 +11418,14 @@
       "insiderTips": [],
       "phone": "+84 907 060 900",
       "google_id": "0x3141a14130df5c51:0xa7e60ee57dfe320a",
-      "place_id": "ChIJUVzfMEGhQTERCjL-feUO5qc"
+      "place_id": "ChIJUVzfMEGhQTERCjL-feUO5qc",
+      "foodTags": {
+        "dishType": [
+          "che"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "che-o-thao-truoc-cho-ong-ba",
@@ -8782,7 +11453,14 @@
       "description": "Chè O Thảo (trước chợ Đông Ba) được đánh giá 3.4/5 sao trên Google Maps. Tọa lạc tại 200 Trần Hưng Đạo, Phú Hoà, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a133f087bfe3:0x1a474b44bff580eb",
-      "place_id": "ChIJ47-H8DOhQTER64D1v0RLRxo"
+      "place_id": "ChIJ47-H8DOhQTER64D1v0RLRxo",
+      "foodTags": {
+        "dishType": [
+          "che"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "che-sua-co-o",
@@ -8812,7 +11490,14 @@
       "phone": "+84 899 480 050",
       "website": "https://www.facebook.com/profile.php%3Fid%3D100076104462789%26mibextid%3DZbWKwL",
       "google_id": "0x3141a11bddfe7f15:0x7bb6f970fa763133",
-      "place_id": "ChIJFX_-3RuhQTERMzF2-nD5tns"
+      "place_id": "ChIJFX_-3RuhQTERMzF2-nD5tns",
+      "foodTags": {
+        "dishType": [
+          "che"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "che-cafe-inh-vu",
@@ -8846,7 +11531,16 @@
       "phone": "+84 935 008 855",
       "website": "https://www.facebook.com/share/18Xjfz4oHd/%3Fmibextid%3DwwXIfr",
       "google_id": "0x3141a100661a442d:0xcc3acb2bca926017",
-      "place_id": "ChIJLUQaZgChQTERF2CSyivLOsw"
+      "place_id": "ChIJLUQaZgChQTERF2CSyivLOsw",
+      "foodTags": {
+        "dishType": [
+          "che"
+        ],
+        "mealTime": [],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "che-chi-sen",
@@ -8874,7 +11568,14 @@
       "description": "Chè Chị Sen được đánh giá 4.8/5 sao trên Google Maps. Tọa lạc tại 103 Mai Thúc Loan, Phú Hậu, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1007c81acdb:0x12326834fc50eca0",
-      "place_id": "ChIJ26yBfAChQTERoOxQ_DRoMhI"
+      "place_id": "ChIJ26yBfAChQTERoOxQ_DRoMhI",
+      "foodTags": {
+        "dishType": [
+          "che"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "che-thai-khuyen-le",
@@ -8903,7 +11604,14 @@
       "insiderTips": [],
       "phone": "+84 916 482 767",
       "google_id": "0x3141a13fd531ba0d:0x83d1e09c4f140753",
-      "place_id": "ChIJDbox1T-hQTERUwcUT5zg0YM"
+      "place_id": "ChIJDbox1T-hQTERUwcUT5zg0YM",
+      "foodTags": {
+        "dishType": [
+          "che"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "che-nong",
@@ -8931,7 +11639,14 @@
       "description": "Chè Nóng được đánh giá 4.2/5 sao trên Google Maps. Tọa lạc tại 30 Điện Biên Phủ, Trường An, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1000c85aef7:0xb0059aeee084037c",
-      "place_id": "ChIJ966FDAChQTERfAOE4O6aBbA"
+      "place_id": "ChIJ966FDAChQTERfAOE4O6aBbA",
+      "foodTags": {
+        "dishType": [
+          "che"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "che-kinh-o-hue",
@@ -8961,7 +11676,16 @@
       "insiderTips": [],
       "phone": "+84 335 215 219",
       "google_id": "0x3141a13fab6b9931:0x6c195141ed7a7561",
-      "place_id": "ChIJMZlrqz-hQTERYXV67UFRGWw"
+      "place_id": "ChIJMZlrqz-hQTERYXV67UFRGWw",
+      "foodTags": {
+        "dishType": [
+          "che"
+        ],
+        "mealTime": [
+          "breakfast"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "che-hang-nguyen",
@@ -8990,7 +11714,14 @@
       "insiderTips": [],
       "phone": "+84 777 575 941",
       "google_id": "0x3141a168761e5487:0x5b5e07990069ce20",
-      "place_id": "ChIJh1QedmihQTERIM5pAJkHXls"
+      "place_id": "ChIJh1QedmihQTERIM5pAJkHXls",
+      "foodTags": {
+        "dishType": [
+          "che"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "che-hue",
@@ -9018,7 +11749,14 @@
       "description": "Chè Huế được đánh giá 4.8/5 sao trên Google Maps. Tọa lạc tại 99-16 Bùi Thị Xuân, Phường Đúc, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a161f207cbf1:0x5f467bd39394ae4b",
-      "place_id": "ChIJ8csH8mGhQTERS66Uk9N7Rl8"
+      "place_id": "ChIJ8csH8mGhQTERS66Uk9N7Rl8",
+      "foodTags": {
+        "dishType": [
+          "che"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "tiem-che-chang",
@@ -9048,7 +11786,14 @@
       "phone": "+84 905 876 376",
       "website": "https://www.facebook.com/chethaitrangtrang%3Fmibextid%3DZbWKwL",
       "google_id": "0x3141a1004af30aaf:0xd758e6ecb845bc58",
-      "place_id": "ChIJrwrzSgChQTERWLxFuOzmWNc"
+      "place_id": "ChIJrwrzSgChQTERWLxFuOzmWNc",
+      "foodTags": {
+        "dishType": [
+          "che"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "che-thach-xoa-di-lieu",
@@ -9078,7 +11823,14 @@
       "phone": "+84 973 386 425",
       "website": "https://www.facebook.com/thachdilieu/",
       "google_id": "0x3141a6d293307b25:0x3ee9a63b3d4ca32b",
-      "place_id": "ChIJJXswk9KmQTERK6NMPTum6T4"
+      "place_id": "ChIJJXswk9KmQTERK6NMPTum6T4",
+      "foodTags": {
+        "dishType": [
+          "che"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "ganh-che-o-hai",
@@ -9106,7 +11858,14 @@
       "description": "Gánh chè O Hải được đánh giá 4.8/5 sao trên Google Maps. Tọa lạc tại 267 Trần Hưng Đạo, Phú Hoà, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a105ad4048db:0x18331b51d3851032",
-      "place_id": "ChIJ20hArQWhQTERMhCF01EbMxg"
+      "place_id": "ChIJ20hArQWhQTERMhCF01EbMxg",
+      "foodTags": {
+        "dishType": [
+          "che"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "che-thai-man-linh",
@@ -9135,7 +11894,14 @@
       "insiderTips": [],
       "phone": "+84 903 524 517",
       "google_id": "0x3141a1402f5f7d4d:0xd62f9c7a304fa893",
-      "place_id": "ChIJTX1fL0ChQTERk6hPMHqcL9Y"
+      "place_id": "ChIJTX1fL0ChQTERk6hPMHqcL9Y",
+      "foodTags": {
+        "dishType": [
+          "che"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "che-khuc-bach-me-ghini",
@@ -9163,7 +11929,14 @@
       "description": "Chè Khúc Bạch mẹ Ghini được đánh giá 3.7/5 sao trên Google Maps. Tọa lạc tại 22 Tố Hữu, Phú Nhuận, Thuận Hóa, Huế 530000, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1001447234f:0xadcd896c915f58d8",
-      "place_id": "ChIJTyNHFAChQTER2FhfkWyJza0"
+      "place_id": "ChIJTyNHFAChQTER2FhfkWyJza0",
+      "foodTags": {
+        "dishType": [
+          "che"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "che-khuc-bach",
@@ -9191,7 +11964,14 @@
       "description": "Chè Khúc Bạch được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 20 Nguyễn Tri Phương, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a13bff971d11:0x1bdd9a2d2df16941",
-      "place_id": "ChIJER2X_zuhQTERQWnxLS2a3Rs"
+      "place_id": "ChIJER2X_zuhQTERQWnxLS2a3Rs",
+      "foodTags": {
+        "dishType": [
+          "che"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "che-sua",
@@ -9220,7 +12000,14 @@
       "insiderTips": [],
       "phone": "+84 914 490 302",
       "google_id": "0x3141a10baa3aaca9:0xb12f209356d247d3",
-      "place_id": "ChIJqaw6qguhQTER00fSVpMgL7E"
+      "place_id": "ChIJqaw6qguhQTER00fSVpMgL7E",
+      "foodTags": {
+        "dishType": [
+          "che"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "che-em",
@@ -9248,7 +12035,14 @@
       "description": "Chè đêm được đánh giá 3.7/5 sao trên Google Maps. Tọa lạc tại 174 Nguyễn Trãi, Tây Lộc, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a70f66e73ded:0x47cc82db9082d7ab",
-      "place_id": "ChIJ7T3nZg-nQTERq9eCkNuCzEc"
+      "place_id": "ChIJ7T3nZg-nQTERq9eCkNuCzEc",
+      "foodTags": {
+        "dishType": [
+          "che"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "che-hue-goc",
@@ -9277,7 +12071,16 @@
       "description": "Chè Huế Gốc được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 332a Đinh Tiên Hoàng, Thuận Thành, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1003d9ffddb:0x6794ab1b516500e8",
-      "place_id": "ChIJ2_2fPQChQTER6ABlURurlGc"
+      "place_id": "ChIJ2_2fPQChQTER6ABlURurlGc",
+      "foodTags": {
+        "dishType": [
+          "che"
+        ],
+        "mealTime": [
+          "breakfast"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "quan-che-ven-uong",
@@ -9305,7 +12108,14 @@
       "description": "Quán chè ven đường được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 24 Võ Thị Sáu, Phú Hội, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1002dc47d09:0x821d096e82a5903a",
-      "place_id": "ChIJCX3ELQChQTEROpClgm4JHYI"
+      "place_id": "ChIJCX3ELQChQTEROpClgm4JHYI",
+      "foodTags": {
+        "dishType": [
+          "che"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "che-cung-inh-hue",
@@ -9333,7 +12143,14 @@
       "description": "Chè Cung Đình Huế được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại FHH8+PH4, 3Lê Huân, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1002ed64789:0x52b9be3fd71010c1",
-      "place_id": "ChIJiUfWLgChQTERwRAQ1z--uVI"
+      "place_id": "ChIJiUfWLgChQTERwRAQ1z--uVI",
+      "foodTags": {
+        "dishType": [
+          "che"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "quan-oc-thanh-map",
@@ -9368,7 +12185,18 @@
       "phone": "+84 773 536 810",
       "website": "https://www.facebook.com/OcThanhMap",
       "google_id": "0x3141a119416e93a7:0x3249f1ed7c4d93a3",
-      "place_id": "ChIJp5NuQRmhQTERo5NNfO3xSTI"
+      "place_id": "ChIJp5NuQRmhQTERo5NNfO3xSTI",
+      "foodTags": {
+        "dishType": [
+          "oc"
+        ],
+        "mealTime": [
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "quan-oc-ngon-trieu-thuy",
@@ -9401,7 +12229,18 @@
       ],
       "phone": "+84 976 714 485",
       "google_id": "0x3141a18bb42e7605:0x3946d381dbecf96",
-      "place_id": "ChIJBXYutIuhQTERls--HThtlAM"
+      "place_id": "ChIJBXYutIuhQTERls--HThtlAM",
+      "foodTags": {
+        "dishType": [
+          "oc"
+        ],
+        "mealTime": [
+          "breakfast"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "quan-oc-mong-tham",
@@ -9430,7 +12269,14 @@
       "insiderTips": [],
       "phone": "+84 932 526 831",
       "google_id": "0x3141a1ccc77d733f:0xdf17605db26b8d92",
-      "place_id": "ChIJP3N9x8yhQTERko1rsl1gF98"
+      "place_id": "ChIJP3N9x8yhQTERko1rsl1gF98",
+      "foodTags": {
+        "dishType": [
+          "oc"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "oc-la-125-phan-inh-phung",
@@ -9459,7 +12305,14 @@
       "insiderTips": [],
       "phone": "+84 944 076 075",
       "google_id": "0x3141a133484fea8b:0xea04ed609e1dadc8",
-      "place_id": "ChIJi-pPSDOhQTERyK0dnmDtBOo"
+      "place_id": "ChIJi-pPSDOhQTERyK0dnmDtBOo",
+      "foodTags": {
+        "dishType": [
+          "oc"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "oc-truyen-nam",
@@ -9494,7 +12347,18 @@
       ],
       "phone": "+84 935 273 412",
       "google_id": "0x3141a145a603e839:0x6ed54a1d7003bb68",
-      "place_id": "ChIJOegDpkWhQTERaLsDcB1K1W4"
+      "place_id": "ChIJOegDpkWhQTERaLsDcB1K1W4",
+      "foodTags": {
+        "dishType": [
+          "oc"
+        ],
+        "mealTime": [
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "quan-oc-mu-bong",
@@ -9528,7 +12392,18 @@
       "phone": "+84 787 775 871",
       "website": "https://www.facebook.com/quanocmubong/",
       "google_id": "0x3141a428422942c1:0x32cdd843012e7b9f",
-      "place_id": "ChIJwUIpQiikQTERn3suAUPYzTI"
+      "place_id": "ChIJwUIpQiikQTERn3suAUPYzTI",
+      "foodTags": {
+        "dishType": [
+          "oc"
+        ],
+        "mealTime": [
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "bichngoc-oc",
@@ -9557,7 +12432,16 @@
       "description": "BíchNgọc-Ốc được đánh giá 4.7/5 sao trên Google Maps. Tọa lạc tại 105 Phan Đình Phùng, Phú Nhuận, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a10063016a53:0xb8d4dee1aa0010a0",
-      "place_id": "ChIJU2oBYwChQTERoBAAquHe1Lg"
+      "place_id": "ChIJU2oBYwChQTERoBAAquHe1Lg",
+      "foodTags": {
+        "dishType": [
+          "oc"
+        ],
+        "mealTime": [
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "oc-chu-map",
@@ -9591,7 +12475,18 @@
       "phone": "+84 935 832 412",
       "website": "https://www.facebook.com/%25E1%25BB%2590C-CH%25C3%259A-M%25E1%25BA%25ACP-69-%25C4%2590%25E1%25BA%25B7ng-Huy-Tr%25E1%25BB%25A9-103886845761516/",
       "google_id": "0x3141a10ea7fd4519:0x1dc98b8726af56ab",
-      "place_id": "ChIJGUX9pw6hQTERq1avJoeLyR0"
+      "place_id": "ChIJGUX9pw6hQTERq1avJoeLyR0",
+      "foodTags": {
+        "dishType": [
+          "oc"
+        ],
+        "mealTime": [
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "oc-10k-hue",
@@ -9620,7 +12515,14 @@
       "insiderTips": [],
       "phone": "+84 981 660 407",
       "google_id": "0x3141a100410bf6d5:0x18e6b2de27c7075d",
-      "place_id": "ChIJ1fYLQQChQTERXQfHJ96y5hg"
+      "place_id": "ChIJ1fYLQQChQTERXQfHJ96y5hg",
+      "foodTags": {
+        "dishType": [
+          "oc"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "oc-hem-hue",
@@ -9653,7 +12555,18 @@
       ],
       "phone": "+84 906 584 518",
       "google_id": "0x3141a1441d8fb92f:0x9292b0aea10208a9",
-      "place_id": "ChIJL7mPHUShQTERqQgCoa6wkpI"
+      "place_id": "ChIJL7mPHUShQTERqQgCoa6wkpI",
+      "foodTags": {
+        "dishType": [
+          "oc"
+        ],
+        "mealTime": [
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "quan-oc-nha-han",
@@ -9682,7 +12595,14 @@
       "insiderTips": [],
       "phone": "+84 934 247 502",
       "google_id": "0x3141a1494c3b83b9:0xd06fe5124ab79416",
-      "place_id": "ChIJuYM7TEmhQTERFpS3ShLlb9A"
+      "place_id": "ChIJuYM7TEmhQTERFpS3ShLlb9A",
+      "foodTags": {
+        "dishType": [
+          "oc"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "oc-he",
@@ -9712,7 +12632,14 @@
       "phone": "+84 352 472 267",
       "website": "https://www.facebook.com/share/15K2jBdSAD/",
       "google_id": "0x3141a1a49b484867:0x2f1079cb316075e4",
-      "place_id": "ChIJZ0hIm6ShQTER5HVgMct5EC8"
+      "place_id": "ChIJZ0hIm6ShQTER5HVgMct5EC8",
+      "foodTags": {
+        "dishType": [
+          "oc"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "oc-trieu-thuy",
@@ -9749,7 +12676,20 @@
       "phone": "+84 772 445 057",
       "website": "https://www.facebook.com/octrieuthuy/",
       "google_id": "0x3141a07b7fff5c23:0x620360288701e151",
-      "place_id": "ChIJI1z_f3ugQTERUeEBhyhgA2I"
+      "place_id": "ChIJI1z_f3ugQTERUeEBhyhgA2I",
+      "foodTags": {
+        "dishType": [
+          "oc"
+        ],
+        "mealTime": [
+          "breakfast",
+          "dinner"
+        ],
+        "vibe": [
+          "family_friendly",
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "oc-lang-trieu",
@@ -9779,7 +12719,14 @@
       "phone": "+84 796 730 061",
       "website": "https://www.facebook.com/share/15pjvgjjES/%3Fmibextid%3DwwXIfr",
       "google_id": "0x314199f4e279b18b:0xbaef96161a4e7ce",
-      "place_id": "ChIJi7F54vSZQTERzuekYWH5rgs"
+      "place_id": "ChIJi7F54vSZQTERzuekYWH5rgs",
+      "foodTags": {
+        "dishType": [
+          "oc"
+        ],
+        "mealTime": [],
+        "vibe": []
+      }
     },
     {
       "id": "quan-oc-chi-ai",
@@ -9813,7 +12760,18 @@
       "phone": "+84 775 711 448",
       "website": "https://www.facebook.com/Qu%25C3%25A1n-%25E1%25BB%2591c-ch%25E1%25BB%258B-%25C3%25A1i-101092255708803",
       "google_id": "0x3141a787756ebf17:0x4a8fc4236a1a3713",
-      "place_id": "ChIJF79udYenQTEREzcaaiPEj0o"
+      "place_id": "ChIJF79udYenQTEREzcaaiPEj0o",
+      "foodTags": {
+        "dishType": [
+          "oc"
+        ],
+        "mealTime": [
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "oc-ga",
@@ -9843,7 +12801,16 @@
       "insiderTips": [],
       "website": "https://www.foody.vn/hue/oc-ga",
       "google_id": "0x3141a14bcda81c41:0xa5c2b2c6693d8914",
-      "place_id": "ChIJQRyozUuhQTERFIk9acaywqU"
+      "place_id": "ChIJQRyozUuhQTERFIk9acaywqU",
+      "foodTags": {
+        "dishType": [
+          "oc"
+        ],
+        "mealTime": [
+          "dinner"
+        ],
+        "vibe": []
+      }
     },
     {
       "id": "quan-oc-vy",
@@ -9876,7 +12843,18 @@
       ],
       "phone": "+84 702 456 702",
       "google_id": "0x3141a1e2cd54847d:0xd37e6592e38cd358",
-      "place_id": "ChIJfYRUzeKhQTERWNOM45JlftM"
+      "place_id": "ChIJfYRUzeKhQTERWNOM45JlftM",
+      "foodTags": {
+        "dishType": [
+          "oc"
+        ],
+        "mealTime": [
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "ocean-oc",
@@ -9908,7 +12886,18 @@
         "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
       ],
       "google_id": "0x3141a16caefa8dfd:0xc8896a0d1cbaa787",
-      "place_id": "ChIJ_Y36rmyhQTERh6e6HA1qicg"
+      "place_id": "ChIJ_Y36rmyhQTERh6e6HA1qicg",
+      "foodTags": {
+        "dishType": [
+          "oc"
+        ],
+        "mealTime": [
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "oc-ao-quan-co-so-2",
@@ -9941,7 +12930,18 @@
       ],
       "phone": "+84 935 695 656",
       "google_id": "0x3141a198680bb323:0x45b93b2f1390f368",
-      "place_id": "ChIJI7MLaJihQTERaPOQEy87uUU"
+      "place_id": "ChIJI7MLaJihQTERaPOQEy87uUU",
+      "foodTags": {
+        "dishType": [
+          "oc"
+        ],
+        "mealTime": [
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     },
     {
       "id": "oc-dinh",
@@ -9975,7 +12975,19 @@
       ],
       "phone": "+84 766 569 332",
       "google_id": "0x3141a1fd5ff625af:0x66550fc239d476f5",
-      "place_id": "ChIJryX2X_2hQTER9XbUOcIPVWY"
+      "place_id": "ChIJryX2X_2hQTER9XbUOcIPVWY",
+      "foodTags": {
+        "dishType": [
+          "oc"
+        ],
+        "mealTime": [
+          "dinner"
+        ],
+        "vibe": [
+          "family_friendly",
+          "reservation_available"
+        ]
+      }
     }
   ]
 }
