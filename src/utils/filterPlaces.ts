@@ -1,22 +1,12 @@
 import type { Place, Category } from '../types'
 
-const FOOD_KEYWORDS: Record<string, string[]> = {
-  'bun':            ['bún'],
-  'bun-bo':         ['bún bò'],
-  'bun-mam-nem':    ['bún mắm nêm', 'mắm nêm'],
-  'bun-thit-nuong': ['bún thịt nướng'],
-  'bun-nghe':       ['bún nghệ'],
-  'bun-chay':       ['bún chay'],
-  'cac-loai-banh':  ['bánh ép', 'bánh bèo', 'nậm lọc'],
-  'banh-ep':        ['bánh ép'],
-  'banh-beo':       ['bánh bèo', 'nậm lọc'],
-  'banh-canh':      ['bánh canh'],
-  'cha-cua':        ['chả cua'],
-  'ca-loc':         ['cá lóc'],
-  'nam-pho':        ['nam phổ'],
-  'com-hen':        ['cơm hến'],
-  'che':            ['chè'],
-  'oc':             ['ốc'],
+const DISH_GROUPS: Record<string, string[]> = {
+  'bun':           ['bun', 'bun-bo', 'bun-mam-nem', 'bun-thit-nuong', 'bun-nghe', 'bun-chay'],
+  'cac-loai-banh': ['cac-loai-banh', 'banh-ep', 'banh-beo'],
+  'banh-canh':     ['banh-canh', 'cha-cua', 'ca-loc', 'nam-pho'],
+  'com-hen':       ['com-hen'],
+  'che':           ['che'],
+  'oc':            ['oc'],
 }
 
 export function filterPlaces(
@@ -40,11 +30,10 @@ export function filterPlaces(
   if (category === 'food') {
     const activeKey = (foodDish ?? foodGroup) || 'all'
     if (activeKey === 'all') return places.filter(p => p.category === 'food')
-    const lowerKws = (FOOD_KEYWORDS[activeKey] ?? []).map(kw => kw.toLowerCase())
+    const allowed = DISH_GROUPS[activeKey] ?? [activeKey]
     return places.filter(p => {
       if (p.category !== 'food') return false
-      const lower = p.name.toLowerCase()
-      return lowerKws.some(kw => lower.includes(kw))
+      return p.foodTags?.dishType.some(dt => allowed.includes(dt)) ?? false
     })
   }
 
