@@ -7,6 +7,7 @@ const FOOD_KEYWORDS: Record<string, string[]> = {
   'bun-thit-nuong': ['bún thịt nướng'],
   'bun-nghe':       ['bún nghệ'],
   'bun-chay':       ['bún chay'],
+  'cac-loai-banh':  ['bánh ép', 'bánh bèo', 'nậm lọc'],
   'banh-ep':        ['bánh ép'],
   'banh-beo':       ['bánh bèo', 'nậm lọc'],
   'banh-canh':      ['bánh canh'],
@@ -15,6 +16,7 @@ const FOOD_KEYWORDS: Record<string, string[]> = {
   'nam-pho':        ['nam phổ'],
   'com-hen':        ['cơm hến'],
   'che':            ['chè'],
+  'oc':             ['ốc'],
 }
 
 export function filterPlaces(

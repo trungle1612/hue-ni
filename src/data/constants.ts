@@ -41,16 +41,20 @@ export const TAG_LABEL_MAP: Record<string, string> = {
 }
 
 export const FOOD_GROUP_OPTIONS: ComboboxOption[] = [
-  { value: 'all',       icon: '🍽️', label: 'Chọn món' },
-  { value: 'bun',       icon: '🍜', label: 'Bún' },
-  { value: 'banh-ep',   icon: '🥞', label: 'Bánh ép' },
-  { value: 'banh-beo',  icon: '🍥', label: 'Bánh bèo, nậm lọc' },
-  { value: 'banh-canh', icon: '🍲', label: 'Bánh canh' },
-  { value: 'com-hen',   icon: '🐚', label: 'Cơm hến' },
-  { value: 'che',       icon: '🍮', label: 'Chè' },
+  { value: 'all',            icon: '🍽️', label: 'Chọn món' },
+  { value: 'bun',            icon: '🍜', label: 'Bún' },
+  { value: 'cac-loai-banh', icon: '🥞', label: 'Các loại bánh' },
+  { value: 'banh-canh',     icon: '🍲', label: 'Bánh canh' },
+  { value: 'com-hen',        icon: '🐚', label: 'Cơm hến' },
+  { value: 'che',            icon: '🍮', label: 'Chè' },
+  { value: 'oc',             icon: '🐌', label: 'Ốc' },
 ]
 
 export const FOOD_DISH_MAP: Record<string, { value: string; label: string }[]> = {
+  'cac-loai-banh': [
+    { value: 'banh-ep',  label: '🥞 Bánh ép' },
+    { value: 'banh-beo', label: '🍥 Bánh bèo, nậm lọc' },
+  ],
   'bun': [
     { value: 'bun-bo',         label: '🍜 Bún bò' },
     { value: 'bun-mam-nem',    label: '🦐 Bún mắm nêm' },

@@ -13,6 +13,12 @@ export interface Review {
   photos?: string[]
 }
 
+export interface FoodTags {
+  dishType: string[]   // e.g. ['bun-bo', 'bun-thit-nuong']
+  mealTime: string[]   // e.g. ['breakfast', 'lunch']
+  vibe: string[]       // e.g. ['family_friendly', 'street_food']
+}
+
 export interface Place {
   id: string
   name: string
@@ -35,6 +41,7 @@ export interface Place {
   logo?: string
   reviews?: Review[]
   menu?: string[]
+  foodTags?: FoodTags
 }
 
 export interface Collection {
