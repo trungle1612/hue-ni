@@ -22,7 +22,7 @@ NAME_TO_DISH: list[tuple[str, str]] = [
     (r'nam phổ|nam pho',                'nam-pho'),
     (r'bánh canh',                      'banh-canh'),
     (r'cơm hến',                        'com-hen'),
-    (r'\bốc\b',                         'oc'),
+    (r'\bốc\b|\boc\b',                  'oc'),
     (r'\bchè\b',                        'che'),
 ]
 

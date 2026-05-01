@@ -27,6 +27,7 @@ const places: Place[] = [
   makeFood('che-1',           ['che']),
   makeFood('com-hen-1',       ['com-hen']),
   makeFood('banh-ep-1',       ['banh-ep']),
+  makeFood('banh-beo-1',      ['banh-beo']),
   makeFood('banh-canh-1',     ['banh-canh']),
   makeFood('cha-cua-1',       ['cha-cua']),
   makeFood('untagged-1',      []),
@@ -34,7 +35,7 @@ const places: Place[] = [
 
 describe('filterPlaces – food category', () => {
   it('returns all food places when activeKey is all', () => {
-    expect(filterPlaces(places, 'food', null)).toHaveLength(9)
+    expect(filterPlaces(places, 'food', null)).toHaveLength(10)
   })
 
   it('returns only bun places when foodGroup=bun and no dish selected', () => {
@@ -51,6 +52,12 @@ describe('filterPlaces – food category', () => {
     const result = filterPlaces(places, 'food', null, 'banh-canh')
     expect(result.map(p => p.id)).toContain('banh-canh-1')
     expect(result.map(p => p.id)).toContain('cha-cua-1')
+  })
+
+  it('matches banh-ep and banh-beo when foodGroup=cac-loai-banh', () => {
+    const result = filterPlaces(places, 'food', null, 'cac-loai-banh')
+    expect(result.map(p => p.id)).toContain('banh-ep-1')
+    expect(result.map(p => p.id)).toContain('banh-beo-1')
   })
 
   it('matches only cha-cua when foodDish=cha-cua', () => {
