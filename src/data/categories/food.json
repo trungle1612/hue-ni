@@ -242,7 +242,7 @@
         "open": "06:00",
         "close": "19:30"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Thực đơn đa dạng mang hương vị Huế — đậm đà, thân quen và đúng vị.",
       "description": "Bà Hoà được đánh giá 4.2/5 sao trên Google Maps. Tọa lạc tại 11A Trương Định, Vĩnh Ninh, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [
         "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
@@ -251,7 +251,9 @@
       "google_id": "0x3141a1398c2d9ec1:0x6eeea7f0750d7d5",
       "place_id": "ChIJwZ4tjDmhQTER1ddQB3_q7gY",
       "foodTags": {
-        "dishType": [],
+        "dishType": [
+          "com-hue"
+        ],
         "mealTime": [
           "breakfast",
           "lunch",
@@ -1819,7 +1821,10 @@
       "google_id": "0x3141a0dc4b2a87c5:0xc913a006f628faeb",
       "place_id": "ChIJxYcqS9ygQTER6_oo9gagE8k",
       "foodTags": {
-        "dishType": [],
+        "dishType": [
+          "bun-bo",
+          "bun"
+        ],
         "mealTime": [],
         "vibe": []
       }
@@ -1962,14 +1967,16 @@
         "open": "09:30",
         "close": "22:00"
       },
-      "vibe": "Tiệm bánh Huế giản dị, mỗi chiếc bánh là một hương vị riêng.",
+      "vibe": "Bánh tráng cuốn heo quay — giòn tan, thơm ngon, đặc sản cuốn xứ Huế.",
       "description": "Bà Thuận - Bánh Tráng Cuốn Heo Quay Lu được đánh giá 4.9/5 sao trên Google Maps. Tọa lạc tại 46 Đ. Nguyễn Lương Bằng, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "phone": "+84 348 420 291",
       "google_id": "0x3141a1f98f58c869:0x2e358c93784ca2b9",
       "place_id": "ChIJachYj_mhQTERuaJMeJOMNS4",
       "foodTags": {
-        "dishType": [],
+        "dishType": [
+          "banh-trang-cuon"
+        ],
         "mealTime": [],
         "vibe": []
       }
@@ -2034,13 +2041,15 @@
         "open": "11:00",
         "close": "21:00"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Bún mắm nêm thơm nồng — nước chấm sánh mịn, đặc sản không nơi nào có.",
       "description": "Quán Mắm Huế được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 17/15 Đường Thạch Hãn, Phú Xuân, Huế 49000, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a6ce64a28b17:0x4daced597fb68b3f",
       "place_id": "ChIJF4uiZM6mQTERP4u2f1ntrE0",
       "foodTags": {
-        "dishType": [],
+        "dishType": [
+          "bun-mam-nem"
+        ],
         "mealTime": [
           "lunch",
           "dinner"
@@ -2111,7 +2120,7 @@
         "open": "11:00",
         "close": "19:30"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Bún mắm nêm thơm nồng — nước chấm sánh mịn, đặc sản không nơi nào có.",
       "description": "Bún Mắm Nêm Nhà Nguyệt được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 25 Ngô Sỹ Liên, Thuận Thành, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "phone": "+84 794 581 753",
@@ -2150,7 +2159,7 @@
         "open": "11:00",
         "close": "20:00"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Bún mắm nêm thơm nồng — nước chấm sánh mịn, đặc sản không nơi nào có.",
       "description": "Bún Mắm Nêm O Bê được đánh giá 4.3/5 sao trên Google Maps. Tọa lạc tại 1 Phan Đăng Lưu, Phú Hoà, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "phone": "+84 935 587 655",
@@ -2190,7 +2199,7 @@
         "open": "12:00",
         "close": "20:45"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Bún mắm nêm thơm nồng — nước chấm sánh mịn, đặc sản không nơi nào có.",
       "description": "Bún Mắm Nêm O Sen chân cầu Chợ Dinh được đánh giá 4.5/5 sao trên Google Maps. Tọa lạc tại 39 ĐT10A, Tây Thượng, Mỹ Thượng, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "phone": "+84 798 074 246",
@@ -2230,7 +2239,7 @@
         "open": "08:00",
         "close": "22:00"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Thực đơn đa dạng mang hương vị Huế — đậm đà, thân quen và đúng vị.",
       "description": "Quán Mệ Thẻo được đánh giá 4.3/5 sao trên Google Maps. Tọa lạc tại 3/64 Bà Triệu, tổ 5, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [
         "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
@@ -2238,7 +2247,10 @@
       "google_id": "0x3141a1468f7a55d5:0xc6e85d98f1ab9d8d",
       "place_id": "ChIJ1VV6j0ahQTERjZ2r8Zhd6MY",
       "foodTags": {
-        "dishType": [],
+        "dishType": [
+          "bun",
+          "bun-mam-nem"
+        ],
         "mealTime": [
           "lunch",
           "dinner"
@@ -2270,7 +2282,7 @@
         "open": "14:30",
         "close": "20:00"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Bún mắm nêm thơm nồng — nước chấm sánh mịn, đặc sản không nơi nào có.",
       "description": "Bún mắm nêm được đánh giá 4.5/5 sao trên Google Maps. Tọa lạc tại 14 Ngô Gia Tự, Vĩnh Ninh, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a100457a66b9:0xdd9e9a98fb138d91",
@@ -2307,7 +2319,7 @@
         "open": "13:00",
         "close": "21:00"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Bún mắm nêm thơm nồng — nước chấm sánh mịn, đặc sản không nơi nào có.",
       "description": "Bún Mắm Nêm Bé Đen được đánh giá 4.3/5 sao trên Google Maps. Tọa lạc tại 42 Bà Triệu, tổ 6, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1bb49160ba9:0x7e9efaf0b697890d",
@@ -2350,7 +2362,7 @@
         "open": "09:00",
         "close": "21:00"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Thực đơn đa dạng mang hương vị Huế — đậm đà, thân quen và đúng vị.",
       "description": "Bến Ngự quán được đánh giá 4.6/5 sao trên Google Maps. Tọa lạc tại Gần nhà thờ Phủ cam, 07 kiệt 14, 7a/14 Đoàn Hữu Trưng, Phước Vĩnh, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [
         "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
@@ -2360,7 +2372,9 @@
       "google_id": "0x3141a14622100ce5:0xf17b8fef7d9d3695",
       "place_id": "ChIJ5QwQIkahQTERlTadfe-Pe_E",
       "foodTags": {
-        "dishType": [],
+        "dishType": [
+          "com-hue"
+        ],
         "mealTime": [
           "breakfast",
           "lunch",
@@ -2393,7 +2407,7 @@
         "open": "14:00",
         "close": "18:00"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Bún mắm nêm thơm nồng — nước chấm sánh mịn, đặc sản không nơi nào có.",
       "description": "Bún Mắm Nêm - Bún Trộn được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 38 Nhật Lệ, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a106cc17a181:0x39acaf60ed23d2c9",
@@ -2471,7 +2485,7 @@
         "open": "11:00",
         "close": "19:00"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Bún mắm nêm thơm nồng — nước chấm sánh mịn, đặc sản không nơi nào có.",
       "description": "Bún Mắm Nêm Bé Xù được đánh giá 4.8/5 sao trên Google Maps. Tọa lạc tại 32 Nguyễn Tri Phương, Tổ 11, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "phone": "+84 799 448 447",
@@ -2512,13 +2526,16 @@
         "open": "06:00",
         "close": "21:00"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Bún mắm nêm thơm nồng — nước chấm sánh mịn, đặc sản không nơi nào có.",
       "description": "Quan Bun Mam Nem được đánh giá 4.8/5 sao trên Google Maps. Tọa lạc tại 90 Yết Kiêu, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a7c6c27f14bf:0x78384b911f302c31",
       "place_id": "ChIJvxR_wsanQTERMSwwH5FLOHg",
       "foodTags": {
-        "dishType": [],
+        "dishType": [
+          "bun-mam-nem",
+          "bun"
+        ],
         "mealTime": [
           "lunch",
           "dinner"
@@ -2553,7 +2570,7 @@
         "open": "07:00",
         "close": "21:30"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Thực đơn đa dạng mang hương vị Huế — đậm đà, thân quen và đúng vị.",
       "description": "Quán Nón Huế-Đặc Sản Món Huế-Authentic Hue Food được đánh giá 4.8/5 sao trên Google Maps. Tọa lạc tại 77 Nguyễn Sinh Cung, Vỹ Dạ, Huế 530000, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [
         "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
@@ -2562,7 +2579,12 @@
       "google_id": "0x3141a167c31a2941:0x6eed41736027c99e",
       "place_id": "ChIJQSkaw2ehQTERnsknYHNB7W4",
       "foodTags": {
-        "dishType": [],
+        "dishType": [
+          "com-hue",
+          "bun",
+          "bun-bo",
+          "banh-beo"
+        ],
         "mealTime": [
           "breakfast",
           "lunch",
@@ -2595,7 +2617,7 @@
         "open": "06:00",
         "close": "21:00"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Bún mắm nêm thơm nồng — nước chấm sánh mịn, đặc sản không nơi nào có.",
       "description": "Bún mắm nêm O Tý được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 1A Cao Bá Quát, tổ, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1a121b0435d:0x65cb2d982e880fbb",
@@ -2637,7 +2659,7 @@
         "open": "10:00",
         "close": "21:00"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Nem lụi nướng than hoa — thơm phức, chấm mắm me đặc trưng xứ Huế.",
       "description": "Quán Bà Tý - bún thịt nướng và nem lụi (cơ sở 2) được đánh giá 4.7/5 sao trên Google Maps. Tọa lạc tại 10 Lê Minh, An Đông, An Cựu, Huế 530000, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "phone": "+84 329 198 789",
@@ -2646,7 +2668,8 @@
       "foodTags": {
         "dishType": [
           "bun-thit-nuong",
-          "bun"
+          "bun",
+          "nem-lui"
         ],
         "mealTime": [
           "breakfast",
@@ -2723,56 +2746,17 @@
         "open": "09:00",
         "close": "21:30"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Nem lụi nướng than hoa — thơm phức, chấm mắm me đặc trưng xứ Huế.",
       "description": "Nem Lụi O Đen được đánh giá 4.5/5 sao trên Google Maps. Tọa lạc tại 08 Tố Hữu, Phú Nhuận, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "phone": "+84 899 878 859",
       "google_id": "0x3141a17220f4e62f:0xfa4f146003536de6",
       "place_id": "ChIJL-b0IHKhQTER5m1TA2AUT_o",
       "foodTags": {
-        "dishType": [],
-        "mealTime": [
-          "lunch",
-          "dinner"
+        "dishType": [
+          "nem-lui"
         ],
-        "vibe": []
-      }
-    },
-    {
-      "id": "ac-san-xu-quang",
-      "name": "Đặc Sản Xứ Quảng",
-      "category": "food",
-      "tags": [
-        "ăn sáng",
-        "ăn trưa",
-        "ăn tối",
-        "ẩm thực"
-      ],
-      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGfVZ2E9-8utrMsFiaqc8YzIkc39GlAHPIGp2fQAMIBAlHRBlGN1fUCxwRveg6ktv9NPdO58I9RicC8Sr439IY8pwl0QkjaHcoKi0kdLMY4V6qOiGtd_SH6fWGdRT34fjHpR0wI=w800-h500-k-no",
-      "gallery": [
-        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGfVZ2E9-8utrMsFiaqc8YzIkc39GlAHPIGp2fQAMIBAlHRBlGN1fUCxwRveg6ktv9NPdO58I9RicC8Sr439IY8pwl0QkjaHcoKi0kdLMY4V6qOiGtd_SH6fWGdRT34fjHpR0wI=w800-h500-k-no"
-      ],
-      "address": "103 Nguyễn Trường Tộ, Vĩnh Ninh, Thuận Hóa, Huế, Việt Nam",
-      "coordinates": {
-        "lat": 16.4559553,
-        "lng": 107.58671079999999
-      },
-      "rating": 4.2,
-      "priceRange": "₫",
-      "hours": {
-        "open": "06:00",
-        "close": "22:00"
-      },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
-      "description": "Đặc Sản Xứ Quảng được đánh giá 4.2/5 sao trên Google Maps. Tọa lạc tại 103 Nguyễn Trường Tộ, Vĩnh Ninh, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
-      "insiderTips": [],
-      "phone": "+84 934 990 513",
-      "google_id": "0x3141a18376904823:0x5f74507182a52879",
-      "place_id": "ChIJI0iQdoOhQTEReSilgnFQdF8",
-      "foodTags": {
-        "dishType": [],
         "mealTime": [
-          "breakfast",
           "lunch",
           "dinner"
         ],
@@ -2921,7 +2905,7 @@
         "open": "13:00",
         "close": "20:00"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Bún mắm nêm thơm nồng — nước chấm sánh mịn, đặc sản không nơi nào có.",
       "description": "Bún Thịt nướng - Mắm nêm - Riêu cua được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 239 Bà Triệu, Phú Nhuận, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "phone": "+84 234 3501 472",
@@ -2935,44 +2919,6 @@
         ],
         "mealTime": [
           "breakfast",
-          "lunch",
-          "dinner"
-        ],
-        "vibe": []
-      }
-    },
-    {
-      "id": "bep-me-chut",
-      "name": "Bép Mệ Chút",
-      "category": "food",
-      "tags": [
-        "ăn trưa",
-        "ăn tối",
-        "ẩm thực"
-      ],
-      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHtCuQPzDC5_9OSEN8F9Fah-9IBDVVWWWeUjeFNCbsLPce0LxEUET5NVxcI_eXjPDGd_p6fUqZxnO-4zzdJGhsdavX6UBncwKlcHr_fEc4WR-bUYAGWRCrdzgWlpp1ODFadoPAe=w800-h500-k-no",
-      "gallery": [
-        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHtCuQPzDC5_9OSEN8F9Fah-9IBDVVWWWeUjeFNCbsLPce0LxEUET5NVxcI_eXjPDGd_p6fUqZxnO-4zzdJGhsdavX6UBncwKlcHr_fEc4WR-bUYAGWRCrdzgWlpp1ODFadoPAe=w800-h500-k-no"
-      ],
-      "address": "7 Kiệt 81 Nguyễn Huệ, Phú Nhuận, Thuận Hóa, Huế, Việt Nam",
-      "coordinates": {
-        "lat": 16.4590444,
-        "lng": 107.5936953
-      },
-      "rating": 5.0,
-      "priceRange": "₫",
-      "hours": {
-        "open": "06:00",
-        "close": "21:00"
-      },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
-      "description": "Bép Mệ Chút được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 7 Kiệt 81 Nguyễn Huệ, Phú Nhuận, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
-      "insiderTips": [],
-      "google_id": "0x3141a13f66766835:0xde41758f07b33154",
-      "place_id": "ChIJNWh2Zj-hQTERVDGzB491Qd4",
-      "foodTags": {
-        "dishType": [],
-        "mealTime": [
           "lunch",
           "dinner"
         ],
@@ -2999,7 +2945,7 @@
         "open": "06:00",
         "close": "12:00"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Bún mắm nêm thơm nồng — nước chấm sánh mịn, đặc sản không nơi nào có.",
       "description": "Bún đậu mắm nêm được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 1 Đào Duy Từ, Phú Bình, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a12c949d57c5:0x7b37784a17eb2103",
@@ -3175,7 +3121,7 @@
         "open": "16:00",
         "close": "21:00"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Nem lụi nướng than hoa — thơm phức, chấm mắm me đặc trưng xứ Huế.",
       "description": "Nem Lụi Bà Tý được đánh giá 4.2/5 sao trên Google Maps. Tọa lạc tại 81 Đào Duy Từ, tổ 1, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "phone": "+84 935 778 434",
@@ -3183,7 +3129,9 @@
       "google_id": "0x3141a191f49b244b:0x33e40ea34358df6",
       "place_id": "ChIJSySb9JGhQTER9o01NOpAPgM",
       "foodTags": {
-        "dishType": [],
+        "dishType": [
+          "nem-lui"
+        ],
         "mealTime": [
           "breakfast",
           "lunch",
@@ -3261,7 +3209,7 @@
         "open": "08:00",
         "close": "22:30"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Thực đơn đa dạng mang hương vị Huế — đậm đà, thân quen và đúng vị.",
       "description": "Maison Trang được đánh giá 4.8/5 sao trên Google Maps. Tọa lạc tại 26 Võ Thị Sáu, Phú Hội, Thuận Hóa, Huế 530000, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [
         "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
@@ -3271,7 +3219,9 @@
       "google_id": "0x3141a1e12c11c365:0x3df00b7c14938154",
       "place_id": "ChIJZcMRLOGhQTERVIGTFHwL8D0",
       "foodTags": {
-        "dishType": [],
+        "dishType": [
+          "com-hue"
+        ],
         "mealTime": [
           "breakfast",
           "lunch",
@@ -3310,7 +3260,7 @@
         "open": "09:00",
         "close": "21:00"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Thực đơn đa dạng mang hương vị Huế — đậm đà, thân quen và đúng vị.",
       "description": "Quán ăn An Tâm được đánh giá 4.8/5 sao trên Google Maps. Tọa lạc tại Kiệt 33 Nguyễn Công Trứ, tổ 14, Thuận Hóa, Huế 52000, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [
         "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
@@ -3320,7 +3270,9 @@
       "google_id": "0x3141a1fabc19a655:0xb9117916d05e562d",
       "place_id": "ChIJVaYZvPqhQTERLVZe0BZ5Ebk",
       "foodTags": {
-        "dishType": [],
+        "dishType": [
+          "com-hue"
+        ],
         "mealTime": [
           "breakfast",
           "lunch",
@@ -3478,7 +3430,10 @@
       "google_id": "0x3141a12bf2b3aecf:0x680e281f31854b80",
       "place_id": "ChIJz66z8iuhQTERgEuFMR8oDmg",
       "foodTags": {
-        "dishType": [],
+        "dishType": [
+          "bun-thit-nuong",
+          "bun"
+        ],
         "mealTime": [
           "lunch"
         ],
@@ -3522,54 +3477,6 @@
       }
     },
     {
-      "id": "bep-thi",
-      "name": "Bếp Thị",
-      "category": "food",
-      "tags": [
-        "yên tĩnh",
-        "ăn sáng",
-        "ăn trưa",
-        "ăn tối",
-        "đặt bàn được",
-        "ấm cúng",
-        "ẩm thực"
-      ],
-      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGYqf7KG9xE_Xh1X6rLASAxJ1GbNXDx6zoOb4EsFc6wzwe6tgvSkZ8QyQu5zham-R6js03tDGYxJaNPluYFWRF0zpJFWtf0ZDXx_omGvC57rJO447OTFOQlymwNtIVZAW_fuh-f99Cyvgte=w800-h500-k-no",
-      "gallery": [
-        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGYqf7KG9xE_Xh1X6rLASAxJ1GbNXDx6zoOb4EsFc6wzwe6tgvSkZ8QyQu5zham-R6js03tDGYxJaNPluYFWRF0zpJFWtf0ZDXx_omGvC57rJO447OTFOQlymwNtIVZAW_fuh-f99Cyvgte=w800-h500-k-no"
-      ],
-      "address": "31B Võ Thị Sáu, Phú Hội, Thuận Hóa, Huế 52000, Việt Nam",
-      "coordinates": {
-        "lat": 16.469120099999998,
-        "lng": 107.5954881
-      },
-      "rating": 4.7,
-      "priceRange": "₫",
-      "hours": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
-      "description": "Bếp Thị được đánh giá 4.7/5 sao trên Google Maps. Tọa lạc tại 31B Võ Thị Sáu, Phú Hội, Thuận Hóa, Huế 52000, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
-      "insiderTips": [
-        "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
-      ],
-      "phone": "+84 905 884 307",
-      "google_id": "0x3141a146d321f66b:0xd2fdd4d90c606a21",
-      "place_id": "ChIJa_Yh00ahQTERIWpgDNnU_dI",
-      "foodTags": {
-        "dishType": [],
-        "mealTime": [
-          "breakfast",
-          "lunch",
-          "dinner"
-        ],
-        "vibe": [
-          "reservation_available"
-        ]
-      }
-    },
-    {
       "id": "bun-thit-nuong-place",
       "name": "Bun Thit Nướng Place",
       "category": "food",
@@ -3598,7 +3505,10 @@
       "google_id": "0x3141a1229fd460ed:0x19cbb8088e653852",
       "place_id": "ChIJ7WDUnyKhQTERUjhljgi4yxk",
       "foodTags": {
-        "dishType": [],
+        "dishType": [
+          "bun-thit-nuong",
+          "bun"
+        ],
         "mealTime": [
           "lunch"
         ],
@@ -3977,47 +3887,6 @@
       }
     },
     {
-      "id": "a-bo-quan",
-      "name": "A Bo Quán",
-      "category": "food",
-      "tags": [
-        "ăn tối",
-        "đặt bàn được",
-        "ẩm thực"
-      ],
-      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGvjrEaLto7IsI1d4p__-Csl39-CNZvlYxvQVU7RaSGMePCf7qOlaqegdrE6cuALPv0u1peLGENHMkn0SnC0dMdgKG8Usc58Nt1Wb54aZjJXEWDs8JewebonQHRZc_pynChRkYm=w800-h500-k-no",
-      "gallery": [
-        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGvjrEaLto7IsI1d4p__-Csl39-CNZvlYxvQVU7RaSGMePCf7qOlaqegdrE6cuALPv0u1peLGENHMkn0SnC0dMdgKG8Usc58Nt1Wb54aZjJXEWDs8JewebonQHRZc_pynChRkYm=w800-h500-k-no"
-      ],
-      "address": "27 Ngự Bình, An Cựu, Huế, Việt Nam",
-      "coordinates": {
-        "lat": 16.4522033,
-        "lng": 107.5997458
-      },
-      "rating": 4.9,
-      "priceRange": "₫",
-      "hours": {
-        "open": "09:00",
-        "close": "22:00"
-      },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
-      "description": "A Bo Quán được đánh giá 4.9/5 sao trên Google Maps. Tọa lạc tại 27 Ngự Bình, An Cựu, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
-      "insiderTips": [
-        "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
-      ],
-      "google_id": "0x3141a157a761039b:0xad0ac6566945c0e1",
-      "place_id": "ChIJmwNhp1ehQTER4cBFaVbGCq0",
-      "foodTags": {
-        "dishType": [],
-        "mealTime": [
-          "dinner"
-        ],
-        "vibe": [
-          "reservation_available"
-        ]
-      }
-    },
-    {
       "id": "com-hen-ba-hang",
       "name": "Cơm hến Bà Hằng",
       "category": "food",
@@ -4088,7 +3957,7 @@
         "open": "06:00",
         "close": "21:00"
       },
-      "vibe": "Tiệm bánh Huế giản dị, mỗi chiếc bánh là một hương vị riêng.",
+      "vibe": "Bánh bèo, nậm, lọc — những viên bánh nhỏ đặc sản Huế mộc mạc và đậm đà.",
       "description": "Hue Cuisine - Đặc sản Huế: Bánh bèo, nậm, lọc được đánh giá 4.6/5 sao trên Google Maps. Tọa lạc tại 44 Hoàng Quốc Việt, An Cựu, Huế 530000, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [
         "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
@@ -4140,7 +4009,7 @@
         "open": "06:15",
         "close": "22:30"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Thực đơn đa dạng mang hương vị Huế — đậm đà, thân quen và đúng vị.",
       "description": "Nhà Hàng Vỹ Dạ Xưa được đánh giá 4.8/5 sao trên Google Maps. Tọa lạc tại 131 Nguyễn Sinh Cung, Vỹ Dạ, Huế 530000, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [
         "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
@@ -4150,7 +4019,9 @@
       "google_id": "0x3141a12070c0950f:0x75cf9c13072a053c",
       "place_id": "ChIJD5XAcCChQTERPAUqBxOcz3U",
       "foodTags": {
-        "dishType": [],
+        "dishType": [
+          "com-hue"
+        ],
         "mealTime": [
           "breakfast",
           "lunch",
@@ -4185,7 +4056,7 @@
         "open": "07:30",
         "close": "21:30"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Bếp chay thanh tịnh — ngon lành, nhẹ nhàng và tốt cho sức khoẻ.",
       "description": "Quán Bún chay được đánh giá 4.5/5 sao trên Google Maps. Tọa lạc tại 73 Duy Tân, An Cựu, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "phone": "+84 702 347 412",
@@ -4194,7 +4065,8 @@
       "foodTags": {
         "dishType": [
           "bun-chay",
-          "bun"
+          "bun",
+          "com-chay"
         ],
         "mealTime": [
           "breakfast",
@@ -4230,7 +4102,7 @@
         "open": "07:00",
         "close": "21:00"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Bếp chay thanh tịnh — ngon lành, nhẹ nhàng và tốt cho sức khoẻ.",
       "description": "Quán ăn chay Trường An được đánh giá 4.7/5 sao trên Google Maps. Tọa lạc tại 304 Phan Bội Châu, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [
         "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
@@ -4239,7 +4111,9 @@
       "google_id": "0x3141a1572443a3bb:0xede3015e4334ceeb",
       "place_id": "ChIJu6NDJFehQTER6840Q14B4-0",
       "foodTags": {
-        "dishType": [],
+        "dishType": [
+          "com-chay"
+        ],
         "mealTime": [
           "breakfast",
           "lunch",
@@ -4274,14 +4148,16 @@
         "open": "06:00",
         "close": "21:00"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Bếp chay thanh tịnh — ngon lành, nhẹ nhàng và tốt cho sức khoẻ.",
       "description": "Hàng chay Bà Dung được đánh giá 4.7/5 sao trên Google Maps. Tọa lạc tại Kim Long, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "phone": "+84 978 237 555",
       "google_id": "0x3141a7289a6ee897:0xa9c2db3e7c947762",
       "place_id": "ChIJl-humiinQTERYneUfD7bwqk",
       "foodTags": {
-        "dishType": [],
+        "dishType": [
+          "com-chay"
+        ],
         "mealTime": [
           "lunch"
         ],
@@ -4318,7 +4194,7 @@
         "open": "07:00",
         "close": "20:00"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Bếp chay thanh tịnh — ngon lành, nhẹ nhàng và tốt cho sức khoẻ.",
       "description": "Quán Chay Bà Minh được đánh giá 4.5/5 sao trên Google Maps. Tọa lạc tại 4 Hàn Thuyên, Phú Hậu, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [
         "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
@@ -4328,7 +4204,9 @@
       "google_id": "0x3141a12f10d82ab1:0x7a02d8b8f424835f",
       "place_id": "ChIJsSrYEC-hQTERX4Mk9LjYAno",
       "foodTags": {
-        "dishType": [],
+        "dishType": [
+          "com-chay"
+        ],
         "mealTime": [
           "breakfast",
           "lunch",
@@ -4364,7 +4242,7 @@
         "open": "07:00",
         "close": "11:00"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Bếp chay thanh tịnh — ngon lành, nhẹ nhàng và tốt cho sức khoẻ.",
       "description": "Quán bún chay O Hiền được đánh giá 4.3/5 sao trên Google Maps. Tọa lạc tại 07 Nguyễn Khoa Chiêm, An Cựu, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "phone": "+84 857 915 992",
@@ -4373,7 +4251,8 @@
       "foodTags": {
         "dishType": [
           "bun-chay",
-          "bun"
+          "bun",
+          "com-chay"
         ],
         "mealTime": [
           "breakfast",
@@ -4410,7 +4289,7 @@
         "open": "07:00",
         "close": "21:00"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Bếp chay thanh tịnh — ngon lành, nhẹ nhàng và tốt cho sức khoẻ.",
       "description": "Nhà hàng chay Hương Mai được đánh giá 4.9/5 sao trên Google Maps. Tọa lạc tại 16 Kiệt 64 Nguyễn Công Trứ, Phú Hội, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [
         "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
@@ -4419,7 +4298,9 @@
       "google_id": "0x3141a18a3d7ae117:0xfa498be2c2b76472",
       "place_id": "ChIJF-F6PYqhQTERcmS3wuKLSfo",
       "foodTags": {
-        "dishType": [],
+        "dishType": [
+          "com-chay"
+        ],
         "mealTime": [
           "breakfast",
           "lunch",
@@ -4452,7 +4333,7 @@
         "open": "06:00",
         "close": "21:00"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Bếp chay thanh tịnh — ngon lành, nhẹ nhàng và tốt cho sức khoẻ.",
       "description": "Bún Chay O Loan được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 27 Đào Duy Từ, Phú Bình, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a1001e16433d:0x39ea4609d478b8e9",
@@ -4460,7 +4341,8 @@
       "foodTags": {
         "dishType": [
           "bun-chay",
-          "bun"
+          "bun",
+          "com-chay"
         ],
         "mealTime": [],
         "vibe": []
@@ -4492,7 +4374,7 @@
         "open": "06:00",
         "close": "21:00"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Bếp chay thanh tịnh — ngon lành, nhẹ nhàng và tốt cho sức khoẻ.",
       "description": "Quán chay ở Huế, Quán chay Đức Chánh được đánh giá 4.6/5 sao trên Google Maps. Tọa lạc tại 14 Ngự Bình, An Cựu, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [
         "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
@@ -4501,7 +4383,11 @@
       "google_id": "0x3141a12321d213c9:0xe9e52dd16685f3e5",
       "place_id": "ChIJyRPSISOhQTER5fOFZtEt5ek",
       "foodTags": {
-        "dishType": [],
+        "dishType": [
+          "com-chay",
+          "bun",
+          "bun-chay"
+        ],
         "mealTime": [
           "breakfast",
           "lunch",
@@ -4534,7 +4420,7 @@
         "open": "06:00",
         "close": "21:00"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Bếp chay thanh tịnh — ngon lành, nhẹ nhàng và tốt cho sức khoẻ.",
       "description": "Quán Bún Chay bình dân được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 68 Đặng Huy Trứ, Trường An, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a140601cf345:0xb71c58ff96815c67",
@@ -4542,7 +4428,8 @@
       "foodTags": {
         "dishType": [
           "bun-chay",
-          "bun"
+          "bun",
+          "com-chay"
         ],
         "mealTime": [
           "breakfast",
@@ -4582,7 +4469,9 @@
       "foodTags": {
         "dishType": [
           "bun-chay",
-          "bun"
+          "bun",
+          "com-chay",
+          "com-hen"
         ],
         "mealTime": [],
         "vibe": []
@@ -4610,7 +4499,7 @@
         "open": "06:00",
         "close": "21:00"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Bếp chay thanh tịnh — ngon lành, nhẹ nhàng và tốt cho sức khoẻ.",
       "description": "Bún chay Kim Anh được đánh giá 4.0/5 sao trên Google Maps. Tọa lạc tại 31 Ngô Gia Tự, Vĩnh Ninh, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a10042f61f63:0x5b6205afa6f4cbac",
@@ -4618,7 +4507,8 @@
       "foodTags": {
         "dishType": [
           "bun-chay",
-          "bun"
+          "bun",
+          "com-chay"
         ],
         "mealTime": [],
         "vibe": []
@@ -4647,7 +4537,7 @@
         "open": "06:00",
         "close": "21:00"
       },
-      "vibe": "Tiệm bánh Huế giản dị, mỗi chiếc bánh là một hương vị riêng.",
+      "vibe": "Bếp chay thanh tịnh — ngon lành, nhẹ nhàng và tốt cho sức khoẻ.",
       "description": "Bún chay - Bánh canh chay được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 73 An Dương Vương, An Đông, An Cựu, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a11c6048ca07:0xb499f4045813dfaf",
@@ -4656,6 +4546,7 @@
         "dishType": [
           "bun-chay",
           "bun",
+          "com-chay",
           "banh-canh"
         ],
         "mealTime": [
@@ -4687,7 +4578,7 @@
         "open": "06:30",
         "close": "22:30"
       },
-      "vibe": "Tiệm bánh Huế giản dị, mỗi chiếc bánh là một hương vị riêng.",
+      "vibe": "Bếp chay thanh tịnh — ngon lành, nhẹ nhàng và tốt cho sức khoẻ.",
       "description": "O Gái Bánh Bèo - Nậm. O Bé Sáng Bún Chay được đánh giá 4.8/5 sao trên Google Maps. Tọa lạc tại 41 Thanh Tịnh, Tổ 11, Kim Long, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "phone": "+84 903 592 191",
@@ -4697,6 +4588,7 @@
         "dishType": [
           "bun-chay",
           "bun",
+          "com-chay",
           "banh-beo"
         ],
         "mealTime": [],
@@ -4732,14 +4624,17 @@
         "open": "06:00",
         "close": "21:00"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Bếp chay thanh tịnh — ngon lành, nhẹ nhàng và tốt cho sức khoẻ.",
       "description": "CHAY corner in Hue - Vietnamese Dumplings được đánh giá 4.9/5 sao trên Google Maps. Tọa lạc tại 21, hẻm 2 kiệt/44 Lê Ng. Cát, Trường An, Thủy Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "phone": "+84 839 448 817",
       "google_id": "0x3141a13030b9edf9:0x2fd85a0e0a1d5e8d",
       "place_id": "ChIJ-e25MDChQTERjV4dCg5a2C8",
       "foodTags": {
-        "dishType": [],
+        "dishType": [
+          "com-chay",
+          "bun-chay"
+        ],
         "mealTime": [
           "breakfast",
           "lunch",
@@ -4779,7 +4674,7 @@
         "open": "10:00",
         "close": "21:30"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Bếp chay thanh tịnh — ngon lành, nhẹ nhàng và tốt cho sức khoẻ.",
       "description": "An Nhien Garden Vegetarian - Nhà Hàng & Cafe được đánh giá 4.9/5 sao trên Google Maps. Tọa lạc tại Kiệt 11 Tỉnh lộ 10, Phú Thượng, Mỹ Thượng, Huế 530000, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [
         "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
@@ -4789,7 +4684,10 @@
       "google_id": "0x3141a10d06971b63:0xb5a320c06034414d",
       "place_id": "ChIJYxuXBg2hQTERTUE0YMAgo7U",
       "foodTags": {
-        "dishType": [],
+        "dishType": [
+          "com-chay",
+          "bun-chay"
+        ],
         "mealTime": [
           "breakfast",
           "lunch",
@@ -4827,7 +4725,7 @@
         "open": "07:00",
         "close": "21:00"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Bếp chay thanh tịnh — ngon lành, nhẹ nhàng và tốt cho sức khoẻ.",
       "description": "An Nhi Chay được đánh giá 4.8/5 sao trên Google Maps. Tọa lạc tại 07 Phạm Hồng Thái, Vĩnh Ninh, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [
         "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
@@ -4837,7 +4735,10 @@
       "google_id": "0x3141a13662d0df29:0xacc9b1a4aa7ef72",
       "place_id": "ChIJKd_QYjahQTERcu-nShqbzAo",
       "foodTags": {
-        "dishType": [],
+        "dishType": [
+          "com-chay",
+          "bun-chay"
+        ],
         "mealTime": [
           "lunch",
           "dinner"
@@ -4874,7 +4775,7 @@
         "open": "06:30",
         "close": "21:00"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Bếp chay thanh tịnh — ngon lành, nhẹ nhàng và tốt cho sức khoẻ.",
       "description": "Nhà Hàng Chay Tịnh Quán được đánh giá 4.4/5 sao trên Google Maps. Tọa lạc tại 2 Trần Cao Vân, Vĩnh Ninh, Thuận Hóa, Huế 530000, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [
         "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
@@ -4884,7 +4785,9 @@
       "google_id": "0x3141a139a08b1be9:0xd32131a630433190",
       "place_id": "ChIJ6RuLoDmhQTERkDFDMKYxIdM",
       "foodTags": {
-        "dishType": [],
+        "dishType": [
+          "com-chay"
+        ],
         "mealTime": [
           "breakfast",
           "lunch",
@@ -4919,7 +4822,7 @@
         "open": "06:30",
         "close": "21:00"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Bếp chay thanh tịnh — ngon lành, nhẹ nhàng và tốt cho sức khoẻ.",
       "description": "Hỷ Kiến Vegetarian Street Food được đánh giá 4.8/5 sao trên Google Maps. Tọa lạc tại 104 Phan Chu Trinh, Phước Vĩnh, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "phone": "+84 899 917 576",
@@ -4927,7 +4830,9 @@
       "google_id": "0x3141a1f5ad5d79c5:0x21f7383e1638bb10",
       "place_id": "ChIJxXldrfWhQTERELs4Fj449yE",
       "foodTags": {
-        "dishType": [],
+        "dishType": [
+          "com-chay"
+        ],
         "mealTime": [
           "lunch"
         ],
@@ -5445,7 +5350,9 @@
       "google_id": "0x3141a0e1a8bb5d29:0x527aa306c74e4ddb",
       "place_id": "ChIJKV27qOGgQTER201OxwajelI",
       "foodTags": {
-        "dishType": [],
+        "dishType": [
+          "banh-ep"
+        ],
         "mealTime": [
           "dinner"
         ],
@@ -5621,7 +5528,7 @@
         "open": "06:00",
         "close": "21:00"
       },
-      "vibe": "Tiệm bánh Huế giản dị, mỗi chiếc bánh là một hương vị riêng.",
+      "vibe": "Bánh bèo, nậm, lọc — những viên bánh nhỏ đặc sản Huế mộc mạc và đậm đà.",
       "description": "Bánh ép Lò Củi - bánh ép đặc sản Huế - Bánh bèo nậm lọc được đánh giá 4.9/5 sao trên Google Maps. Tọa lạc tại 27 Tôn Đức Thắng, Thuận Hóa, Huế 52000, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "phone": "+84 797 750 123",
@@ -5663,7 +5570,7 @@
         "open": "08:00",
         "close": "20:30"
       },
-      "vibe": "Tiệm bánh Huế giản dị, mỗi chiếc bánh là một hương vị riêng.",
+      "vibe": "Bánh bèo, nậm, lọc — những viên bánh nhỏ đặc sản Huế mộc mạc và đậm đà.",
       "description": "Quán Bánh Bèo Nậm Lọc Huế Xưa được đánh giá 4.8/5 sao trên Google Maps. Tọa lạc tại 1 Nguyễn Bỉnh Khiêm, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [
         "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
@@ -5709,7 +5616,7 @@
         "open": "06:00",
         "close": "21:00"
       },
-      "vibe": "Tiệm bánh Huế giản dị, mỗi chiếc bánh là một hương vị riêng.",
+      "vibe": "Bánh bèo, nậm, lọc — những viên bánh nhỏ đặc sản Huế mộc mạc và đậm đà.",
       "description": "Bánh Bèo Nậm Lọc, Quán Ăn 789 được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 15 Nguyễn Bỉnh Khiêm, Phú Cát, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "phone": "+84 914 270 381",
@@ -5754,14 +5661,16 @@
         "open": "11:00",
         "close": "18:00"
       },
-      "vibe": "Tiệm bánh Huế giản dị, mỗi chiếc bánh là một hương vị riêng.",
+      "vibe": "Bánh bèo, nậm, lọc — những viên bánh nhỏ đặc sản Huế mộc mạc và đậm đà.",
       "description": "Quán bánh O Lé được đánh giá 4.6/5 sao trên Google Maps. Tọa lạc tại Kiệt 104, 17/9 Kim Long, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "phone": "+84 234 3510 651",
       "google_id": "0x3141a6b87c8ce2a3:0x82a28db950a83af2",
       "place_id": "ChIJo-KMfLimQTER8jqoULmNooI",
       "foodTags": {
-        "dishType": [],
+        "dishType": [
+          "banh-beo"
+        ],
         "mealTime": [
           "breakfast",
           "lunch",
@@ -5798,7 +5707,7 @@
         "open": "08:00",
         "close": "20:00"
       },
-      "vibe": "Tiệm bánh Huế giản dị, mỗi chiếc bánh là một hương vị riêng.",
+      "vibe": "Bánh bèo, nậm, lọc — những viên bánh nhỏ đặc sản Huế mộc mạc và đậm đà.",
       "description": "Quán ăn đơn giản chuyên phục vụ các món bánh mặn nhân tôm, thịt heo và nhân chay đặc trưng.",
       "insiderTips": [
         "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần.",
@@ -5847,7 +5756,7 @@
         "open": "06:00",
         "close": "21:00"
       },
-      "vibe": "Tiệm bánh Huế giản dị, mỗi chiếc bánh là một hương vị riêng.",
+      "vibe": "Bánh bèo, nậm, lọc — những viên bánh nhỏ đặc sản Huế mộc mạc và đậm đà.",
       "description": "Bánh Bèo Nậm Lọc O Ngọt được đánh giá 4.5/5 sao trên Google Maps. Tọa lạc tại 39 Lê Ng. Cát, Trường An, Thủy Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [
         "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
@@ -5896,7 +5805,7 @@
         "open": "08:00",
         "close": "20:30"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Bánh bèo, nậm, lọc — những viên bánh nhỏ đặc sản Huế mộc mạc và đậm đà.",
       "description": "Quán Hương - Bèo Nậm Lọc Cung An Định Gia Truyền được đánh giá 4.1/5 sao trên Google Maps. Tọa lạc tại Kiệt 148, đường Nguyễn Huệ. Đi vào kiệt, quán bánh đầu tiên Số nhà 31, Lý Thường Kiệt/177 Phan Đình Phùng, Thuận Hóa, Huế 53000, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [
         "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
@@ -5941,7 +5850,7 @@
         "open": "06:00",
         "close": "21:00"
       },
-      "vibe": "Tiệm bánh Huế giản dị, mỗi chiếc bánh là một hương vị riêng.",
+      "vibe": "Bánh bèo, nậm, lọc — những viên bánh nhỏ đặc sản Huế mộc mạc và đậm đà.",
       "description": "Quán O SỚM Đặc sản Bánh Bèo - Bánh Nậm - Bánh Lọc được đánh giá 4.7/5 sao trên Google Maps. Tọa lạc tại 18 Hải Triều, An Cựu, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "phone": "+84 768 588 006",
@@ -5978,13 +5887,15 @@
         "open": "06:00",
         "close": "21:00"
       },
-      "vibe": "Tiệm bánh Huế giản dị, mỗi chiếc bánh là một hương vị riêng.",
+      "vibe": "Bánh bèo, nậm, lọc — những viên bánh nhỏ đặc sản Huế mộc mạc và đậm đà.",
       "description": "Quán Ngỏ - bánh nậm-lọc-bèo được đánh giá 4.8/5 sao trên Google Maps. Tọa lạc tại 30 Phú Mộng, Kim Long, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a7003f45208b:0x7c9ce6023b03d860",
       "place_id": "ChIJiyBFPwCnQTERYNgDOwLmnHw",
       "foodTags": {
-        "dishType": [],
+        "dishType": [
+          "banh-beo"
+        ],
         "mealTime": [],
         "vibe": []
       }
@@ -6012,7 +5923,7 @@
         "open": "06:00",
         "close": "18:00"
       },
-      "vibe": "Tiệm bánh Huế giản dị, mỗi chiếc bánh là một hương vị riêng.",
+      "vibe": "Bánh bèo, nậm, lọc — những viên bánh nhỏ đặc sản Huế mộc mạc và đậm đà.",
       "description": "Bánh Bèo Nậm Lọc Nam Chi được đánh giá 4.5/5 sao trên Google Maps. Tọa lạc tại Thủy Dương, Thanh Thủy, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "phone": "+84 799 322 676",
@@ -6050,7 +5961,7 @@
         "open": "06:00",
         "close": "20:00"
       },
-      "vibe": "Tiệm bánh Huế giản dị, mỗi chiếc bánh là một hương vị riêng.",
+      "vibe": "Bánh bèo, nậm, lọc — những viên bánh nhỏ đặc sản Huế mộc mạc và đậm đà.",
       "description": "Bánh Canh Nam Phổ + Bèo Nậm Lọc - Quán Hằng được đánh giá 4.8/5 sao trên Google Maps. Tọa lạc tại 9 Đường Phó Đức Chính, Phú Hội, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "phone": "+84 702 151 869",
@@ -6091,7 +6002,7 @@
         "open": "06:00",
         "close": "21:00"
       },
-      "vibe": "Tiệm bánh Huế giản dị, mỗi chiếc bánh là một hương vị riêng.",
+      "vibe": "Bánh bèo, nậm, lọc — những viên bánh nhỏ đặc sản Huế mộc mạc và đậm đà.",
       "description": "Quán Bánh Bèo Nậm Lọc Nani được đánh giá 4.2/5 sao trên Google Maps. Tọa lạc tại 83 Lê Ng. Cát, Thủy Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "phone": "+84 772 422 302",
@@ -6131,7 +6042,7 @@
         "open": "08:00",
         "close": "19:30"
       },
-      "vibe": "Tiệm bánh Huế giản dị, mỗi chiếc bánh là một hương vị riêng.",
+      "vibe": "Bánh bèo, nậm, lọc — những viên bánh nhỏ đặc sản Huế mộc mạc và đậm đà.",
       "description": "Quán Bánh Chi được đánh giá 4.3/5 sao trên Google Maps. Tọa lạc tại 52 Lê Viết Lượng, Xuân Phú, Vỹ Dạ, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [
         "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
@@ -6141,7 +6052,9 @@
       "google_id": "0x3141a149f5ce3299:0x995fc75122dc54a4",
       "place_id": "ChIJmTLO9UmhQTERpFTcIlHHX5k",
       "foodTags": {
-        "dishType": [],
+        "dishType": [
+          "banh-beo"
+        ],
         "mealTime": [
           "breakfast",
           "lunch",
@@ -6214,7 +6127,7 @@
         "open": "06:00",
         "close": "21:00"
       },
-      "vibe": "Tiệm bánh Huế giản dị, mỗi chiếc bánh là một hương vị riêng.",
+      "vibe": "Bánh bèo, nậm, lọc — những viên bánh nhỏ đặc sản Huế mộc mạc và đậm đà.",
       "description": "Bánh bột lọc, bánh nậm và đặc sản Huế -Lá Quê được đánh giá 4.6/5 sao trên Google Maps. Tọa lạc tại 28 Võ Liêm Sơn, Trường An, Thuận Hóa, Huế 49000, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "phone": "+84 935 088 394",
@@ -6222,7 +6135,9 @@
       "google_id": "0x3141a7aef00f791f:0x9ccaba1c38b045e0",
       "place_id": "ChIJH3kP8K6nQTER4EWwOBy6ypw",
       "foodTags": {
-        "dishType": [],
+        "dishType": [
+          "banh-beo"
+        ],
         "mealTime": [],
         "vibe": []
       }
@@ -6249,7 +6164,7 @@
         "open": "06:30",
         "close": "19:30"
       },
-      "vibe": "Tiệm bánh Huế giản dị, mỗi chiếc bánh là một hương vị riêng.",
+      "vibe": "Bánh bèo, nậm, lọc — những viên bánh nhỏ đặc sản Huế mộc mạc và đậm đà.",
       "description": "Quán Trung Bộ - Bánh Bèo, Bánh Lọc & Bánh Nậm được đánh giá 4.9/5 sao trên Google Maps. Tọa lạc tại 16 Tô Hiến Thành, Phú Cát, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "phone": "+84 234 3518 433",
@@ -6285,7 +6200,7 @@
         "open": "05:00",
         "close": "21:30"
       },
-      "vibe": "Tiệm bánh Huế giản dị, mỗi chiếc bánh là một hương vị riêng.",
+      "vibe": "Bánh bèo, nậm, lọc — những viên bánh nhỏ đặc sản Huế mộc mạc và đậm đà.",
       "description": "Bánh bèo nậm lọc Chị Vui được đánh giá 4.7/5 sao trên Google Maps. Tọa lạc tại La Khê, Thủy Xuân, Huế 750000, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "phone": "+84 969 971 521",
@@ -6323,14 +6238,16 @@
         "open": "06:00",
         "close": "21:00"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Bánh bèo, nậm, lọc — những viên bánh nhỏ đặc sản Huế mộc mạc và đậm đà.",
       "description": "Quán Bà Gái - Bèo - Nậm được đánh giá 4.1/5 sao trên Google Maps. Tọa lạc tại 60 Trần Quang Khải, Phú Hội, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "phone": "+84 234 3822 744",
       "google_id": "0x3141a118762b44a9:0x99ea008ac8e0055a",
       "place_id": "ChIJqUQrdhihQTERWgXgyIoA6pk",
       "foodTags": {
-        "dishType": [],
+        "dishType": [
+          "banh-beo"
+        ],
         "mealTime": [
           "lunch",
           "dinner"
@@ -6364,7 +6281,7 @@
         "open": "08:00",
         "close": "20:00"
       },
-      "vibe": "Tiệm bánh Huế giản dị, mỗi chiếc bánh là một hương vị riêng.",
+      "vibe": "Bánh bèo, nậm, lọc — những viên bánh nhỏ đặc sản Huế mộc mạc và đậm đà.",
       "description": "Bánh bà Chi xứ Huế - đặc sản Bèo, Nậm, Lọc, Ram Ít được đánh giá 4.4/5 sao trên Google Maps. Tọa lạc tại Kinh thành Huế, 65 Nguyễn Trãi, Phú Xuân, Huế 530000, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [
         "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
@@ -6374,7 +6291,9 @@
       "google_id": "0x3141a76821e53a6b:0x4b15441fddfefce4",
       "place_id": "ChIJazrlIWinQTER5Pz-3R9EFUs",
       "foodTags": {
-        "dishType": [],
+        "dishType": [
+          "banh-beo"
+        ],
         "mealTime": [
           "breakfast",
           "lunch",
@@ -6412,7 +6331,7 @@
         "open": "09:00",
         "close": "21:00"
       },
-      "vibe": "Tiệm bánh Huế giản dị, mỗi chiếc bánh là một hương vị riêng.",
+      "vibe": "Bánh bèo, nậm, lọc — những viên bánh nhỏ đặc sản Huế mộc mạc và đậm đà.",
       "description": "Bánh lọc Huế Hương cau được đánh giá 4.6/5 sao trên Google Maps. Tọa lạc tại 4 Nguyễn Bỉnh Khiêm, Phú Cát, Phú Xuân, Huế 49000, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [
         "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
@@ -6422,7 +6341,9 @@
       "google_id": "0x3141a0d89aeb5609:0x8176ae44889c310a",
       "place_id": "ChIJCVbrmtigQTERCjGciESudoE",
       "foodTags": {
-        "dishType": [],
+        "dishType": [
+          "banh-beo"
+        ],
         "mealTime": [
           "breakfast",
           "lunch",
@@ -6455,7 +6376,7 @@
         "open": "07:30",
         "close": "22:00"
       },
-      "vibe": "Tiệm bánh Huế giản dị, mỗi chiếc bánh là một hương vị riêng.",
+      "vibe": "Bánh bèo, nậm, lọc — những viên bánh nhỏ đặc sản Huế mộc mạc và đậm đà.",
       "description": "Bánh bèo Út được đánh giá 3.9/5 sao trên Google Maps. Tọa lạc tại 85 Nguyễn Trãi, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "phone": "+84 905 067 596",
@@ -6491,7 +6412,7 @@
         "open": "06:30",
         "close": "20:30"
       },
-      "vibe": "Tiệm bánh Huế giản dị, mỗi chiếc bánh là một hương vị riêng.",
+      "vibe": "Bánh bèo, nậm, lọc — những viên bánh nhỏ đặc sản Huế mộc mạc và đậm đà.",
       "description": "Rin - Bánh Canh Nam Phổ, Bánh Bèo, Bánh Lọc được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 15 Hàn Mặc Tử, tổ, Vỹ Dạ, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "phone": "+84 935 204 841",
@@ -6529,13 +6450,15 @@
         "open": "06:00",
         "close": "21:00"
       },
-      "vibe": "Tiệm bánh Huế giản dị, mỗi chiếc bánh là một hương vị riêng.",
+      "vibe": "Bánh bèo, nậm, lọc — những viên bánh nhỏ đặc sản Huế mộc mạc và đậm đà.",
       "description": "Bánh lọc, nậm, bèo cô Yến được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 58 Hoàng Diệu, Tây Lộc, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a7004d762433:0xc3a45500b99e79d1",
       "place_id": "ChIJMyR2TQCnQTER0XmeuQBVpMM",
       "foodTags": {
-        "dishType": [],
+        "dishType": [
+          "banh-beo"
+        ],
         "mealTime": [],
         "vibe": []
       }
@@ -6564,7 +6487,7 @@
         "open": "07:15",
         "close": "20:00"
       },
-      "vibe": "Tiệm bánh Huế giản dị, mỗi chiếc bánh là một hương vị riêng.",
+      "vibe": "Bánh bèo, nậm, lọc — những viên bánh nhỏ đặc sản Huế mộc mạc và đậm đà.",
       "description": "GỐC BÁNH BÈO BÀ CƯ -CUNG AN ĐỊNH được đánh giá 4.3/5 sao trên Google Maps. Tọa lạc tại 23 kiệt, 177 đường Phan Đình Phùng, Phú Nhuận, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "phone": "+84 983 832 895",
@@ -6608,7 +6531,7 @@
         "open": "06:00",
         "close": "19:00"
       },
-      "vibe": "Tiệm bánh Huế giản dị, mỗi chiếc bánh là một hương vị riêng.",
+      "vibe": "Bánh bèo, nậm, lọc — những viên bánh nhỏ đặc sản Huế mộc mạc và đậm đà.",
       "description": "An thành quán( Bánh Huế An Thành) được đánh giá 4.8/5 sao trên Google Maps. Tọa lạc tại 106 Lê Ng. Cát, Thủy Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [
         "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
@@ -6618,7 +6541,9 @@
       "google_id": "0x314217d20e178925:0xf1056cac754c4770",
       "place_id": "ChIJJYkXDtIXQjERcEdMdaxsBfE",
       "foodTags": {
-        "dishType": [],
+        "dishType": [
+          "banh-beo"
+        ],
         "mealTime": [
           "breakfast",
           "lunch"
@@ -6656,7 +6581,7 @@
         "open": "13:00",
         "close": "19:00"
       },
-      "vibe": "Tiệm bánh Huế giản dị, mỗi chiếc bánh là một hương vị riêng.",
+      "vibe": "Bánh bèo, nậm, lọc — những viên bánh nhỏ đặc sản Huế mộc mạc và đậm đà.",
       "description": "Bánh bà Chi xứ Huế - Đặc sản bánh bột lọc, bánh nậm, bánh bèo chén, bánh ram ít được đánh giá 4.3/5 sao trên Google Maps. Tọa lạc tại 2/64 Hoàng Diệu, Tây Lộc, Phú Xuân, Huế 53000, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [
         "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
@@ -6702,7 +6627,7 @@
         "open": "06:00",
         "close": "21:00"
       },
-      "vibe": "Tiệm bánh Huế giản dị, mỗi chiếc bánh là một hương vị riêng.",
+      "vibe": "Bánh bèo, nậm, lọc — những viên bánh nhỏ đặc sản Huế mộc mạc và đậm đà.",
       "description": "Bánh Bèo Khay được đánh giá 4.6/5 sao trên Google Maps. Tọa lạc tại 40 Trần Huy Liệu, Phú Hoà, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "phone": "+84 787 783 356",
@@ -6742,7 +6667,7 @@
         "open": "07:00",
         "close": "22:00"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Bánh bèo, nậm, lọc — những viên bánh nhỏ đặc sản Huế mộc mạc và đậm đà.",
       "description": "Hàng Me Mẹ được đánh giá 3.9/5 sao trên Google Maps. Tọa lạc tại 29 Nguyễn Công Trứ, Phú Hội, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [
         "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
@@ -6750,7 +6675,9 @@
       "google_id": "0x3141a122c5915def:0x8e4618ec4bc5bf4c",
       "place_id": "ChIJ712RxSKhQTERTL_FS-wYRo4",
       "foodTags": {
-        "dishType": [],
+        "dishType": [
+          "banh-beo"
+        ],
         "mealTime": [
           "breakfast",
           "lunch",
@@ -6783,14 +6710,16 @@
         "open": "12:30",
         "close": "21:00"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Bánh bèo, nậm, lọc — những viên bánh nhỏ đặc sản Huế mộc mạc và đậm đà.",
       "description": "Bèo Nậm Lộc được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 17 Đặng Trần Côn, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "phone": "+84 373 551 567",
       "google_id": "0x3141a1de655d6565:0x4705ae6f70c17f30",
       "place_id": "ChIJZWVdZd6hQTERMH_BcG-uBUc",
       "foodTags": {
-        "dishType": [],
+        "dishType": [
+          "banh-beo"
+        ],
         "mealTime": [],
         "vibe": []
       }
@@ -6817,7 +6746,7 @@
         "open": "06:00",
         "close": "21:00"
       },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "vibe": "Bánh bèo, nậm, lọc — những viên bánh nhỏ đặc sản Huế mộc mạc và đậm đà.",
       "description": "Quán Bình, Bành Bèo Nậm Lọc được đánh giá 4.7/5 sao trên Google Maps. Tọa lạc tại 53 Đường Thạch Hãn, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "phone": "+84 706 252 673",
@@ -8888,7 +8817,7 @@
         "open": "13:30",
         "close": "19:00"
       },
-      "vibe": "Tiệm bánh Huế giản dị, mỗi chiếc bánh là một hương vị riêng.",
+      "vibe": "Bánh bèo, nậm, lọc — những viên bánh nhỏ đặc sản Huế mộc mạc và đậm đà.",
       "description": "Bánh Bèo & Bánh Canh Nam Phổ Bé Huế được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 203 Huỳnh Thúc Kháng, Phú Bình, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "phone": "+84 838 151 124",
@@ -8971,7 +8900,8 @@
       "place_id": "ChIJj_mbdwChQTERVe-odbWX7hc",
       "foodTags": {
         "dishType": [
-          "nam-pho"
+          "nam-pho",
+          "banh-canh"
         ],
         "mealTime": [
           "breakfast"
@@ -9042,7 +8972,7 @@
         "open": "16:00",
         "close": "18:00"
       },
-      "vibe": "Tiệm bánh Huế giản dị, mỗi chiếc bánh là một hương vị riêng.",
+      "vibe": "Bánh bèo, nậm, lọc — những viên bánh nhỏ đặc sản Huế mộc mạc và đậm đà.",
       "description": "Gành hàng rong, Bánh canh Nam Phổ, Nậm Lọc gói được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 5 Phan Bội Châu, Vĩnh Ninh, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a10067053595:0x45fe34edc28bebf8",
@@ -9081,13 +9011,14 @@
         "open": "10:00",
         "close": "21:00"
       },
-      "vibe": "Tiệm bánh Huế giản dị, mỗi chiếc bánh là một hương vị riêng.",
+      "vibe": "Bánh bèo, nậm, lọc — những viên bánh nhỏ đặc sản Huế mộc mạc và đậm đà.",
       "description": "Bánh canh Nam Phổ (Nậm, Lọc, Bèo, Ram ít, bánh Ướt, bánh Gói) được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 116 Bùi Thị Xuân, Thuận Hóa, Huế 49124, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "google_id": "0x3141a700086e216b:0x309734c9eda85c0",
       "place_id": "ChIJayFuCACnQTERwIXankxzCQM",
       "foodTags": {
         "dishType": [
+          "banh-beo",
           "nam-pho",
           "banh-canh"
         ],
@@ -9117,7 +9048,7 @@
         "open": "06:00",
         "close": "21:00"
       },
-      "vibe": "Tiệm bánh Huế giản dị, mỗi chiếc bánh là một hương vị riêng.",
+      "vibe": "Bánh bèo, nậm, lọc — những viên bánh nhỏ đặc sản Huế mộc mạc và đậm đà.",
       "description": "Bánh bèo & Bánh canh Nam Phổ Như Ý được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 179 Đường Xuân 68, Thuận Thành, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "phone": "+84 859 008 081",
@@ -9234,7 +9165,7 @@
         "open": "14:00",
         "close": "16:30"
       },
-      "vibe": "Tiệm bánh Huế giản dị, mỗi chiếc bánh là một hương vị riêng.",
+      "vibe": "Bánh bèo, nậm, lọc — những viên bánh nhỏ đặc sản Huế mộc mạc và đậm đà.",
       "description": "Bánh bèo O Thu được đánh giá 4.4/5 sao trên Google Maps. Tọa lạc tại 374 Đ. Chi Lăng, Phú Hiệp, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [],
       "phone": "+84 906 692 702",
@@ -9317,6 +9248,7 @@
       "foodTags": {
         "dishType": [
           "bun",
+          "banh-beo",
           "com-hen"
         ],
         "mealTime": [
@@ -9973,7 +9905,9 @@
       "google_id": "0x3141a122308b33b5:0xba670bf07d091717",
       "place_id": "ChIJtTOLMCKhQTERFxcJffALZ7o",
       "foodTags": {
-        "dishType": [],
+        "dishType": [
+          "com-hen"
+        ],
         "mealTime": [
           "breakfast",
           "lunch",
@@ -10139,7 +10073,7 @@
       "place_id": "ChIJUTEFH06hQTERLL4EKgy1P1I",
       "foodTags": {
         "dishType": [
-          "bun"
+          "com-hen"
         ],
         "mealTime": [],
         "vibe": []
@@ -10336,7 +10270,9 @@
       "google_id": "0x3141a13bd3159c3d:0x103804510b2a1f9d",
       "place_id": "ChIJPZwV0zuhQTERnR8qC1EEOBA",
       "foodTags": {
-        "dishType": [],
+        "dishType": [
+          "com-hen"
+        ],
         "mealTime": [
           "breakfast",
           "lunch",
@@ -11106,7 +11042,7 @@
         "open": "14:00",
         "close": "22:30"
       },
-      "vibe": "Tiệm bánh Huế giản dị, mỗi chiếc bánh là một hương vị riêng.",
+      "vibe": "Thực đơn đa dạng mang hương vị Huế — đậm đà, thân quen và đúng vị.",
       "description": "Tiệm Chang Bánh Đúc Nem Rán Hà Nội được đánh giá 4.5/5 sao trên Google Maps. Tọa lạc tại 2/246, Phan Bội Châu, Thuận Hóa, Huế 530000, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
       "insiderTips": [
         "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
@@ -11116,7 +11052,9 @@
       "google_id": "0x3141a1144fdc50bb:0x58ba4fa419ba1dab",
       "place_id": "ChIJu1DcTxShQTERqx26GaRPulg",
       "foodTags": {
-        "dishType": [],
+        "dishType": [
+          "com-hue"
+        ],
         "mealTime": [
           "breakfast",
           "lunch",
