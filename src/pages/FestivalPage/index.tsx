@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import type { FestivalEvent, StoryAndGuide } from '../../types'
 import { sortEventsByDate } from '../../utils/festivalUtils'
 import { TimelineTab } from './TimelineTab'
@@ -22,6 +22,7 @@ export function FestivalPage() {
   const [isLoading, setIsLoading] = useState(true)
   const [selectedEvent, setSelectedEvent] = useState<FestivalEvent | null>(null)
   const [sheetOpen, setSheetOpen] = useState(false)
+  const clearEventTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
 
   useEffect(() => {
     import('../../data/festivals.json').then(mod => {
@@ -31,6 +32,10 @@ export function FestivalPage() {
     })
   }, [])
 
+  useEffect(() => () => {
+    if (clearEventTimer.current) clearTimeout(clearEventTimer.current)
+  }, [])
+
   function handleSelect(event: FestivalEvent) {
     setSelectedEvent(event)
     setSheetOpen(true)
@@ -38,7 +43,8 @@ export function FestivalPage() {
 
   function handleClose() {
     setSheetOpen(false)
-    setTimeout(() => setSelectedEvent(null), 300)
+    if (clearEventTimer.current) clearTimeout(clearEventTimer.current)
+    clearEventTimer.current = setTimeout(() => setSelectedEvent(null), 300)
   }
 
   const tabIndex = TABS.findIndex(t => t.id === activeTab)
