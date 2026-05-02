@@ -3,10 +3,20 @@ import type { EventBadge } from '../../utils/festivalUtils'
 import './EventCard.css'
 
 const CATEGORY_ICONS: Record<string, string> = {
-  royal: '👑', music: '🎶', sports: '🏃', cultural: '🎭',
+  royal: '👑',
+  culture: '🎎',
+  exhibition: '🖼️',
+  sport: '🏃',
+  art_music: '🎶',
+  food: '🍜',
 }
 const CATEGORY_LABELS: Record<string, string> = {
-  royal: 'Hoàng triều', music: 'Âm nhạc', sports: 'Thể thao', cultural: 'Văn hóa',
+  royal: 'Hoàng triều',
+  culture: 'Văn hóa',
+  exhibition: 'Triển lãm',
+  sport: 'Thể thao',
+  art_music: 'Nghệ thuật',
+  food: 'Ẩm thực',
 }
 
 interface EventCardProps {
@@ -18,7 +28,13 @@ export function EventCard({ event, badge }: EventCardProps) {
   return (
     <article className="event-card">
       <div className="event-card__image-wrap">
-        <img className="event-card__image" src={event.thumbnail} alt={event.title} loading="lazy" />
+        {event.thumbnail ? (
+          <img className="event-card__image" src={event.thumbnail} alt={event.title} loading="lazy" />
+        ) : (
+          <div className="event-card__image-placeholder">
+            {CATEGORY_ICONS[event.category] ?? '🎪'}
+          </div>
+        )}
         <span className="event-card__category-badge">
           {CATEGORY_ICONS[event.category]} {CATEGORY_LABELS[event.category]}
         </span>

@@ -55,12 +55,20 @@ export interface PlacesData {
   collections: Collection[]
 }
 
-export type EventCategory = 'royal' | 'music' | 'sports' | 'cultural'
+export type EventCategory =
+  | 'royal'
+  | 'culture'
+  | 'exhibition'
+  | 'sport'
+  | 'art_music'
+  | 'food'
 
 export interface FestivalEvent {
   id: string
   title: string
   category: EventCategory
+  season?: string
+  month?: number
   isAnnual: boolean
   summary: string
   highlights: string[]
@@ -68,7 +76,7 @@ export interface FestivalEvent {
   location: string
   organizer: string
   date: { start: string; end?: string }
-  thumbnail: string
+  thumbnail?: string
   linkedStoryId?: string
 }
 

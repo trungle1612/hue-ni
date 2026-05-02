@@ -4,71 +4,1196 @@
       "id": "event_1",
       "title": "Công bố Festival Huế 2026 và Tái hiện Lễ Ban sóc",
       "category": "royal",
+      "season": "Xuân",
+      "month": 1,
       "isAnnual": true,
       "summary": "Nghi lễ phát lịch của triều đình ngày xưa, đánh dấu sự bắt đầu của một năm mới.",
       "highlights": [
-        "🎭 Tái hiện không gian cung đình đặc sắc",
-        "📅 Diễn ra ngay ngày mùng 1 Tết Dương lịch",
-        "🆓 Miễn phí xem tại khu vực Ngọ Môn"
+        "Tái hiện không gian cung đình đặc sắc",
+        "Diễn ra ngay ngày mùng 1 Tết",
+        "Miễn phí xem tại khu vực Ngọ Môn"
       ],
-      "timeString": "01/01/2026",
+      "timeString": "Ngày 01/01/2026",
       "location": "Quảng trường Ngọ Môn, Đại Nội Huế",
       "organizer": "Trung tâm Bảo tồn Di tích Cố đô Huế",
-      "date": { "start": "2026-01-01T08:00:00", "end": "2026-01-01T20:00:00" },
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Ngo_Mon_Gate.jpg/1280px-Ngo_Mon_Gate.jpg",
-      "linkedStoryId": "story_1"
+      "date": {
+        "start": "2026-01-01"
+      },
+      "thumbnail": ""
     },
     {
       "id": "event_2",
-      "title": "Giải Marathon Di sản Huế 2026",
-      "category": "sports",
+      "title": "Ngày hội Hoàng mai Huế lần thứ IV năm 2026",
+      "category": "exhibition",
+      "season": "Xuân",
+      "month": 2,
       "isAnnual": true,
-      "summary": "Giải chạy marathon quốc tế với cung đường chạy qua các điểm di sản UNESCO.",
-      "highlights": [
-        "🏃 Cung đường 42km qua Đại Nội và các lăng tẩm",
-        "🌍 Hơn 5.000 vận động viên quốc tế tham gia",
-        "🏅 Giải thưởng lên đến 100 triệu đồng"
-      ],
-      "timeString": "15/03/2026",
-      "location": "Xuất phát: Quảng trường Ngọ Môn",
-      "organizer": "Liên đoàn Điền kinh tỉnh Thừa Thiên Huế",
-      "date": { "start": "2026-03-15T05:00:00", "end": "2026-03-15T14:00:00" },
-      "thumbnail": "https://images.unsplash.com/photo-1544717297-fa95b6ee9643?w=800"
+      "summary": "",
+      "highlights": [],
+      "timeString": "Từ ngày 04/02 đến ngày 14/02/2026",
+      "location": "Nghinh Lương Đình – đường Lê Duẩn, phường Phú Xuân, thành phố Huế",
+      "organizer": "Hội Hoàng Mai Huế",
+      "date": {
+        "start": "2026-02-04",
+        "end": "2026-02-14"
+      },
+      "thumbnail": ""
     },
     {
       "id": "event_3",
-      "title": "Festival Huế 2026 — Lễ hội âm nhạc truyền thống",
-      "category": "music",
+      "title": "Lễ Thướng Tiêu (dựng nêu)",
+      "category": "royal",
+      "season": "Xuân",
+      "month": 2,
       "isAnnual": true,
-      "summary": "Liên hoan âm nhạc quốc tế lớn nhất miền Trung, quy tụ các đoàn nghệ thuật từ khắp nơi trên thế giới.",
-      "highlights": [
-        "🎶 Hơn 50 đoàn nghệ thuật trong và ngoài nước",
-        "🌟 Biểu diễn tại Đại Nội và các điểm di sản",
-        "🎟️ Một số buổi biểu diễn miễn phí"
-      ],
-      "timeString": "27/04 – 02/05/2026",
-      "location": "Đại Nội Huế và các điểm di sản",
-      "organizer": "UBND Tỉnh Thừa Thiên Huế",
-      "date": { "start": "2026-04-27T18:00:00", "end": "2026-05-02T22:00:00" },
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Hue_Festival_2008.jpg/1280px-Hue_Festival_2008.jpg",
-      "linkedStoryId": "story_2"
+      "summary": "",
+      "highlights": [],
+      "timeString": "Từ 07h00 ngày 10/02/2026",
+      "location": "Đại Nội Huế",
+      "organizer": "Trung tâm Bảo tồn Di tích Cố đô Huế",
+      "date": {
+        "start": "2026-02-10T07:00:00"
+      },
+      "thumbnail": ""
     },
     {
       "id": "event_4",
-      "title": "Lễ Tế Giao — Nghi lễ Tế Trời Đất của Triều Nguyễn",
-      "category": "royal",
-      "isAnnual": false,
-      "summary": "Tái hiện nghi lễ tế giao trang trọng nhất của triều đình Nguyễn, cầu nguyện cho quốc thái dân an.",
-      "highlights": [
-        "👑 Tái hiện với trang phục cung đình chính xác",
-        "🕯️ Nghi thức kéo dài từ 3h sáng đến bình minh",
-        "📸 Cho phép chụp ảnh từ khu vực khán giả"
-      ],
-      "timeString": "20/06/2026",
-      "location": "Đàn Nam Giao, đường Điện Biên Phủ, Huế",
+      "title": "Chương trình Hương xưa Bánh Tết",
+      "category": "culture",
+      "season": "Xuân",
+      "month": 2,
+      "isAnnual": true,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Từ 08h30 ngày 10/02/2026",
+      "location": "Cung Trường Sanh, Đại Nội Huế",
       "organizer": "Trung tâm Bảo tồn Di tích Cố đô Huế",
-      "date": { "start": "2026-06-20T03:00:00", "end": "2026-06-20T07:00:00" },
-      "thumbnail": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800"
+      "date": {
+        "start": "2026-02-10T08:30:00"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_5",
+      "title": "Lễ Thiết triều Nguyên đán",
+      "category": "royal",
+      "season": "Xuân",
+      "month": 2,
+      "isAnnual": true,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Ngày 11/02/2026",
+      "location": "Đại Nội Huế",
+      "organizer": "Trung tâm Bảo tồn Di tích Cố đô Huế",
+      "date": {
+        "start": "2026-02-11"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_6_1",
+      "title": "Hội Xuân và Chợ Hoa Tết Bính Ngọ - năm 2026",
+      "category": "exhibition",
+      "season": "Xuân",
+      "month": 2,
+      "isAnnual": true,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Từ ngày 11/02 đến ngày 21/02/2026",
+      "location": "Các khu vực trung tâm",
+      "organizer": "Trung tâm Công viên Cây xanh",
+      "date": {
+        "start": "2026-02-11",
+        "end": "2026-02-21"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_6_2",
+      "title": "Hội Xuân Bính Ngọ - 2026",
+      "category": "exhibition",
+      "season": "Xuân",
+      "month": 2,
+      "isAnnual": true,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Trước Tết Nguyên đán 2026",
+      "location": "Các khu vực trung tâm",
+      "organizer": "UBND phường Phú Xuân",
+      "date": {
+        "start": "2026-02-01",
+        "end": "2026-02-28"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_7",
+      "title": "Chương trình nghệ thuật Đón Giao Thừa",
+      "category": "art_music",
+      "season": "Xuân",
+      "month": 2,
+      "isAnnual": true,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Ngày 16/02/2026",
+      "location": "Quảng trường Ngọ Môn, Đại Nội Huế",
+      "organizer": "Trung tâm Bảo tồn Di tích Cố đô Huế",
+      "date": {
+        "start": "2026-02-16"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_8",
+      "title": "Các chương trình nghệ thuật phục vụ du khách tại Đại Nội, Huế",
+      "category": "art_music",
+      "season": "Xuân",
+      "month": 2,
+      "isAnnual": true,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Ngày 17/02/2026",
+      "location": "Đại Nội Huế",
+      "organizer": "Trung tâm Bảo tồn Di tích Cố đô Huế",
+      "date": {
+        "start": "2026-02-17"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_9",
+      "title": "Hội vật Làng Thủ Lễ",
+      "category": "sport",
+      "season": "Xuân",
+      "month": 2,
+      "isAnnual": true,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Ngày 22/02/2026",
+      "location": "Xã Quảng Điền, thành phố Huế",
+      "organizer": "UBND xã Quảng Điền",
+      "date": {
+        "start": "2026-02-22"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_10",
+      "title": "Lễ hội Đền Huyền Trân",
+      "category": "culture",
+      "season": "Xuân",
+      "month": 2,
+      "isAnnual": true,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Các ngày 24, 25/02/2026",
+      "location": "Trung tâm Văn hóa Huyền Trân",
+      "organizer": "Sở Văn hóa và Thể thao",
+      "date": {
+        "start": "2026-02-24",
+        "end": "2026-02-25"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_11",
+      "title": "Hội vật Làng Sình",
+      "category": "sport",
+      "season": "Xuân",
+      "month": 2,
+      "isAnnual": true,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Ngày 26/02/2026",
+      "location": "Đình làng Lại Ân, phường Dương Nỗ, thành phố Huế",
+      "organizer": "UBND phường Dương Nỗ",
+      "date": {
+        "start": "2026-02-26"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_12",
+      "title": "Lễ hội Cầu ngư Thuận An",
+      "category": "culture",
+      "season": "Xuân",
+      "month": 2,
+      "isAnnual": true,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Các ngày 27, 28/2/2026",
+      "location": "Đình làng Thai Dương, phường Thuận An, thành phố Huế",
+      "organizer": "UBND phường Thuận An",
+      "date": {
+        "start": "2026-02-27",
+        "end": "2026-02-28"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_13_1",
+      "title": "Các hoạt động hưởng ứng Ngày thơ Việt Nam",
+      "category": "culture",
+      "season": "Xuân",
+      "month": 3,
+      "isAnnual": true,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Các ngày 02, 03/3/2026",
+      "location": "Thành phố Huế",
+      "organizer": "Hội Văn học nghệ thuật thành phố Huế",
+      "date": {
+        "start": "2026-03-02",
+        "end": "2026-03-03"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_13_2",
+      "title": "Chương trình nghệ thuật Thơ Hoàng đế triều Nguyễn",
+      "category": "royal",
+      "season": "Xuân",
+      "month": 3,
+      "isAnnual": false,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Ngày 03/3/2026",
+      "location": "Quảng trường Ngọ Môn",
+      "organizer": "Trung tâm Bảo tồn Di tích Cố đô Huế",
+      "date": {
+        "start": "2026-03-03"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_14",
+      "title": "Lễ hội Điện Huệ Nam",
+      "category": "culture",
+      "season": "Hạ",
+      "month": 4,
+      "isAnnual": true,
+      "summary": "Lễ hội tín ngưỡng đặc sắc thờ Thánh Mẫu Thiên Y A Na.",
+      "highlights": [
+        "Rước linh vị trên sông Hương",
+        "Diễn xướng hầu đồng truyền thống",
+        "Thu hút hàng vạn tín đồ"
+      ],
+      "timeString": "Các ngày 18, 19/4/2026",
+      "location": "Điện Huệ Nam",
+      "organizer": "Sở Văn hoá và Thể thao",
+      "date": {
+        "start": "2026-04-18",
+        "end": "2026-04-19"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_15",
+      "title": "Giải chạy VNExpress Marathon Huế 2026",
+      "category": "sport",
+      "season": "Hạ",
+      "month": 4,
+      "isAnnual": true,
+      "summary": "Giải chạy quy mô lớn nhất Cố đô qua các di tích lịch sử.",
+      "highlights": [
+        "Cung đường chạy qua Đại Nội",
+        "Hàng ngàn runner tham gia",
+        "Bầu không khí thể thao sôi động"
+      ],
+      "timeString": "Ngày 19/4/2026",
+      "location": "Thành phố Huế",
+      "organizer": "Báo VnExpress",
+      "date": {
+        "start": "2026-04-19"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_16",
+      "title": "Triễn lãm, trưng bày hoa phong lan, cây kiểng, đá cảnh ba miền năm 2026",
+      "category": "exhibition",
+      "season": "Hạ",
+      "month": 4,
+      "isAnnual": false,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Từ ngày 24/4 đến ngày 28/4/2026",
+      "location": "Đại Nội Huế",
+      "organizer": "Trung tâm Bảo tồn Di tích Cố đô Huế",
+      "date": {
+        "start": "2026-04-24",
+        "end": "2026-04-28"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_17",
+      "title": "Chương trình “Hoàng cung Huyền ảo”",
+      "category": "royal",
+      "season": "Hạ",
+      "month": 4,
+      "isAnnual": true,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Từ ngày 25/4 đến 28/4/2026",
+      "location": "Đại Nội Huế",
+      "organizer": "Trung tâm Bảo tồn Di tích Cố đô Huế",
+      "date": {
+        "start": "2026-04-25",
+        "end": "2026-04-28"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_18",
+      "title": "Chương trình Trải nghiệm ẩm thực Huế",
+      "category": "food",
+      "season": "Hạ",
+      "month": 4,
+      "isAnnual": true,
+      "summary": "Thưởng thức tinh hoa ẩm thực Cố đô trong không gian hoàng cung.",
+      "highlights": [
+        "Buffet ẩm thực Huế đa dạng",
+        "Phục vụ tại Phủ Nội Vụ",
+        "Không gian sang trọng hoài cổ"
+      ],
+      "timeString": "Các ngày 26/4, 28/4, 30/4, 02/5/2026",
+      "location": "Phủ Nội Vụ, Đại Nội Huế",
+      "organizer": "Trung tâm Bảo tồn Di tích Cố đô Huế",
+      "date": {
+        "start": "2026-04-26",
+        "end": "2026-05-02"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_19",
+      "title": "Chương trình Thuận An biển gọi 2026",
+      "category": "art_music",
+      "season": "Hạ",
+      "month": 4,
+      "isAnnual": true,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Từ ngày 28/4 đến ngày 30/4/2026",
+      "location": "Trung tâm bãi tắm Thuận An, phường Thuận An, thành phố Huế",
+      "organizer": "UBND phường Thuận An",
+      "date": {
+        "start": "2026-04-28",
+        "end": "2026-04-30"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_20",
+      "title": "Chương trình Dạ Yến Hoàng Cung",
+      "category": "royal",
+      "season": "Hạ",
+      "month": 4,
+      "isAnnual": true,
+      "summary": "",
+      "highlights": [],
+      "timeString": "29/4, 01/5/2026",
+      "location": "Nhà hát Duyệt Thị Đường, Đại Nội Huế",
+      "organizer": "Trung tâm Bảo tồn Di tích Cố đô Huế",
+      "date": {
+        "start": "2026-04-29",
+        "end": "2026-05-01"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_21",
+      "title": "Chương trình sáng tác và trưng bày triển lãm về các công trình kiến trúc Pháp và di tích lịch sử ở Huế",
+      "category": "exhibition",
+      "season": "Hạ",
+      "month": 4,
+      "isAnnual": false,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Tháng 4/2026",
+      "location": "Bảo tàng Mỹ thuật Huế",
+      "organizer": "Sở Văn hoá và Thể thao",
+      "date": {
+        "start": "2026-04-01",
+        "end": "2026-04-30"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_22",
+      "title": "Hội sách “Huế yêu thương”",
+      "category": "exhibition",
+      "season": "Hạ",
+      "month": 4,
+      "isAnnual": false,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Tháng 4/2026",
+      "location": "Không gian Sách và Văn hóa Huế",
+      "organizer": "Trung tâm Dịch vụ sự nghiệp công phường Thuận Hóa & Câu lạc bộ Sách và Văn hóa Huế",
+      "date": {
+        "start": "2026-04-01",
+        "end": "2026-04-30"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_23",
+      "title": "Chuỗi hoạt động nhân ngày sách và văn hóa đọc Việt Nam",
+      "category": "exhibition",
+      "season": "Hạ",
+      "month": 4,
+      "isAnnual": true,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Tháng 4/2026",
+      "location": "Nhiều địa điểm",
+      "organizer": "Nhiều đơn vị",
+      "date": {
+        "start": "2026-04-01",
+        "end": "2026-04-30"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_24",
+      "title": "Chương trình “Photo tour”",
+      "category": "exhibition",
+      "season": "Hạ",
+      "month": 5,
+      "isAnnual": false,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Từ ngày 11-14/5/2026",
+      "location": "Thành phố Huế",
+      "organizer": "Tạp chí Heritage, Trung tâm Bảo tồn Di tích Cố đô Huế",
+      "date": {
+        "start": "2026-05-11",
+        "end": "2026-05-14"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_25_1",
+      "title": "Tuần lễ Phật Đản Huế 2026",
+      "category": "culture",
+      "season": "Hạ",
+      "month": 5,
+      "isAnnual": true,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Từ ngày 24/5 đến ngày 31/5/2026",
+      "location": "Thành phố Huế",
+      "organizer": "Giáo hội Phật giáo Việt Nam thành phố Huế",
+      "date": {
+        "start": "2026-05-24",
+        "end": "2026-05-31"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_25_2",
+      "title": "Lễ hội Ẩm thực chay",
+      "category": "food",
+      "season": "Hạ",
+      "month": 5,
+      "isAnnual": true,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Từ ngày 28/5 đến ngày 29/5/2026",
+      "location": "Thành phố Huế",
+      "organizer": "Giáo hội Phật giáo Việt Nam thành phố Huế",
+      "date": {
+        "start": "2026-05-28",
+        "end": "2026-05-29"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_25_3",
+      "title": "Lễ hội hoa đăng",
+      "category": "culture",
+      "season": "Hạ",
+      "month": 5,
+      "isAnnual": true,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Tháng 5/2026",
+      "location": "Nghinh Lương Đình, Huế",
+      "organizer": "Giáo hội Phật giáo Việt Nam thành phố Huế",
+      "date": {
+        "start": "2026-05-01",
+        "end": "2026-05-31"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_26",
+      "title": "Ngày hội làng Dương Nỗ",
+      "category": "culture",
+      "season": "Hạ",
+      "month": 5,
+      "isAnnual": true,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Tháng 5/2026",
+      "location": "Làng Dương Nỗ, phường Dương Nỗ, thành phố Huế",
+      "organizer": "Sở Văn hoá và Thể thao",
+      "date": {
+        "start": "2026-05-01",
+        "end": "2026-05-31"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_27",
+      "title": "Hoạt động triển lãm tư liệu, hình ảnh chủ đề “Ngày hội non sông” kỷ niệm 136 năm Ngày sinh của Chủ tịch Hồ Chí Minh",
+      "category": "exhibition",
+      "season": "Hạ",
+      "month": 5,
+      "isAnnual": false,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Tháng 5/2026",
+      "location": "Bảo tàng Hồ Chí Minh thành phố Huế",
+      "organizer": "Sở Văn hoá và Thể thao",
+      "date": {
+        "start": "2026-05-01",
+        "end": "2026-05-31"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_28",
+      "title": "Lễ khai mạc Đại hội Thể dục thể thao thành phố Huế",
+      "category": "sport",
+      "season": "Hạ",
+      "month": 5,
+      "isAnnual": false,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Tháng 5/2026",
+      "location": "Thành phố Huế",
+      "organizer": "Sở Văn hoá và Thể thao",
+      "date": {
+        "start": "2026-05-01",
+        "end": "2026-05-31"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_29",
+      "title": "Chương trình “Lăng Cô – Vịnh đẹp thế giới”",
+      "category": "art_music",
+      "season": "Hạ",
+      "month": 5,
+      "isAnnual": true,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Tháng 5/2026",
+      "location": "Xã Chân Mây – Lăng Cô",
+      "organizer": "UBND xã Chân Mây – Lăng Cô",
+      "date": {
+        "start": "2026-05-01",
+        "end": "2026-05-31"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_30",
+      "title": "Ngày hội Văn hoá, Thể thao và Du lịch các dân tộc miền núi thành phố Huế",
+      "category": "culture",
+      "season": "Hạ",
+      "month": 5,
+      "isAnnual": true,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Tháng 5/2026",
+      "location": "Xã A Lưới 2",
+      "organizer": "Sở Văn hoá và Thể thao",
+      "date": {
+        "start": "2026-05-01",
+        "end": "2026-05-31"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_31",
+      "title": "Tuần lễ Festival Nghệ thuật Quốc tế Huế 2026",
+      "category": "art_music",
+      "season": "Hạ",
+      "month": 6,
+      "isAnnual": true,
+      "summary": "Sự kiện văn hóa nghệ thuật mang tầm vóc quốc tế lớn nhất trong năm.",
+      "highlights": [
+        "Quy tụ nhiều đoàn nghệ thuật thế giới",
+        "Lễ hội đường phố sôi động",
+        "Các đêm diễn bùng nổ ánh sáng"
+      ],
+      "timeString": "Từ ngày 13/6 đến 18/6/2026",
+      "location": "Nhiều địa điểm",
+      "organizer": "Nhiều đơn vị",
+      "date": {
+        "start": "2026-06-13",
+        "end": "2026-06-18"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_31_2",
+      "title": "Lễ hội đường phố “Sắc màu văn hóa”",
+      "category": "art_music",
+      "season": "Hạ",
+      "month": 6,
+      "isAnnual": true,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Các ngày 14/6 và 16/6/2026",
+      "location": "Các tuyến đường chính thành phố Huế",
+      "organizer": "Trung tâm Bảo tồn Di tích Cố đô Huế",
+      "date": {
+        "start": "2026-06-14",
+        "end": "2026-06-16"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_31_3",
+      "title": "Lễ hội Bia",
+      "category": "food",
+      "season": "Hạ",
+      "month": 6,
+      "isAnnual": true,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Ngày 17/6/2026",
+      "location": "Thành phố Huế",
+      "organizer": "Công ty TNHH Bia Carlsberg Việt Nam",
+      "date": {
+        "start": "2026-06-17"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_31_4",
+      "title": "Chương trình “Chợ quê ngày hội”",
+      "category": "culture",
+      "season": "Hạ",
+      "month": 6,
+      "isAnnual": true,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Từ ngày 27/6 đến ngày 30/6/2026",
+      "location": "Điểm du lịch cộng đồng Cầu ngói Thanh Toàn",
+      "organizer": "UBND phường Thanh Thuỷ",
+      "date": {
+        "start": "2026-06-27",
+        "end": "2026-06-30"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_31_5",
+      "title": "Triển lãm Mỹ thuật và Di sản 5",
+      "category": "exhibition",
+      "season": "Hạ",
+      "month": 6,
+      "isAnnual": false,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Tháng 6/2026",
+      "location": "Nhiều địa điểm",
+      "organizer": "Trung tâm Bảo tồn Di tích Cố đô Huế",
+      "date": {
+        "start": "2026-06-01",
+        "end": "2026-06-30"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_32",
+      "title": "Ngày hội Sen Huế 2026",
+      "category": "culture",
+      "season": "Hạ",
+      "month": 6,
+      "isAnnual": true,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Tháng 6/2026",
+      "location": "Thành phố Huế",
+      "organizer": "Sở Du lịch",
+      "date": {
+        "start": "2026-06-01",
+        "end": "2026-06-30"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_33",
+      "title": "Tổ chức Triển lãm các tác phẩm đề tài Ngựa trong nghệ thuật Lê Bá Đảng",
+      "category": "exhibition",
+      "season": "Hạ",
+      "month": 6,
+      "isAnnual": false,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Tháng 6/2026",
+      "location": "Bảo tàng Mỹ thuật Huế",
+      "organizer": "Sở Văn hoá và Thể thao",
+      "date": {
+        "start": "2026-06-01",
+        "end": "2026-06-30"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_34",
+      "title": "Tuần lễ Áo dài cộng đồng Huế",
+      "category": "art_music",
+      "season": "Thu",
+      "month": 7,
+      "isAnnual": true,
+      "summary": "Tôn vinh vẻ đẹp của chiếc áo dài truyền thống Việt Nam tại Cố đô.",
+      "highlights": [
+        "Trình diễn áo dài trên phố",
+        "Khuyến khích người dân mặc áo dài",
+        "Không gian văn hóa đậm chất thơ"
+      ],
+      "timeString": "Từ ngày 3/7 đến ngày 10/7/2026",
+      "location": "Thành phố Huế",
+      "organizer": "Sở Văn hoá và Thể thao",
+      "date": {
+        "start": "2026-07-03",
+        "end": "2026-07-10"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_35",
+      "title": "Trưng bày triển lãm về “Tri thức may, mặc áo dài Huế”",
+      "category": "exhibition",
+      "season": "Thu",
+      "month": 7,
+      "isAnnual": false,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Tháng 7/2026",
+      "location": "Bảo tàng Mỹ thuật Huế",
+      "organizer": "Sở Văn hoá và Thể thao",
+      "date": {
+        "start": "2026-07-01",
+        "end": "2026-07-31"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_36",
+      "title": "Ngày hội Du lịch Huế",
+      "category": "culture",
+      "season": "Thu",
+      "month": 7,
+      "isAnnual": false,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Từ ngày 08/7 đến ngày 10/7/2026",
+      "location": "Thành phố Huế",
+      "organizer": "Sở Du lịch",
+      "date": {
+        "start": "2026-07-08",
+        "end": "2026-07-10"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_37",
+      "title": "Ngày hội “Huế - Kinh đô ẩm thực 2026”",
+      "category": "food",
+      "season": "Thu",
+      "month": 7,
+      "isAnnual": true,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Tháng 7/2026",
+      "location": "Thành phố Huế",
+      "organizer": "Sở Du lịch",
+      "date": {
+        "start": "2026-07-01",
+        "end": "2026-07-31"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_38",
+      "title": "Ngày hội Thể thao vì sức khỏe cộng đồng năm 2026-Hue Sports Festival 2026",
+      "category": "sport",
+      "season": "Thu",
+      "month": 7,
+      "isAnnual": true,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Tháng 7/2026",
+      "location": "Một số địa điểm (ngoài trời, trong nhà) trên địa bàn thành phố Huế",
+      "organizer": "Sở Văn hoá và Thể thao",
+      "date": {
+        "start": "2026-07-01",
+        "end": "2026-07-31"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_39",
+      "title": "Hội diễn “Đàn hát dân ca 3 miền” toàn quốc năm 2026",
+      "category": "art_music",
+      "season": "Thu",
+      "month": 7,
+      "isAnnual": false,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Tháng 7/2026",
+      "location": "Trung tâm Văn hóa - Điện ảnh thành phố Huế",
+      "organizer": "Sở Văn hoá và Thể thao",
+      "date": {
+        "start": "2026-07-01",
+        "end": "2026-07-31"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_40",
+      "title": "Ngày hội “Hương xưa làng cổ”",
+      "category": "culture",
+      "season": "Thu",
+      "month": 7,
+      "isAnnual": true,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Tháng 7/2026",
+      "location": "Làng cổ Phước Tích, phường Phong Dinh, thành phố Huế",
+      "organizer": "UBND phường Phong Dinh",
+      "date": {
+        "start": "2026-07-01",
+        "end": "2026-07-31"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_41",
+      "title": "Liên hoan Âm nhạc “Hoạ mi vàng và Phím đàn xanh 2026”",
+      "category": "art_music",
+      "season": "Thu",
+      "month": 7,
+      "isAnnual": false,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Tháng 7,8/2026",
+      "location": "Nhà Thiếu nhi, 08 Lê Lợi, phường Thuận Hóa",
+      "organizer": "Trung tâm Dịch vụ sự nghiệp công phường Thuận Hóa",
+      "date": {
+        "start": "2026-07-01",
+        "end": "2026-08-31"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_42",
+      "title": "Lễ hội Điện Huệ Nam (Mùa Thu)",
+      "category": "culture",
+      "season": "Thu",
+      "month": 8,
+      "isAnnual": true,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Tháng 8/2026",
+      "location": "Điện Huệ Nam",
+      "organizer": "Sở Văn hoá và Thể thao",
+      "date": {
+        "start": "2026-08-01",
+        "end": "2026-08-31"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_43",
+      "title": "Trại sáng tác Điêu khắc Quốc tế - Huế 2025",
+      "category": "exhibition",
+      "season": "Thu",
+      "month": 9,
+      "isAnnual": false,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Tháng 9/2026",
+      "location": "Khu vực công viên dọc bờ sông Hương",
+      "organizer": "Trung tâm Bảo tồn Di tích Cố đô Huế",
+      "date": {
+        "start": "2026-09-01",
+        "end": "2026-09-30"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_44",
+      "title": "Giải đua ghe truyền thống thành phố Huế lần thứ 37 năm 2026",
+      "category": "sport",
+      "season": "Thu",
+      "month": 9,
+      "isAnnual": true,
+      "summary": "Giải đua ghe sôi nổi trên sông Hương mừng ngày Quốc khánh.",
+      "highlights": [
+        "Môn thể thao truyền thống lâu đời",
+        "Hàng ngàn người dân hò reo",
+        "Không khí lễ hội sông nước"
+      ],
+      "timeString": "Ngày 02/9/2026",
+      "location": "Sông Hương, thành phố Huế",
+      "organizer": "Sở Văn hóa và Thể thao",
+      "date": {
+        "start": "2026-09-02"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_45",
+      "title": "Ngày hội Lân Huế 2026",
+      "category": "culture",
+      "season": "Thu",
+      "month": 9,
+      "isAnnual": true,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Từ ngày 18/9 đến ngày 20/9/2026",
+      "location": "Thành phố Huế",
+      "organizer": "Sở Du lịch",
+      "date": {
+        "start": "2026-09-18",
+        "end": "2026-09-20"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_46",
+      "title": "Tuồng Huế, Ngàn xưa âm vọng",
+      "category": "royal",
+      "season": "Thu",
+      "month": 9,
+      "isAnnual": true,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Ngày 22/9/2026",
+      "location": "Thành phố Huế",
+      "organizer": "Trung tâm Bảo tồn Di tích Cố đô Huế",
+      "date": {
+        "start": "2026-09-22"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_47",
+      "title": "Chương trình Trung thu Huế 2026",
+      "category": "culture",
+      "season": "Thu",
+      "month": 9,
+      "isAnnual": true,
+      "summary": "Lễ hội trăng rằm lung linh sắc màu trong không gian Cố đô.",
+      "highlights": [
+        "Rước đèn lồng truyền thống",
+        "Múa lân sư rồng đường phố",
+        "Không gian hoài niệm tuổi thơ"
+      ],
+      "timeString": "Từ ngày 23/9 đến ngày 25/9/2026",
+      "location": "Đại Nội Huế",
+      "organizer": "Trung tâm Bảo tồn Di tích Cố đô Huế",
+      "date": {
+        "start": "2026-09-23",
+        "end": "2026-09-25"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_48",
+      "title": "Chương trình Quảng diễn Lân – Sư - Rồng và Rước đèn Trung Thu",
+      "category": "culture",
+      "season": "Thu",
+      "month": 9,
+      "isAnnual": true,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Tháng 9/2026",
+      "location": "Quảng diễn trên một số tuyến đường chính trên địa bàn phường",
+      "organizer": "UBND phường Phú Xuân",
+      "date": {
+        "start": "2026-09-01",
+        "end": "2026-09-30"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_49",
+      "title": "Lễ hội Truyền Lô và Ngày hội vinh danh học sinh danh dự",
+      "category": "royal",
+      "season": "Thu",
+      "month": 9,
+      "isAnnual": true,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Tháng 9/2026",
+      "location": "Đại Nội Huế",
+      "organizer": "Trung tâm Bảo tồn Di tích Cố đô Huế và Sở Giáo dục và Đào tạo",
+      "date": {
+        "start": "2026-09-01",
+        "end": "2026-09-30"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_50",
+      "title": "Liên hoan Mỹ thuật “Sắc màu em yêu”",
+      "category": "exhibition",
+      "season": "Thu",
+      "month": 9,
+      "isAnnual": false,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Tháng 9/2026",
+      "location": "Nhà Thiếu nhi, 08 Lê Lợi, phường Thuận Hóa",
+      "organizer": "Trung tâm Dịch vụ sự nghiệp công phường Thuận Hóa",
+      "date": {
+        "start": "2026-09-01",
+        "end": "2026-09-30"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_51",
+      "title": "Chung kết Cuộc thi “Nữ hoàng Trang sức Việt Nam 2026”",
+      "category": "exhibition",
+      "season": "Đông",
+      "month": 10,
+      "isAnnual": false,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Ngày 18/10/2026",
+      "location": "Thành phố Huế",
+      "organizer": "Công ty TNHH N-Queen Jewelry",
+      "date": {
+        "start": "2026-10-18"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_52",
+      "title": "Giải Cầu lông quốc tế",
+      "category": "sport",
+      "season": "Đông",
+      "month": 10,
+      "isAnnual": false,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Tháng 10/2026",
+      "location": "Thành phố Huế",
+      "organizer": "Sở Văn hoá và Thể thao",
+      "date": {
+        "start": "2026-10-01",
+        "end": "2026-10-31"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_53",
+      "title": "Lễ hội Mừng lúa mới của người Cơ Tu",
+      "category": "culture",
+      "season": "Đông",
+      "month": 10,
+      "isAnnual": true,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Tháng 10/2026",
+      "location": "Xã Khe Tre, Long Quảng, Nam Đông",
+      "organizer": "Sở Văn hoá và Thể thao",
+      "date": {
+        "start": "2026-10-01",
+        "end": "2026-10-31"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_54",
+      "title": "Chương trình Âm nhạc Trịnh Công Sơn",
+      "category": "art_music",
+      "season": "Đông",
+      "month": 11,
+      "isAnnual": true,
+      "summary": "Đêm nhạc tri ân và tưởng nhớ người nhạc sĩ tài hoa xứ Huế.",
+      "highlights": [
+        "Giai điệu Trịnh bất hủ",
+        "Ca sĩ khách mời nổi tiếng",
+        "Không gian nghe nhạc lãng mạn"
+      ],
+      "timeString": "Tháng 11/2026",
+      "location": "Thành phố Huế",
+      "organizer": "Trung tâm Bảo tồn Di tích Cố đô Huế",
+      "date": {
+        "start": "2026-11-01",
+        "end": "2026-11-30"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_55",
+      "title": "Lễ hội Tế Thần Nước của người Paco ở xã A Lưới 1",
+      "category": "culture",
+      "season": "Đông",
+      "month": 11,
+      "isAnnual": true,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Tháng 11, 12/2026",
+      "location": "Xã A Lưới 1, thành phố Huế",
+      "organizer": "Bộ Văn hoá, Thể thao và Du lịch phối hợp với Sở Văn hoá và Thể thao",
+      "date": {
+        "start": "2026-11-01",
+        "end": "2026-11-30"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_56",
+      "title": "Liên hoan Trà quốc tế Huế 2026",
+      "category": "food",
+      "season": "Đông",
+      "month": 12,
+      "isAnnual": false,
+      "summary": "",
+      "highlights": [],
+      "timeString": "Tháng 12/2026",
+      "location": "Thành phố Huế",
+      "organizer": "Sở Du lịch",
+      "date": {
+        "start": "2026-12-01",
+        "end": "2026-12-31"
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "event_57",
+      "title": "Chương trình nghệ thuật Countdown - Chào năm mới 2027",
+      "category": "art_music",
+      "season": "Đông",
+      "month": 12,
+      "isAnnual": true,
+      "summary": "Đại nhạc hội đếm ngược đón năm mới hoành tráng.",
+      "highlights": [
+        "Sân khấu âm nhạc EDM bùng nổ",
+        "Dàn nghệ sĩ khách mời nổi bật",
+        "Màn bắn pháo hoa rực rỡ"
+      ],
+      "timeString": "Ngày 31/12/2026",
+      "location": "Thành phố Huế",
+      "organizer": "Công ty TNHH Bia Carlsberg Việt Nam",
+      "date": {
+        "start": "2026-12-31"
+      },
+      "thumbnail": ""
     }
   ],
   "stories": [

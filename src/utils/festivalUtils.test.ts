@@ -62,13 +62,13 @@ describe('sortEventsByDate', () => {
 
 describe('filterEventsByCategory', () => {
   it('returns all when category is all', () => {
-    const events = [makeEvent({ category: 'royal' }), makeEvent({ category: 'music' })]
+    const events = [makeEvent({ category: 'royal' }), makeEvent({ category: 'art_music' })]
     expect(filterEventsByCategory(events, 'all')).toHaveLength(2)
   })
 
   it('filters to matching category', () => {
-    const events = [makeEvent({ id: 'e1', category: 'royal' }), makeEvent({ id: 'e2', category: 'music' })]
-    expect(filterEventsByCategory(events, 'music')).toEqual([events[1]])
+    const events = [makeEvent({ id: 'e1', category: 'royal' }), makeEvent({ id: 'e2', category: 'art_music' })]
+    expect(filterEventsByCategory(events, 'art_music')).toEqual([events[1]])
   })
 })
 

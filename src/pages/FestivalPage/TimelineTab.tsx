@@ -11,9 +11,11 @@ import './TimelineTab.css'
 const FILTER_CHIPS: { value: EventCategory | 'all'; label: string }[] = [
   { value: 'all', label: '🎪 Tất cả' },
   { value: 'royal', label: '👑 Hoàng triều' },
-  { value: 'music', label: '🎶 Âm nhạc' },
-  { value: 'sports', label: '🏃 Thể thao' },
-  { value: 'cultural', label: '🎭 Văn hóa' },
+  { value: 'culture', label: '🎎 Văn hóa' },
+  { value: 'art_music', label: '🎶 Nghệ thuật' },
+  { value: 'exhibition', label: '🖼️ Triển lãm' },
+  { value: 'sport', label: '🏃 Thể thao' },
+  { value: 'food', label: '🍜 Ẩm thực' },
 ]
 
 export function TimelineTab({ events }: { events: FestivalEvent[] }) {
