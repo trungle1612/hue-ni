@@ -4,6 +4,7 @@ import { HomePage } from './pages/HomePage'
 import { FestivalPage } from './pages/FestivalPage'
 import { MyTripPage } from './pages/MyTripPage'
 import { DetailsPage } from './pages/DetailsPage'
+import { FestivalDetailPage } from './pages/FestivalDetailPage'
 import { MyTripProvider } from './contexts/MyTripContext'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="my-trip" element={<MyTripPage />} />
         </Route>
         <Route path="details/:id" element={<DetailsPage />} />
+        <Route path="festivals/:id" element={<FestivalDetailPage />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </BrowserRouter>
