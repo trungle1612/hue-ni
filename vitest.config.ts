@@ -8,7 +8,7 @@ export default defineConfig({
     alias: [
       {
         find: /^.*\.(jpg|jpeg|png|gif|svg|webp)$/,
-        replacement: path.resolve(__dirname, 'src/__mocks__/fileMock.ts'),
+        replacement: path.resolve(__dirname, 'src/__mocks__/image-stub.ts'),
       },
     ],
   },
