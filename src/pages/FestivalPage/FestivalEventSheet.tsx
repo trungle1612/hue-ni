@@ -66,6 +66,7 @@ export function FestivalEventSheet({ event, isOpen, onClose }: FestivalEventShee
           className="festival-event-sheet__handle"
           onPointerDown={handleDragStart}
           onPointerUp={handleDragEnd}
+          onPointerCancel={() => { dragStartY.current = null }}
         >
           <div className="festival-event-sheet__handle-bar" />
         </div>

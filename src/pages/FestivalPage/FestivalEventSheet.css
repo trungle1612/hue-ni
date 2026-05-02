@@ -178,6 +178,9 @@
   cursor: pointer;
   font-family: inherit;
 }
-.festival-event-sheet__deeplink:active {
+.festival-event-sheet__deeplink:hover {
   background: rgba(125, 0, 16, 0.05);
+}
+.festival-event-sheet__deeplink:active {
+  background: rgba(125, 0, 16, 0.08);
 }
