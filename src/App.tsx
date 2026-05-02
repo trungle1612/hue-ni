@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import { AppLayout } from './components/AppLayout'
 import { HomePage } from './pages/HomePage'
-import { HeritagePage } from './pages/HeritagePage'
+import { FestivalPage } from './pages/FestivalPage'
 import { MyTripPage } from './pages/MyTripPage'
 import { DetailsPage } from './pages/DetailsPage'
 import { MyTripProvider } from './contexts/MyTripContext'
@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route element={<AppLayout />}>
           <Route index element={<HomePage />} />
-          <Route path="heritage" element={<HeritagePage />} />
+          <Route path="festivals" element={<FestivalPage />} />
           <Route path="my-trip" element={<MyTripPage />} />
         </Route>
         <Route path="details/:id" element={<DetailsPage />} />
