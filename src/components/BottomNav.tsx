@@ -13,18 +13,14 @@ function IconHome({ active }: { active: boolean }) {
   )
 }
 
-function IconHeritage({ active }: { active: boolean }) {
+function IconFestival({ active }: { active: boolean }) {
   return (
     <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"
       stroke="currentColor" strokeWidth={active ? 2 : 1.6}
       strokeLinecap="round" strokeLinejoin="round">
-      <line x1="2" y1="20" x2="22" y2="20" />
-      <line x1="6" y1="20" x2="6" y2="11" />
-      <line x1="12" y1="20" x2="12" y2="11" />
-      <line x1="18" y1="20" x2="18" y2="11" />
-      <polyline points="2,11 12,4 22,11" />
-      <line x1="4" y1="20" x2="4" y2="14" />
-      <line x1="20" y1="20" x2="20" y2="14" />
+      <path d="M12 2L2 7l10 5 10-5-10-5z" />
+      <path d="M2 17l10 5 10-5" />
+      <path d="M2 12l10 5 10-5" />
     </svg>
   )
 }
@@ -44,7 +40,7 @@ function IconTrip({ active }: { active: boolean }) {
 
 const TABS = [
   { to: '/', label: 'Trang chủ', Icon: IconHome },
-  { to: '/heritage', label: 'Di sản', Icon: IconHeritage },
+  { to: '/festivals', label: 'Lễ hội', Icon: IconFestival },
   { to: '/my-trip', label: 'Hành trình', Icon: IconTrip },
 ] as const
 
