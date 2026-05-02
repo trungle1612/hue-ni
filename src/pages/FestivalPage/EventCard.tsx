@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom'
 import type { FestivalEvent } from '../../types'
 import type { EventBadge } from '../../utils/festivalUtils'
 import royalImg from '../../assets/images/royal.jpg'
@@ -39,9 +40,16 @@ interface EventCardProps {
 }
 
 export function EventCard({ event, badge }: EventCardProps) {
+  const navigate = useNavigate()
   const coverSrc = event.thumbnail || CATEGORY_DEFAULT_IMG[event.category]
   return (
-    <article className="event-card">
+    <article
+      className="event-card"
+      onClick={() => navigate(`/festivals/${event.id}`)}
+      role="button"
+      tabIndex={0}
+      onKeyDown={e => e.key === 'Enter' && navigate(`/festivals/${event.id}`)}
+    >
       <div className="event-card__image-wrap">
         <img className="event-card__image" src={coverSrc} alt={event.title} loading="lazy" />
         <span className="event-card__category-badge">

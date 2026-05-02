@@ -4,6 +4,13 @@
   box-shadow: var(--shadow-card);
   overflow: hidden;
   margin-bottom: var(--space-md);
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.event-card:active {
+  transform: scale(0.985);
+  box-shadow: var(--shadow-floating);
 }
 
 .event-card__image-wrap {
