@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import type { FestivalEvent, StoryAndGuide } from '../../types'
 import { sortEventsByDate } from '../../utils/festivalUtils'
+import { TimelineTab } from './TimelineTab'
 import './style.css'
 
 type Tab = 'timeline' | 'calendar' | 'culture'
@@ -57,7 +58,7 @@ export function FestivalPage() {
           <div className="festival-page__loading" aria-label="Đang tải..." />
         ) : (
           <>
-            {activeTab === 'timeline' && <div style={{ padding: '1rem' }}>{events.length} sự kiện</div>}
+            {activeTab === 'timeline' && <TimelineTab events={events} />}
             {activeTab === 'calendar' && <div style={{ padding: '2rem' }}>Lịch — sắp ra mắt</div>}
             {activeTab === 'culture' && <div style={{ padding: '2rem' }}>{stories.length} bài viết</div>}
           </>

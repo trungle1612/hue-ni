@@ -1,0 +1,111 @@
+.event-card {
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+  margin-bottom: var(--space-md);
+}
+
+.event-card__image-wrap {
+  position: relative;
+  height: 180px;
+}
+
+.event-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.event-card__category-badge {
+  position: absolute;
+  top: var(--space-sm);
+  left: var(--space-sm);
+  background: rgba(43, 22, 19, 0.72);
+  color: #fff;
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 0.25rem 0.5rem;
+  border-radius: var(--radius-full);
+  backdrop-filter: blur(4px);
+}
+
+.event-card__status {
+  position: absolute;
+  top: var(--space-sm);
+  right: var(--space-sm);
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.25rem 0.625rem;
+  border-radius: var(--radius-full);
+}
+
+.event-card__status--live {
+  background: rgba(220, 38, 38, 0.9);
+  color: #fff;
+  animation: pulse-badge 2s ease-in-out infinite;
+}
+
+.event-card__status--upcoming {
+  background: rgba(115, 92, 0, 0.85);
+  color: #fff;
+}
+
+@keyframes pulse-badge {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+.event-card__body {
+  padding: var(--space-md);
+}
+
+.event-card__title {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--color-on-surface);
+  margin: 0 0 var(--space-xs);
+  line-height: 1.35;
+}
+
+.event-card__meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-bottom: var(--space-sm);
+  font-family: var(--font-body);
+  font-size: 0.8125rem;
+  color: rgba(43, 22, 19, 0.6);
+}
+
+.event-card__summary {
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  color: rgba(43, 22, 19, 0.75);
+  line-height: 1.5;
+  margin: 0 0 var(--space-sm);
+}
+
+.event-card__highlights {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.event-card__highlight {
+  font-family: var(--font-body);
+  font-size: 0.8125rem;
+  color: var(--color-on-surface);
+  background: rgba(125, 0, 16, 0.05);
+  border-radius: var(--radius-sm);
+  padding: var(--space-xs) var(--space-sm);
+}

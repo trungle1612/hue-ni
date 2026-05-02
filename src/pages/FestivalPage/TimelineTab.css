@@ -1,0 +1,54 @@
+.timeline-tab__filters {
+  display: flex;
+  gap: var(--space-xs);
+  padding: var(--space-md) var(--space-lg);
+  overflow-x: auto;
+  scrollbar-width: none;
+  background: var(--color-surface);
+  border-bottom: 1px solid rgba(43, 22, 19, 0.08);
+}
+
+.timeline-tab__filters::-webkit-scrollbar { display: none; }
+
+.timeline-tab__chip {
+  flex-shrink: 0;
+  padding: 0.375rem var(--space-md);
+  border: 1.5px solid rgba(125, 0, 16, 0.25);
+  border-radius: var(--radius-full);
+  background: transparent;
+  font-family: var(--font-body);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: rgba(43, 22, 19, 0.7);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.timeline-tab__chip--active {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+}
+
+.timeline-tab__list {
+  padding: var(--space-lg);
+}
+
+.timeline-tab__section-heading {
+  font-family: var(--font-body);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: rgba(43, 22, 19, 0.4);
+  margin: var(--space-lg) 0 var(--space-md);
+}
+
+.timeline-tab__empty {
+  text-align: center;
+  color: rgba(43, 22, 19, 0.4);
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  padding: var(--space-2xl) 0;
+}
