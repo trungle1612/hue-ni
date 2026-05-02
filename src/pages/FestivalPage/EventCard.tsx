@@ -1,5 +1,11 @@
 import type { FestivalEvent } from '../../types'
 import type { EventBadge } from '../../utils/festivalUtils'
+import royalImg from '../../assets/images/royal.jpg'
+import cultureImg from '../../assets/images/dua-ghe-song-huong-hue.png'
+import exhibitionImg from '../../assets/images/exhibition.png'
+import artMusicImg from '../../assets/images/am-nhac-hue.jpg'
+import sportImg from '../../assets/images/vnexpress-marathon-hue.jpg'
+import foodImg from '../../assets/images/beo-nam-loc.jpg'
 import './EventCard.css'
 
 const CATEGORY_ICONS: Record<string, string> = {
@@ -18,6 +24,14 @@ const CATEGORY_LABELS: Record<string, string> = {
   art_music: 'Nghệ thuật',
   food: 'Ẩm thực',
 }
+const CATEGORY_DEFAULT_IMG: Record<string, string> = {
+  royal: royalImg,
+  culture: cultureImg,
+  exhibition: exhibitionImg,
+  sport: sportImg,
+  art_music: artMusicImg,
+  food: foodImg,
+}
 
 interface EventCardProps {
   event: FestivalEvent
@@ -25,16 +39,11 @@ interface EventCardProps {
 }
 
 export function EventCard({ event, badge }: EventCardProps) {
+  const coverSrc = event.thumbnail || CATEGORY_DEFAULT_IMG[event.category]
   return (
     <article className="event-card">
       <div className="event-card__image-wrap">
-        {event.thumbnail ? (
-          <img className="event-card__image" src={event.thumbnail} alt={event.title} loading="lazy" />
-        ) : (
-          <div className="event-card__image-placeholder">
-            {CATEGORY_ICONS[event.category] ?? '🎪'}
-          </div>
-        )}
+        <img className="event-card__image" src={coverSrc} alt={event.title} loading="lazy" />
         <span className="event-card__category-badge">
           {CATEGORY_ICONS[event.category]} {CATEGORY_LABELS[event.category]}
         </span>

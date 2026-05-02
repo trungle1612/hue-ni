@@ -18,16 +18,6 @@
   display: block;
 }
 
-.event-card__image-placeholder {
-  width: 100%;
-  height: 100%;
-  background: rgba(125, 0, 16, 0.06);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 3rem;
-}
-
 .event-card__category-badge {
   position: absolute;
   top: var(--space-sm);
