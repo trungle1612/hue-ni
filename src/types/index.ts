@@ -54,3 +54,30 @@ export interface PlacesData {
   places: Place[]
   collections: Collection[]
 }
+
+export type EventCategory = 'royal' | 'music' | 'sports' | 'cultural'
+
+export interface FestivalEvent {
+  id: string
+  title: string
+  category: EventCategory
+  isAnnual: boolean
+  summary: string
+  highlights: string[]
+  timeString: string
+  location: string
+  organizer: string
+  date: { start: string; end?: string }
+  thumbnail: string
+  linkedStoryId?: string
+}
+
+export type StoryType = 'royal_anecdote' | 'survival_guide'
+
+export interface StoryAndGuide {
+  id: string
+  type: StoryType
+  title: string
+  excerpt: string
+  content: string
+}

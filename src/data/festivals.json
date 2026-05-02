@@ -1,0 +1,90 @@
+{
+  "events": [
+    {
+      "id": "event_1",
+      "title": "Công bố Festival Huế 2026 và Tái hiện Lễ Ban sóc",
+      "category": "royal",
+      "isAnnual": true,
+      "summary": "Nghi lễ phát lịch của triều đình ngày xưa, đánh dấu sự bắt đầu của một năm mới.",
+      "highlights": [
+        "🎭 Tái hiện không gian cung đình đặc sắc",
+        "📅 Diễn ra ngay ngày mùng 1 Tết Dương lịch",
+        "🆓 Miễn phí xem tại khu vực Ngọ Môn"
+      ],
+      "timeString": "01/01/2026",
+      "location": "Quảng trường Ngọ Môn, Đại Nội Huế",
+      "organizer": "Trung tâm Bảo tồn Di tích Cố đô Huế",
+      "date": { "start": "2026-01-01T08:00:00", "end": "2026-01-01T20:00:00" },
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Ngo_Mon_Gate.jpg/1280px-Ngo_Mon_Gate.jpg",
+      "linkedStoryId": "story_1"
+    },
+    {
+      "id": "event_2",
+      "title": "Giải Marathon Di sản Huế 2026",
+      "category": "sports",
+      "isAnnual": true,
+      "summary": "Giải chạy marathon quốc tế với cung đường chạy qua các điểm di sản UNESCO.",
+      "highlights": [
+        "🏃 Cung đường 42km qua Đại Nội và các lăng tẩm",
+        "🌍 Hơn 5.000 vận động viên quốc tế tham gia",
+        "🏅 Giải thưởng lên đến 100 triệu đồng"
+      ],
+      "timeString": "15/03/2026",
+      "location": "Xuất phát: Quảng trường Ngọ Môn",
+      "organizer": "Liên đoàn Điền kinh tỉnh Thừa Thiên Huế",
+      "date": { "start": "2026-03-15T05:00:00", "end": "2026-03-15T14:00:00" },
+      "thumbnail": "https://images.unsplash.com/photo-1544717297-fa95b6ee9643?w=800"
+    },
+    {
+      "id": "event_3",
+      "title": "Festival Huế 2026 — Lễ hội âm nhạc truyền thống",
+      "category": "music",
+      "isAnnual": true,
+      "summary": "Liên hoan âm nhạc quốc tế lớn nhất miền Trung, quy tụ các đoàn nghệ thuật từ khắp nơi trên thế giới.",
+      "highlights": [
+        "🎶 Hơn 50 đoàn nghệ thuật trong và ngoài nước",
+        "🌟 Biểu diễn tại Đại Nội và các điểm di sản",
+        "🎟️ Một số buổi biểu diễn miễn phí"
+      ],
+      "timeString": "27/04 – 02/05/2026",
+      "location": "Đại Nội Huế và các điểm di sản",
+      "organizer": "UBND Tỉnh Thừa Thiên Huế",
+      "date": { "start": "2026-04-27T18:00:00", "end": "2026-05-02T22:00:00" },
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Hue_Festival_2008.jpg/1280px-Hue_Festival_2008.jpg",
+      "linkedStoryId": "story_2"
+    },
+    {
+      "id": "event_4",
+      "title": "Lễ Tế Giao — Nghi lễ Tế Trời Đất của Triều Nguyễn",
+      "category": "royal",
+      "isAnnual": false,
+      "summary": "Tái hiện nghi lễ tế giao trang trọng nhất của triều đình Nguyễn, cầu nguyện cho quốc thái dân an.",
+      "highlights": [
+        "👑 Tái hiện với trang phục cung đình chính xác",
+        "🕯️ Nghi thức kéo dài từ 3h sáng đến bình minh",
+        "📸 Cho phép chụp ảnh từ khu vực khán giả"
+      ],
+      "timeString": "20/06/2026",
+      "location": "Đàn Nam Giao, đường Điện Biên Phủ, Huế",
+      "organizer": "Trung tâm Bảo tồn Di tích Cố đô Huế",
+      "date": { "start": "2026-06-20T03:00:00", "end": "2026-06-20T07:00:00" },
+      "thumbnail": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800"
+    }
+  ],
+  "stories": [
+    {
+      "id": "story_1",
+      "type": "royal_anecdote",
+      "title": "Lễ Ban Sóc: Khi Thiên Tử Trao Lịch Cho Muôn Dân",
+      "excerpt": "Mỗi năm, vào ngày đầu tiên của tháng 11 âm lịch, cả triều đình lại hội tụ tại sân Đại Triều để chứng kiến nghi lễ trao lịch thiêng liêng nhất...",
+      "content": "Mỗi năm, vào ngày đầu tiên của tháng 11 âm lịch, cả triều đình lại hội tụ tại sân Đại Triều để chứng kiến nghi lễ trao lịch thiêng liêng nhất của năm. Lịch không chỉ là công cụ đo thời gian — đó là biểu tượng của quyền uy thiên tử, khả năng điều hòa âm dương, và trách nhiệm dẫn dắt muôn dân qua từng mùa vụ.\n\nNgày nay, mỗi dịp đầu năm dương lịch, Trung tâm Bảo tồn Di tích Cố đô Huế tái hiện nghi lễ này tại Ngọ Môn — cánh cổng vàng son nơi xưa kia đức vua ngự lãm."
+    },
+    {
+      "id": "story_2",
+      "type": "survival_guide",
+      "title": "Cẩm nang Dự Festival Huế: Đừng để bị 'vỡ trận'",
+      "excerpt": "Festival Huế thu hút hàng chục nghìn khách mỗi kỳ. Đây là những gì người dân địa phương muốn bạn biết trước khi đặt chân đến...",
+      "content": "Festival Huế thu hút hàng chục nghìn khách mỗi kỳ. Dưới đây là những gì người dân địa phương muốn bạn biết:\n\n**🏨 Đặt phòng:** Đặt ít nhất 3 tháng trước. Homestay quanh khu phố cổ Bao Vinh hoặc ven sông Hương là lựa chọn tốt nhất.\n\n**🎟️ Vé:** Một số buổi diễn tại Đại Nội cần mua vé riêng. Tra cứu lịch sự kiện trên trang huefestival.com.\n\n**🛵 Đi lại:** Thuê xe máy là cách tốt nhất để di chuyển giữa các sân khấu.\n\n**👗 Trang phục:** Khi vào khu di tích, mặc trang phục kín đáo. Tránh quần short và áo ba lỗ."
+    }
+  ]
+}
