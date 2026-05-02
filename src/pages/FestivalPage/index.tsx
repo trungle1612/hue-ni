@@ -3,6 +3,7 @@ import type { FestivalEvent, StoryAndGuide } from '../../types'
 import { sortEventsByDate } from '../../utils/festivalUtils'
 import { TimelineTab } from './TimelineTab'
 import { CalendarTab } from './CalendarTab'
+import { CultureTab } from './CultureTab'
 import './style.css'
 
 type Tab = 'timeline' | 'calendar' | 'culture'
@@ -61,7 +62,7 @@ export function FestivalPage() {
           <>
             {activeTab === 'timeline' && <TimelineTab events={events} />}
             {activeTab === 'calendar' && <CalendarTab events={events} />}
-            {activeTab === 'culture' && <div style={{ padding: '2rem' }}>{stories.length} bài viết</div>}
+            {activeTab === 'culture' && <CultureTab stories={stories} />}
           </>
         )}
       </div>
