@@ -22,7 +22,12 @@ function getEventDates(events: FestivalEvent[]): Date[] {
   return dates
 }
 
-export function CalendarTab({ events }: { events: FestivalEvent[] }) {
+interface CalendarTabProps {
+  events: FestivalEvent[]
+  onSelect: (event: FestivalEvent) => void
+}
+
+export function CalendarTab({ events, onSelect }: CalendarTabProps) {
   const [selectedDate, setSelectedDate] = useState<Date | undefined>(undefined)
   const eventDates = getEventDates(events)
   const selectedEvents = selectedDate ? getEventsForDate(events, selectedDate) : []
@@ -47,7 +52,7 @@ export function CalendarTab({ events }: { events: FestivalEvent[] }) {
           ) : (
             <div className="calendar-tab__events-list">
               {selectedEvents.map(event => (
-                <EventCard key={event.id} event={event} badge={getEventBadge(event)} />
+                <EventCard key={event.id} event={event} badge={getEventBadge(event)} onSelect={onSelect} />
               ))}
             </div>
           )}

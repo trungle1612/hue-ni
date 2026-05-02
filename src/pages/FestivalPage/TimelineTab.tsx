@@ -18,7 +18,12 @@ const FILTER_CHIPS: { value: EventCategory | 'all'; label: string }[] = [
   { value: 'food', label: '🍜 Ẩm thực' },
 ]
 
-export function TimelineTab({ events }: { events: FestivalEvent[] }) {
+interface TimelineTabProps {
+  events: FestivalEvent[]
+  onSelect: (event: FestivalEvent) => void
+}
+
+export function TimelineTab({ events, onSelect }: TimelineTabProps) {
   const [category, setCategory] = useState<EventCategory | 'all'>('all')
 
   const filtered = filterEventsByCategory(events, category)
@@ -45,13 +50,13 @@ export function TimelineTab({ events }: { events: FestivalEvent[] }) {
         ) : (
           <>
             {upcoming.map(event => (
-              <EventCard key={event.id} event={event} badge={getEventBadge(event)} />
+              <EventCard key={event.id} event={event} badge={getEventBadge(event)} onSelect={onSelect} />
             ))}
             {past.length > 0 && (
               <>
                 <h2 className="timeline-tab__section-heading">Đã diễn ra</h2>
                 {past.map(event => (
-                  <EventCard key={event.id} event={event} badge={getEventBadge(event)} />
+                  <EventCard key={event.id} event={event} badge={getEventBadge(event)} onSelect={onSelect} />
                 ))}
               </>
             )}
