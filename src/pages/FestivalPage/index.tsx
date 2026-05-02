@@ -4,6 +4,7 @@ import { sortEventsByDate } from '../../utils/festivalUtils'
 import { TimelineTab } from './TimelineTab'
 import { CalendarTab } from './CalendarTab'
 import { CultureTab } from './CultureTab'
+import { FestivalEventSheet } from './FestivalEventSheet'
 import './style.css'
 
 type Tab = 'timeline' | 'calendar' | 'culture'
@@ -19,6 +20,8 @@ export function FestivalPage() {
   const [events, setEvents] = useState<FestivalEvent[]>([])
   const [stories, setStories] = useState<StoryAndGuide[]>([])
   const [isLoading, setIsLoading] = useState(true)
+  const [selectedEvent, setSelectedEvent] = useState<FestivalEvent | null>(null)
+  const [sheetOpen, setSheetOpen] = useState(false)
 
   useEffect(() => {
     import('../../data/festivals.json').then(mod => {
@@ -27,6 +30,16 @@ export function FestivalPage() {
       setIsLoading(false)
     })
   }, [])
+
+  function handleSelect(event: FestivalEvent) {
+    setSelectedEvent(event)
+    setSheetOpen(true)
+  }
+
+  function handleClose() {
+    setSheetOpen(false)
+    setTimeout(() => setSelectedEvent(null), 300)
+  }
 
   const tabIndex = TABS.findIndex(t => t.id === activeTab)
 
@@ -60,12 +73,18 @@ export function FestivalPage() {
           <div className="festival-page__loading" aria-label="Đang tải..." />
         ) : (
           <>
-            {activeTab === 'timeline' && <TimelineTab events={events} />}
-            {activeTab === 'calendar' && <CalendarTab events={events} />}
+            {activeTab === 'timeline' && <TimelineTab events={events} onSelect={handleSelect} />}
+            {activeTab === 'calendar' && <CalendarTab events={events} onSelect={handleSelect} />}
             {activeTab === 'culture' && <CultureTab stories={stories} />}
           </>
         )}
       </div>
+
+      <FestivalEventSheet
+        event={selectedEvent}
+        isOpen={sheetOpen}
+        onClose={handleClose}
+      />
     </div>
   )
 }
