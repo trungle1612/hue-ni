@@ -90,39 +90,44 @@
   color: #735c00;
   white-space: nowrap;
 }
-.exp-sheet__actions {
+.exp-sheet__top-actions {
+  position: absolute;
+  top: 10px;
+  right: 14px;
   display: flex;
-  gap: 8px;
-  margin-bottom: 16px;
+  gap: 6px;
+  z-index: 1;
 }
-.exp-sheet__action-btn {
-  flex: 1;
+.exp-sheet__icon-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-md, 0.75rem);
+  background: rgba(125, 0, 16, 0.08);
+  border: none;
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 4px;
-  border: none;
-  border-radius: var(--radius-md, 0.75rem);
-  padding: 9px 0;
-  font-family: inherit;
-  font-size: 0.8125rem;
-  font-weight: 600;
-  cursor: pointer;
-  background: rgba(125, 0, 16, 0.08);
   color: #7d0010;
+  flex-shrink: 0;
   -webkit-tap-highlight-color: transparent;
   transition: opacity 0.15s;
 }
-.exp-sheet__action-btn:active {
+.exp-sheet__icon-btn svg {
+  width: 18px;
+  height: 18px;
+}
+.exp-sheet__icon-btn:active {
   opacity: 0.7;
 }
-.exp-sheet__action-btn--primary {
+.exp-sheet__icon-btn--saved {
   background: #7d0010;
   color: #fff;
+  animation: exp-sheet-bookmark-pop 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
-.exp-sheet__action-btn--saved {
-  background: rgba(125, 0, 16, 0.15);
-  color: #7d0010;
+@keyframes exp-sheet-bookmark-pop {
+  0%   { transform: scale(0.75); }
+  100% { transform: scale(1); }
 }
 
 .exp-sheet__section-title {
