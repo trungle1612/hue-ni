@@ -1,13 +1,14 @@
 import type { Place, Category } from '../types'
 
 const DISH_GROUPS: Record<string, string[]> = {
-  'bun':           ['bun', 'bun-bo', 'bun-mam-nem', 'bun-thit-nuong', 'bun-nghe', 'bun-chay'],
-  'cac-loai-banh': ['cac-loai-banh', 'banh-ep', 'banh-beo'],
-  'banh-canh':     ['banh-canh', 'cha-cua', 'ca-loc', 'nam-pho'],
-  'com-hen':       ['com-hen'],
-  'che':           ['che'],
-  'oc':            ['oc'],
-  'quan-com':      ['quan-com'],
+  'bun':                  ['bun', 'bun-bo', 'bun-mam-nem', 'bun-thit-nuong', 'bun-nghe', 'bun-chay'],
+  'cac-loai-banh':        ['cac-loai-banh', 'banh-ep', 'banh-beo'],
+  'banh-canh':            ['banh-canh', 'cha-cua', 'ca-loc', 'nam-pho'],
+  'com-hen':              ['com-hen'],
+  'che':                  ['che'],
+  'oc':                   ['oc'],
+  'quan-com':             ['quan-com'],
+  'quan-an-dia-phuong':   ['quan-an-dia-phuong'],
 }
 
 export function filterPlaces(

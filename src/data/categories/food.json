@@ -13309,6 +13309,851 @@
           "reservation_available"
         ]
       }
+    },
+    {
+      "id": "quan-ga-kien-vuon",
+      "name": "Quán Gà Kiến Vườn",
+      "category": "food",
+      "tags": [
+        "ăn trưa",
+        "ăn tối",
+        "đặt bàn được",
+        "ấm cúng",
+        "ẩm thực"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH4CVOgTmtt00j0YQD6WU24WTJQafZn69Ryc7GzftRxNmhyvF4q6enRtc8ZD-2waZYrpLHgPnJojz7QoFHVv0D1izm6kssdAnqbpQUVJUlJvog-9b9xxxa0Fzx4LakBDEMYyHCeGAnRP9N5=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH4CVOgTmtt00j0YQD6WU24WTJQafZn69Ryc7GzftRxNmhyvF4q6enRtc8ZD-2waZYrpLHgPnJojz7QoFHVv0D1izm6kssdAnqbpQUVJUlJvog-9b9xxxa0Fzx4LakBDEMYyHCeGAnRP9N5=w800-h500-k-no"
+      ],
+      "address": "66 Đoàn Thị Điểm, Phú Xuân, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4767409,
+        "lng": 107.5769742
+      },
+      "rating": 4.1,
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:00",
+        "close": "21:00"
+      },
+      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "description": "Quán Gà Kiến Vườn được đánh giá 4.1/5 sao trên Google Maps. Tọa lạc tại 66 Đoàn Thị Điểm, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
+      "insiderTips": [
+        "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
+      ],
+      "foodTags": {
+        "dishType": [
+          "quan-an-dia-phuong"
+        ],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      },
+      "phone": "+84 764 064 475",
+      "google_id": "0x3141a12c86badbeb:0x258f73705f71296b",
+      "place_id": "ChIJ69u6hiyhQTERaylxX3BzjyU"
+    },
+    {
+      "id": "quan-a-mau",
+      "name": "Quán A Mau",
+      "category": "food",
+      "tags": [
+        "ăn tối",
+        "đặt bàn được",
+        "ẩm thực"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGnKOMGZoKjAoXo-hqlsZmzcehL7fsh_ITu_SkYYp1ytWrq9956vE3F7NjcVeFdzPSgjoZQkZPD6VunGN-SVqMz7XgwEq1BV8U05rnYA37SGCNq9hH6UT1rMvhw3s_pA2XpAuM=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGnKOMGZoKjAoXo-hqlsZmzcehL7fsh_ITu_SkYYp1ytWrq9956vE3F7NjcVeFdzPSgjoZQkZPD6VunGN-SVqMz7XgwEq1BV8U05rnYA37SGCNq9hH6UT1rMvhw3s_pA2XpAuM=w800-h500-k-no"
+      ],
+      "address": "197 Đ. Chi Lăng, Phú Cát, Phú Xuân, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.479637,
+        "lng": 107.5898272
+      },
+      "rating": 4.6,
+      "priceRange": "₫",
+      "hours": {
+        "open": "14:30",
+        "close": "21:00"
+      },
+      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "description": "Quán A Mau được đánh giá 4.6/5 sao trên Google Maps. Tọa lạc tại 197 Đ. Chi Lăng, Phú Cát, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
+      "insiderTips": [
+        "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
+      ],
+      "foodTags": {
+        "dishType": [
+          "quan-an-dia-phuong"
+        ],
+        "mealTime": [
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      },
+      "phone": "+84 905 953 131",
+      "website": "https://www.foody.vn/hue/quan-a-mau-hai-san-tuoi-song",
+      "google_id": "0x3141a127101181ef:0x81d514081b4d679e",
+      "place_id": "ChIJ74ERECehQTERnmdNGwgU1YE"
+    },
+    {
+      "id": "nha-hang-52-bao-vinh",
+      "name": "Nhà hàng 52 Bao Vinh",
+      "category": "food",
+      "tags": [
+        "ăn sáng",
+        "ăn trưa",
+        "ăn tối",
+        "đặt bàn được",
+        "ấm cúng",
+        "ẩm thực"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEJYKBLugYjcYHK2Fb0R5bJV3t6tvHgn6n6mlapcmY8zgN-k50VzaoV1LaVgRyt9jex3LsZSx9ukdBDc4LmIc1iog4mBaUAGgxesQEW2KHqnspc6hwKQzMsi0RKO-rSMIYnpbrYnw=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEJYKBLugYjcYHK2Fb0R5bJV3t6tvHgn6n6mlapcmY8zgN-k50VzaoV1LaVgRyt9jex3LsZSx9ukdBDc4LmIc1iog4mBaUAGgxesQEW2KHqnspc6hwKQzMsi0RKO-rSMIYnpbrYnw=w800-h500-k-no"
+      ],
+      "address": "52 Bao Vinh, Street, Hue City, Hóa Châu, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4942054,
+        "lng": 107.5772628
+      },
+      "rating": 3.7,
+      "priceRange": "₫",
+      "hours": {
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "description": "Nhà hàng 52 Bao Vinh được đánh giá 3.7/5 sao trên Google Maps. Tọa lạc tại 52 Bao Vinh, Street, Hue City, Hóa Châu, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
+      "insiderTips": [
+        "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
+      ],
+      "foodTags": {
+        "dishType": [
+          "quan-an-dia-phuong"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      },
+      "phone": "+84 234 6214 262",
+      "google_id": "0x3141a0cd82381331:0xdbbf0d73d1a2d794",
+      "place_id": "ChIJMRM4gs2gQTERlNei0XMNv9s"
+    },
+    {
+      "id": "ech-ong-chay",
+      "name": "Ếch Ông Chạy",
+      "category": "food",
+      "tags": [
+        "kim long",
+        "ăn trưa",
+        "ăn tối",
+        "đặt bàn được",
+        "ẩm thực"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEs3hWCvssRvPTivlGIQQaZV44x61fOqmYMw05nZIp7IrP3EASe4gHOCFL8beyDJaIDR6KgwOAqifqBPjhVq_dow6SxoLlUBxSwHOeVAmnM7HIXn7i5lwfYxdiNnDwZSVLGIshfIw=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEs3hWCvssRvPTivlGIQQaZV44x61fOqmYMw05nZIp7IrP3EASe4gHOCFL8beyDJaIDR6KgwOAqifqBPjhVq_dow6SxoLlUBxSwHOeVAmnM7HIXn7i5lwfYxdiNnDwZSVLGIshfIw=w800-h500-k-no"
+      ],
+      "address": "54 Phạm Thị Liên, Kim Long, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4643263,
+        "lng": 107.5615619
+      },
+      "rating": 4.0,
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:00",
+        "close": "22:00"
+      },
+      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "description": "Ếch Ông Chạy được đánh giá 4.0/5 sao trên Google Maps. Tọa lạc tại 54 Phạm Thị Liên, Kim Long, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
+      "insiderTips": [
+        "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
+      ],
+      "foodTags": {
+        "dishType": [
+          "com-chay",
+          "quan-an-dia-phuong"
+        ],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      },
+      "google_id": "0x3141a6c632769add:0x7ff3b84e39ee5b72",
+      "place_id": "ChIJ3Zp2MsamQTERclvuOU64838"
+    },
+    {
+      "id": "quan-the-buoi",
+      "name": "Quán Thể Bưởi",
+      "category": "food",
+      "tags": [
+        "ăn tối",
+        "đặt bàn được",
+        "ẩm thực"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGJun9OMI_86WidQiCCmvOcK8pY9WL2WRZIkLUewJe_cylqml9GU1FhMrNLRYk4yI3Yg7qoFDzq4Z9UnKPce39Eden1uz1TWfMr_aaMTEkteZKsmZ8NTjLkZ8lksp81i1Y71sNS=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGJun9OMI_86WidQiCCmvOcK8pY9WL2WRZIkLUewJe_cylqml9GU1FhMrNLRYk4yI3Yg7qoFDzq4Z9UnKPce39Eden1uz1TWfMr_aaMTEkteZKsmZ8NTjLkZ8lksp81i1Y71sNS=w800-h500-k-no"
+      ],
+      "address": "217 Kinh Dương Vương, Thuận An, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.5368651,
+        "lng": 107.63302619999999
+      },
+      "rating": 4.2,
+      "priceRange": "₫",
+      "hours": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "description": "Quán Thể Bưởi được đánh giá 4.2/5 sao trên Google Maps. Tọa lạc tại 217 Kinh Dương Vương, Thuận An, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
+      "insiderTips": [
+        "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
+      ],
+      "foodTags": {
+        "dishType": [
+          "quan-an-dia-phuong"
+        ],
+        "mealTime": [
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      },
+      "phone": "+84 234 3856 427",
+      "website": "https://www.foody.vn/hue/the-buoi-quan-hai-san-tuoi-song",
+      "google_id": "0x31410a8fc2285c05:0x35ed5beeff965ad8",
+      "place_id": "ChIJBVwowo8KQTER2FqW_-5b7TU"
+    },
+    {
+      "id": "nha-hang-chan-oi",
+      "name": "Nhà hàng Chân Đồi",
+      "category": "food",
+      "tags": [
+        "ăn trưa",
+        "ăn tối",
+        "đặt bàn được",
+        "ấm cúng",
+        "ẩm thực"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGUILmVOVrxutRel1WvPS5Reivb7_Y2VjepvEfVM1URKyD2iiQMyHtJXsc4sEdmW-43vC7g8IGee0Y3_mirKpUNnwCSSPbSRRNSqvJD0RIkV_oFpTfxDaXP-oq2bMjbtdt0tjSRdA=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGUILmVOVrxutRel1WvPS5Reivb7_Y2VjepvEfVM1URKyD2iiQMyHtJXsc4sEdmW-43vC7g8IGee0Y3_mirKpUNnwCSSPbSRRNSqvJD0RIkV_oFpTfxDaXP-oq2bMjbtdt0tjSRdA=w800-h500-k-no"
+      ],
+      "address": "65/16 Lê Ng. Cát, Thủy Xuân, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4347268,
+        "lng": 107.57731869999999
+      },
+      "rating": 3.1,
+      "priceRange": "₫",
+      "hours": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "description": "Nhà hàng Chân Đồi được đánh giá 3.1/5 sao trên Google Maps. Tọa lạc tại 65/16 Lê Ng. Cát, Thủy Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
+      "insiderTips": [
+        "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
+      ],
+      "foodTags": {
+        "dishType": [
+          "quan-an-dia-phuong"
+        ],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      },
+      "phone": "+84 234 3886 296",
+      "google_id": "0x3141a32f58595aa7:0xf370296659a970d3",
+      "place_id": "ChIJp1pZWC-jQTER03CpWWYpcPM"
+    },
+    {
+      "id": "nha-hang-phong-nha",
+      "name": "Nhà Hàng Phong Nhã",
+      "category": "food",
+      "tags": [
+        "ăn sáng",
+        "ăn trưa",
+        "ăn tối",
+        "đặt bàn được",
+        "ấm cúng",
+        "ẩm thực"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFrgyv3Pg9OfP8xGlrDu_Tyt8XtkE1ZE6cjFBRzfXDYqTUH5OfzKUGkEkjLuWXX7487696vpm-_iahV3A3bUYUZO3kGa7ZTwC6Y9-nzcWs0EWCAggcApBRydZTPuA3hIVUzoJxb-Q=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFrgyv3Pg9OfP8xGlrDu_Tyt8XtkE1ZE6cjFBRzfXDYqTUH5OfzKUGkEkjLuWXX7487696vpm-_iahV3A3bUYUZO3kGa7ZTwC6Y9-nzcWs0EWCAggcApBRydZTPuA3hIVUzoJxb-Q=w800-h500-k-no"
+      ],
+      "address": "110 Lê Ng. Cát, Thủy Xuân, Huế 49000, Việt Nam",
+      "coordinates": {
+        "lat": 16.4362037,
+        "lng": 107.5647956
+      },
+      "rating": 4.0,
+      "priceRange": "₫",
+      "hours": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "description": "Nhà Hàng Phong Nhã được đánh giá 4.0/5 sao trên Google Maps. Tọa lạc tại 110 Lê Ng. Cát, Thủy Xuân, Huế 49000, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
+      "insiderTips": [
+        "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
+      ],
+      "foodTags": {
+        "dishType": [
+          "quan-an-dia-phuong"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      },
+      "phone": "+84 234 3836 246",
+      "google_id": "0x3141a402f7519d93:0x7a1a138bcf80943f",
+      "place_id": "ChIJk51R9wKkQTERP5SAz4sTGno"
+    },
+    {
+      "id": "sam-son-quan",
+      "name": "Sầm Sơn Quán",
+      "category": "food",
+      "tags": [
+        "đặt bàn được",
+        "ấm cúng",
+        "ẩm thực"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEFFYK0S3jkEwz54wp2F1B-dLsu6pnnRXQWNZl0DxNEpFzGwdU5UfyY_d72mT96k2bgrzHQuOH-xXS7cq5s--ORm0s1BIfh2ltWmIr5y6n2FODelKDVXGVb7nBxYeIFWnYwblQn=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEFFYK0S3jkEwz54wp2F1B-dLsu6pnnRXQWNZl0DxNEpFzGwdU5UfyY_d72mT96k2bgrzHQuOH-xXS7cq5s--ORm0s1BIfh2ltWmIr5y6n2FODelKDVXGVb7nBxYeIFWnYwblQn=w800-h500-k-no"
+      ],
+      "address": "CJQG+855, Thanh Thủy, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.438255299999998,
+        "lng": 107.625473
+      },
+      "rating": 4.1,
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:00",
+        "close": "21:00"
+      },
+      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "description": "Sầm Sơn Quán được đánh giá 4.1/5 sao trên Google Maps. Tọa lạc tại CJQG+855, Thanh Thủy, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
+      "insiderTips": [
+        "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
+      ],
+      "foodTags": {
+        "dishType": [
+          "quan-an-dia-phuong"
+        ],
+        "mealTime": [],
+        "vibe": [
+          "reservation_available"
+        ]
+      },
+      "google_id": "0x3141a18164735cb9:0x43893352b27d8085",
+      "place_id": "ChIJuVxzZIGhQTERhYB9slIziUM"
+    },
+    {
+      "id": "hem-hue-bo-nuong-than-hoa",
+      "name": "Hẻm Huế - Bò Nướng Than Hoa",
+      "category": "food",
+      "tags": [
+        "ăn tối",
+        "đặt bàn được",
+        "ấm cúng",
+        "ẩm thực"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEKN0FP8bOLfhIXBFdzaV60TXHw33LeLzi-moKzAqfka4HktVAVnT2xPKgjx-Ba6R1StR4SJNb80uS0lYGVRSJOXwWwtvTYuKGtZN0qga8P5iehePthTFTQHJdyJwvMyYVwlb-h9g=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEKN0FP8bOLfhIXBFdzaV60TXHw33LeLzi-moKzAqfka4HktVAVnT2xPKgjx-Ba6R1StR4SJNb80uS0lYGVRSJOXwWwtvTYuKGtZN0qga8P5iehePthTFTQHJdyJwvMyYVwlb-h9g=w800-h500-k-no"
+      ],
+      "address": "4 Kiệt 42 Nguyễn Công Trứ, Thuận Hóa, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4708993,
+        "lng": 107.5973192
+      },
+      "rating": 4.8,
+      "priceRange": "₫",
+      "hours": {
+        "open": "14:00",
+        "close": "22:30"
+      },
+      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "description": "Hẻm Huế - Bò Nướng Than Hoa được đánh giá 4.8/5 sao trên Google Maps. Tọa lạc tại 4 Kiệt 42 Nguyễn Công Trứ, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
+      "insiderTips": [
+        "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
+      ],
+      "foodTags": {
+        "dishType": [
+          "quan-an-dia-phuong"
+        ],
+        "mealTime": [
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      },
+      "phone": "+84 348 420 291",
+      "google_id": "0x3141a10056bb2f7b:0x31550225e16c04d3",
+      "place_id": "ChIJey-7VgChQTER0wRs4SUCVTE"
+    },
+    {
+      "id": "36-quan",
+      "name": "36 Quán",
+      "category": "food",
+      "tags": [
+        "ăn trưa",
+        "ăn tối",
+        "đặt bàn được",
+        "ấm cúng",
+        "ẩm thực"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH1--k6hFMVB8EjqbMU28oBirMYyoiUQHXAukct2EC3RBJ98mUgBC0mZ7MBW7kEpcF8M8m0iHVj1TaTVw8OlINXk4YFbPM9SSrEdOkRt5TIvM9IbSngjB_zxrDlqe2uRhg60V85BhLQi9SS=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH1--k6hFMVB8EjqbMU28oBirMYyoiUQHXAukct2EC3RBJ98mUgBC0mZ7MBW7kEpcF8M8m0iHVj1TaTVw8OlINXk4YFbPM9SSrEdOkRt5TIvM9IbSngjB_zxrDlqe2uRhg60V85BhLQi9SS=w800-h500-k-no"
+      ],
+      "address": "36 Đinh Tiên Hoàng, Phú Xuân, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4693176,
+        "lng": 107.58475299999999
+      },
+      "rating": 4.7,
+      "priceRange": "₫",
+      "hours": {
+        "open": "13:00",
+        "close": "00:00"
+      },
+      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "description": "36 Quán được đánh giá 4.7/5 sao trên Google Maps. Tọa lạc tại 36 Đinh Tiên Hoàng, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
+      "insiderTips": [
+        "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
+      ],
+      "foodTags": {
+        "dishType": [
+          "quan-an-dia-phuong"
+        ],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      },
+      "phone": "+84 904 074 443",
+      "website": "https://www.foody.vn/hue/quan-nhau-36",
+      "google_id": "0x3141a130150ffd15:0x696ed30cca38a62d",
+      "place_id": "ChIJFf0PFTChQTERLaY4ygzTbmk"
+    },
+    {
+      "id": "nha-hang-biet-phu-thao-nhi",
+      "name": "Nhà hàng Biệt Phủ Thảo Nhi",
+      "category": "food",
+      "tags": [
+        "yên tĩnh",
+        "ăn sáng",
+        "ăn trưa",
+        "ăn tối",
+        "đặt bàn được",
+        "ấm cúng",
+        "ẩm thực"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGIzqBnNvK0161mF48L_QjisuP_K5FgCjmEuSGU751_gyZvlyIyC61sMwGXTdFoLOTdblxPb7rrXXeLZfV5KHW7rtDy3SnclsgE5iZRfaUNjgPLu8yUEaf-KQZTQpcpdUvZM7lg=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGIzqBnNvK0161mF48L_QjisuP_K5FgCjmEuSGU751_gyZvlyIyC61sMwGXTdFoLOTdblxPb7rrXXeLZfV5KHW7rtDy3SnclsgE5iZRfaUNjgPLu8yUEaf-KQZTQpcpdUvZM7lg=w800-h500-k-no"
+      ],
+      "address": "Minh Mang, Thủy Xuân, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4257396,
+        "lng": 107.5727783
+      },
+      "rating": 4.1,
+      "priceRange": "₫",
+      "hours": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "description": "Nhà hàng Biệt Phủ Thảo Nhi được đánh giá 4.1/5 sao trên Google Maps. Tọa lạc tại Minh Mang, Thủy Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
+      "insiderTips": [
+        "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
+      ],
+      "foodTags": {
+        "dishType": [
+          "quan-an-dia-phuong"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      },
+      "phone": "+84 234 3855 037",
+      "google_id": "0x3141a39245c4a979:0x6e2bcfd661085d07",
+      "place_id": "ChIJeanERZKjQTERB10IYdbPK24"
+    },
+    {
+      "id": "nha-hang-lang-an-viet",
+      "name": "Nhà hàng Làng An Việt",
+      "category": "food",
+      "tags": [
+        "thú cưng",
+        "ăn sáng",
+        "ăn trưa",
+        "ăn tối",
+        "đặt bàn được",
+        "ấm cúng",
+        "ẩm thực"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGOjEGekHv8IhLuhBti9P7dIWTl0u2Cpax7ety4Ykwa0-TBsuZ9QkubPeo4tN0ZN7B63Resv3eEkrjgaMF5MJkUnNQaYMLhgieuGYK6AUtyu_kTysfk1MKa8VoV4ILCkGb1lYA=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGOjEGekHv8IhLuhBti9P7dIWTl0u2Cpax7ety4Ykwa0-TBsuZ9QkubPeo4tN0ZN7B63Resv3eEkrjgaMF5MJkUnNQaYMLhgieuGYK6AUtyu_kTysfk1MKa8VoV4ILCkGb1lYA=w800-h500-k-no"
+      ],
+      "address": "CH8H+3MG, Thủy Xuân, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4151857,
+        "lng": 107.57919509999999
+      },
+      "rating": 4.1,
+      "priceRange": "₫",
+      "hours": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "description": "Nhà hàng Làng An Việt được đánh giá 4.1/5 sao trên Google Maps. Tọa lạc tại CH8H+3MG, Thủy Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
+      "insiderTips": [
+        "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
+      ],
+      "foodTags": {
+        "dishType": [
+          "quan-an-dia-phuong"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      },
+      "phone": "+84 942 570 066",
+      "google_id": "0x3141a3f4bb011587:0x35ef842bf94576d7",
+      "place_id": "ChIJhxUBu_SjQTER13ZF-SuE7zU"
+    },
+    {
+      "id": "lau-bo-ba-nghe",
+      "name": "Lẩu Bò Bà Nghệ",
+      "category": "food",
+      "tags": [
+        "ăn trưa",
+        "ăn tối",
+        "đặt bàn được",
+        "ẩm thực"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFph-ICA6ste5kL7_g2TuGzgB3O_Mu6s5I3_g6hTk6jx1MY8cLIMWpp-vMj5FFE764kh455dhTHqA2nWshVoFzMGEjiyMtzEO1doB3summjr0FaVvR1jv4Y6gFTYrMiHE3lD911=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFph-ICA6ste5kL7_g2TuGzgB3O_Mu6s5I3_g6hTk6jx1MY8cLIMWpp-vMj5FFE764kh455dhTHqA2nWshVoFzMGEjiyMtzEO1doB3summjr0FaVvR1jv4Y6gFTYrMiHE3lD911=w800-h500-k-no"
+      ],
+      "address": "13 Trần Nguyên Đán, Phú Xuân, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4639733,
+        "lng": 107.5730456
+      },
+      "rating": 4.3,
+      "priceRange": "₫",
+      "hours": {
+        "open": "15:00",
+        "close": "23:00"
+      },
+      "vibe": "Lẩu nóng hổi, ngồi quanh bàn — ấm áp và đậm đà.",
+      "description": "Lẩu Bò Bà Nghệ được đánh giá 4.3/5 sao trên Google Maps. Tọa lạc tại 13 Trần Nguyên Đán, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
+      "insiderTips": [
+        "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
+      ],
+      "foodTags": {
+        "dishType": [
+          "quan-an-dia-phuong"
+        ],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      },
+      "phone": "+84 903 594 444",
+      "google_id": "0x3141a6cb3b918b4f:0x8686c6a458c3a0d7",
+      "place_id": "ChIJT4uRO8umQTER16DDWKTGhoY"
+    },
+    {
+      "id": "nha-hang-duyen-anh",
+      "name": "Nhà Hàng Duyên Anh",
+      "category": "food",
+      "tags": [
+        "gia đình",
+        "yên tĩnh",
+        "ăn sáng",
+        "ăn trưa",
+        "ăn tối",
+        "đặt bàn được",
+        "ấm cúng",
+        "ẩm thực"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFrmOMw66K_FnLx-YZaAHnVssUVjhPck8YzCV-BBSp8HYV5XHXpJzHfeMzHkMokAv9IEwxRya74QcGKwy3baxZGTzERv7JxJk8sh9FZD8lEgpBbRAHIHyOpke6CydFyDEseHNJe=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFrmOMw66K_FnLx-YZaAHnVssUVjhPck8YzCV-BBSp8HYV5XHXpJzHfeMzHkMokAv9IEwxRya74QcGKwy3baxZGTzERv7JxJk8sh9FZD8lEgpBbRAHIHyOpke6CydFyDEseHNJe=w800-h500-k-no"
+      ],
+      "address": "ĐT10A, Mỹ Thượng, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.494035999999998,
+        "lng": 107.6234757
+      },
+      "rating": 4.2,
+      "priceRange": "₫₫₫",
+      "hours": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "description": "Nhà Hàng Duyên Anh được đánh giá 4.2/5 sao trên Google Maps. Tọa lạc tại ĐT10A, Mỹ Thượng, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
+      "insiderTips": [
+        "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
+      ],
+      "foodTags": {
+        "dishType": [
+          "quan-an-dia-phuong"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "family_friendly",
+          "reservation_available"
+        ]
+      },
+      "phone": "+84 234 3850 195",
+      "website": "http://www.duyenanhres.com.vn/",
+      "google_id": "0x3141a0e2603eb1fb:0x835e32119ca0536",
+      "place_id": "ChIJ-7E-YOKgQTERNgXKGSHjNQg"
+    },
+    {
+      "id": "ty-xiu-restaurant",
+      "name": "Ty Xiu Restaurant",
+      "category": "food",
+      "tags": [
+        "ăn trưa",
+        "ăn tối",
+        "đặt bàn được",
+        "ẩm thực"
+      ],
+      "coverImage": "",
+      "gallery": [],
+      "address": "80 Mạc Đĩnh Chi, Phú Xuân, Huế 350000, Việt Nam",
+      "coordinates": {
+        "lat": 16.4821617,
+        "lng": 107.58817119999999
+      },
+      "rating": 5.0,
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:00",
+        "close": "21:00"
+      },
+      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "description": "Ty Xiu Restaurant được đánh giá 5.0/5 sao trên Google Maps. Tọa lạc tại 80 Mạc Đĩnh Chi, Phú Xuân, Huế 350000, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
+      "insiderTips": [
+        "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
+      ],
+      "foodTags": {
+        "dishType": [
+          "quan-an-dia-phuong"
+        ],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      },
+      "phone": "+84 917 556 914",
+      "google_id": "0x3141a11c33eefc93:0x605c42492e395ca6",
+      "place_id": "ChIJk_zuMxyhQTERplw5LklCXGA"
+    },
+    {
+      "id": "ben-xua-restaurant",
+      "name": "Bến Xưa Restaurant",
+      "category": "food",
+      "tags": [
+        "yên tĩnh",
+        "ăn trưa",
+        "ăn tối",
+        "đặt bàn được",
+        "ấm cúng",
+        "ẩm thực"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG2a2YYfmK8LyRSOtHFD7h6kP3Y87Y3lmc4Kl6Gs95WzoDMNih2Hbj-1HKBa0wQJJV8D7M49ETUB6A75yTNXu56cw8eLFvLwslNwr3YIKPkPuRMqmEg8A1GVFwUt6qBkPVJbkmphTu_maLq=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG2a2YYfmK8LyRSOtHFD7h6kP3Y87Y3lmc4Kl6Gs95WzoDMNih2Hbj-1HKBa0wQJJV8D7M49ETUB6A75yTNXu56cw8eLFvLwslNwr3YIKPkPuRMqmEg8A1GVFwUt6qBkPVJbkmphTu_maLq=w800-h500-k-no"
+      ],
+      "address": "73 Nguyễn Sinh Cung, Vỹ Dạ, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4767981,
+        "lng": 107.59490989999999
+      },
+      "rating": 3.5,
+      "priceRange": "₫",
+      "hours": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "description": "Bến Xưa Restaurant được đánh giá 3.5/5 sao trên Google Maps. Tọa lạc tại 73 Nguyễn Sinh Cung, Vỹ Dạ, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
+      "insiderTips": [
+        "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
+      ],
+      "foodTags": {
+        "dishType": [
+          "quan-an-dia-phuong"
+        ],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      },
+      "phone": "+84 905 060 399",
+      "google_id": "0x3141a121a33c4529:0x398743927924c722",
+      "place_id": "ChIJKUU8oyGhQTERIsckeZJDhzk"
+    },
+    {
+      "id": "quan-nhau-ty",
+      "name": "Quán nhậu Tý",
+      "category": "food",
+      "tags": [
+        "ăn tối",
+        "đặt bàn được",
+        "ẩm thực"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGodvT2eCJ3948Jgyr0oumy1fp8dfdk_3TFEARBjprR_YTfrNABHqDXFELJRMSFjcEsWp8ndrGVcBFz_c29JgRWADnqvoM4ek763y9GQE7gcqS44bgOjN7tYmVnhQoZx2-JNx0dTR1KdlQH=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGodvT2eCJ3948Jgyr0oumy1fp8dfdk_3TFEARBjprR_YTfrNABHqDXFELJRMSFjcEsWp8ndrGVcBFz_c29JgRWADnqvoM4ek763y9GQE7gcqS44bgOjN7tYmVnhQoZx2-JNx0dTR1KdlQH=w800-h500-k-no"
+      ],
+      "address": "188 Bạch Đằng, Phú Xuân, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4802314,
+        "lng": 107.5848072
+      },
+      "rating": 4.5,
+      "priceRange": "₫",
+      "hours": {
+        "open": "16:00",
+        "close": "22:45"
+      },
+      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "description": "Quán nhậu Tý được đánh giá 4.5/5 sao trên Google Maps. Tọa lạc tại 188 Bạch Đằng, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
+      "insiderTips": [
+        "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
+      ],
+      "foodTags": {
+        "dishType": [
+          "quan-an-dia-phuong"
+        ],
+        "mealTime": [
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      },
+      "phone": "+84 365 586 212",
+      "google_id": "0x3141a1da66922c61:0x4510291d9d47a43a",
+      "place_id": "ChIJYSySZtqhQTEROqRHnR0pEEU"
+    },
+    {
+      "id": "quan-vui",
+      "name": "Quán Vui",
+      "category": "food",
+      "tags": [
+        "thú cưng",
+        "ăn trưa",
+        "ăn tối",
+        "đặt bàn được",
+        "ẩm thực"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEecFZ7zfIqHg9E02bKcGoEW9wU-FUFTh9W4hqkmcAJGzqC6_UYDglWMeJi0IYvXX--wK4r6_5uy4Aawnnp5iSATdwKlC4dJDqdRpMwg8wr4AttpjNgDosQdbduh7HkXfMcuiTYWiDP5ho=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEecFZ7zfIqHg9E02bKcGoEW9wU-FUFTh9W4hqkmcAJGzqC6_UYDglWMeJi0IYvXX--wK4r6_5uy4Aawnnp5iSATdwKlC4dJDqdRpMwg8wr4AttpjNgDosQdbduh7HkXfMcuiTYWiDP5ho=w800-h500-k-no"
+      ],
+      "address": "4 kiet 60, 4 kiet 60 xóm Gióng , tổ 2, An Cựu, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.443539899999998,
+        "lng": 107.6093559
+      },
+      "rating": 4.1,
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:00",
+        "close": "21:00"
+      },
+      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "description": "Quán Vui được đánh giá 4.1/5 sao trên Google Maps. Tọa lạc tại 4 kiet 60, 4 kiet 60 xóm Gióng , tổ 2, An Cựu, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
+      "insiderTips": [
+        "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
+      ],
+      "foodTags": {
+        "dishType": [
+          "quan-an-dia-phuong"
+        ],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      },
+      "phone": "+84 915 184 000",
+      "google_id": "0x3141a1652e4de097:0x5c03dd2108a18997",
+      "place_id": "ChIJl-BNLmWhQTERl4mhCCHdA1w"
     }
   ]
 }
