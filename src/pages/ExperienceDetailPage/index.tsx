@@ -3,12 +3,16 @@ import { useParams, useNavigate } from 'react-router-dom'
 import './style.css'
 import type { Experience } from '../../types'
 import { EXPERIENCE_CATEGORY_LABELS } from '../../data/constants'
-import { StickyFooter } from '../../components/StickyFooter'
+
+function loadSaved(): string[] {
+  try { return JSON.parse(localStorage.getItem('hue-ni-exp-saved') ?? '[]') } catch { return [] }
+}
 
 export function ExperienceDetailPage() {
   const { id } = useParams<{ id: string }>()
   const navigate = useNavigate()
   const [experience, setExperience] = useState<Experience | null | undefined>(undefined)
+  const [saved, setSaved] = useState(() => loadSaved().includes(id ?? ''))
 
   useEffect(() => {
     import('../../data/experiences.json').then((mod) => {
@@ -34,7 +38,33 @@ export function ExperienceDetailPage() {
     )
   }
 
-  const googleMapsUrl = `https://maps.google.com/?q=${encodeURIComponent(experience.address)}`
+  const googleMapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(experience.address)}`
+
+  function handleSave() {
+    setSaved(prev => {
+      const next = !prev
+      const ids = loadSaved()
+      const updated = next ? [...ids, experience!.id] : ids.filter(i => i !== experience!.id)
+      localStorage.setItem('hue-ni-exp-saved', JSON.stringify(updated))
+      return next
+    })
+  }
+
+  function handleDirections() {
+    window.open(googleMapsUrl, '_blank', 'noopener,noreferrer')
+  }
+
+  async function handleShare() {
+    try {
+      if (navigator.share) {
+        await navigator.share({ title: experience!.title, text: experience!.shortDesc, url: window.location.href })
+      } else {
+        await navigator.clipboard.writeText(window.location.href)
+      }
+    } catch (err) {
+      if (err instanceof DOMException && err.name === 'AbortError') return
+    }
+  }
 
   return (
     <div className="exp-detail">
@@ -98,10 +128,41 @@ export function ExperienceDetailPage() {
         <div className="exp-detail__footer-spacer" />
       </div>
 
-      <StickyFooter
-        zaloUrl={experience.contactInfo.zalo}
-        phone={experience.contactInfo.phone}
-      />
+      <div className="exp-detail__actions">
+        <button
+          className={`exp-detail__icon-btn${saved ? ' exp-detail__icon-btn--saved' : ''}`}
+          onClick={handleSave}
+          aria-label={saved ? 'Bỏ lưu' : 'Lưu trải nghiệm'}
+        >
+          {saved ? (
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M5 3h14a1 1 0 011 1v17.28a.5.5 0 01-.8.4L12 17.22l-7.2 4.46A.5.5 0 014 21.28V4a1 1 0 011-1z"/>
+            </svg>
+          ) : (
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"
+              strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <path d="M5 3h14a1 1 0 011 1v17.28a.5.5 0 01-.8.4L12 17.22l-7.2 4.46A.5.5 0 014 21.28V4a1 1 0 011-1z"/>
+            </svg>
+          )}
+        </button>
+
+        <button className="exp-detail__cta-btn" onClick={handleDirections} aria-label="Chỉ đường">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
+            strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <polygon points="3,11 22,2 13,21 11,13"/>
+          </svg>
+          Chỉ đường
+        </button>
+
+        <button className="exp-detail__icon-btn" onClick={handleShare} aria-label="Chia sẻ">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"
+            strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
+            <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/>
+            <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+          </svg>
+        </button>
+      </div>
     </div>
   )
 }
