@@ -48,6 +48,7 @@ export const FOOD_GROUP_OPTIONS: ComboboxOption[] = [
   { value: 'com-hen',        icon: '🐚', label: 'Cơm hến' },
   { value: 'che',            icon: '🍮', label: 'Chè' },
   { value: 'oc',             icon: '🐌', label: 'Ốc' },
+  { value: 'quan-com',      icon: '🍚', label: 'Quán cơm' },
 ]
 
 export const FOOD_DISH_MAP: Record<string, { value: string; label: string }[]> = {

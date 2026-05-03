@@ -12926,6 +12926,389 @@
           "reservation_available"
         ]
       }
+    },
+    {
+      "id": "quan-com-chi-teo",
+      "name": "Quán cơm Chị Tẹo",
+      "category": "food",
+      "tags": [
+        "ăn sáng",
+        "ăn trưa",
+        "ăn tối",
+        "đặt bàn được",
+        "ấm cúng",
+        "ẩm thực"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHkDfm3FiRVzOGKq5dUDsuAoGcglx9-V_EXmUAUXrrGZH7yQw4bh6rz2QTv8T-Ys8tOy1V2rnjMtweH4b3ZSthmYlT1TGGzMinqiQD38lWzNiibNViOy5pUx-JBIheKyKp4869bLHuMV7IK=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHkDfm3FiRVzOGKq5dUDsuAoGcglx9-V_EXmUAUXrrGZH7yQw4bh6rz2QTv8T-Ys8tOy1V2rnjMtweH4b3ZSthmYlT1TGGzMinqiQD38lWzNiibNViOy5pUx-JBIheKyKp4869bLHuMV7IK=w800-h500-k-no"
+      ],
+      "address": "59 Hai Bà Trưng, Thuận Hóa, Huế 530000, Việt Nam",
+      "coordinates": {
+        "lat": 16.4569065,
+        "lng": 107.5892669
+      },
+      "rating": 3.9,
+      "priceRange": "₫",
+      "hours": {
+        "open": "10:00",
+        "close": "20:30"
+      },
+      "vibe": "Cơm nhà nấu, mộc mạc và đậm đà hương vị truyền thống.",
+      "description": "Quán cơm Chị Tẹo được đánh giá 3.9/5 sao trên Google Maps. Tọa lạc tại 59 Hai Bà Trưng, Thuận Hóa, Huế 530000, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
+      "insiderTips": [
+        "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
+      ],
+      "phone": "+84 905 862 388",
+      "google_id": "0x3141a14709f15ab5:0x368ce22dee258f81",
+      "place_id": "ChIJtVrxCUehQTERgY8l7i3ijDY",
+      "foodTags": {
+        "dishType": [
+          "quan-com"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
+    },
+    {
+      "id": "quan-com-ba-nhon",
+      "name": "Quán Cơm Bà Nhơn",
+      "category": "food",
+      "tags": [
+        "ăn trưa",
+        "ăn tối",
+        "đặt bàn được",
+        "ẩm thực"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAED9e-cx9eCmw9Zy97VmN9EySI8v8Co2xGoSSdmC9go4fIEtOLTTge-v3V0YgUHEHYPkH2gO8K1YosIy4o5uYo0S8GJDt7yb_fz9Jq42MsGItbR6Z7Comm6TEHgO-l-v3J0CXUS=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAED9e-cx9eCmw9Zy97VmN9EySI8v8Co2xGoSSdmC9go4fIEtOLTTge-v3V0YgUHEHYPkH2gO8K1YosIy4o5uYo0S8GJDt7yb_fz9Jq42MsGItbR6Z7Comm6TEHgO-l-v3J0CXUS=w800-h500-k-no"
+      ],
+      "address": "60 Lê Duẩn, Phú Xuân, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.467400599999998,
+        "lng": 107.5830388
+      },
+      "rating": 3.1,
+      "priceRange": "₫",
+      "hours": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "vibe": "Cơm nhà nấu, mộc mạc và đậm đà hương vị truyền thống.",
+      "description": "Quán Cơm Bà Nhơn được đánh giá 3.1/5 sao trên Google Maps. Tọa lạc tại 60 Lê Duẩn, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
+      "insiderTips": [
+        "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
+      ],
+      "phone": "+84 382 686 275",
+      "google_id": "0x3141a6ca144249b9:0x7dc6b198eec728bb",
+      "place_id": "ChIJuUlCFMqmQTERuyjH7pixxn0",
+      "foodTags": {
+        "dishType": [
+          "quan-com"
+        ],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
+    },
+    {
+      "id": "nha-hang-com-nieu-khai-hoan",
+      "name": "Nhà Hàng Cơm Niêu Khải Hoàn",
+      "category": "food",
+      "tags": [
+        "ăn sáng",
+        "ăn trưa",
+        "ăn tối",
+        "đặt bàn được",
+        "ấm cúng",
+        "ẩm thực"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF5qYa9a_BVUR9QZK_1nmXOezC9Q7WuuHhEVTAhIoG79nU7e-g4QYcXYvkgIEIzB1oXRsNVAexMIw2Oec-xfQjxZOA6GwvIFm5m8dI9irup6oMpIbhVPZi_oN9bogWFV1dx8AeALw=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF5qYa9a_BVUR9QZK_1nmXOezC9Q7WuuHhEVTAhIoG79nU7e-g4QYcXYvkgIEIzB1oXRsNVAexMIw2Oec-xfQjxZOA6GwvIFm5m8dI9irup6oMpIbhVPZi_oN9bogWFV1dx8AeALw=w800-h500-k-no"
+      ],
+      "address": "90 Lê Lợi, Thuận Hóa, Huế 530000, Việt Nam",
+      "coordinates": {
+        "lat": 16.4711227,
+        "lng": 107.5948473
+      },
+      "rating": 4.7,
+      "priceRange": "₫",
+      "hours": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "vibe": "Cơm nhà nấu, mộc mạc và đậm đà hương vị truyền thống.",
+      "description": "Nhà Hàng Cơm Niêu Khải Hoàn được đánh giá 4.7/5 sao trên Google Maps. Tọa lạc tại 90 Lê Lợi, Thuận Hóa, Huế 530000, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
+      "insiderTips": [
+        "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
+      ],
+      "phone": "+84 834 933 636",
+      "website": "https://www.facebook.com/nhahangcomnieukhaihoan",
+      "google_id": "0x3141a123202fa071:0xada795c3ac52c09d",
+      "place_id": "ChIJcaAvICOhQTERncBSrMOVp60",
+      "foodTags": {
+        "dishType": [
+          "quan-com"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
+    },
+    {
+      "id": "quan-com-xuan-nhan",
+      "name": "Quán Cơm Xuân Nhạn",
+      "category": "food",
+      "tags": [
+        "ăn sáng",
+        "ăn trưa",
+        "ăn tối",
+        "đặt bàn được",
+        "ấm cúng",
+        "ẩm thực"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFWlJQuJtNBVKrI-h6qbNPFk1osZ_qIX3JnZ99G-3GJ7qq7dkj377p0OqHlnK9z3UqCxXWKmONs19su_p8oXGqvBymD6nNbGaHBJFGCJGVjzkH7xCxP3a-F8aLWF1m35LvLJSi3=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFWlJQuJtNBVKrI-h6qbNPFk1osZ_qIX3JnZ99G-3GJ7qq7dkj377p0OqHlnK9z3UqCxXWKmONs19su_p8oXGqvBymD6nNbGaHBJFGCJGVjzkH7xCxP3a-F8aLWF1m35LvLJSi3=w800-h500-k-no"
+      ],
+      "address": "78 Lê Duẩn, Phú Xuân, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4671077,
+        "lng": 107.5825881
+      },
+      "rating": 3.7,
+      "priceRange": "₫",
+      "hours": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "vibe": "Cơm nhà nấu, mộc mạc và đậm đà hương vị truyền thống.",
+      "description": "Quán Cơm Xuân Nhạn được đánh giá 3.7/5 sao trên Google Maps. Tọa lạc tại 78 Lê Duẩn, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
+      "insiderTips": [
+        "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
+      ],
+      "google_id": "0x3141a1311b9de595:0xe250bd4a3a23e3bd",
+      "place_id": "ChIJleWdGzGhQTERveMjOkq9UOI",
+      "foodTags": {
+        "dishType": [
+          "quan-com"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
+    },
+    {
+      "id": "nha-hang-ba-ao",
+      "name": "Nhà Hàng Bà Đào",
+      "category": "food",
+      "tags": [
+        "ăn trưa",
+        "ăn tối",
+        "đặt bàn được",
+        "ấm cúng",
+        "ẩm thực"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE70qZu-AMWHO-9w5WI_lInylQWo2BcrQc-CHMRgAuWdEGkfdrr7UX9jTxEvrgIK22sxEX7f5PtlQp5KcQM2L0bdF-n6gikuo45QK0MwyMYjqaVxW9ZhOxRC9Z8otR-xL9bUmaTLw=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE70qZu-AMWHO-9w5WI_lInylQWo2BcrQc-CHMRgAuWdEGkfdrr7UX9jTxEvrgIK22sxEX7f5PtlQp5KcQM2L0bdF-n6gikuo45QK0MwyMYjqaVxW9ZhOxRC9Z8otR-xL9bUmaTLw=w800-h500-k-no"
+      ],
+      "address": "53 Đặng Dung, Phú Xuân, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4737298,
+        "lng": 107.58022229999999
+      },
+      "rating": 3.9,
+      "priceRange": "₫",
+      "hours": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "description": "Nhà Hàng Bà Đào được đánh giá 3.9/5 sao trên Google Maps. Tọa lạc tại 53 Đặng Dung, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
+      "insiderTips": [
+        "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
+      ],
+      "phone": "+84 234 3527 828",
+      "google_id": "0x3141a12e7e951d03:0xeccb2f0ff0b41b6a",
+      "place_id": "ChIJAx2Vfi6hQTERahu08A8vy-w",
+      "foodTags": {
+        "dishType": [
+          "quan-com"
+        ],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
+    },
+    {
+      "id": "quan-com-hue-o-en",
+      "name": "Quán cơm Huế O Én",
+      "category": "food",
+      "tags": [
+        "ăn trưa",
+        "ăn tối",
+        "đặt bàn được",
+        "ẩm thực"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF2Sb5lxAqfsm0r09p_QmVeS7QWQ8qrh6MOfXfvFwxYP4QKq6OBO9OySnlRmdKiiAd0zG_jDrU7ncmOzpAYMJE2e4r1R-hg06O4usKZIaiPvF-XRjG5SZJby46yva_UDWN5EOV7=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF2Sb5lxAqfsm0r09p_QmVeS7QWQ8qrh6MOfXfvFwxYP4QKq6OBO9OySnlRmdKiiAd0zG_jDrU7ncmOzpAYMJE2e4r1R-hg06O4usKZIaiPvF-XRjG5SZJby46yva_UDWN5EOV7=w800-h500-k-no"
+      ],
+      "address": "1 Trần Thúc Nhẫn, Thuận Hóa, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.458426499999998,
+        "lng": 107.5823257
+      },
+      "rating": 4.7,
+      "priceRange": "₫",
+      "hours": {
+        "open": "06:00",
+        "close": "14:00"
+      },
+      "vibe": "Cơm nhà nấu, mộc mạc và đậm đà hương vị truyền thống.",
+      "description": "Quán cơm Huế O Én được đánh giá 4.7/5 sao trên Google Maps. Tọa lạc tại 1 Trần Thúc Nhẫn, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
+      "insiderTips": [
+        "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
+      ],
+      "phone": "+84 792 129 696",
+      "google_id": "0x3141a1f2166e10c7:0xb10c7c0c009b4389",
+      "place_id": "ChIJxxBuFvKhQTERiUObAAx8DLE",
+      "foodTags": {
+        "dishType": [
+          "quan-com"
+        ],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
+    },
+    {
+      "id": "com-nieu-chan",
+      "name": "Cơm niêu Chạn",
+      "category": "food",
+      "tags": [
+        "ăn sáng",
+        "ăn trưa",
+        "ăn tối",
+        "đặt bàn được",
+        "ấm cúng",
+        "ẩm thực"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGZJDCwlnZSXqYgQNL797AbNUsuKvuxvNSTzIVrDdA-F3CfDBKQ9zDIdYKPs93QszlDrN0vF6E8HNHFLA2lA4nr3X3ocl4f1RkZwJzb24hZnp6BnPrfmolmTqOscOZnH2YsgH7PqDB-430b=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGZJDCwlnZSXqYgQNL797AbNUsuKvuxvNSTzIVrDdA-F3CfDBKQ9zDIdYKPs93QszlDrN0vF6E8HNHFLA2lA4nr3X3ocl4f1RkZwJzb24hZnp6BnPrfmolmTqOscOZnH2YsgH7PqDB-430b=w800-h500-k-no"
+      ],
+      "address": "1 Nguyễn Thái Học, Thuận Hóa, Huế 530000, Việt Nam",
+      "coordinates": {
+        "lat": 16.468216299999998,
+        "lng": 107.59503869999999
+      },
+      "rating": 4.5,
+      "priceRange": "₫",
+      "hours": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "vibe": "Cơm nhà nấu, mộc mạc và đậm đà hương vị truyền thống.",
+      "description": "Cơm niêu Chạn được đánh giá 4.5/5 sao trên Google Maps. Tọa lạc tại 1 Nguyễn Thái Học, Thuận Hóa, Huế 530000, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
+      "insiderTips": [
+        "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
+      ],
+      "phone": "+84 788 525 179",
+      "website": "https://www.facebook.com/chancomnieuhue/",
+      "google_id": "0x3141a19e49ed668b:0x28883b290250d59b",
+      "place_id": "ChIJi2btSZ6hQTERm9VQAik7iCg",
+      "foodTags": {
+        "dishType": [
+          "quan-com"
+        ],
+        "mealTime": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
+    },
+    {
+      "id": "nha-hang-com-mam-co-ri",
+      "name": "Nhà hàng Cơm mắm Cô Ri",
+      "category": "food",
+      "tags": [
+        "ăn trưa",
+        "ăn tối",
+        "đặt bàn được",
+        "ấm cúng",
+        "ẩm thực"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHNsvs8Tv0KWbGtmLJN8jxfM1wgSSqhwCYY7rDf30Ser6nzB0o5-Grdx0ifVv-RHvFz_FWQcCYZTBSg-tTkZ0OzcTD4OJDjAqMpEMl4jXF6IFEKy4OIN6iwj7liS8GyLeTL2OCfumJJwHc=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHNsvs8Tv0KWbGtmLJN8jxfM1wgSSqhwCYY7rDf30Ser6nzB0o5-Grdx0ifVv-RHvFz_FWQcCYZTBSg-tTkZ0OzcTD4OJDjAqMpEMl4jXF6IFEKy4OIN6iwj7liS8GyLeTL2OCfumJJwHc=w800-h500-k-no"
+      ],
+      "address": "FHWV+966, Đường Nguyễn Thị Thanh, Road, Mỹ Thượng, Huế 530000, Việt Nam",
+      "coordinates": {
+        "lat": 16.4959375,
+        "lng": 107.5930625
+      },
+      "rating": 4.2,
+      "priceRange": "₫",
+      "hours": {
+        "open": "11:00",
+        "close": "14:00"
+      },
+      "vibe": "Cơm nhà nấu, mộc mạc và đậm đà hương vị truyền thống.",
+      "description": "Nhà hàng Cơm mắm Cô Ri được đánh giá 4.2/5 sao trên Google Maps. Tọa lạc tại FHWV+966, Đường Nguyễn Thị Thanh, Road, Mỹ Thượng, Huế 530000, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
+      "insiderTips": [
+        "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
+      ],
+      "phone": "+84 702 557 575",
+      "google_id": "0x3141a119624ad38d:0xe924f221beff6642",
+      "place_id": "ChIJjdNKYhmhQTERQmb_viHyJOk",
+      "foodTags": {
+        "dishType": [
+          "quan-com"
+        ],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      }
     }
   ]
 }

@@ -7,6 +7,7 @@ const DISH_GROUPS: Record<string, string[]> = {
   'com-hen':       ['com-hen'],
   'che':           ['che'],
   'oc':            ['oc'],
+  'quan-com':      ['quan-com'],
 }
 
 export function filterPlaces(
