@@ -1,0 +1,92 @@
+.exp-page {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100dvh - var(--bottom-nav-height, 4rem));
+  background: var(--color-background, #fdf6ec);
+}
+
+.exp-page__header {
+  padding: var(--space-xl, 2rem) var(--space-md, 1rem) var(--space-md, 1rem);
+  background: var(--color-surface, #fdf6ec);
+  border-bottom: 1px solid rgba(43, 22, 19, 0.08);
+}
+
+.exp-page__overline {
+  font-family: var(--font-body, 'Plus Jakarta Sans', sans-serif);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-primary, #7d0010);
+  margin: 0 0 var(--space-xs, 0.25rem);
+}
+
+.exp-page__title {
+  font-family: var(--font-heading, 'Noto Serif', Georgia, serif);
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--color-on-surface, #2b1613);
+  margin: 0 0 2px;
+  line-height: 1.2;
+}
+
+.exp-page__subtitle {
+  font-family: var(--font-body, 'Plus Jakarta Sans', sans-serif);
+  font-size: 0.88rem;
+  color: var(--color-secondary, #735c00);
+  margin: 0;
+}
+
+.exp-page__filters {
+  display: flex;
+  gap: var(--space-xs, 0.25rem);
+  padding: var(--space-sm, 0.75rem) var(--space-md, 1rem);
+  overflow-x: auto;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+  background: var(--color-surface, #fdf6ec);
+  border-bottom: 1px solid rgba(125, 0, 16, 0.08);
+}
+
+.exp-page__filters::-webkit-scrollbar {
+  display: none;
+}
+
+.exp-page__chip {
+  flex-shrink: 0;
+  padding: 6px 14px;
+  border-radius: var(--radius-full, 999px);
+  border: 1.5px solid rgba(125, 0, 16, 0.2);
+  background: transparent;
+  color: var(--color-on-surface, #2b1613);
+  font-size: 0.82rem;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  white-space: nowrap;
+}
+
+.exp-page__chip--active {
+  background: var(--color-primary, #7d0010);
+  color: var(--color-surface, #fdf6ec);
+  border-color: var(--color-primary, #7d0010);
+  font-weight: 700;
+}
+
+.exp-page__list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md, 1rem);
+  padding: var(--space-md, 1rem);
+  flex: 1;
+  overflow-y: auto;
+}
+
+.exp-page__empty {
+  text-align: center;
+  color: #8a6060;
+  font-size: 0.88rem;
+  padding: var(--space-xl, 2rem) 0;
+  margin: 0;
+}
