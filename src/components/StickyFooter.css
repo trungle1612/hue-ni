@@ -1,0 +1,44 @@
+.sticky-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  gap: var(--space-sm, 0.75rem);
+  padding: var(--space-sm, 0.75rem) var(--space-md, 1rem);
+  padding-bottom: calc(var(--space-sm, 0.75rem) + env(safe-area-inset-bottom, 0px));
+  background: var(--color-surface, #fdf6ec);
+  border-top: 1px solid rgba(125, 0, 16, 0.1);
+  box-shadow: 0 -4px 16px rgba(43, 22, 19, 0.08);
+  z-index: 100;
+}
+
+.sticky-footer__btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 11px 16px;
+  border-radius: var(--radius-sm, 0.5rem);
+  font-size: 0.9rem;
+  font-weight: 700;
+  font-family: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity 0.15s ease;
+}
+
+.sticky-footer__btn:active {
+  opacity: 0.8;
+}
+
+.sticky-footer__btn--primary {
+  background: #0068ff;
+  color: #fff;
+}
+
+.sticky-footer__btn--secondary {
+  background: transparent;
+  color: #7d0010;
+  border: 1.5px solid rgba(125, 0, 16, 0.35);
+}
