@@ -108,4 +108,5 @@ export interface Experience {
     facebook?: string
   }
   coverImage: string
+  gallery?: string[]
 }

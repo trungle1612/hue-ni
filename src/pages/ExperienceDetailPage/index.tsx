@@ -3,6 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom'
 import './style.css'
 import type { Experience } from '../../types'
 import { EXPERIENCE_CATEGORY_LABELS } from '../../data/constants'
+import { ImageGallery } from '../../components/ImageGallery'
 
 function loadSaved(): string[] {
   try { return JSON.parse(localStorage.getItem('hue-ni-exp-saved') ?? '[]') } catch { return [] }
@@ -112,6 +113,12 @@ export function ExperienceDetailPage() {
             <li key={i} className="exp-detail__highlight">{h}</li>
           ))}
         </ul>
+
+        {(experience.gallery?.length ?? 0) > 0 && (
+          <div className="exp-detail__gallery">
+            <ImageGallery images={experience.gallery!} placeName={experience.title} hero />
+          </div>
+        )}
 
         <h2 className="exp-detail__section-title">Địa điểm</h2>
         <a

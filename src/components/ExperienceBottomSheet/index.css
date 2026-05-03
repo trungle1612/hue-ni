@@ -182,3 +182,7 @@
 .exp-sheet__cta:active {
   background: rgba(125, 0, 16, 0.08);
 }
+
+.exp-sheet__gallery {
+  margin: 0 -16px 16px;
+}

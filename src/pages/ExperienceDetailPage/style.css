@@ -179,6 +179,10 @@
   color: #7d0010;
   font-weight: 600;
 }
+.exp-detail__gallery {
+  margin: 0 calc(-1 * var(--space-md, 1rem)) 24px;
+}
+
 .exp-detail__footer-spacer {
   height: calc(72px + env(safe-area-inset-bottom, 0px) + var(--space-md, 1rem));
 }

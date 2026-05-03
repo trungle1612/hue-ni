@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import './index.css'
 import type { Experience } from '../../types'
 import { EXPERIENCE_CATEGORY_LABELS } from '../../data/constants'
+import { ImageGallery } from '../ImageGallery'
 
 interface ExperienceBottomSheetProps {
   experience: Experience | null
@@ -138,6 +139,12 @@ export function ExperienceBottomSheet({ experience, isOpen, onClose }: Experienc
               <li key={i} className="exp-sheet__highlight">{h}</li>
             ))}
           </ul>
+
+          {(experience.gallery?.length ?? 0) > 0 && (
+            <div className="exp-sheet__gallery">
+              <ImageGallery images={experience.gallery!} placeName={experience.title} />
+            </div>
+          )}
 
           <button className="exp-sheet__cta" onClick={handleViewDetail}>
             Xem câu chuyện đầy đủ →
