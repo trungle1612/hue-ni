@@ -13681,51 +13681,6 @@
       "place_id": "ChIJuVxzZIGhQTERhYB9slIziUM"
     },
     {
-      "id": "hem-hue-bo-nuong-than-hoa",
-      "name": "Hẻm Huế - Bò Nướng Than Hoa",
-      "category": "food",
-      "tags": [
-        "ăn tối",
-        "đặt bàn được",
-        "ấm cúng",
-        "ẩm thực"
-      ],
-      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEKN0FP8bOLfhIXBFdzaV60TXHw33LeLzi-moKzAqfka4HktVAVnT2xPKgjx-Ba6R1StR4SJNb80uS0lYGVRSJOXwWwtvTYuKGtZN0qga8P5iehePthTFTQHJdyJwvMyYVwlb-h9g=w800-h500-k-no",
-      "gallery": [
-        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEKN0FP8bOLfhIXBFdzaV60TXHw33LeLzi-moKzAqfka4HktVAVnT2xPKgjx-Ba6R1StR4SJNb80uS0lYGVRSJOXwWwtvTYuKGtZN0qga8P5iehePthTFTQHJdyJwvMyYVwlb-h9g=w800-h500-k-no"
-      ],
-      "address": "4 Kiệt 42 Nguyễn Công Trứ, Thuận Hóa, Huế, Việt Nam",
-      "coordinates": {
-        "lat": 16.4708993,
-        "lng": 107.5973192
-      },
-      "rating": 4.8,
-      "priceRange": "₫",
-      "hours": {
-        "open": "14:00",
-        "close": "22:30"
-      },
-      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
-      "description": "Hẻm Huế - Bò Nướng Than Hoa được đánh giá 4.8/5 sao trên Google Maps. Tọa lạc tại 4 Kiệt 42 Nguyễn Công Trứ, Thuận Hóa, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
-      "insiderTips": [
-        "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
-      ],
-      "foodTags": {
-        "dishType": [
-          "quan-an-dia-phuong"
-        ],
-        "mealTime": [
-          "dinner"
-        ],
-        "vibe": [
-          "reservation_available"
-        ]
-      },
-      "phone": "+84 348 420 291",
-      "google_id": "0x3141a10056bb2f7b:0x31550225e16c04d3",
-      "place_id": "ChIJey-7VgChQTER0wRs4SUCVTE"
-    },
-    {
       "id": "36-quan",
       "name": "36 Quán",
       "category": "food",
@@ -14154,6 +14109,140 @@
       "phone": "+84 915 184 000",
       "google_id": "0x3141a1652e4de097:0x5c03dd2108a18997",
       "place_id": "ChIJl-BNLmWhQTERl4mhCCHdA1w"
+    },
+    {
+      "id": "mai-vien-homestay-restaurant",
+      "name": "Mai Viên Homestay & Restaurant",
+      "category": "food",
+      "tags": [
+        "ẩm thực"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE1gOanjsJEmOV2K6aJq6CF5SHtGYyEGU_EcHTXlY3z_HKTYACJ3tmXeLq0iLpQgSV_RO_7WI4iRV-bm0jK8CGVMsaCmWEZ3SMDdefH7oiM7o9BlfjyKIYFvzzsxOWKkrxKoUI_tN8FPOc=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE1gOanjsJEmOV2K6aJq6CF5SHtGYyEGU_EcHTXlY3z_HKTYACJ3tmXeLq0iLpQgSV_RO_7WI4iRV-bm0jK8CGVMsaCmWEZ3SMDdefH7oiM7o9BlfjyKIYFvzzsxOWKkrxKoUI_tN8FPOc=w800-h500-k-no"
+      ],
+      "address": "105 Minh Mạng, Thủy Xuân, Huế 530000, Việt Nam",
+      "coordinates": {
+        "lat": 16.4251409,
+        "lng": 107.5804369
+      },
+      "rating": 4.7,
+      "priceRange": "₫₫₫",
+      "hours": {
+        "open": "06:00",
+        "close": "21:00"
+      },
+      "vibe": "Quán ăn quen thuộc của người Huế — giản dị, ngon và thật.",
+      "description": "Mai Viên Homestay & Restaurant được đánh giá 4.7/5 sao trên Google Maps. Tọa lạc tại 105 Minh Mạng, Thủy Xuân, Huế 530000, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
+      "insiderTips": [
+        "Quán ăn địa phương với hương vị quen thuộc của người Huế."
+      ],
+      "foodTags": {
+        "dishType": [
+          "quan-an-dia-phuong"
+        ],
+        "mealTime": [],
+        "vibe": []
+      },
+      "phone": "+84 931 912 358",
+      "google_id": "0x3141a30015efc98f:0x152e5e30772d9a14",
+      "place_id": "ChIJj8nvFQCjQTERFJotdzBeLhU"
+    },
+    {
+      "id": "nha-vuon-xuan-ai",
+      "name": "Nhà Vườn Xuân Đài",
+      "category": "food",
+      "tags": [
+        "thú cưng",
+        "yên tĩnh",
+        "ăn trưa",
+        "ăn tối",
+        "đặt bàn được",
+        "ấm cúng",
+        "ẩm thực"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFJjbgU4MvNHAhNc5DPfeMCMhBzPBJzzSHrWMWzwtf-Rod4VhteOaBCEqBl5wmdvxPYUKCWXpJB-PTq_o-ZJySZLRP3EanMnRoUm7pAIRbw2cVR_Om1XWUaDEyBB5iHQWytH1Rg6TX1Chyc=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFJjbgU4MvNHAhNc5DPfeMCMhBzPBJzzSHrWMWzwtf-Rod4VhteOaBCEqBl5wmdvxPYUKCWXpJB-PTq_o-ZJySZLRP3EanMnRoUm7pAIRbw2cVR_Om1XWUaDEyBB5iHQWytH1Rg6TX1Chyc=w800-h500-k-no"
+      ],
+      "address": "22 Thanh Nghị, Thủy Xuân, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.4442305,
+        "lng": 107.54066429999999
+      },
+      "rating": 4.8,
+      "priceRange": "₫",
+      "hours": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "vibe": "Nhà vườn xanh mát, không gian thoáng đãng — thưởng thức ẩm thực giữa vườn cây.",
+      "description": "Nhà Vườn Xuân Đài được đánh giá 4.8/5 sao trên Google Maps. Tọa lạc tại 22 Thanh Nghị, Thủy Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
+      "insiderTips": [
+        "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
+      ],
+      "foodTags": {
+        "dishType": [
+          "quan-an-dia-phuong"
+        ],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      },
+      "phone": "+84 387 131 590",
+      "google_id": "0x3141a7d6fcd5552b:0x5272f25a0b68ce6f",
+      "place_id": "ChIJK1XV_NanQTERb85oC1ryclI"
+    },
+    {
+      "id": "quan-nhau-vinh-nguyen",
+      "name": "Quán nhậu Vĩnh Nguyên",
+      "category": "food",
+      "tags": [
+        "ăn trưa",
+        "ăn tối",
+        "đặt bàn được",
+        "ấm cúng",
+        "ẩm thực"
+      ],
+      "coverImage": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHd76HYHO8rpKNc3BCzvwqUtnEly6zhQvYO615nYIM6g0iU8YMUN1Y71Eg4kN0S7PyRM8NISc18siUoLS1Hcoo3VJDesips2lmJEabXvpQBy6XfSlmRpchJKwYIEb5U53TZUGUI=w800-h500-k-no",
+      "gallery": [
+        "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHd76HYHO8rpKNc3BCzvwqUtnEly6zhQvYO615nYIM6g0iU8YMUN1Y71Eg4kN0S7PyRM8NISc18siUoLS1Hcoo3VJDesips2lmJEabXvpQBy6XfSlmRpchJKwYIEb5U53TZUGUI=w800-h500-k-no"
+      ],
+      "address": "1/1 Kiệt 30 Nguyễn Bỉnh Khiêm, Phú Xuân, Huế, Việt Nam",
+      "coordinates": {
+        "lat": 16.482737,
+        "lng": 107.58828059999999
+      },
+      "rating": 4.3,
+      "priceRange": "₫",
+      "hours": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "vibe": "Nhà hàng địa phương với thực đơn đa dạng, phù hợp mọi bữa ăn.",
+      "description": "Quán nhậu Vĩnh Nguyên được đánh giá 4.3/5 sao trên Google Maps. Tọa lạc tại 1/1 Kiệt 30 Nguyễn Bỉnh Khiêm, Phú Xuân, Huế, Việt Nam, quán phục vụ các món ăn đặc trưng của xứ Huế.",
+      "insiderTips": [
+        "Có thể đặt bàn trước — nên đặt sớm vào cuối tuần."
+      ],
+      "foodTags": {
+        "dishType": [
+          "quan-an-dia-phuong"
+        ],
+        "mealTime": [
+          "lunch",
+          "dinner"
+        ],
+        "vibe": [
+          "reservation_available"
+        ]
+      },
+      "phone": "+84 914 050 482",
+      "google_id": "0x3141a0d8690e2a81:0x3992c1eb8601890a",
+      "place_id": "ChIJgSoOadigQTERCokBhuvBkjk"
     }
   ]
 }
