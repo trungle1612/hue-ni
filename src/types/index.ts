@@ -89,3 +89,23 @@ export interface StoryAndGuide {
   excerpt: string
   content: string
 }
+
+export type ExperienceCategory = 'living_history' | 'workshop' | 'eco_local'
+
+export interface Experience {
+  id: string
+  title: string
+  category: ExperienceCategory
+  hostName: string
+  shortDesc: string
+  highlights: string[]
+  priceEstimate: string
+  duration: string
+  address: string
+  contactInfo: {
+    phone: string
+    zalo?: string
+    facebook?: string
+  }
+  coverImage: string
+}

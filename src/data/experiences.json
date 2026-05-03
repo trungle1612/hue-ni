@@ -1,0 +1,65 @@
+{
+  "experiences": [
+    {
+      "id": "exp_phu_ngoc_son",
+      "title": "Thăm Phủ Ngọc Sơn Công Chúa: Sống lại nếp nhà quý tộc xưa",
+      "category": "living_history",
+      "hostName": "Gia đình nhà nghiên cứu Phan Thuận An",
+      "shortDesc": "Chiêm ngưỡng không gian nhà vườn mẫu mực của đất kinh kỳ, nghe kể giai thoại lịch sử và trải nghiệm nếp sống thanh lịch của hoàng tộc triều Nguyễn.",
+      "highlights": [
+        "Tham quan nhà rường 100 năm tuổi và 'thư viện gia tộc' quý hiếm",
+        "Nghe kể chuyện lịch sử, văn hóa từ chính hậu duệ của Công chúa",
+        "Thưởng thức ẩm thực truyền thống và ngâm chân thảo dược thư giãn"
+      ],
+      "priceEstimate": "Liên hệ (Phí tùy tâm hoặc theo gói dịch vụ ẩm thực)",
+      "duration": "Khoảng 1.5 - 2 tiếng",
+      "address": "31 Nguyễn Chí Thanh, phường Gia Hội, TP. Huế",
+      "contactInfo": {
+        "phone": "0905000001",
+        "zalo": "https://zalo.me/0905000001",
+        "facebook": "Đang cập nhật"
+      },
+      "coverImage": ""
+    },
+    {
+      "id": "exp_hoa_giay_thanh_tien",
+      "title": "Làm Hoa Giấy Thanh Tiên: Nghề thủ công hơn 300 năm tuổi",
+      "category": "workshop",
+      "hostName": "Nghệ nhân làng Thanh Tiên",
+      "shortDesc": "Tự tay tạo ra những bông hoa giấy đầy màu sắc theo kỹ thuật truyền thống của làng Thanh Tiên, một nghề thủ công đã tồn tại hơn 300 năm ở Huế.",
+      "highlights": [
+        "Học cắt, gấp và tạo hình hoa từ giấy màu với nghệ nhân địa phương",
+        "Tìm hiểu lịch sử và ý nghĩa văn hóa của hoa giấy trong đời sống Huế",
+        "Mang về sản phẩm handmade do chính tay bạn làm"
+      ],
+      "priceEstimate": "150.000 - 200.000₫/người",
+      "duration": "Khoảng 2 - 2.5 tiếng",
+      "address": "Làng Thanh Tiên, xã Phú Mậu, huyện Phú Vang, Huế",
+      "contactInfo": {
+        "phone": "0905000002",
+        "zalo": "https://zalo.me/0905000002"
+      },
+      "coverImage": ""
+    },
+    {
+      "id": "exp_dap_xe_thuy_bieu",
+      "title": "Đạp Xe Làng Thủy Biều: Khám phá vùng ngoại ô bình yên bên sông Hương",
+      "category": "eco_local",
+      "hostName": "Nhóm hướng dẫn địa phương Thủy Biều",
+      "shortDesc": "Đạp xe khám phá làng Thủy Biều nổi tiếng với thanh trà và vườn xanh ven sông Hương, cách trung tâm Huế chỉ 5km.",
+      "highlights": [
+        "Đạp xe qua những con đường làng yên tĩnh ven sông Hương",
+        "Tham quan vườn thanh trà và thưởng thức trái cây tươi tại chỗ",
+        "Giao lưu với người dân địa phương và tìm hiểu cuộc sống làng quê Huế"
+      ],
+      "priceEstimate": "200.000 - 300.000₫/người (bao gồm xe đạp)",
+      "duration": "Khoảng 3 - 4 tiếng",
+      "address": "Làng Thủy Biều, phường Thủy Biều, TP. Huế",
+      "contactInfo": {
+        "phone": "0905000003",
+        "zalo": "https://zalo.me/0905000003"
+      },
+      "coverImage": ""
+    }
+  ]
+}

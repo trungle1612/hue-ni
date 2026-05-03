@@ -1,4 +1,4 @@
-import type { Category } from '../types'
+import type { Category, ExperienceCategory } from '../types'
 import type { FilterOption } from '../components/CategoryFilter'
 import type { ComboboxOption } from '../components/FilterCombobox'
 
@@ -70,3 +70,16 @@ export const FOOD_DISH_MAP: Record<string, { value: string; label: string }[]> =
     { value: 'nam-pho', label: '🥣 Nam phổ' },
   ],
 }
+
+export const EXPERIENCE_CATEGORY_LABELS: Record<ExperienceCategory, string> = {
+  living_history: 'Sống lịch sử',
+  workshop: 'Workshop',
+  eco_local: 'Sinh thái & Địa phương',
+}
+
+export const EXPERIENCE_FILTER_OPTIONS: { value: ExperienceCategory | 'all'; label: string }[] = [
+  { value: 'all', label: 'Tất cả' },
+  { value: 'living_history', label: 'Sống lịch sử' },
+  { value: 'workshop', label: 'Workshop' },
+  { value: 'eco_local', label: 'Sinh thái & Địa phương' },
+]
