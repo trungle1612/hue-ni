@@ -104,6 +104,7 @@ Extracted from DetailsPage. Padding-agnostic — callers add spacing via context
 ### Other Components
 
 - **FilterCombobox** (`src/components/FilterCombobox.tsx`) — category dropdown on HomePage with full keyboard navigation (Arrow keys, Escape, Tab) and outside-click dismissal. Uses emoji icons per category.
+- **CategoryFilter** (`src/components/CategoryFilter.tsx`) — horizontal chip-row filter; renders only options with `hidden: true` (the active visible set). Used as an alternative filter UI to FilterCombobox.
 - **OnboardingModal** — geolocation permission dialog, shown once (gated by `hue-ni-onboarded` localStorage key). Dismissible; handles unsupported geolocation gracefully.
 - **ImageGallery** — lazy-loaded image carousel with safe empty-array handling.
 
@@ -122,7 +123,10 @@ Note: `designs/DESIGN.md` describes an Apple-inspired aspirational aesthetic. Th
 - Shadows: `--shadow-card` (6% opacity) and `--shadow-floating` (12% opacity)
 
 ### Import data
-- Let's use skill /import-places-data path
+
+Use the slash commands to import scraped data:
+- `/import-places-data <path>` — import a Google Maps scrape CSV into `src/data/places.json`
+- `/import-review-places <path>` — import a Google Maps reviews CSV into the `reviews[]` and `gallery` fields of place entries
 
 ### Styling
 
