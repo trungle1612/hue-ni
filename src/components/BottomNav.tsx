@@ -25,6 +25,17 @@ function IconFestival({ active }: { active: boolean }) {
   )
 }
 
+function IconExperience({ active }: { active: boolean }) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"
+      stroke="currentColor" strokeWidth={active ? 2 : 1.6}
+      strokeLinecap="round" strokeLinejoin="round">
+      <circle cx="12" cy="12" r="10" />
+      <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76" />
+    </svg>
+  )
+}
+
 function IconTrip({ active }: { active: boolean }) {
   return (
     <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"
@@ -41,6 +52,7 @@ function IconTrip({ active }: { active: boolean }) {
 const TABS = [
   { to: '/', label: 'Trang chủ', Icon: IconHome },
   { to: '/festivals', label: 'Lễ hội', Icon: IconFestival },
+  { to: '/trai-nghiem', label: 'Trải nghiệm', Icon: IconExperience },
   { to: '/my-trip', label: 'Hành trình', Icon: IconTrip },
 ] as const
 
